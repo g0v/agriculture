@@ -1,0 +1,70 @@
+body {
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #292929;
+  line-height: 1.6em;
+}
+
+a {
+  color: #08c;
+  text-decoration: none;
+}
+
+.title, form {
+  text-align: center;
+  margin: 25px 0 15px;
+}
+
+.table {
+  border-spacing: 0;
+  margin: 20px auto;
+}
+
+.table td, .table th {
+  position: relative;
+  padding: 10px;
+  text-align: left;
+}
+
+.table thead tr {
+  background: #f9f9f9;
+  color: #555;
+}
+
+.table th {
+  border-bottom: 1px solid #e0e0e0;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.table tr:hover td {
+  background: #f9f9f9;
+}
+
+.sort {
+  font-size: 11px;
+  cursor: pointer;
+  color: #999;
+  display: inline-block;
+}
+
+.active .sort {
+  -webkit-transform: rotate(180deg) translate(0, 2px);
+}
+
+.js-method:hover + .popup {
+  display: block;
+}
+
+.popup {
+  display: none;
+  position: absolute;
+  right: 100%;
+  top: 0;
+  z-index: 1;
+  width: 160px;
+  background: rgba(0, 0, 0, .8);
+  color: #fff;
+  padding: 10px;
+  border-radius: 3px;
+}
