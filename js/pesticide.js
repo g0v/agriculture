@@ -27,6 +27,7 @@ function createTableStructure(data) {
 }
 
 function appendData(data) {
+  $("#pesticide-table").data("data", data)
   tbody = table.find("tbody")
   tbody.html("")
 
@@ -40,7 +41,8 @@ function appendData(data) {
 }
 
 function sortData(key, direction) {
-  data = data.sort(function(a, b) {
+  dataToSort = $("#pesticide-table").data('data')
+  dataToSort = dataToSort.sort(function(a, b) {
     a = a[key].length == 0 ? "0" : a[key]
     b = b[key].length == 0 ? "0" : b[key]
     if(parseInt(a) || parseInt(b)) {
@@ -51,13 +53,27 @@ function sortData(key, direction) {
       return r ? -1 : 1
     }
   })
-  appendData(data)
+  appendData(dataToSort)
 }
 
 $(document).on("click", ".js-sort", function() {
   cell = $(this).closest("th")
   cell.toggleClass("active")
   sortData(cell.data("name"), cell.hasClass("active"))
+  false
+})
+
+$(document).on("search", ".js-search", function() {
+  query = $(this).val()
+  if(query.length) {
+    queryData = data.filter(function(obj) {
+      string = Object.keys(obj).map(function(k) { return obj[k] }).join()
+      return string.match(new RegExp(query, "i"))
+    })
+  } else {
+    queryData = data
+  }
+  appendData(queryData)
   false
 })
 
