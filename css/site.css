@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  font-size: 13px;
+  color: #292929;
+  line-height: 1.6em;
+}
+
+.title, form {
+  text-align: center;
+  margin: 25px 0 15px;
+}
+
+.table {
+  border-spacing: 0;
+  margin: 20px auto;
+}
+
+.table td, .table th {
+  padding: 10px;
+  text-align: left;
+}
+
+.table thead tr {
+  background: #f9f9f9;
+  color: #555;
+}
+
+.table th {
+  border-bottom: 1px solid #e0e0e0;
+  font-weight: bold;
+  white-space: nowrap;
+}
