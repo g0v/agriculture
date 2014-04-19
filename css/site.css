@@ -3,6 +3,7 @@ body {
   font-size: 12px;
   color: #292929;
   line-height: 1.6em;
+  text-align: center;
 }
 
 a {
@@ -10,8 +11,7 @@ a {
   text-decoration: none;
 }
 
-.title, form {
-  text-align: center;
+.title, input {
   margin: 25px 0 15px;
 }
 
