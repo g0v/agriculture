@@ -1,0 +1,6 @@
+name: 超農域農藥系統
+author: g0v
+category_dir: /
+permalink: pretty
+exclude: [README.md]
+encoding: UTF-8

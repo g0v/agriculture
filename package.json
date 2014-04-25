@@ -1,0 +1,19 @@
+{
+  "name": "agriculture",
+  "version": "0.1.0",
+  "dependencies": {},
+  "devDependencies": {
+    "request": "^2.34.0",
+    "streamy-data": "^0.2.0",
+    "gulp": "^3.5.2",
+    "gulp-util": "^2.2.14",
+    "gulp-concat": "^2.1.7",
+    "gulp-uglify": "^0.2.1",
+    "gulp-rename": "^1.0.0",
+    "vinyl": "^0.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/g0v/agriculture.git"
+  }
+}

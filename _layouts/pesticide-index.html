@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<ul>
+{% for entry in page.data %}
+	<li>
+		<a href="{{ entry.id }}">{{ entry.name }}</a>
+	</li>
+{% endfor %}
+</ul>
