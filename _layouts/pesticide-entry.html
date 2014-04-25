@@ -1,0 +1,73 @@
+---
+layout: default
+---
+
+<ul>
+	<li>農藥代號：{{ page.data.id }}</li>
+	<li>中文名稱：{{ page.data.name }}</li>
+	<li>英文名稱：{{ page.data['英文名稱'] }}</li>
+	<li>化學成分：{{ page.data['化學成分'] }}</li>
+	<li>通過日期：{{ page.data['通過日期'] }}</li>
+</ul>
+
+<h2>許可證</h2>
+<table class="licenses">
+	<tr>
+		<th>許可證號</th>
+		<th>廠牌名稱</th>
+		<th>國外原製造廠商</th>
+		<th>有效期限</th>
+		<th>廠商名稱</th>
+	</tr>
+{% for lic in page.data.licenses %}
+	<tr>
+		<td>{{ lic['許可證號'] }}</td>
+		<td>{{ lic['廠牌名稱'] }}</td>
+		<td>{{ lic['國外原製造廠商'] }}</td>
+		<td>{{ lic['有效期限'] }}</td>
+		<td>{{ lic['廠商名稱'] }}</td>
+	</tr>
+{% endfor %}
+</table>
+
+<h2>使用方式</h2>
+<table class="uses">
+	<tr>
+		<th>劑型</th>
+		<th>含量</th>
+		<th>混合</th>
+		<th>作物名稱</th>
+		<th>病蟲名稱</th>
+		<th>每公頃每次用量</th>
+		<th>稀釋倍數</th>
+		<th>使用時期</th>
+		<th>施藥間隔</th>
+		<th>施用次數</th>
+		<th>安全採收期</th>
+		<th>核准日期</th>
+		<th>原始登記廠商名稱</th>
+		<th>施藥方法</th>
+		<th>注意事項</th>
+		<th>備註</th>
+	</tr>
+{% for u in page.data.uses %}
+	<tr>
+		<td>{{ u['劑型'] }}</td>
+		<td>{{ u['含量'] }}</td>
+		<td>{{ u['混合'] }}</td>
+		<td>{{ u['作物名稱'] }}</td>
+		<td>{{ u['病蟲名稱'] }}</td>
+		<td>{{ u['每公頃每次用量'] }}</td>
+		<td>{{ u['稀釋倍數'] }}</td>
+		<td>{{ u['使用時期'] }}</td>
+		<td>{{ u['施藥間隔'] }}</td>
+		<td>{{ u['施用次數'] }}</td>
+		<td>{{ u['安全採收期'] }}</td>
+		<td>{{ u['核准日期'] }}</td>
+		<td>{{ u['原始登記廠商名稱'] }}</td>
+		<td>{{ u['施藥方法'] }}</td>
+		<td>{{ u['注意事項'] }}</td>
+		<td>{{ u['備註'] }}</td>
+	</tr>
+{% endfor %}
+</table>
