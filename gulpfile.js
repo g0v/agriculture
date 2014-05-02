@@ -18,8 +18,7 @@ gulp.task('data.pesticide.index', function(callback) {
 		
 		console.log(list.length + " pesticide entries found.");
 		
-		var endCount = 0,
-			end = function () { if (++endCount == 2) callback(); },
+		var end = streamy.util.wait(2, callback),
 			indexList = list.map(function (data) {
 				return { id: data.id, name: data.name };
 			});
@@ -36,11 +35,7 @@ gulp.task('data.pesticide.entry', function(callback) {
 	
 	pesticide.index({ order: 'id' }, function (list) {
 		
-		var endCount = 0,
-			end = function () { if (++endCount == 2) callback(); },
-			indexList = list.map(function (data) {
-				return { id: data.id, name: data.name };
-			});
+		var end = streamy.util.wait(2, callback);
 		
 		var s = streamy.array(list)
 			.pipe(streamy.map(pesticide.detail))
