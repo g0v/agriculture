@@ -2,69 +2,121 @@ var streamy = require('streamy-data'),
 	pesticide = require('./bin/pesticide'),
 	gulp = require('gulp'),
 	File = require('vinyl'),
+	pathUtil = require('path'),
 	fs = require('fs');
 
-gulp.task('default', ['build']);
+gulp.task('data.download', [
+	'data.download.pesticide'
+]);
 
-gulp.task('build', function() {
-	gulp.src(['*.html'])
-		.on('data', console.log);
-});
-
-gulp.task('data.pesticide', ['data.pesticide.index', 'data.pesticide.entry']);
-
-gulp.task('data.pesticide.index', function(callback) {
+gulp.task('data.download.pesticide', function (callback) {
+	
+	// TODO: clear
+	
+	// callback is invoked when end is called twice
+	var end = streamy.util.wait(2, callback);
+	
+	// grab index json data from the website
 	pesticide.index({ order: 'name' }, function (list) {
 		
-		console.log(list.length + " pesticide entries found.");
+		// TODO: use mkdirp or writefile
 		
-		var end = streamy.util.wait(2, callback),
-			indexList = list.map(function (data) {
-				return { id: data.id, name: data.name };
-			});
+		// write index file
+		fs.writeFile('./raw/download/pesticide/index.json', 
+			JSON.stringify(list, null, '\t'), end);
 		
-		fs.writeFile('./raw/pesticide/index.json', JSON.stringify(list), end);
-		fs.writeFile('./pesticide/index.html', 
-			'---\nlayout: pesticide-index\ndata: ' + JSON.stringify(indexList) +'\n---\n', end);
+		// sort list by id
+		list = list.sort(function (x, y) {
+			return x.id.localeCompare(y.id);
+		});
+		
+		// transform the list into an object stream
+		streamy.array(list)
+			// transform them into detailed data object from the website
+			.pipe(streamy.map(pesticide.detail))
+			// transform them into vinyl file format (to work with gulp.dest)
+			.pipe(streamy.file.vinylify(function (data) {
+				return './' + data.id + '.json';
+			}, {
+				stringify: { space: '\t' }
+			}))
+			// write file to specified destination
+			.pipe(gulp.dest('./raw/download/pesticide/entries'))
+			.on('data', function () {})
+			.on('end', end);
 	});
+	
 });
 
-gulp.task('data.pesticide.entry', function(callback) {
+gulp.task('data.build', [
+	'data.build.pesticide'
+]);
+
+gulp.task('data.build.pesticide', [
+	'data.build.pesticide.index', 
+	'data.build.pesticide.entries'
+]);
+
+gulp.task('data.build.pesticide.index', function (callback) {
 	
-	// TODO: clear old files
-	
-	pesticide.index({ order: 'id' }, function (list) {
+	fs.readFile('./raw/download/pesticide/index.json', 'utf8', function (err, data) {
 		
-		var end = streamy.util.wait(2, callback);
+		var list = JSON.parse(data).map(function (data) {
+			return { id: data.id, name: data.name };
+		}).sort(function (x, y) {
+			return x.name.localeCompare(y.name);
+		});
 		
-		var s = streamy.array(list)
-			.pipe(streamy.map(pesticide.detail))
-			.pipe(streamy.map.sync(function (data) {
-				return {
-					id: data.id,
-					content: JSON.stringify(data)
-				};
-			}));
-		
-		s.pipe(streamy.map.sync(function (data) {
-				return new File({
-					path: './' + data.id + '.json',
-					contents: new Buffer(data.content)
-				});
-			}))
-			.pipe(gulp.dest('./raw/pesticide'))
-			.on('data', function () {})
-			.on('end', end);
-		
-		s.pipe(streamy.map.sync(function (data) {
-				return new File({
-					path: './' + data.id + '/index.html',
-					contents: new Buffer('---\nlayout: pesticide-entry\ndata: ' + data.content +'\n---\n')
-				});
-			}))
-			.pipe(gulp.dest('./pesticide'))
-			.on('data', function () {})
-			.on('end', end);
+		fs.writeFile('./pesticide/index.html', 
+			jekyllify('pesticide-index', list), callback);
 	});
 	
 });
+
+gulp.task('data.build.pesticide.entries', function (callback) {
+	
+	// TODO: wire up clear
+	
+	// read all entries files
+	gulp.src(['./raw/download/pesticide/entries/*'])
+		// map to a new vinyl file
+		.pipe(streamy.map.sync(function (file) {
+			return new File({
+				path: './' + pathUtil.basename(file.path, '.json') + '/index.html',
+				contents: new Buffer(jekyllify('pesticide-entry', file.contents.toString()))
+			});
+		}))
+		.pipe(gulp.dest('./pesticide'))
+		.on('data', function () {})
+		.on('end', callback);
+	
+});
+
+gulp.task('data.build.pesticide.entries.clear', function (callback) {
+	
+	var rmEntryDir = function (path, callback) {
+		fs.unlink(path + '/' + index.html, function () {
+			fs.rmdir(path, callback);
+		});
+	};
+	
+	fs.readdir('./pesticide', function(err, files) {
+		var end = streamy.util.wait(files.length, callback);
+		files.forEach(function (fname) {
+			var fpath = './pesticide/' + fname;
+			fs.stat(fpath, function (err, stats) {
+				if (stats.isDirectory())
+					rmEntryDir(fpath, end);
+				else
+					end();
+			});
+		});
+	});
+	
+});
+
+// helper //
+function jekyllify(template, data) {
+	var cnt = typeof data === 'string' ? data : JSON.stringify(data, null, '\t');
+	return '---\nlayout: ' + template + '\ndata: ' + cnt + '\n---\n';
+}
