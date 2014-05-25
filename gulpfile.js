@@ -115,6 +115,22 @@ gulp.task('data.build.pesticide.entries.clear', function (callback) {
 	
 });
 
+gulp.task('data.build.pesticide.uses', function (callback) {
+	
+	var list = [];
+	
+	gulp.src(['./raw/download/pesticide/entries/*'])
+		.pipe(streamy.file.unvinylify())
+		.on('data', function (data) {
+			list = list.concat(data.uses);
+		})
+		.on('end', function () {
+			fs.writeFile('./raw/download/pesticide/uses.json', 
+				JSON.stringify(list, null, '\t'), callback);
+		});
+	
+});
+
 // helper //
 function jekyllify(template, data) {
 	var cnt = typeof data === 'string' ? data : JSON.stringify(data, null, '\t');
