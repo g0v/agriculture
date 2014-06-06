@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<input type = "search" ng-model = "mySearch" placeholder = "請輸入查詢的有機農產品"/>
+
+<ul>
+{% for entry in page.data %}
+	<li ng-show = "!mySearch || '{{ entry.name }}'.indexOf(mySearch) > -1">
+		<a href="{{ entry.id }}">{{ entry.name }}</a>
+	</li>
+{% endfor %}
+</ul>
