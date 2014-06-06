@@ -6,7 +6,7 @@ layout: default
 
 <ul>
 {% for entry in page.data %}
-	<li ng-show = "'{{ entry.name }}'.indexOf(mySearch) > -1">
+	<li ng-show = "!mySearch || '{{ entry.name }}'.indexOf(mySearch) > -1">
 		<a href="{{ entry.id }}">{{ entry.name }}</a>
 	</li>
 {% endfor %}
