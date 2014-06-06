@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #292929;
   line-height: 1.6em;
   text-align: center;
@@ -19,7 +19,7 @@ ul {
 }
 
 .option {
-  font-size: 12px;
+  font-size: 14px;
   vertical-align: top;
   display: inline-block;
   width: 500px;
@@ -32,7 +32,7 @@ ul {
 }
 
 .link {
-  font-size: 15px;
+  font-size: 18px;
   display: block;
   text-align: center;
 }

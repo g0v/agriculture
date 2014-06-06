@@ -1,7 +1,7 @@
 {% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
 {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
 <!DOCTYPE html>
-<html>
+<html ng-app = "agriApp">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +11,16 @@
 	<link rel="stylesheet" href="{{ relative }}css/site.css">
 	<script src="//code.jquery.com/jquery-1.11.0.min.js" type="text/javascript"></script>
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js" type="text/javascript"></script>
+
 </head>
 <body class="{% if page.name %}page page-{{ page.name }}{% else %}home{% endif %}">
 	{{ content }}
 </body>
+
+<script type="text/javascript">
+
+	var agriApp = angular.module('agriApp',[]);
+</script>
+
 </html>
