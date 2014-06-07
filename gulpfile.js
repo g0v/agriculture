@@ -125,7 +125,7 @@ gulp.task('data.build.pesticide', function (callback) {
 				if (!vo)
 					tar[field] = vn;
 				else if (vo != vn)
-					console.log("Conflict field values: " + vo + ", " + vn);
+					console.log("Conflict field values: \n" + vo + ", \n" + vn);
 			};
 			
 			// include information from license data
@@ -134,10 +134,12 @@ gulp.task('data.build.pesticide', function (callback) {
 				entry = m[id];
 				
 				copyIfAbsent(entry, lic, '英文名稱');
-				copyIfAbsent(entry, lic, '化學成分');
+				// the composition ratio might be different per license
+				//copyIfAbsent(entry, lic, '化學成分');
 				
 				entry.licenses.push({
 					'許可證號': lic['許可證號'],
+					'化學成分': lic['化學成分'],
 					'廠牌名稱': lic['廠牌名稱'],
 					'國外原製造廠商': lic['國外原製造廠商'],
 					'有效期限': lic['有效期限'],

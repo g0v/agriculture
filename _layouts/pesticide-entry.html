@@ -6,7 +6,6 @@ layout: default
 	<li>農藥代號：{{ page.data.id }}</li>
 	<li>中文名稱：{{ page.data.name }}</li>
 	<li>英文名稱：{{ page.data['英文名稱'] }}</li>
-	<li>化學成分：{{ page.data['化學成分'] }}</li>
 	<li>通過日期：{{ page.data['通過日期'] }}</li>
 </ul>
 
@@ -31,7 +30,7 @@ layout: default
 </table>
 
 <h2>使用方式</h2>
-<table class="uses">
+<table class="usages">
 	<tr>
 		<th>劑型</th>
 		<th>含量</th>
@@ -50,7 +49,7 @@ layout: default
 		<th>注意事項</th>
 		<th>備註</th>
 	</tr>
-{% for u in page.data.uses %}
+{% for u in page.data.usages %}
 	<tr>
 		<td>{{ u['劑型'] }}</td>
 		<td>{{ u['含量'] }}</td>
