@@ -99,7 +99,7 @@ function start() {
 		query(options);
 	});
 	
-	$.ajax('../../../data/pesticide/usages.json')
+	$.ajax('../../data/pesticide/usages.json')
 	.done(function (data) {
 		usages = data;
 		// remove loading mark & enable submit
