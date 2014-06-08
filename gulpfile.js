@@ -171,7 +171,7 @@ gulp.task('data.build.pesticide', function (callback) {
 					streamy.array(index)
 						.pipe(streamy.map.sync(function (data) {
 							return new File({
-								path: './' + data.id + '/index.html',
+								path: './' + data.id + '.html',
 								contents: new Buffer(jekyllify('pesticide-entry', data))
 							});
 						}))
