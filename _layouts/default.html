@@ -18,16 +18,18 @@
 {% endfor %}
 </head>
 <body class="{% if page.name %}page page-{{ page.name }}{% else %}home{% endif %}">
-	{{ content }}
+	<div class="container">
+		{{ content }}
+	</div>
 	<div class="navbar navbar-inverse navbar-fixed-bottom noPhone"role="navigation" >
-		<div class="container-fluid">
+		<div class="container">
 			<div class="navbar-header pull-left">
 				<div class = "navbar-left">
 					<a href = "http://g0v.tw" target = "_blank">
 						<img src = "http://g0v.tw/imgs/g0v-horizontal-transparent-darkbackground-m.png"/>
 					</a>
 				</div>
-			</div> 
+			</div>
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
 					<li class = "active"><a href="http://g0v.github.io/agriculture/" target = "_blank">超農域</a></li>
