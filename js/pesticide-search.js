@@ -25,11 +25,10 @@ var Form = function ($element) {
 	
 	$element
 	.on('click', '.submit', function (event) {
-		var keyword = self.keywordInput.value,
-			query = keyword.length && {
-				filter: keywordFilter(keyword)
-			};
-		$element.trigger('query', query);
+		var keyword = self.keywordInput.value.trim();
+		$element.trigger('query', {
+			keyword: keyword
+		});
 	});
 };
 
@@ -71,7 +70,9 @@ UsageList.prototype._groupListHTML = function (groups) {
 };
 */
 
-UsageList.prototype._usageHTML = function (item) {
+UsageList.prototype._usageHTML = function (row) {
+	var item = row.data;
+	// TODO: render hit information
 	return this.templates.usage({
 		'作物': item['作物名稱'],
 		'病蟲': item['病蟲名稱'],
@@ -83,18 +84,18 @@ UsageList.prototype._usageHTML = function (item) {
 	});
 };
 
-UsageList.prototype._usageListHTML = function (items) {
+UsageList.prototype._usageListHTML = function (rows) {
 	var self = this;
 		content = this.templates.header();
-	items.forEach(function (item) {
-		content += self._usageHTML(item);
+	rows.forEach(function (row) {
+		content += self._usageHTML(row);
 	});
 	return this.templates.container({ content: content });
 };
 
-UsageList.prototype.renderItems = function (items) {
+UsageList.prototype.renderItems = function (rows) {
 	this.clear();
-	this.$element.append(this._usageListHTML(items));
+	this.$element.append(this._usageListHTML(rows));
 };
 
 UsageList.prototype.renderGroups = function (groups) {
@@ -110,14 +111,19 @@ function start() {
 		form = new Form($('#form'));
 	
 	function query(options) {
-		if (!options) {
+		if (!options || !options.keyword) {
 			list.clear();
 			return;
 		}
 		// TODO: push state
-		var grouped = options.grouper,
-			result = window.search(window.data.usages, options);
-		list[grouped ? 'renderGroups' : 'renderItems'](result);
+		var keyword = options.keyword,
+			filter = keywordFilter(keyword),
+			order = options.order,
+			grouper = options.grouper;
+		
+		var result = window.search(window.data.usages, filter, order);
+		// TODO: grouper
+		list.renderItems(result);
 	}
 	
 	form.$element.on('query', function (event, options) {

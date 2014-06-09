@@ -1,7 +1,5 @@
 (function (window) {
 
-function trivialFilter() { return true; }
-
 function defaultCompare(x, y) {
 	// null last
 	if (y == null)
@@ -23,76 +21,64 @@ function compareMapped(order, map) {
 	return function (x, y) { return order(map(x), map(y)); };
 }
 
-function ungroupedSearch(list, filter, order, limit) {
-	
-	var result = [], 
-		item;
-	
-	for (var i = 0, found = 0, len = list.length; i < len && (!limit || found < limit); i++) {
-		item = list[i];
-		if (!filter(item)) // TODO: filter shall return a hit object
-			continue;
-		result.push(item);
-		found++;
-	}
-	
-	return order ? result.sort(order) : result;
+function normalizeOrder(order) {
+	return (typeof order === 'function') ? order : 
+		(typeof order === 'string') ? compareMapped(defaultCompare, fieldMap(order)) :
+		defaultCompare;
 }
 
-function groupedSearch(list, filter, order, limit, grouper, groupHash, groupOrder) {
+function normalizeSearchOrder(order) {
+	if (!order)
+		return order;
+	if (typeof order === 'string') {
+		var fieldname = order;
+		return compareMapped(defaultCompare, function (row) {
+			return row.data && row.data[fieldname];
+		});
+	} else if (typeof order === 'function')
+		return compareMapped(order, fieldMap('data'));
+	return null;
+}
+
+window.search = function (list, filter, order) {
+	order = normalizeSearchOrder(order);
 	
-	if (typeof grouper === 'string')
-		grouper = fieldMap(grouper);
+	var result = [],
+		hit;
 	
-	groupHash = groupHash || toString;
-	groupOrder = groupOrder || defaultCompare;
-	if (typeof groupOrder === 'string')
-		groupOrder = compareMapped(defaultCompare, fieldMap(groupOrder));
-	
-	var m = {}, 
-		value, hash, group, 
-		result = [],
-		item;
-	
-	for (var i = 0, found = 0, len = list.length; i < len && (!limit || found < limit); i++) {
-		item = list[i];
-		if (!filter(item))
+	list.forEach(function (item) {
+		hit = filter ? filter(item) : true;
+		if (!hit)
 			return;
-		
-		value = grouper(item);
-		hash = groupHash(hash);
-		group = m[hash];
-		if (!group)
-			m[hash] = group = { value: value, members: [] };
-		
-		group.members.push(item);
-	};
-	
-	Object.keys(m).forEach(function (hash) {
-		result.push(group = m[hash]);
-		if (order)
-			group.members = group.members.sort(order);
+		result.push({
+			data: item,
+			hit: hit
+		});
 	});
 	
-	return result.sort(compareMapped(groupOrder, fieldMap('value')));
-}
+	return order ? result.sort(order) : result;
+};
 
-window.search = function (list, options) {
+window.group = function (list, grouper, order, hash) {
+	if (typeof grouper === 'string')
+		grouper = fieldMap(grouper);
+	hash = hash || toString;
+	order = normalizeOrder(order);
 	
-	options = options || {};
-	var filter = options.filter || trivialFilter,
-		order = options.order, 
-		limit = options.limit,
-		grouper = options.grouper,
-		groupHash = options.groupHash,
-		groupOrder = options.groupOrder;
+	var m = {}, 
+		value, key, group, 
+		result = [];
 	
-	if (typeof order === 'string')
-		order = compareMapped(defaultCompare, fieldMap(order));
+	list.forEach(function (row) {
+		value = grouper(row.data);
+		key = hash(value);
+		group = m[key];
+		if (!group)
+			m[key] = group = { value: value, members: [] };
+		group.members.push(row);
+	});
 	
-	return grouper ? 
-		groupedSearch(list, filter, order, limit, grouper, groupHash, groupOrder) :
-		ungroupedSearch(list, filter, order, limit);
+	return result.sort(order);
 };
 
 })(this);
