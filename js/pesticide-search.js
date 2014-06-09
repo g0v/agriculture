@@ -2,10 +2,18 @@
 
 var $ = window.jQuery;
 
+function fieldContains(obj, field, keyword) {
+	return obj && obj[field] && obj[field].indexOf(keyword) > -1;
+}
+
 function keywordFilter(keyword) {
 	return function (item) {
-		return (item['作物名稱'] && item['作物名稱'].indexOf(keyword) > -1) ||
-			(item['病蟲名稱'] && item['病蟲名稱'].indexOf(keyword) > -1);
+		var pesticide = window.data.pesticides[item.pesticideId];
+		return fieldContains(item, '作物名稱', keyword) ||
+			fieldContains(item, '病蟲名稱', keyword) ||
+			fieldContains(pesticide, 'name', keyword) ||
+			fieldContains(pesticide, 'engName', keyword) ||
+			fieldContains(pesticide, 'products', keyword);
 	};
 }
 
@@ -52,7 +60,8 @@ UsageList.prototype._groupListHTML = function (groups) {
 };
 
 UsageList.prototype._usageHTML = function (item) {
-	return '<li class="usage">' + item.pesticide + ' / ' + item['作物名稱'] + 
+	return '<li class="usage">' + window.data.pesticides[item.pesticideId].name + 
+		' / ' + item['作物名稱'] + 
 		' / ' + item['病蟲名稱'] + '</li>';
 };
 
@@ -80,9 +89,7 @@ UsageList.prototype.renderGroups = function (groups) {
 
 function start() {
 	
-	var usages, 
-		grouped,
-		list = new UsageList($('#result')),
+	var list = new UsageList($('#result')),
 		form = new Form($('#form'));
 	
 	function query(options) {
@@ -91,17 +98,18 @@ function start() {
 			return;
 		}
 		// TODO: push state
-		//var result = window.search(usages, options);
-		list[grouped ? 'renderGroups' : 'renderItems'](window.search(usages, options));
+		var grouped = options.grouper,
+			result = window.search(window.data.usages, options);
+		list[grouped ? 'renderGroups' : 'renderItems'](result);
 	}
 	
 	form.$element.on('query', function (event, options) {
 		query(options);
 	});
 	
-	$.ajax('../../data/pesticide/usages.json')
+	$.ajax('../../data/pesticide/usages-search.json')
 	.done(function (data) {
-		usages = data;
+		window.data = data;
 		// remove loading mark & enable submit
 		// TODO: loading mark
 		form.submitButton.disabled = false;

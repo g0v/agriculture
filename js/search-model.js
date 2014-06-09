@@ -30,7 +30,7 @@ function ungroupedSearch(list, filter, order, limit) {
 	
 	for (var i = 0, found = 0, len = list.length; i < len && (!limit || found < limit); i++) {
 		item = list[i];
-		if (!filter(item))
+		if (!filter(item)) // TODO: filter shall return a hit object
 			continue;
 		result.push(item);
 		found++;

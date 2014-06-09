@@ -104,8 +104,12 @@ gulp.task('data.build.pesticide', function (callback) {
 		fs.readFile('./_raw/download/pesticide/licenses.json', 'utf8', function (err, data) {
 			
 			var licenses = JSON.parse(data),
-				usages = [],
+				usageSearchData = {},
+				usages = usageSearchData.usages = [],
+				pesticideMap = usageSearchData.pesticides = {},
 				id, entry;
+			
+			usageSearchData.corpMap = {};
 			
 			// TODO: move these to bin/util
 			var clone = function (tar, src) {
@@ -145,6 +149,22 @@ gulp.task('data.build.pesticide', function (callback) {
 					'有效期限': lic['有效期限'],
 					'廠商名稱': lic['廠商名稱']
 				});
+				
+			});
+			
+			// collect pesticide search: pesticide entries
+			index.forEach(function (entry) {
+				var products = {};
+				entry.licenses.forEach(function (lic) {
+					if (lic['廠牌名稱'])
+						products[lic['廠牌名稱']] = 1;
+				});
+				pesticideMap[entry.id] = {
+					id: entry.id,
+					name: entry.name || '',
+					engName: entry['英文名稱'] || '',
+					products: Object.keys(products).join('#')
+				};
 			});
 			
 			// include information from entry files
@@ -157,15 +177,15 @@ gulp.task('data.build.pesticide', function (callback) {
 					copyIfAbsent(entry, data, '通過日期');
 					entry.usages = data.usages;
 					
-					// collect usage entries
+					// collect pesticide search: usage entries
 					data.usages.forEach(function (u) {
-						usages.push(clone({ pesticide: data.id }, u));
+						usages.push(clone({ pesticideId: data.id }, u));
 					});
 				})
 				.on('end', function () {
-					// write usages.json
-					fs.writeFile('./data/pesticide/usages.json', 
-						JSON.stringify(usages, null, '\t'), end); // end 2
+					// write usages-search.json
+					fs.writeFile('./data/pesticide/usages-search.json', 
+						JSON.stringify(usageSearchData, null, '\t'), end); // end 2
 					
 					// write pesticide entry pages
 					streamy.array(index)
