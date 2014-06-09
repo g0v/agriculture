@@ -33,8 +33,16 @@ var Form = function ($element) {
 	});
 };
 
+function getTemplate(selector) {
+	return Handlebars.compile($(selector).html())
+}
+
 var UsageList = function ($element) {
 	this.$element = $element;
+	this.templates = {
+		header: getTemplate("#header-template"),
+		usage: getTemplate("#usage-template")
+	};
 };
 
 UsageList.prototype.clear = function () {
@@ -60,18 +68,21 @@ UsageList.prototype._groupListHTML = function (groups) {
 };
 
 UsageList.prototype._usageHTML = function (item) {
-	return '<li class="usage">' + window.data.pesticides[item.pesticideId].name + 
-		' / ' + item['作物名稱'] + 
-		' / ' + item['病蟲名稱'] + '</li>';
+	return this.templates.usage({
+		pesticide: window.data.pesticides[item.pesticideId].name,
+		corp: item['作物名稱'],
+		disease: item['病蟲名稱']
+	});
 };
 
 UsageList.prototype._usageListHTML = function (items) {
 	var self = this;
-		html = '<ul class="usages">';
+		html = '<table class="table">';
+	html += this.templates.header();
 	items.forEach(function (item) {
 		html += self._usageHTML(item);
 	});
-	html += '</ul>';
+	html += '</table>';
 	return html;
 };
 
