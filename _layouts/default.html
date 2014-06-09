@@ -17,7 +17,7 @@
 	<script src="{% if g == '1' %}{{ relative }}{% endif %}{{ path }}" type="text/javascript"></script>
 {% endfor %}
 </head>
-<body class="{% if page.name %}page page-{{ page.name }}{% else %}home{% endif %}">
+<body class="{% if page.name %}{{ page.name }}{% endif %}">
 	<div class="container">
 		{{ content }}
 	</div>

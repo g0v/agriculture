@@ -69,9 +69,13 @@ UsageList.prototype._groupListHTML = function (groups) {
 
 UsageList.prototype._usageHTML = function (item) {
 	return this.templates.usage({
-		pesticide: window.data.pesticides[item.pesticideId].name,
-		corp: item['作物名稱'],
-		disease: item['病蟲名稱']
+		'作物': item['作物名稱'],
+		'病蟲': item['病蟲名稱'],
+		'藥劑': window.data.pesticides[item.pesticideId].name,
+		'劑型': item['劑型'],
+		'劑型': item['劑型'],
+		'使用時期': item['使用時期'],
+		'安全採收期': item['安全採收期']
 	});
 };
 

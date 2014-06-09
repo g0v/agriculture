@@ -1,3 +1,9 @@
+/* common */
+.center-aligned {
+	text-align: center;
+}
+
+/* default */
 body {
 	padding-bottom: 57px;
 	font-family: Arial, Helvetica, FreeSans, "蘋果儷中黑", "微軟正黑體", sans-serif;
@@ -6,10 +12,6 @@ body {
 	line-height: 1.6em;
 }
 
-/* TODO: use better structure */
-body.home {
-	text-align: center;
-}
 /* TODO: use better class names */
 .option {
 	font-size: 14px;
@@ -26,4 +28,8 @@ body.home {
 	font-size: 18px;
 	display: block;
 	text-align: center;
+}
+
+body.pesticide-usages {
+	
 }
