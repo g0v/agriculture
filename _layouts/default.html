@@ -13,7 +13,8 @@
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js" type="text/javascript"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js" type="text/javascript"></script>
 {% for path in page.js %}
-  <script src="{{ relative }}{{ path }}" type="text/javascript"></script>
+  {% capture g %}{{ path | split:'//' | size }}{% endcapture %}
+  <script src="{% if g == '1' %}{{ relative }}{% endif %}{{ path }}" type="text/javascript"></script>
 {% endfor %}
 </head>
 <body class="{% if page.name %}page page-{{ page.name }}{% else %}home{% endif %}">
