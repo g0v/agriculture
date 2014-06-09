@@ -40,6 +40,7 @@ function getTemplate(selector) {
 var UsageList = function ($element) {
 	this.$element = $element;
 	this.templates = {
+		container: getTemplate("#container-template"),
 		header: getTemplate("#header-template"),
 		usage: getTemplate("#usage-template")
 	};
@@ -49,6 +50,8 @@ UsageList.prototype.clear = function () {
 	this.$element.empty();
 };
 
+// TODO: fix when grouping is ready
+/*
 UsageList.prototype._groupValueHTML = function (value) {
 	return '<div class="group-value">' + value + '</div>';
 };
@@ -66,6 +69,7 @@ UsageList.prototype._groupListHTML = function (groups) {
 	html += '</ul>';
 	return html;
 };
+*/
 
 UsageList.prototype._usageHTML = function (item) {
 	return this.templates.usage({
@@ -81,13 +85,11 @@ UsageList.prototype._usageHTML = function (item) {
 
 UsageList.prototype._usageListHTML = function (items) {
 	var self = this;
-		html = '<table class="table">';
-	html += this.templates.header();
+		content = this.templates.header();
 	items.forEach(function (item) {
-		html += self._usageHTML(item);
+		content += self._usageHTML(item);
 	});
-	html += '</table>';
-	return html;
+	return this.templates.container({ content: content });
 };
 
 UsageList.prototype.renderItems = function (items) {

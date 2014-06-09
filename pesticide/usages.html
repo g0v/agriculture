@@ -9,20 +9,25 @@ js: [
 ---
 
 <div id="form" class="center-aligned">
-	<input class="keyword" placeholder="請輸入關鍵字">
+	<input class="keyword form-control" placeholder="請輸入關鍵字">
 	<button type="submit" class="submit btn btn-default" disabled>搜尋</button>
 </div>
-<div id="result" class="center-aligned"></div>
+<div id="result"></div>
 
 {% raw %}
+<script id="container-template" type="text/x-handlebars-template">
+	<table class="table table-hover table-responsive">
+		{{{content}}}
+	</table>
+</script>
 <script id="header-template" type="text/x-handlebars-template">
 	<tr>
 		<th>藥劑</th>
 		<th>作物</th>
 		<th>病蟲</th>
 		<th>劑型</th>
-		<th>使用時期</th>
 		<th>安全採收期</th>
+		<th>使用時期</th>
 	</tr>
 </script>
 <script id="usage-template" type="text/x-handlebars-template">
@@ -31,8 +36,8 @@ js: [
 		<td>{{作物}}</td>
 		<td>{{病蟲}}</td>
 		<td>{{劑型}}</td>
-		<td>{{使用時期}}</td>
 		<td>{{安全採收期}}</td>
+		<td>{{使用時期}}</td>
 	</tr>
 </script>
 {% endraw %}

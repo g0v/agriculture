@@ -12,24 +12,31 @@ body {
 	line-height: 1.6em;
 }
 
+/* home page */
 /* TODO: use better class names */
-.option {
+body.home .option {
 	font-size: 14px;
 	vertical-align: top;
 	display: inline-block;
 	width: 500px;
 	min-width: 400px;
 }
-.option h1 {
+body.home .option h1 {
 	text-align: center;
 	color: #444;
 }
-.link {
+body.home .link {
 	font-size: 18px;
 	display: block;
 	text-align: center;
 }
 
-body.pesticide-usages {
-	
+/* pesticide search page */
+body.pesticide-usages #form input {
+	display: inline-block;
+	width: auto;
+}
+body.pesticide-usages #result .table {
+	width: auto;
+	margin: 0 auto;
 }
