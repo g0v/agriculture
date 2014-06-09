@@ -40,7 +40,6 @@ var UsageList = function ($element) {
 	this.$element = $element;
 	this.templates = {
 		container: getTemplate("#container-template"),
-		header: getTemplate("#header-template"),
 		usage: getTemplate("#usage-template")
 	};
 };
@@ -85,8 +84,8 @@ UsageList.prototype._usageHTML = function (row) {
 };
 
 UsageList.prototype._usageListHTML = function (rows) {
-	var self = this;
-		content = this.templates.header();
+	var self = this,
+		content = '';
 	rows.forEach(function (row) {
 		content += self._usageHTML(row);
 	});

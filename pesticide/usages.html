@@ -17,18 +17,20 @@ js: [
 {% raw %}
 <script id="container-template" type="text/x-handlebars-template">
 	<table class="table table-hover table-responsive">
-		{{{content}}}
+		<thead>
+			<tr>
+				<th>藥劑</th>
+				<th>作物</th>
+				<th>病蟲</th>
+				<th>劑型</th>
+				<th>安全採收期</th>
+				<th>使用時期</th>
+			</tr>
+		</thead>
+		<tbody>
+			{{{content}}}
+		</tbody>
 	</table>
-</script>
-<script id="header-template" type="text/x-handlebars-template">
-	<tr>
-		<th>藥劑</th>
-		<th>作物</th>
-		<th>病蟲</th>
-		<th>劑型</th>
-		<th>安全採收期</th>
-		<th>使用時期</th>
-	</tr>
 </script>
 <script id="usage-template" type="text/x-handlebars-template">
 	<tr>
