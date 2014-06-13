@@ -70,13 +70,15 @@ UsageList.prototype._groupListHTML = function (groups) {
 */
 
 UsageList.prototype._usageHTML = function (row, id) {
-	var item = row.data;
+	var item = row.data,
+		pesticide = window.data.pesticides[item.pesticideId];
 	// TODO: render hit information
 	return this.templates.usage({
 		id: id,
 		'作物': item['作物名稱'],
 		'病蟲': item['病蟲名稱'],
-		'藥劑': window.data.pesticides[item.pesticideId].name,
+		'藥劑': pesticide.name,
+		products: pesticide.products.split('#'),
 		'劑型': item['劑型'],
 		'使用時期': item['使用時期'],
 		'安全採收期': item['安全採收期'],
