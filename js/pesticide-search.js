@@ -23,12 +23,18 @@ var Form = function ($element) {
 	this.keywordInput = $element.find('.keyword')[0];
 	this.submitButton = $element.find('.submit')[0];
 	
-	$element
-	.on('click', '.submit', function (event) {
+	var submit = function () {
 		var keyword = self.keywordInput.value.trim();
 		$element.trigger('query', {
 			keyword: keyword
 		});
+	};
+	
+	$element
+	.on('click', '.submit', submit)
+	.on('keydown', '.keyword', function (e) {
+		if (window.data && e.which == 13)
+			submit();
 	});
 };
 

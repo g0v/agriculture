@@ -54,6 +54,9 @@ body.home .link {
 }
 
 /* pesticide search page */
+body.pesticide-usages #form {
+	padding: 16px 0;
+}
 body.pesticide-usages #form input {
 	display: inline-block;
 	width: auto;
