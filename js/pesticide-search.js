@@ -69,25 +69,37 @@ UsageList.prototype._groupListHTML = function (groups) {
 };
 */
 
-UsageList.prototype._usageHTML = function (row) {
+UsageList.prototype._usageHTML = function (row, id) {
 	var item = row.data;
 	// TODO: render hit information
 	return this.templates.usage({
+		id: id,
 		'作物': item['作物名稱'],
 		'病蟲': item['病蟲名稱'],
 		'藥劑': window.data.pesticides[item.pesticideId].name,
 		'劑型': item['劑型'],
-		'劑型': item['劑型'],
 		'使用時期': item['使用時期'],
-		'安全採收期': item['安全採收期']
+		'安全採收期': item['安全採收期'],
+		'核准日期': item['核准日期'],
+		'原始登記廠商名稱': item['原始登記廠商名稱'],
+		'含量': item['含量'],
+		'混合': item['混合'],
+		'每公頃每次用量': item['每公頃每次用量'],
+		'稀釋倍數': item['稀釋倍數'],
+		'施藥間隔': item['施藥間隔'],
+		'施用次數': item['施用次數'],
+		'施藥方法': item['施藥方法'],
+		'注意事項': item['注意事項'],
+		'備註': item['備註']
 	});
 };
 
 UsageList.prototype._usageListHTML = function (rows) {
 	var self = this,
-		content = '';
+		content = '',
+		id = 0;
 	rows.forEach(function (row) {
-		content += self._usageHTML(row);
+		content += self._usageHTML(row, id++);
 	});
 	return this.templates.container({ content: content });
 };

@@ -36,7 +36,35 @@ body.pesticide-usages #form input {
 	display: inline-block;
 	width: auto;
 }
+body.pesticide-usages #result {
+	color: #555;
+}
 body.pesticide-usages #result .table {
 	width: auto;
 	margin: 0 auto;
+}
+body.pesticide-usages #result th.detail-toggle {
+	width: 40px;
+	cursor: pointer;
+}
+body.pesticide-usages #result td.detail-toggle {
+	text-align: center;
+}
+body.pesticide-usages #result .detail-toggle-btn {
+	color: #555;
+}
+body.pesticide-usages #result .detail-toggle-btn:hover {
+	color: #333;
+}
+body.pesticide-usages #result .detail-toggle-icon:before {
+	content: "\f147"; /* fa-plus-minus-o */
+}
+body.pesticide-usages #result .collapsed .detail-toggle-icon:before {
+	content: "\f196"; /* fa-plus-square-o */
+}
+body.pesticide-usages #result tr.detail td {
+	padding: 0;
+}
+body.pesticide-usages #result .detail-content {
+	padding: 8px;
 }

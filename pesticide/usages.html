@@ -19,6 +19,7 @@ js: [
 	<table class="table table-hover table-responsive">
 		<thead>
 			<tr>
+				<th class="detail-toggle"> </th>
 				<th>藥劑</th>
 				<th>作物</th>
 				<th>病蟲</th>
@@ -33,13 +34,46 @@ js: [
 	</table>
 </script>
 <script id="usage-template" type="text/x-handlebars-template">
-	<tr>
+	<tr class="summary">
+		<td class="detail-toggle">
+			<a class="detail-toggle-btn collapsed" data-toggle="collapse" href="#detail-content-{{id}}">
+				<i class="fa detail-toggle-icon"></i>
+			</a>
+		</td>
 		<td>{{藥劑}}</td>
 		<td>{{作物}}</td>
 		<td>{{病蟲}}</td>
 		<td>{{劑型}}</td>
 		<td>{{安全採收期}}</td>
 		<td>{{使用時期}}</td>
+	</tr>
+	<tr class="detail">
+		<td>
+		</td>
+		<td colspan="6">
+			<div id="detail-content-{{id}}" class="detail-content collapse">
+				<ul>
+					<li>核准日期：{{核准日期}}</li>
+					<li>原始登記廠商名稱：{{原始登記廠商名稱}}</li>
+				</ul>
+				<ul>
+					<li>含量：{{含量}}</li>
+					<li>每公頃每次用量：{{每公頃每次用量}}</li>
+					<li>稀釋倍數：{{稀釋倍數}}</li>
+					<li>施藥間隔：{{施藥間隔}}</li>
+					<li>施用次數：{{施用次數}}</li>
+					<li>施藥方法：{{施藥方法}}</li>
+				</ul>
+				<p>
+					注意事項：<br>
+					{{注意事項}}
+				</p>
+				<p>
+					備註：<br>
+					{{備註}}
+				</p>
+			</div>
+		</td>
 	</tr>
 </script>
 {% endraw %}
