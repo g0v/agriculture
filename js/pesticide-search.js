@@ -6,15 +6,25 @@ function fieldContains(obj, field, keyword) {
 	return obj && obj[field] && obj[field].indexOf(keyword) > -1;
 }
 
-function keywordFilter(keyword) {
+function multipleKeywordFilter(keywords) {
 	return function (item) {
-		var pesticide = window.data.pesticides[item.pesticideId];
-		return fieldContains(item, '作物名稱', keyword) ||
-			fieldContains(item, '病蟲名稱', keyword) ||
-			fieldContains(pesticide, 'name', keyword) ||
-			fieldContains(pesticide, 'engName', keyword) ||
-			fieldContains(pesticide, 'products', keyword);
+		keywords = keywords || [];
+		for (var i = 0, len = keywords.length, k; i < len; i++) {
+			k = keywords[i];
+			if (!containsKeyword(item, k))
+				return false;
+		}
+		return true;
 	};
+}
+
+function containsKeyword(item, keyword) {
+	var pesticide = window.data.pesticides[item.pesticideId];
+	return fieldContains(item, '作物名稱', keyword) ||
+		fieldContains(item, '病蟲名稱', keyword) ||
+		fieldContains(pesticide, 'name', keyword) ||
+		fieldContains(pesticide, 'engName', keyword) ||
+		fieldContains(pesticide, 'products', keyword);
 }
 
 var Form = function ($element) {
@@ -24,9 +34,9 @@ var Form = function ($element) {
 	this.submitButton = $element.find('.submit')[0];
 	
 	var submit = function () {
-		var keyword = self.keywordInput.value.trim();
+		var keywords = self.keywordInput.value.trim().split(/\s+/);
 		$element.trigger('query', {
-			keyword: keyword
+			keywords: keywords
 		});
 	};
 	
@@ -130,13 +140,13 @@ function start() {
 		form = new Form($('#form'));
 	
 	function query(options) {
-		if (!options || !options.keyword) {
+		if (!options || !options.keywords) {
 			list.clear();
 			return;
 		}
 		// TODO: push state
-		var keyword = options.keyword,
-			filter = keywordFilter(keyword),
+		var keywords = options.keywords,
+			filter = multipleKeywordFilter(keywords),
 			order = options.order,
 			grouper = options.grouper;
 		
