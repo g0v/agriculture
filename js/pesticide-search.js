@@ -132,6 +132,25 @@ UsageList.prototype.renderGroups = function (groups) {
 	this.$element.append(this._groupListHTML(groups));
 };
 
+function toQueryString(query) {
+	return (!query || !query.keywords) ? '' : '?q=' + query.keywords.join(',');
+}
+
+function parseQueryString(str) {
+	if (!str || !str.length)
+		return null;
+	var query = {},
+		i, k;
+	str.substring(1).split('&').forEach(function (s) {
+		if ((i = s.indexOf('=')) < 1)
+			return;
+		k = s.substring(0, i);
+		if (k == 'q')
+			query.keywords = s.substring(i + 1).split(',');
+	});
+	return query.keywords && query;
+}
+
 
 
 function start() {
@@ -140,11 +159,11 @@ function start() {
 		form = new Form($('#form'));
 	
 	function query(options) {
-		if (!options || !options.keywords) {
+		if (!options || !options.keywords || !options.keywords.length) {
 			list.clear();
 			return;
 		}
-		// TODO: push state
+		
 		var keywords = options.keywords,
 			filter = multipleKeywordFilter(keywords),
 			order = options.order,
@@ -155,7 +174,16 @@ function start() {
 		list.renderItems(result);
 	}
 	
-	form.$element.on('query', function (event, options) {
+	window.onpopstate = function (e) {
+		var q = e.state;
+		if (!q)
+			return;
+		form.keywordInput.value = q.keywords.join(' ');
+		query(q);
+	};
+	
+	form.$element.on('query', function (e, options) {
+		window.history.pushState(options, '', toQueryString(options));
 		query(options);
 	});
 	
@@ -167,7 +195,12 @@ function start() {
 		form.submitButton.disabled = false;
 		
 		// process query params, if any
-		// TODO
+		var q = parseQueryString(decodeURIComponent(window.location.search));
+		if (q) {
+			window.history.replaceState(q, '', null);
+			form.keywordInput.value = q.keywords.join(' ');
+			query(q);
+		}
 	});
 	
 }
