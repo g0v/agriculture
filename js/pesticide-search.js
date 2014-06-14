@@ -1,5 +1,6 @@
 (function (window) {
 
+'use strict';
 var $ = window.jQuery;
 
 function fieldContains(obj, field, keyword) {
@@ -49,14 +50,14 @@ var Form = function ($element) {
 };
 
 function getTemplate(selector) {
-	return Handlebars.compile($(selector).html())
+	return window.Handlebars.compile($(selector).html());
 }
 
 var UsageList = function ($element) {
 	this.$element = $element;
 	this.templates = {
-		container: getTemplate("#container-template"),
-		usage: getTemplate("#usage-template")
+		container: getTemplate('#container-template'),
+		usage: getTemplate('#usage-template')
 	};
 };
 

@@ -1,5 +1,8 @@
 (function (window) {
 
+'use strict';
+
+/* jshint eqnull:true */
 function defaultCompare(x, y) {
 	// null last
 	if (y == null)
@@ -15,6 +18,7 @@ function fieldMap(fieldname) {
 	return function (obj) { return obj && obj[fieldname]; };
 }
 
+/* jshint eqnull:true */
 function toString(obj) { return obj != null ? obj.toString() : ''; }
 
 function compareMapped(order, map) {

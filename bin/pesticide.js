@@ -1,11 +1,13 @@
+'use strict';
+/* global require, module, console */
 var streamy = require('streamy-data'),
 	hp = streamy.util.htmlparser,
 	hpu = hp.DomUtils;
 
 var pesticideLicensesUrl = 
-	"http://m.coa.gov.tw/OpenData/PesticideData.aspx",
+	'http://m.coa.gov.tw/OpenData/PesticideData.aspx',
 	pesticideEntryUrlPrefix = 
-	"http://pesticide.baphiq.gov.tw/web/Insecticides_MenuItem5_3_UseRange.aspx?id=";
+	'http://pesticide.baphiq.gov.tw/web/Insecticides_MenuItem5_3_UseRange.aspx?id=';
 
 var downloadLicenses = function (callback) {
 	streamy.util.request(pesticideLicensesUrl, function (err, res, body) {
@@ -20,13 +22,13 @@ var _parseEntryResponse = function (data, body) {
 	
 	console.log('entry ' + data + ' downloaded.');
 	
-	var handler, parser, grid,
+	var handler, parser,
 		result = {};
 	
 	result.id = data;
 	
 	// parse from response
-	handler = new hp.DefaultHandler(function (error, dom) {}, { 
+	handler = new hp.DefaultHandler(function (/*error, dom*/) {}, { 
 		verbose: false, ignoreWhitespace: true
 	});
 	parser = new hp.Parser(handler);
@@ -53,7 +55,7 @@ var _parseEntryResponse = function (data, body) {
 			if (!tr.children)
 				return;
 			u = {};
-			for (var i = 0, len = tr.children.length, text; i < len; i++) {
+			for (var i = 0, len = tr.children.length; i < len; i++) {
 				u[ths[i]] = hpu.text(tr.children[i]).trim().replace(/&nbsp;/g, '');
 			}
 			usages.push(u);
@@ -79,15 +81,15 @@ var buildIndexFromLicenses = function (licenses) {
 		id = lic['農藥代號'];
 		name = lic['中文名稱'];
 		if (!id) {
-			console.log("License entry missing id: " + lic);
+			console.log('License entry missing id: ' + lic);
 			return;
 		}
 		if (!name) {
-			console.log("License entry missing name: " + lic);
+			console.log('License entry missing name: ' + lic);
 			return;
 		}
 		if (m[id] && m[id] != name) {
-			console.log("License entry name conflicts: " + name + ", " + m[id]);
+			console.log('License entry name conflicts: ' + name + ', ' + m[id]);
 			return;
 		}
 		if (id && name)

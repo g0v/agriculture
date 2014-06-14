@@ -1,8 +1,9 @@
+'use strict';
+/* global require, console, Buffer */
 var streamy = require('streamy-data'),
 	pesticide = require('./bin/pesticide'),
 	gulp = require('gulp'),
 	File = require('vinyl'),
-	pathUtil = require('path'),
 	fs = require('fs');
 
 gulp.task('data.download', [
@@ -14,6 +15,7 @@ gulp.task('data.download', [
  * + /_raw/download/index.json
  * + /_raw/download/entries/{id}.json
  */
+/* jshint asi: true */
 gulp.task('data.download.pesticide', function (callback) {
 	
 	// TODO: clear
@@ -129,7 +131,7 @@ gulp.task('data.build.pesticide', function (callback) {
 				if (!vo)
 					tar[field] = vn;
 				else if (vo != vn)
-					console.log("Conflict field values: \n" + vo + ", \n" + vn);
+					console.log('Conflict field values: \n' + vo + ', \n' + vn);
 			};
 			
 			// include information from license data
