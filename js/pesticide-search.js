@@ -133,13 +133,15 @@ UsageList.prototype.renderGroups = function (groups) {
 	this.$element.append(this._groupListHTML(groups));
 };
 
-function toQueryString(query) {
+function encodeURL(query) {
 	return (!query || !query.keywords) ? '' : '?q=' + query.keywords.join(',');
 }
 
-function parseQueryString(str) {
+function decodeURL(location) {
+	var str = decodeURIComponent(location.search);
 	if (!str || !str.length)
 		return null;
+	
 	var query = {},
 		i, k;
 	str.substring(1).split('&').forEach(function (s) {
@@ -156,7 +158,8 @@ function parseQueryString(str) {
 
 function start() {
 	
-	var list = new UsageList($('#result')),
+	var stateManager = new window.StateManager(encodeURL, decodeURL),
+		list = new UsageList($('#result')),
 		form = new Form($('#form'));
 	
 	function query(options) {
@@ -175,17 +178,15 @@ function start() {
 		list.renderItems(result);
 	}
 	
-	window.onpopstate = function (e) {
-		var q = e.state;
-		if (!q)
-			return;
-		form.keywordInput.value = q.keywords.join(' ');
-		query(q);
+	stateManager.onchangestate = function (state) {
+		var keywords = state.keywords.join(' ');
+		if (form.keywordInput.value != keywords)
+			form.keywordInput.value = keywords;
+		query(state);
 	};
 	
 	form.$element.on('query', function (e, options) {
-		window.history.pushState(options, '', toQueryString(options));
-		query(options);
+		stateManager.push(options);
 	});
 	
 	$.ajax('../../data/pesticide/usages-search.json')
@@ -196,12 +197,7 @@ function start() {
 		form.submitButton.disabled = false;
 		
 		// process query params, if any
-		var q = parseQueryString(decodeURIComponent(window.location.search));
-		if (q) {
-			window.history.replaceState(q, '', null);
-			form.keywordInput.value = q.keywords.join(' ');
-			query(q);
-		}
+		stateManager.ready();
 	});
 	
 }
