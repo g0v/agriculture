@@ -94,7 +94,7 @@ function _renderHits(html, keywords) {
 			'<span class="hit hit-' + i + '">' + k + '</span>');
 	}
 	return html;
-};
+}
 
 UsageList.prototype._usageHTML = function (row, id, keywords) {
 	var item = row.data,
@@ -203,7 +203,11 @@ function start() {
 	.done(function (data) {
 		window.data = data;
 		// remove loading mark & enable submit
-		// TODO: loading mark
+		$('#loading')
+		.one($.support.transition.end, function () {
+			this.remove();
+		})
+		.removeClass('in');
 		form.submitButton.disabled = false;
 		
 		// process query params, if any
