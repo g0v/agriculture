@@ -86,11 +86,21 @@ UsageList.prototype._groupListHTML = function (groups) {
 };
 */
 
-UsageList.prototype._usageHTML = function (row, id) {
+function _renderHits(html, keywords) {
+	keywords = keywords || [];
+	for (var i = 0, len = keywords.length, k; i < len; i++) {
+		k = keywords[i];
+		html = html.replace(new RegExp(k, 'g'), 
+			'<span class="hit hit-' + i + '">' + k + '</span>');
+	}
+	return html;
+};
+
+UsageList.prototype._usageHTML = function (row, id, keywords) {
 	var item = row.data,
 		pesticide = window.data.pesticides[item.pesticideId];
 	// TODO: render hit information
-	return this.templates.usage({
+	return _renderHits(this.templates.usage({
 		id: id,
 		'作物': item['作物名稱'],
 		'病蟲': item['病蟲名稱'],
@@ -110,27 +120,27 @@ UsageList.prototype._usageHTML = function (row, id) {
 		'施藥方法': item['施藥方法'],
 		'注意事項': item['注意事項'],
 		'備註': item['備註']
-	});
+	}), keywords);
 };
 
-UsageList.prototype._usageListHTML = function (rows) {
+UsageList.prototype._usageListHTML = function (rows, keywords) {
 	var self = this,
 		content = '',
 		id = 0;
 	rows.forEach(function (row) {
-		content += self._usageHTML(row, id++);
+		content += self._usageHTML(row, id++, keywords);
 	});
 	return this.templates.container({ content: content });
 };
 
-UsageList.prototype.renderItems = function (rows) {
+UsageList.prototype.renderItems = function (rows, keywords) {
 	this.clear();
-	this.$element.append(this._usageListHTML(rows));
+	this.$element.append(this._usageListHTML(rows, keywords));
 };
 
-UsageList.prototype.renderGroups = function (groups) {
+UsageList.prototype.renderGroups = function (groups, keywords) {
 	this.clear();
-	this.$element.append(this._groupListHTML(groups));
+	this.$element.append(this._groupListHTML(groups, keywords));
 };
 
 function encodeURL(query) {
@@ -175,7 +185,7 @@ function start() {
 		
 		var result = window.search(window.data.usages, filter, order);
 		// TODO: grouper
-		list.renderItems(result);
+		list.renderItems(result, keywords);
 	}
 	
 	stateManager.onchangestate = function (state) {

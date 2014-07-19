@@ -108,3 +108,7 @@ body.pesticide-usages #result .products {
 body.pesticide-usages #result .products > * {
 	display: inline-block; /* word wrap unit */
 }
+body.pesticide-usages #result .hit {
+	border-radius: 2px;
+	background-color: #FFF176; /* yellow 300 */
+}
