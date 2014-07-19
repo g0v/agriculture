@@ -144,7 +144,7 @@ UsageList.prototype.renderGroups = function (groups, keywords) {
 };
 
 function encodeURL(query) {
-	return (!query || !query.keywords) ? '' : '?q=' + query.keywords.join(',');
+	return (!query || !query.keywords) ? '' : '?q=' + query.keywords.join('+');
 }
 
 function decodeURL(location) {
@@ -159,7 +159,7 @@ function decodeURL(location) {
 			return;
 		k = s.substring(0, i);
 		if (k == 'q')
-			query.keywords = s.substring(i + 1).split(',');
+			query.keywords = s.substring(i + 1).split('+');
 	});
 	return query.keywords && query;
 }
