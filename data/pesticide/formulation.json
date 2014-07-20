@@ -1,0 +1,547 @@
+[
+	{
+		"id": "AB",
+		"title": "Grain bait",
+		"description": "Special form of bait."
+	},
+	{
+		"id": "AE",
+		"title": "Aerosol dispenser",
+		"description": "A container held formulation which is dispersed generally by a propellant as fine droplets or particles upon the actuation of a valve."
+	},
+	{
+		"id": "AL",
+		"title": "Any other liquid",
+		"zh-title": "其他液劑",
+		"description": "A liquid not yet designated by a special code, to be applied undiluted."
+	},
+	{
+		"id": "AP",
+		"title": "Any other powder",
+		"zh-title": "其他粉劑",
+		"description": "A powder not yet designated by a special code, to be applied undiluted."
+	},
+	{
+		"id": "BB",
+		"title": "Block bait",
+		"description": "Special form of bait."
+	},
+	{
+		"id": "BR",
+		"title": "Briquette",
+		"description": "Solid block designed for controlled release of active ingredient into water."
+	},
+	{
+		"id": "CB",
+		"title": "Bait concentrate",
+		"description": "A solid or liquid intended for dilution before use as a bait."
+	},
+	{
+		"id": "CF",
+		"title": "Capsule suspension for seed treatment",
+		"description": "A stable suspension of capsules in a fluid to be applied to the seed, either directly or after dilution."
+	},
+	{
+		"id": "CG",
+		"title": "Encapsulated granule",
+		"zh-title": "膠囊粒劑",
+		"description": "A granule with a protective or release-controlling coating."
+	},
+	{
+		"id": "CL",
+		"title": "Contact liquid or gel",
+		"zh-title": "觸殺液劑",
+		"description": "Rodenticidal or insecticidal formulation in the form of a liquid/gel for direct application, or after dilution in the case of gels."
+	},
+	{
+		"id": "CP",
+		"title": "Contact powder",
+		"zh-title": "觸殺粉劑",
+		"description": "Rodenticidal or insecticidal formulation in powder form for direct application. Formerly known as tracking powder (TP)."
+	},
+	{
+		"id": "CS",
+		"title": "Capsule suspension",
+		"zh-title": "膠囊懸著液",
+		"description": "A stable suspension of capsules in a fluid, normally intended for dilution with water before use."
+	},
+	{
+		"id": "DC",
+		"title": "Dispersible concentrate",
+		"zh-title": "水分散性乳劑",
+		"description": "A liquid homogeneous formulation to be applied as a solid dispersion after dilution in water. (Note: there are some formulations which have characteristics intermediate between DC and EC)."
+	},
+	{
+		"id": "DP",
+		"title": "Dustable powder",
+		"zh-title": "粉劑",
+		"description": "A free-flowing powder suitable for dusting."
+	},
+	{
+		"id": "DS",
+		"title": "Powder for dry seed treatment",
+		"description": "A powder for application in the dry state directly to the seed."
+	},
+	{
+		"id": "DT",
+		"title": "Tablet for direct application",
+		"zh-title": "片劑",
+		"description": "Formulation in the form of tablets to be applied individually and directly in the field, and/or bodies of water, without preparation of a spraying solution or dispersion."
+	},
+	{
+		"id": "EC",
+		"title": "Emulsifiable concentrate",
+		"zh-title": "乳劑",
+		"description": "A liquid, homogeneous formulation to be applied as an emulsion after dilution in water."
+	},
+	{
+		"id": "ED",
+		"title": "Electrochargeable liquid",
+		"zh-title": "荷電液劑",
+		"description": "Special liquid formulation for electrostatic (electrodynamic) spraying."
+	},
+	{
+		"id": "EG",
+		"title": "Emulsifiable granule",
+		"zh-title": "粒狀乳劑",
+		"description": "A granule formulation to be applied as an oil-in-water emulsion of the active ingredient after disintegration in water, which may contain water insoluble formulants."
+	},
+	{
+		"id": "EO",
+		"title": "Emulsion, water in oil",
+		"zh-title": "油基乳劑",
+		"description": "A fluid, heterogeneous formulation consisting of a solution of pesticide in water dispersed as fine globules in a continuous organic liquid phase."
+	},
+	{
+		"id": "ES",
+		"title": "Emulsion for seed treatment",
+		"description": "A stable emulsion for application to the seed either directly or after dilution."
+	},
+	{
+		"id": "EW",
+		"title": "Emulsion, oil in water",
+		"zh-title": "水基乳劑",
+		"description": "A fluid, heterogeneous formulation consisting of a solution of pesticide in an organic liquid dispersed as fine globules in a continuous water phase."
+	},
+	{
+		"id": "FD",
+		"title": "Smoke tin",
+		"description": "Special form of smoke generator."
+	},
+	{
+		"id": "FG",
+		"title": "Fine granule",
+		"zh-title": "細粒劑",
+		"description": "A granule in the particle size range from 300 to 2500 m."
+	},
+	{
+		"id": "FK",
+		"title": "Smoke candle",
+		"description": "Special form of smoke generator."
+	},
+	{
+		"id": "FP",
+		"title": "Smoke cartridge",
+		"description": "Special form of smoke generator."
+	},
+	{
+		"id": "FR",
+		"title": "Smoke rodlet",
+		"description": "Special form of smoke generator."
+	},
+	{
+		"id": "FS",
+		"title": "Flowable concentrate for seed treatment",
+		"description": "A stable suspension for application to the seed either directly or after dilution."
+	},
+	{
+		"id": "FT",
+		"title": "Smoke tablet",
+		"description": "Special form of smoke generator."
+	},
+	{
+		"id": "FU",
+		"title": "Smoke generator",
+		"zh-title": "燻煙劑",
+		"description": "A combustible formulation, generally solid, which upon ignition releases the active ingredient(s) in the form of smoke.",
+		"forms": [
+			{
+				"id": "FK",
+				"title": "Smoke candle"
+			},
+			{
+				"id": "FP",
+				"title": "Smoke cartridge"
+			},
+			{
+				"id": "FW",
+				"title": "Smoke pellet"
+			},
+			{
+				"id": "FR",
+				"title": "Smoke rodlet"
+			},
+			{
+				"id": "FT",
+				"title": "Smoke tablet"
+			},
+			{
+				"id": "FD",
+				"title": "Smoke tin"
+			}
+		]
+	},
+	{
+		"id": "FW",
+		"title": "Smoke pellet",
+		"description": "Special form of smoke generator."
+	},
+	{
+		"id": "GA",
+		"title": "Gas",
+		"zh-title": "氣劑",
+		"description": "A gas packed in pressure bottle or pressure tank."
+	},
+	{
+		"id": "GB",
+		"title": "Granular bait",
+		"description": "Special form of bait."
+	},
+	{
+		"id": "GE",
+		"title": "Gas generating product",
+		"zh-title": "產氣劑",
+		"description": "A product which generates a gas by chemical reaction."
+	},
+	{
+		"id": "GF",
+		"title": "Gel for seed treatment",
+		"description": "A homogeneous gelatinous formulation to be applied directly to the seed."
+	},
+	{
+		"id": "GG",
+		"title": "Macrogranule",
+		"zh-title": "大粒劑",
+		"description": "A granule in the particle size range from 2000 to 6000 m."
+	},
+	{
+		"id": "GL",
+		"title": "Emulsifiable gel",
+		"zh-title": "膠狀乳劑",
+		"description": "A gelatinized formulation to be applied as an emulsion in water."
+	},
+	{
+		"id": "GP",
+		"title": "Flo-dust",
+		"zh-title": "飄浮粉劑",
+		"description": "Very fine dustable powder for pneumatic application in greenhouses."
+	},
+	{
+		"id": "GR",
+		"title": "Granule",
+		"zh-title": "粒劑",
+		"description": "A free-flowing solid product of a defined granule size range ready for use.",
+		"forms": [
+			{
+				"id": "CG",
+				"title": "Encapsulated granule", 
+				"description": "A granule with a protective or release-controlling coating."
+			},
+			{
+				"id": "FG",
+				"title": "Fine granule", 
+				"description": "Particle size range from 300 to 2500 m."
+			},
+			{
+				"id": "GG",
+				"title": "Macrogranule", 
+				"description": "Particle size range from 2000 to 6000 m."
+			},
+			{
+				"id": "MG",
+				"title": "Microgranule", 
+				"description": "Particle size range from 100 to 600 m."
+			}
+		]
+	},
+	{
+		"id": "GS",
+		"title": "Grease",
+		"zh-title": "軟膏劑",
+		"description": "Very viscous formulation based on oil or fat."
+	},
+	{
+		"id": "GW",
+		"title": "Water soluble gel",
+		"zh-title": "水溶性膠狀劑",
+		"description": "Agelatinized formulation to be applied as an aqueous solution."
+	},
+	{
+		"id": "HN",
+		"title": "Hot fogging concentrate",
+		"zh-title": "熱霧劑",
+		"description": "A formulation suitable for application by hot fogging equipment, either directly or after dilution."
+	},
+	{
+		"id": "KK",
+		"title": "Combi-pack solid/liquid",
+		"zh-title": "固-液混合包裝桶混劑",
+		"description": "A solid and a liquid formulation, separately contained within one outer pack, intended for simultaneous application in a tank mix."
+	},
+	{
+		"id": "KL",
+		"title": "Combi-pack liquid/liquid",
+		"zh-title": "液-液混合包裝桶混劑",
+		"description": "Two liquid formulations, separately contained within one outer pack, intended for simultaneous application in a tank mix."
+	},
+	{
+		"id": "KN",
+		"title": "Cold fogging concentrate",
+		"zh-title": "冷霧劑",
+		"description": "A formulation suitable for application by cold fogging equipment, either directly or after dilution."
+	},
+	{
+		"id": "KP",
+		"title": "Combi-pack solid/solid",
+		"zh-title": "固-固混合包裝桶混劑",
+		"description": "Two solid formulations, separately contained within one outer pack, intended for simultaneous application in a tank mix."
+	},
+	{
+		"id": "LA",
+		"title": "Lacquer",
+		"description": "Solvent-based, film-forming composition."
+	},
+	{
+		"id": "LS",
+		"title": "Solution for seed treatment",
+		"description": "A solution for application to the seed either directly or after dilution."
+	},
+	{
+		"id": "ME",
+		"title": "Micro-emulsion",
+		"zh-title": "微乳劑",
+		"description": "A clear to opalescent, oil and water containing liquid, to be applied directly or after dilution in water, when it may form a diluted micro-emulsion or a conventional emulsion."
+	},
+	{
+		"id": "MG",
+		"title": "Microgranule",
+		"zh-title": "微粒劑",
+		"description": "A granule in the particle size range from 100 to 600 m."
+	},
+	{
+		"id": "OF",
+		"title": "Oil miscible flowable",
+		"zh-title": "油懸劑",
+		"description": "A stable suspension of active ingredient(s) in concentrate (oil miscible a fluid intended for dilution in an organic suspension) liquid before use."
+	},
+	{
+		"id": "OL",
+		"title": "Oil miscible liquid",
+		"zh-title": "油溶性液劑",
+		"description": "A liquid, homogeneous formulation to be applied as a homogeneous liquid after dilution in an organic liquid."
+	},
+	{
+		"id": "OP",
+		"title": "Oil dispersible powder",
+		"zh-title": "油分散性粉劑",
+		"description": "A powder formulation to be applied as a suspension after dispersion in an organic liquid."
+	},
+	{
+		"id": "PA",
+		"title": "Paste",
+		"zh-title": "糊狀劑",
+		"description": "Water-based, film-forming composition."
+	},
+	{
+		"id": "PB",
+		"title": "Plate bait",
+		"description": "Special form of bait."
+	},
+	{
+		"id": "PC",
+		"title": "Gel or paste concentrate",
+		"description": "A solid formulation to be applied as a gel or paste after dilution with water."
+	},
+	{
+		"id": "PO",
+		"title": "Pour-on",
+		"description": "Solution for pouring on the skin of animals in a high volume (normally more than 100 ml per animal)."
+	},
+	{
+		"id": "PR",
+		"title": "Plant rodlet",
+		"description": "A small rodlet, usually a few centimetres in length and a few millimetres in diameter, containing an active ingredient."
+	},
+	{
+		"id": "PS",
+		"title": "Seed coated with a pesticide",
+		"description": "Self defining."
+	},
+	{
+		"id": "RB",
+		"title": "Bait (ready for use)",
+		"zh-title": "餌劑",
+		"description": "A formulation designed to attract and be eaten by the target pests.",
+		"forms": [
+			{
+				"id": "BB",
+				"title": "Block bait"
+			},
+			{
+				"id": "AB",
+				"title": "Grain bait"
+			},
+			{
+				"id": "GB",
+				"title": "Granular bait"
+			},
+			{
+				"id": "PB",
+				"title": "Plate bait"
+			},
+			{
+				"id": "SB",
+				"title": "Scrap bait"
+			}
+		]
+	},
+	{
+		"id": "SA",
+		"title": "Spot-on",
+		"description": "Solution for spot application on the skin of animals in a low volume (normally less than 100 ml per animal)."
+	},
+	{
+		"id": "SB",
+		"title": "Scrap bait",
+		"description": "Special form of bait."
+	},
+	{
+		"id": "SC",
+		"title": "Suspension concentrate (= flowable concentrate)",
+		"zh-title": "水懸劑",
+		"description": "A stable suspension of active ingredient(s) in a fluid, which may contain other dissolved active ingredient(s), intended for dilution with water before use."
+	},
+	{
+		"id": "SE",
+		"title": "Suspo-emulsion",
+		"zh-title": "濃懸乳劑",
+		"description": "A fluid, heterogeneous formulation consisting of a stable dispersion of active ingredients in the form of solid particles and fine globules in a continuous water phase."
+	},
+	{
+		"id": "SG",
+		"title": "Water soluble granules",
+		"zh-title": "水溶性粒劑",
+		"description": "A formulation consisting of granules to be applied as a true solution of the active ingredient after dissolution in water, but which may contain insoluble inert ingredients."
+	},
+	{
+		"id": "SL",
+		"title": "Soluble concentrate",
+		"zh-title": "溶液",
+		"description": "A liquid, homogeneous formulation to be applied as a true solution of the active ingredient after dilution in water."
+	},
+	{
+		"id": "SO",
+		"title": "Spreading oil",
+		"description": "Formulation designed to form a surface layer on application to water."
+	},
+	{
+		"id": "SP",
+		"title": "Water soluble powder",
+		"zh-title": "水溶性粉劑",
+		"description": "A powder formulation to be applied as a true solution of the active ingredient after dissolution in water, but which may contain insoluble inert ingredients."
+	},
+	{
+		"id": "SS",
+		"title": "Water soluble powder for seed treatment",
+		"description": "A powder to be dissolved in water before application to the seed."
+	},
+	{
+		"id": "ST",
+		"title": "Water soluble tablet",
+		"zh-title": "水溶性片劑",
+		"description": "Formulation in form of tablets to be used individually, to form a solution of the active ingredient after disintegration in water. The formulation may contain water insoluble formulants."
+	},
+	{
+		"id": "SU",
+		"title": "Ultra-low volume (ULV) suspension",
+		"zh-title": "超低容量懸浮劑",
+		"description": "A suspension ready for use through ULV equipment."
+	},
+	{
+		"id": "TB",
+		"title": "Tablet",
+		"description": "Pre-formed solids of uniform shape and dimensions, usually circular, with either flat or convex faces, the distance between faces being less than the diameter.",
+		"forms": [
+			{
+				"id": "DT",
+				"title": "Tablets for direct application"
+			},
+			{
+				"id": "ST",
+				"title": "Tablets for dissolution in water"
+			},
+			{
+				"id": "WT",
+				"title": "Tablets for dispersion in water"
+			}
+		]
+	},
+	{
+		"id": "TC",
+		"title": "Technical material",
+		"zh-title": "原體",
+		"description": "A material resulting from a manufacturing process comprising the active ingredient, together with associated impurities. This may contain small amounts of necessary additives."
+	},
+	{
+		"id": "TK",
+		"title": "Technical concentrate",
+		"description": "A technical material either in solution or diluted with solid adjuvants for use only in the preparation of formulations."
+	},
+	{
+		"id": "TP",
+		"discontinued": true,
+		"refer-to": "CP",
+		"title": "Tracking powder",
+		"description": "Discontinued terms. Refer to CP."
+	},
+	{
+		"id": "UL",
+		"title": "Ultra-low volume (ULV) liquid",
+		"zh-title": "超低容量液劑",
+		"description": "A homogeneous liquid ready for use through ULV equipment."
+	},
+	{
+		"id": "VP",
+		"title": "Vapour releasing product",
+		"zh-title": "蒸散劑",
+		"description": "A formulated product containing one or more volatile ingredients, the vapours of which are released into the air. Evaporation rate is normally controlled by using suitable formulations and/or dispensers."
+	},
+	{
+		"id": "WG",
+		"title": "Water dispersible granules",
+		"zh-title": "水分散性粒劑",
+		"description": "A formulation consisting of granules to be applied after disintegration and dispersion in water."
+	},
+	{
+		"id": "WP",
+		"title": "Wettable powder",
+		"zh-title": "可溼性粉劑",
+		"description": "A powder formulation to be applied as a suspension after dispersion in water."
+	},
+	{
+		"id": "WS",
+		"title": "Water dispersible powder for slurry seed treatment",
+		"description": "A powder to be dispersed at high concentration in water before application as a slurry to the seed."
+	},
+	{
+		"id": "WT",
+		"title": "Water dispersible tablet",
+		"zh-title": "水分散性片劑",
+		"description": "Formulation in the form of tablets to be used individually, to form a dispersion of the active ingredient after disintegration in water."
+	},
+	{
+		"id": "XX",
+		"title": "Others",
+		"description": "Temporary categorization of all other formulations not listed above."
+	}
+]

@@ -66,18 +66,19 @@ gulp.task('data.download.pesticide', function (callback) {
  * dependencies to them.
  */
 gulp.task('data.build', [
-	'data.build.pesticide'
+	'data.build.pesticide',
+	'data.build.formulation'
 ]);
 
 /* Precondition: all downloaded raw files are available, which includes:
- * + /_raw/download/licenses.json
- * + /_raw/download/index.json
- * + /_raw/download/entries/{id}.json
+ * + /_raw/download/pesticide/licenses.json
+ * + /_raw/download/pesticide/index.json
+ * + /_raw/download/pesticide/entries/{id}.json
  * 
  * This task shall write the following files:
  * + /pesticide/index.html
  * + /pesticide/{id}/index.html
- * + /data/pesticide/usages.json
+ * + /data/pesticide/usages-search.json
  */
 gulp.task('data.build.pesticide', function (callback) {
 	
@@ -204,6 +205,26 @@ gulp.task('data.build.pesticide', function (callback) {
 			
 		});
 		
+	});
+	
+});
+
+/* Precondition: the following files are available:
+ * + /_raw/manual/pesticide/fomulation.json
+ * 
+ * This task shall write the following files:
+ * + /data/pesticide/formulation.json
+ * + /pesticide/formulation.html
+ */
+gulp.task('data.build.formulation', function (callback) {
+	
+	// callback is invoked when end is called 2 times
+	var end = streamy.util.wait(2, callback);
+	
+	fs.readFile('./_raw/manual/pesticide/formulation.json', 'utf8', function (err, data) {
+		fs.writeFile('./data/pesticide/formulation.json', data, end); // end 1
+		fs.writeFile('./pesticide/formulation.html', 
+			jekyllify('pesticide-formulation', data), end); // end 2
 	});
 	
 });

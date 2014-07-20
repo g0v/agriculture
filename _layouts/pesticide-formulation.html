@@ -1,0 +1,27 @@
+---
+layout: default
+name: pesticide-formulation
+---
+
+<div>
+{% for entry in page.data %}
+	<div id="{{ entry.id }}">
+		<h3>{{ entry.id }}</h3>
+		<ul>
+			<li>名稱：{{ entry.title }}</li>
+			{% if entry['zh-title'] %}
+			<li>中文名稱：{{ entry['zh-title'] }}</li>
+			{% endif %}
+			<li>{{ entry.description }}</li>
+			{% if entry.forms %}
+				特殊型式：
+				<ul>
+				{% for form in entry.forms %}
+					<li>{{ form.id }}：{{ form.title }}{% if form.description %} ({{ form.description }}){% endif %}</li>
+				{% endfor %}
+				</ul>
+			{% endif %}
+		</ul>
+	</div>
+{% endfor %}
+</div>
