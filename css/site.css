@@ -114,6 +114,8 @@ body.pesticide-usages #form input {
 	display: block;
 	border-color: transparent;
 	height: 100%;
+	width: 100%;
+	outline: none;
 	color: #555;
 }
 body.pesticide-usages #form .submit {
