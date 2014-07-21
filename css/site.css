@@ -3,6 +3,7 @@
 	text-align: center;
 }
 
+ul.clear,
 ul.inline {
 	display: inline;
 	list-style: none;
@@ -25,6 +26,20 @@ ul.inline.comma-zh > li::after {
 	content: '、';
 }
 
+.space {
+	display: inline-block;
+}
+.x16 {
+	width: 16px;
+	height: 16px;
+}
+
+.card {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.26);
+	border-radius: 2px;
+	background-color: #FFF;
+}
+
 /* default */
 body {
 	padding-bottom: 57px;
@@ -32,6 +47,9 @@ body {
 	font-size: 16px;
 	color: #333;
 	line-height: 1.6em;
+}
+.navbar-fixed-bottom {
+	box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.26);
 }
 
 /* home page */
@@ -54,52 +72,94 @@ body.home .link {
 }
 
 /* pesticide search page */
+body.pesticide-usages {
+	background-color: #E5E5E5;
+}
+body.pesticide-usages header {
+	pointer-events: none;
+	height: 80px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+body.pesticide-usages header > * {
+	pointer-events: auto;
+}
+body.pesticide-usages header + * {
+	padding-top: 80px;
+}
 body.pesticide-usages #form {
-	padding: 16px 0;
+	position: relative;
+	height: 40px;
+	width: 480px;
+	padding: 0 80px 0 40px;
+	margin: 20px auto;
+}
+body.pesticide-usages #form i,
+body.pesticide-usages #form .submit {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	line-height: 40px;
+	font-size: 16px;
+}
+body.pesticide-usages #form i {
+	left: 0;
+	width: 40px;
+	text-align: center;
+	color: #555;
 }
 body.pesticide-usages #form input {
-	display: inline-block;
-	width: auto;
+	display: block;
+	border-color: transparent;
+	height: 100%;
+	color: #555;
+}
+body.pesticide-usages #form .submit {
+	display: block;
+	right: 0;
+	width: 80px;
+	padding: 0;
+	border-color: transparent;
+	border-radius: 0;
 }
 body.pesticide-usages #result {
-	color: #555;
-}
-body.pesticide-usages #result .table {
-	width: auto;
-	margin: 0 auto;
-}
-body.pesticide-usages #result ul {
-	list-style: none;
-	padding: 0;
-}
-body.pesticide-usages #result th.detail-toggle {
-	width: 40px;
-	cursor: pointer;
-}
-body.pesticide-usages #result td.detail-toggle {
 	text-align: center;
-}
-body.pesticide-usages #result .detail-toggle-btn {
-	padding: 4px;
 	color: #555;
 }
-body.pesticide-usages #result .detail-toggle-btn:hover {
-	color: #333;
+
+
+
+body.pesticide-usages #result .usage {
+	display: inline-block;
+	margin: 16px;
+	padding: 16px;
+	text-align: left;
+	vertical-align: top;
+	max-width: 45%;
 }
-body.pesticide-usages #result .detail-toggle-icon::before {
-	content: "\f147"; /* fa-plus-minus-o */
+body.pesticide-usages #result .usage .desc-label {
+	
 }
-body.pesticide-usages #result .collapsed .detail-toggle-icon::before {
-	content: "\f196"; /* fa-plus-square-o */
+body.pesticide-usages #result .usage .desc-block {
+	margin-top: 12px;
 }
-body.pesticide-usages #result tr.detail td {
+body.pesticide-usages #result .usage .desc-indent {
+	padding-left: 16px;
+}
+body.pesticide-usages #result .usage .toggle-detail-btn {
+	display: inline;
 	padding: 0;
+	font-size: 16px;
+	border: none;
+	outline: none;
 }
-body.pesticide-usages #result .detail-content {
-	padding: 8px;
+body.pesticide-usages #result .usage .detail {
+	display: none;
 }
-body.pesticide-usages #result .detail-content > * {
-	margin-bottom: 16px;
+body.pesticide-usages #result .usage.open .detail {
+	display: block;
 }
 body.pesticide-usages #result .products {
 	display: block;

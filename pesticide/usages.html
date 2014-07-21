@@ -12,85 +12,144 @@ js: [
 ]
 ---
 
-<div id="form" class="center-aligned">
-	<input class="keyword form-control" placeholder="請輸入關鍵字">
-	<button type="submit" class="submit btn btn-default" disabled>搜尋</button>
+<header>
+	<div class="container">
+		<div id="form" class="card">
+			<i class="fa fa-search"></i>
+			<input class="keyword" placeholder="請輸入關鍵字">
+			<button type="submit" class="submit btn btn-primary" disabled>搜尋</button>
+		</div>
+	</div>
+</header>
+
+<div>
+	<div class="container">
+		<div id="result"></div>
+		{% include loading.html id="loading" %}
+	</div>
 </div>
-<div id="result"></div>
-{% include loading.html id="loading" %}
 
 {% raw %}
 <script id="container-template" type="text/x-handlebars-template">
-	<table class="table table-hover table-responsive">
-		<thead>
-			<tr>
-				<th class="detail-toggle"> </th>
-				<th>藥劑</th>
-				<th>作物</th>
-				<th>病蟲</th>
-				<th>劑型</th>
-				<th>安全採收期</th>
-				<th>使用時期</th>
-			</tr>
-		</thead>
-		<tbody>
-			{{{content}}}
-		</tbody>
-	</table>
+	<ul class="usages clear clearfix">
+		{{{content}}}
+	</ul>
 </script>
 <script id="usage-template" type="text/x-handlebars-template">
-	<tr class="summary">
-		<td class="detail-toggle">
-			<a class="detail-toggle-btn collapsed" data-toggle="collapse" href="#detail-content-{{id}}">
-				<i class="fa detail-toggle-icon"></i>
-			</a>
-		</td>
-		<td>{{藥劑}}</td>
-		<td>{{作物}}</td>
-		<td>{{病蟲}}</td>
-		<td>{{劑型}}</td>
-		<td>{{安全採收期}}</td>
-		<td>{{使用時期}}</td>
-	</tr>
-	<tr class="detail">
-		<td>
-		</td>
-		<td colspan="6">
-			<div id="detail-content-{{id}}" class="detail-content collapse">
-				<ul>
-					<li>核准日期：{{核准日期}}</li>
-					<li>原始登記廠商名稱：{{原始登記廠商名稱}}</li>
-					<li class="clearfix">
-						<span class="pull-left">產品：</span>
-						<ul class="products inline comma-zh">
-							{{#each products}}
-								<li>{{this}}</li>
-							{{/each}}
-						</ul>
-					</li>
+	<li class="usage card">
+		<div>
+			<i class="fa fa-flask x16"></i>
+			<span class="desc-label">藥劑：</span>{{藥劑}}
+		</div>
+		<div>
+			<span class="space x16"></span>
+			<span class="desc-label">劑型：</span>{{劑型}}
+		</div>
+		<div>
+			<i class="fa fa-leaf x16"></i>
+			<span class="desc-label">作物：</span>{{作物}}
+		</div>
+		<div>
+			<i class="fa fa-bug x16"></i>
+			<span class="desc-label">病蟲：</span>{{病蟲}}
+		</div>
+		{{#if 安全採收期 }}
+		<div>
+			<i class="fa fa-calendar x16"></i>
+			<span class="desc-label">安全採收期：</span>{{安全採收期}}
+		</div>
+		{{/if}}
+		{{#if 使用時期 }}
+		<div class="desc-block">
+			<div class="desc-label">使用時期：</div>
+			<div class="desc-indent">{{使用時期}}</div>
+		</div>
+		{{/if}}
+		<div class="desc-block">
+			<button type="button" class="toggle-detail-btn btn btn-link">詳細資料</button>
+		</div>
+		<div class="detail">
+			
+			<hr>
+			
+			<div class="clearfix">
+				<span class="pull-left">
+					<i class="fa fa-flask x16"></i>
+					<span class="desc-label">產品：</span>
+				</span>
+				<ul class="products inline comma-zh">
+					{{#each products}}
+					<li>{{this}}</li>
+					{{/each}}
 				</ul>
-				<ul>
-					<li>含量：{{含量}}</li>
-					<li>每公頃每次用量：{{每公頃每次用量}}</li>
-					<li>稀釋倍數：{{稀釋倍數}}</li>
-					<li>施藥間隔：{{施藥間隔}}</li>
-					<li>施用次數：{{施用次數}}</li>
-					<li>施藥方法：{{施藥方法}}</li>
-				</ul>
-				{{#if 注意事項 }}
-				<p>
-					注意事項：<br>
-					{{注意事項}}
-				</p>
+			</div>
+			{{#if 核准日期 }}
+			<div>
+				<span class="space x16"></span>
+				<span class="desc-label">核准日期：</span>{{核准日期}}
+			</div>
+			{{/if}}
+			{{#if 原始登記廠商名稱 }}
+			<div>
+				<span class="space x16"></span>
+				<span class="desc-label">原始登記廠商名稱：</span>{{原始登記廠商名稱}}
+			</div>
+			{{/if}}
+			
+			<div class="desc-block">
+				{{#if 含量 }}
+				<div>
+					<span class="space x16"></span>
+					<span class="desc-label">含量：</span>{{含量}}
+				</div>
 				{{/if}}
-				{{#if 備註 }}
-				<p>
-					備註：<br>
-					{{備註}}
-				</p>
+				{{#if 每公頃每次用量 }}
+				<div>
+					<span class="space x16"></span>
+					<span class="desc-label">每公頃每次用量：</span>{{每公頃每次用量}}
+				</div>
+				{{/if}}
+				{{#if 稀釋倍數 }}
+				<div>
+					<span class="space x16"></span>
+					<span class="desc-label">稀釋倍數：</span>{{稀釋倍數}}
+				</div>
+				{{/if}}
+				{{#if 施藥間隔 }}
+				<div>
+					<span class="space x16"></span>
+					<span class="desc-label">施藥間隔：</span>{{施藥間隔}}
+				</div>
+				{{/if}}
+				{{#if 施用次數 }}
+				<div>
+					<span class="space x16"></span>
+					<span class="desc-label">施用次數：</span>{{施用次數}}
+				</div>
 				{{/if}}
 			</div>
-		</td>
-	</tr>
+			
+			{{#if 施藥方法 }}
+			<div class="desc-block">
+				<div class="desc-label">施藥方法：</div>
+				<div class="desc-indent">{{施藥方法}}</div>
+			</div>
+			{{/if}}
+			
+			{{#if 注意事項 }}
+			<div class="desc-block">
+				<div class="desc-label">注意事項：</div>
+				<div class="desc-indent">{{注意事項}}</div>
+			</div>
+			{{/if}}
+			
+			{{#if 備註 }}
+			<div class="desc-block">
+				<div class="desc-label">備註：</div>
+				<div class="desc-indent">{{備註}}</div>
+			</div>
+			{{/if}}
+		</div>
+	</li>
 </script>
 {% endraw %}

@@ -28,9 +28,9 @@ function containsKeyword(item, keyword) {
 		fieldContains(pesticide, 'products', keyword);
 }
 
-var Form = function ($element) {
-	var self = this;
-	this.$element = $element;
+var Form = function (element) {
+	var self = this,
+		$element = this.$element = $(element);
 	this.keywordInput = $element.find('.keyword')[0];
 	this.submitButton = $element.find('.submit')[0];
 	
@@ -53,12 +53,17 @@ function getTemplate(selector) {
 	return window.Handlebars.compile($(selector).html());
 }
 
-var UsageList = function ($element) {
-	this.$element = $element;
+var UsageList = function (element) {
+	var $element = this.$element = $(element);
 	this.templates = {
 		container: getTemplate('#container-template'),
 		usage: getTemplate('#usage-template')
 	};
+	$element.on('click', '.toggle-detail-btn', function (e) {
+		var $usage = $(e.currentTarget).closest('.usage');
+		$usage.toggleClass('open');
+		//$usage[0].scrollIntoView(); // TODO: do this manually
+	});
 };
 
 UsageList.prototype.clear = function () {
@@ -169,8 +174,8 @@ function decodeURL(location) {
 function start() {
 	
 	var stateManager = new window.StateManager(encodeURL, decodeURL),
-		list = new UsageList($('#result')),
-		form = new Form($('#form'));
+		list = new UsageList('#result'),
+		form = new Form('#form');
 	
 	function query(options) {
 		if (!options || !options.keywords || !options.keywords.length) {
@@ -202,6 +207,7 @@ function start() {
 	$.ajax('../../data/pesticide/usages-search.json')
 	.done(function (data) {
 		window.data = data;
+		
 		// remove loading mark & enable submit
 		$('#loading')
 		.one($.support.transition.end, function () {
