@@ -160,6 +160,9 @@ body.pesticide-usages #result .usage {
 	padding: 16px;
 	text-align: left;
 	vertical-align: top;
+	max-width: 30%;
+}
+body.pesticide-usages #result .usage.open {
 	max-width: 45%;
 }
 body.pesticide-usages #result .usage .desc-label {
