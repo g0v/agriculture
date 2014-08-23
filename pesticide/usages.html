@@ -41,7 +41,7 @@ js: [
 	</ul>
 </script>
 <script id="usage-template" type="text/x-handlebars-template">
-	<li class="usage card">
+	<li id="{{id}}" class="usage card">
 		<div>
 			<i class="fa fa-flask x16"></i>
 			<span class="desc-label">藥劑：</span>{{藥劑}}
@@ -74,85 +74,86 @@ js: [
 			<button type="button" class="toggle-detail-btn btn btn-link">詳細資料</button>
 		</div>
 		<div class="detail">
-			
-			<hr>
-			
-			<div class="clearfix">
-				<span class="pull-left">
-					<i class="fa fa-flask x16"></i>
-					<span class="desc-label">產品：</span>
-				</span>
-				<ul class="products inline comma-zh">
-					{{#each products}}<li>{{this}}</li>{{/each}}
-				</ul>
-			</div>
-			{{#if 核准日期 }}
-			<div>
-				<span class="space x16"></span>
-				<span class="desc-label">核准日期：</span>{{核准日期}}
-			</div>
-			{{/if}}
-			{{#if 原始登記廠商名稱 }}
-			<div>
-				<span class="space x16"></span>
-				<span class="desc-label">原始登記廠商名稱：</span>{{原始登記廠商名稱}}
-			</div>
-			{{/if}}
-			
-			<div class="desc-block">
-				{{#if 含量 }}
-				<div>
-					<span class="space x16"></span>
-					<span class="desc-label">含量：</span>{{含量}}
-				</div>
-				{{/if}}
-				{{#if 每公頃每次用量 }}
-				<div>
-					<span class="space x16"></span>
-					<span class="desc-label">每公頃每次用量：</span>{{每公頃每次用量}}
-				</div>
-				{{/if}}
-				{{#if 稀釋倍數 }}
-				<div>
-					<span class="space x16"></span>
-					<span class="desc-label">稀釋倍數：</span>{{稀釋倍數}}
-				</div>
-				{{/if}}
-				{{#if 施藥間隔 }}
-				<div>
-					<span class="space x16"></span>
-					<span class="desc-label">施藥間隔：</span>{{施藥間隔}}
-				</div>
-				{{/if}}
-				{{#if 施用次數 }}
-				<div>
-					<span class="space x16"></span>
-					<span class="desc-label">施用次數：</span>{{施用次數}}
-				</div>
-				{{/if}}
-			</div>
-			
-			{{#if 施藥方法 }}
-			<div class="desc-block">
-				<div class="desc-label">施藥方法：</div>
-				<div class="desc-indent">{{施藥方法}}</div>
-			</div>
-			{{/if}}
-			
-			{{#if 注意事項 }}
-			<div class="desc-block">
-				<div class="desc-label">注意事項：</div>
-				<div class="desc-indent">{{注意事項}}</div>
-			</div>
-			{{/if}}
-			
-			{{#if 備註 }}
-			<div class="desc-block">
-				<div class="desc-label">備註：</div>
-				<div class="desc-indent">{{備註}}</div>
-			</div>
-			{{/if}}
 		</div>
 	</li>
+</script>
+<script id="usage-detail-template" type="text/x-handlebars-template">
+	<hr>
+	
+	<div class="clearfix">
+		<span class="pull-left">
+			<i class="fa fa-flask x16"></i>
+			<span class="desc-label">產品：</span>
+		</span>
+		<ul class="products inline comma-zh">
+			{{#each products}}<li>{{this}}</li>{{/each}}
+		</ul>
+	</div>
+	{{#if 核准日期 }}
+	<div>
+		<span class="space x16"></span>
+		<span class="desc-label">核准日期：</span>{{核准日期}}
+	</div>
+	{{/if}}
+	{{#if 原始登記廠商名稱 }}
+	<div>
+		<span class="space x16"></span>
+		<span class="desc-label">原始登記廠商名稱：</span>{{原始登記廠商名稱}}
+	</div>
+	{{/if}}
+	
+	<div class="desc-block">
+		{{#if 含量 }}
+		<div>
+			<span class="space x16"></span>
+			<span class="desc-label">含量：</span>{{含量}}
+		</div>
+		{{/if}}
+		{{#if 每公頃每次用量 }}
+		<div>
+			<span class="space x16"></span>
+			<span class="desc-label">每公頃每次用量：</span>{{每公頃每次用量}}
+		</div>
+		{{/if}}
+		{{#if 稀釋倍數 }}
+		<div>
+			<span class="space x16"></span>
+			<span class="desc-label">稀釋倍數：</span>{{稀釋倍數}}
+		</div>
+		{{/if}}
+		{{#if 施藥間隔 }}
+		<div>
+			<span class="space x16"></span>
+			<span class="desc-label">施藥間隔：</span>{{施藥間隔}}
+		</div>
+		{{/if}}
+		{{#if 施用次數 }}
+		<div>
+			<span class="space x16"></span>
+			<span class="desc-label">施用次數：</span>{{施用次數}}
+		</div>
+		{{/if}}
+	</div>
+	
+	{{#if 施藥方法 }}
+	<div class="desc-block">
+		<div class="desc-label">施藥方法：</div>
+		<div class="desc-indent">{{施藥方法}}</div>
+	</div>
+	{{/if}}
+	
+	{{#if 注意事項 }}
+	<div class="desc-block">
+		<div class="desc-label">注意事項：</div>
+		<div class="desc-indent">{{注意事項}}</div>
+	</div>
+	{{/if}}
+	
+	{{#if 備註 }}
+	<div class="desc-block">
+		<div class="desc-label">備註：</div>
+		<div class="desc-indent">{{備註}}</div>
+	</div>
+	{{/if}}
 </script>
 {% endraw %}

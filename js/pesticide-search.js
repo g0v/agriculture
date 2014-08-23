@@ -54,20 +54,32 @@ function getTemplate(selector) {
 }
 
 var UsageList = function (element) {
-	var $element = this.$element = $(element);
+	var $element = this.$element = $(element),
+		self = this;
 	this.templates = {
 		container: getTemplate('#container-template'),
-		usage: getTemplate('#usage-template')
+		usage: getTemplate('#usage-template'),
+		detail: getTemplate('#usage-detail-template')
 	};
 	$element.on('click', '.toggle-detail-btn', function (e) {
 		var $usage = $(e.currentTarget).closest('.usage');
-		$usage.toggleClass('open');
-		//$usage[0].scrollIntoView(); // TODO: do this manually
+		self.setOpen($usage[0], !$usage.hasClass('open'));
 	});
 };
 
+UsageList.prototype.setOpen = function (element, value) {
+	var detail = $(element).find('.detail')[0];
+	if (value && !detail.firstElementChild) {
+		detail.innerHTML = this._detailHTML(this.results[element.id]);
+	}
+	$(element)[value ? 'addClass' : 'removeClass']('open');
+	//$usage[0].scrollIntoView(); // TODO: do this manually
+};
+
 UsageList.prototype.clear = function () {
-	this.$element.empty();
+	this.results = {};
+	this.keywords = null;
+	this.$element[0].innerHTML = '';
 };
 
 // TODO: fix when grouping is ready
@@ -101,50 +113,46 @@ function _renderHits(html, keywords) {
 	return html;
 }
 
-UsageList.prototype._usageHTML = function (row, id, keywords) {
-	var item = row.data,
-		pesticide = window.data.pesticides[item.pesticideId];
-	return _renderHits(this.templates.usage({
-		id: id,
-		'作物': item['作物名稱'],
-		'病蟲': item['病蟲名稱'],
-		'藥劑': pesticide.name,
-		products: pesticide.products.split('#'),
-		'劑型': item['劑型'],
-		'使用時期': item['使用時期'],
-		'安全採收期': item['安全採收期'],
-		'核准日期': item['核准日期'],
-		'原始登記廠商名稱': item['原始登記廠商名稱'],
-		'含量': item['含量'],
-		'混合': item['混合'],
-		'每公頃每次用量': item['每公頃每次用量'],
-		'稀釋倍數': item['稀釋倍數'],
-		'施藥間隔': item['施藥間隔'],
-		'施用次數': item['施用次數'],
-		'施藥方法': item['施藥方法'],
-		'注意事項': item['注意事項'],
-		'備註': item['備註']
-	}), keywords);
+UsageList.prototype._detailHTML = function (row) {
+	return _renderHits(this.templates.detail(row.data), this.keywords);
 };
 
-UsageList.prototype._usageListHTML = function (rows, keywords) {
+UsageList.prototype._usageHTML = function (row) {
+	return _renderHits(this.templates.usage(row.data), this.keywords);
+};
+
+function _normalizeUsageData(row, id) {
+	row.data.id = id;
+	var pesticide = window.data.pesticides[row.data.pesticideId];
+	if (pesticide) {
+		row.data['藥劑'] = pesticide.name;
+		row.data.products = pesticide.products.split('#');
+	}
+}
+
+UsageList.prototype._usageListHTML = function (rows) {
 	var self = this,
 		content = '',
-		id = 0;
+		sn = 0;
 	rows.forEach(function (row) {
-		content += self._usageHTML(row, id++, keywords);
+		var id = 'u' + (sn++);
+		_normalizeUsageData(row, id);
+		self.results[id] = row;
+		content += self._usageHTML(row);
 	});
 	return this.templates.container({ content: content });
 };
 
 UsageList.prototype.renderItems = function (rows, keywords) {
 	this.clear();
-	this.$element.append(this._usageListHTML(rows, keywords));
+	this.keywords = keywords;
+	this.$element[0].innerHTML = this._usageListHTML(rows);
 };
 
 UsageList.prototype.renderGroups = function (groups, keywords) {
 	this.clear();
-	this.$element.append(this._groupListHTML(groups, keywords));
+	this.keywords = keywords;
+	this.$element[0].innerHTML = this._groupListHTML(groups);
 };
 
 function encodeURL(query) {
