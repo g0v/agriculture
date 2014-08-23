@@ -39,6 +39,27 @@ ul.inline.comma-zh > li::after {
 	border-radius: 2px;
 	background-color: #FFF;
 }
+.bubble {
+	position: relative;
+	border-radius: 8px;
+	padding: 12px;
+}
+.bubble::after {
+	content: ' ';
+	display: block;
+	border: 6px solid transparent;
+	border-top: 10px solid #FFF;
+	border-bottom-width: 0px;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -6px;
+}
+.fallen-man {
+	position: relative;
+	font-family: monospace, "蘋果儷中黑", "微軟正黑體";
+	font-size: 20px;
+}
 
 /* default */
 body {
@@ -173,4 +194,12 @@ body.pesticide-usages #result .products > * {
 body.pesticide-usages #result .hit {
 	border-radius: 2px;
 	background-color: #FFF176; /* yellow 300 */
+}
+body.pesticide-usages #no-result {
+	display: none;
+	text-align: center;
+	margin-top: 80px;
+}
+body.pesticide-usages.no-result #no-result {
+	display: block;
 }

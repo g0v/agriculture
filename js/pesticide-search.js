@@ -104,7 +104,6 @@ function _renderHits(html, keywords) {
 UsageList.prototype._usageHTML = function (row, id, keywords) {
 	var item = row.data,
 		pesticide = window.data.pesticides[item.pesticideId];
-	// TODO: render hit information
 	return _renderHits(this.templates.usage({
 		id: id,
 		'作物': item['作物名稱'],
@@ -190,6 +189,7 @@ function start() {
 		
 		var result = window.search(window.data.usages, filter, order);
 		// TODO: grouper
+		document.body.classList[result && result.length > 0 ? 'remove' : 'add']('no-result');
 		list.renderItems(result, keywords);
 	}
 	
