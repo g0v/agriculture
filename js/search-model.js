@@ -25,6 +25,10 @@ function compareMapped(order, map) {
 	return function (x, y) { return order(map(x), map(y)); };
 }
 
+function normalizeGroupOrder(order) {
+	return compareMapped(normalizeOrder(order), fieldMap('value'));
+}
+
 function normalizeOrder(order) {
 	return (typeof order === 'function') ? order : 
 		(typeof order === 'string') ? compareMapped(defaultCompare, fieldMap(order)) :
@@ -67,7 +71,7 @@ window.group = function (list, grouper, order, hash) {
 	if (typeof grouper === 'string')
 		grouper = fieldMap(grouper);
 	hash = hash || toString;
-	order = normalizeOrder(order);
+	order = normalizeGroupOrder(order);
 	
 	var m = {}, 
 		value, key, group, 
@@ -78,7 +82,7 @@ window.group = function (list, grouper, order, hash) {
 		key = hash(value);
 		group = m[key];
 		if (!group)
-			m[key] = group = { value: value, members: [] };
+			result.push(m[key] = group = { value: value, members: [] });
 		group.members.push(row);
 	});
 	

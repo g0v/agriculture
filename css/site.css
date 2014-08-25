@@ -3,6 +3,21 @@
 	text-align: center;
 }
 
+.combobutton > .dropdown-toggle {
+	padding: 0 18px 0 12px;
+	text-align: left;
+}
+.combobutton > .dropdown-toggle > .caret {
+	position: absolute;
+	display: block;
+	top: 50%;
+	margin-top: -2px;
+	right: 12px;
+}
+.combobutton > .dropdown-menu > li > a {
+	cursor: pointer;
+}
+
 ul.clear,
 ul.inline {
 	display: inline;
@@ -108,30 +123,46 @@ body.pesticide-usages header > * {
 	pointer-events: auto;
 }
 body.pesticide-usages header + * {
-	padding-top: 80px;
+	padding-top: 160px;
 }
-body.pesticide-usages #form {
+body.pesticide-usages header .form-row {
 	position: relative;
-	height: 40px;
 	width: 480px;
-	padding: 0 80px 0 40px;
-	margin: 20px auto;
+	height: 40px;
+	margin: 20px auto 0 auto;
 }
-body.pesticide-usages #form i,
-body.pesticide-usages #form .submit {
+body.pesticide-usages header #form {
+	padding: 0 80px 0 40px;
+	margin-top: 20px;
+}
+body.pesticide-usages header i,
+body.pesticide-usages header #form .submit,
+body.pesticide-usages header #form .adv-options-toggle-btn {
 	position: absolute;
+}
+body.pesticide-usages header i,
+body.pesticide-usages header .btn {
 	top: 0;
 	bottom: 0;
 	line-height: 40px;
 	font-size: 16px;
 }
-body.pesticide-usages #form i {
+body.pesticide-usages header .btn {
+	display: block;
+	width: 80px;
+	padding: 0;
+	border-color: transparent;
+}
+body.pesticide-usages header .btn.dropdown-toggle {
+	padding: 0 18px 0 12px;
+}
+body.pesticide-usages header i {
 	left: 0;
 	width: 40px;
 	text-align: center;
 	color: #555;
 }
-body.pesticide-usages #form input {
+body.pesticide-usages header input {
 	display: block;
 	border-color: transparent;
 	height: 100%;
@@ -139,21 +170,50 @@ body.pesticide-usages #form input {
 	outline: none;
 	color: #555;
 }
-body.pesticide-usages #form .submit {
-	display: block;
+body.pesticide-usages header #form .submit {
 	right: 0;
-	width: 80px;
-	padding: 0;
-	border-color: transparent;
 	border-radius: 0;
 }
+body.pesticide-usages header #form .adv-options-toggle-btn {
+	right: -100px;
+	border-radius: 2px;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.26);
+}
+body.pesticide-usages header #adv-options {
+	display: none;
+	transition: height 0.3s;
+	-webkit-transition: height 0.3s;
+}
+body.pesticide-usages header.advanced #adv-options {
+	display: block;
+}
+body.pesticide-usages header #grouper {
+	width: 120px;
+}
+body.pesticide-usages header #grouper > .btn {
+	width: 100%;
+	background-color: #FFF !important;
+	border: 0;
+}
+body.pesticide-usages header #grouper > .dropdown-menu {
+	width: 100%;
+	border-radius: 2px;
+}
+body.pesticide-usages header #grouper > .dropdown-menu > li > a {
+	line-height: 24px;
+	font-size: 16px;
+}
+
+
+
 body.pesticide-usages #result {
 	text-align: center;
 	color: #555;
 }
-
-
-
+body.pesticide-usages #result .group-header {
+	margin-top: 20px;
+	font-size: 20px;
+}
 body.pesticide-usages #result .usage {
 	display: inline-block;
 	margin: 16px;

@@ -31,22 +31,47 @@ function containsKeyword(item, keyword) {
 var Form = function (element) {
 	var self = this,
 		$element = this.$element = $(element);
+	this._advanced = false;
+	
+	this.$header = $('header');
+	this.$grouper = $('#grouper');
+	this.advancedOptions = $('#adv-options');
+	
 	this.keywordInput = $element.find('.keyword')[0];
 	this.submitButton = $element.find('.submit')[0];
-	
-	var submit = function () {
-		var keywords = self.keywordInput.value.trim().split(/\s+/);
-		$element.trigger('query', {
-			keywords: keywords
-		});
-	};
+	this.advancedOptionsToogleButton = $element.find('.adv-options-toggle-btn')[0];
 	
 	$element
-	.on('click', '.submit', submit)
+	.on('click', '.submit', function () {
+		self.submit();
+	})
 	.on('keydown', '.keyword', function (e) {
 		if (window.data && e.which == 13)
-			submit();
+			self.submit();
+	})
+	.on('click', '.adv-options-toggle-btn', function () {
+		self.openAdvancedOptions(!self._advanced);
 	});
+};
+
+Form.prototype.submit = function () {
+	var advanced = this._advanced,
+		input = this.keywordInput.value.trim(),
+		keywords = input && input.split(/\s+/),
+		query = { keywords: keywords };
+	if (advanced) {
+		query.grouper = this.$grouper.data('selected');
+	}
+	this.$element.trigger('query', query);
+};
+
+Form.prototype.openAdvancedOptions = function (open) {
+	if (this._advanced === open)
+		return;
+	this._advanced = open;
+	this.advancedOptionsToogleButton.innerHTML = open ? '基本' : '進階';
+	// TODO: animation
+	this.$header[open ? 'addClass' : 'removeClass']('advanced');
 };
 
 function getTemplate(selector) {
@@ -58,6 +83,7 @@ var UsageList = function (element) {
 		self = this;
 	this.templates = {
 		container: getTemplate('#container-template'),
+		group: getTemplate('#group-template'),
 		usage: getTemplate('#usage-template'),
 		detail: getTemplate('#usage-detail-template')
 	};
@@ -78,6 +104,7 @@ UsageList.prototype.setOpen = function (element, value) {
 
 UsageList.prototype.clear = function () {
 	this.results = {};
+	this.groups = {};
 	this.keywords = null;
 	this.$element[0].innerHTML = '';
 };
@@ -130,6 +157,27 @@ function _normalizeUsageData(row, id) {
 	}
 }
 
+UsageList.prototype._groupListHTML = function (groups) {
+	var self = this,
+		content = '',
+		gsn = 0,
+		sn = 0;
+	groups.forEach(function (group) {
+		var gid = 'g' + (gsn++),
+			gcontent = '';
+		group.id = gid;
+		self.groups[gid] = group;
+		group.members.forEach(function (row) {
+			var id = 'u' + (sn++);
+			_normalizeUsageData(row, id);
+			self.results[id] = row;
+			gcontent += self._usageHTML(row);
+		});
+		content += self.templates.group({ id: gid, value: group.value, content: gcontent });
+	});
+	return this.templates.container({ content: content });
+};
+
 UsageList.prototype._usageListHTML = function (rows) {
 	var self = this,
 		content = '',
@@ -140,7 +188,9 @@ UsageList.prototype._usageListHTML = function (rows) {
 		self.results[id] = row;
 		content += self._usageHTML(row);
 	});
-	return this.templates.container({ content: content });
+	return this.templates.container({
+		content: this.templates.group({ content: content })
+	});
 };
 
 UsageList.prototype.renderItems = function (rows, keywords) {
@@ -170,13 +220,20 @@ function decodeURL(location) {
 		if ((i = s.indexOf('=')) < 1)
 			return;
 		k = s.substring(0, i);
-		if (k == 'q')
-			query.keywords = s.substring(i + 1).split('+');
+		if (k == 'q') {
+			var qstr = s.substring(i + 1);
+			query.keywords = qstr && qstr.split('+');
+		}
 	});
 	return query.keywords && query;
 }
 
 
+var _grouper_map = {
+	pesticide: '藥劑',
+	crop: '作物名稱',
+	disease: '病蟲名稱'
+};
 
 function start() {
 	
@@ -185,24 +242,32 @@ function start() {
 		form = new Form('#form');
 	
 	function query(options) {
-		if (!options || !options.keywords || !options.keywords.length) {
+		var kws = (options && options.keywords) || [],
+			keywords = [];
+		kws.forEach(function (w) {
+			if (w)
+				keywords.push(w);
+		});
+		if (!keywords || !keywords.length) {
 			list.clear();
 			return;
 		}
 		
-		var keywords = options.keywords,
-			filter = multipleKeywordFilter(keywords),
+		var filter = multipleKeywordFilter(keywords),
 			order = options.order,
-			grouper = options.grouper;
+			grouper = _grouper_map[options.grouper];
 		
 		var result = window.search(window.data.usages, filter, order);
-		// TODO: grouper
+		if (grouper)
+			result = window.group(result, grouper);
 		document.body.classList[result && result.length > 0 ? 'remove' : 'add']('no-result');
-		list.renderItems(result, keywords);
+		list[grouper ? 'renderGroups' : 'renderItems'](result, keywords);
 	}
 	
 	stateManager.onchangestate = function (state) {
-		var keywords = state.keywords.join(' ');
+		if (!state)
+			return; // TODO: check first page loading scenario
+		var keywords = state.keywords ? state.keywords.join(' ') : '';
 		if (form.keywordInput.value != keywords)
 			form.keywordInput.value = keywords;
 		query(state);
@@ -234,3 +299,4 @@ function start() {
 $(start);
 
 })(this);
+
