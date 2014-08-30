@@ -88,24 +88,51 @@ body {
 	box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.26);
 }
 
+
+
 /* home page */
-/* TODO: use better class names */
-body.home .option {
-	font-size: 14px;
-	vertical-align: top;
-	display: inline-block;
-	width: 500px;
-	min-width: 400px;
+body.home #wrapper {
+	width: 800px;
+	margin: 0 auto;
 }
-body.home .option h1 {
+body.home #banner {
+	height: 160px;
+	background: no-repeat center center transparent;
+	background-image: url("../img/banner.png");
+	background-size: contain;
+}
+body.home #content {
+	background: no-repeat center center transparent;
+	background-image: url("../img/bg-vine.png");
+	background-size: 100% auto;
+}
+body.home .section {
+	padding-top: 360px;
+	width: 40%;
+	background: no-repeat top center transparent;
+	background-size: contain;
+}
+body.home .section .links {
+	font-size: 20px;
+}
+body.home #farmer {
+	float: left;
+	background-image: url("../img/bg-farmer.png");
+}
+body.home #consumer {
+	float: right;
+	background-image: url("../img/bg-consumer.png");
+}
+body.home .disclaimer {
+	width: 100%;
+	border-top: 1px solid black;
+	padding-top: 10px;
+	margin-top: 18px;
+	font-size: 12px;
 	text-align: center;
-	color: #444;
 }
-body.home .link {
-	font-size: 18px;
-	display: block;
-	text-align: center;
-}
+
+
 
 /* pesticide search page */
 body.pesticide-usages {
