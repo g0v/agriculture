@@ -1,0 +1,320 @@
+---
+---
+
+/* common */
+.center-aligned {
+	text-align: center;
+}
+
+.combobutton {
+	
+	> .dropdown-toggle {
+		padding: 0 18px 0 12px;
+		text-align: left;
+	}
+	> .dropdown-toggle > .caret {
+		position: absolute;
+		display: block;
+		top: 50%;
+		margin-top: -2px;
+		right: 12px;
+	}
+	> .dropdown-menu > li > a {
+		cursor: pointer;
+	}
+
+}
+
+ul.clear,
+ul.inline {
+	display: inline;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul.inline {
+	> li {
+		display: inline;
+	}
+	> li::after {
+		display: inline;
+	}
+	> li:last-child::after {
+		display: none;
+	}
+	&.comma > li::after {
+		content: ', ';
+	}
+	&.comma-zh > li::after {
+		content: '、';
+	}
+}
+
+.space {
+	display: inline-block;
+}
+.x16 {
+	width: 16px;
+	height: 16px;
+}
+
+.card {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.26);
+	border-radius: 2px;
+	background-color: #FFF;
+}
+.bubble {
+	position: relative;
+	border-radius: 8px;
+	padding: 12px;
+	
+	&::after {
+		content: ' ';
+		display: block;
+		border: 6px solid transparent;
+		border-top: 10px solid #FFF;
+		border-bottom-width: 0px;
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		margin-left: -6px;
+	}
+}
+.fallen-man {
+	position: relative;
+	font-family: monospace, "蘋果儷中黑", "微軟正黑體";
+	font-size: 20px;
+}
+
+/* default */
+body {
+	padding-bottom: 57px;
+	font-family: Arial, Helvetica, FreeSans, "蘋果儷中黑", "微軟正黑體", sans-serif;
+	font-size: 16px;
+	color: #333;
+	line-height: 1.6em;
+}
+.navbar-fixed-bottom {
+	box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.26);
+}
+
+
+
+/* home page */
+body.home {
+	
+	#wrapper {
+		width: 800px;
+		margin: 0 auto;
+	}
+	#banner {
+		height: 160px;
+		background: no-repeat center center transparent;
+		background-image: url("../img/banner.png");
+		background-size: contain;
+	}
+	#content {
+		background: no-repeat center center transparent;
+		background-image: url("../img/bg-vine.png");
+		background-size: 100% auto;
+	}
+	.section {
+		padding-top: 360px;
+		width: 40%;
+		background: no-repeat top center transparent;
+		background-size: contain;
+		
+		.links {
+			font-size: 20px;
+		}
+	}
+	#farmer {
+		float: left;
+		background-image: url("../img/bg-farmer.png");
+	}
+	#consumer {
+		float: right;
+		background-image: url("../img/bg-consumer.png");
+	}
+	.disclaimer {
+		width: 100%;
+		border-top: 1px solid black;
+		padding-top: 10px;
+		margin-top: 18px;
+		font-size: 12px;
+		text-align: center;
+	}
+}
+
+
+/* pesticide search page */
+body.pesticide-usages {
+	
+	background-color: #E5E5E5;
+	
+	header {
+		pointer-events: none;
+		height: 80px;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		
+		> * {
+			pointer-events: auto;
+		}
+		+ * {
+			padding-top: 160px;
+		}
+		.form-row {
+			position: relative;
+			width: 480px;
+			height: 40px;
+			margin: 20px auto 0 auto;
+		}
+		i,
+		#form .submit,
+		#form .adv-options-toggle-btn {
+			position: absolute;
+		}
+		i,
+		.btn {
+			top: 0;
+			bottom: 0;
+			line-height: 40px;
+			font-size: 16px;
+		}
+		i {
+			left: 0;
+			width: 40px;
+			text-align: center;
+			color: #555;
+		}
+		.btn {
+			display: block;
+			width: 80px;
+			padding: 0;
+			border-color: transparent;
+		}
+		.btn.dropdown-toggle {
+			padding: 0 18px 0 12px;
+		}
+		input {
+			display: block;
+			border-color: transparent;
+			height: 100%;
+			width: 100%;
+			outline: none;
+			color: #555;
+		}
+		#form {
+			padding: 0 80px 0 40px;
+			margin-top: 20px;
+			
+			.submit {
+				right: 0;
+				border-radius: 0;
+			}
+			.adv-options-toggle-btn {
+				right: -100px;
+				border-radius: 2px;
+				box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.26);
+			}
+		}
+		#adv-options {
+			display: none;
+			transition: height 0.3s;
+			-webkit-transition: height 0.3s;
+		}
+		&.advanced #adv-options {
+			display: block;
+		}
+		#grouper {
+			width: 120px;
+			
+			> .btn {
+				width: 100%;
+				background-color: #FFF !important;
+				border: 0;
+			}
+			> .dropdown-menu {
+				width: 100%;
+				border-radius: 2px;
+			}
+			> .dropdown-menu > li > a {
+				line-height: 24px;
+				font-size: 16px;
+			}
+		}
+	}
+	#result {
+		text-align: center;
+		color: #555;
+		
+		.group-header {
+			margin-top: 20px;
+			font-size: 20px;
+		}
+		.usage {
+			display: inline-block;
+			margin: 16px;
+			padding: 16px;
+			text-align: left;
+			vertical-align: top;
+			max-width: 30%;
+		}
+		.usage.open {
+			max-width: 45%;
+			
+			 .toggle-detail-btn::before {
+				content: '關閉';
+			}
+			 .detail {
+				display: block;
+			}
+		}
+		.usage .desc-label {
+			
+		}
+		.usage .desc-block {
+			margin-top: 12px;
+		}
+		.usage .desc-indent {
+			padding-left: 16px;
+		}
+		.usage .toggle-detail-btn {
+			display: inline;
+			padding: 0;
+			font-size: 16px;
+			border: none;
+			outline: none;
+			text-decoration: none;
+		}
+		.usage .detail {
+			display: none;
+		}
+		.products {
+			display: block;
+			overflow: hidden; /* occupy remaining width */
+			
+			> * {
+				display: inline-block; /* word wrap unit */
+			}
+		}
+		.hit {
+			border-radius: 2px;
+			background-color: #FFF176; /* yellow 300 */
+		}
+	}
+	#no-result {
+		display: none;
+		text-align: center;
+		margin-top: 80px;
+	}
+	&.no-result #no-result {
+		display: block;
+	}
+}
+
+
