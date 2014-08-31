@@ -109,27 +109,6 @@ UsageList.prototype.clear = function () {
 	this.$element[0].innerHTML = '';
 };
 
-// TODO: fix when grouping is ready
-/*
-UsageList.prototype._groupValueHTML = function (value) {
-	return '<div class="group-value">' + value + '</div>';
-};
-
-UsageList.prototype._groupHTML = function (group) {
-	return '<li class="group">' +  this._groupValueHTML(group.value) + 
-		this._usageListHTML(group.members) + '</li>';
-};
-
-UsageList.prototype._groupListHTML = function (groups) {
-	var html = '<ul class="groups">';
-	groups.forEach(function (group) {
-		html += this._groupListHTML(group);
-	});
-	html += '</ul>';
-	return html;
-};
-*/
-
 function _renderHits(html, keywords) {
 	keywords = keywords || [];
 	for (var i = 0, len = keywords.length, k; i < len; i++) {
@@ -227,6 +206,7 @@ function decodeURL(location) {
 	});
 	return query.keywords && query;
 }
+
 
 
 var _grouper_map = {
