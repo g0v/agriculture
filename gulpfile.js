@@ -76,7 +76,7 @@ gulp.task('data.build', [
  * + /_raw/download/pesticide/entries/{id}.json
  * 
  * This task shall write the following files:
- * + /pesticide/index.html
+ * + /_data/pesticide/list.json
  * + /pesticide/{id}/index.html
  * + /data/pesticide/usages-search.json
  */
@@ -88,15 +88,9 @@ gulp.task('data.build.pesticide', function (callback) {
 	fs.readFile('./_raw/download/pesticide/index.json', 'utf8', function (err, data) {
 		
 		var index = JSON.parse(data),
-			m = {},
-			indexPageStr;
+			m = {};
 		
-		indexPageStr = jekyllify('pesticide-index', index.sort(function (x, y) {
-			return x.name.localeCompare(y.name);
-		}));
-		
-		// write index page file, which only contains id and name
-		fs.writeFile('./pesticide/index.html', indexPageStr, end); // end 1
+		fs.writeFile('./_data/pesticide/list.json', data, end); // end 1
 		
 		// initialize entry objects
 		index.forEach(function (entry) {
@@ -186,9 +180,14 @@ gulp.task('data.build.pesticide', function (callback) {
 					});
 				})
 				.on('end', function () {
+					
+					// TODO: write to _data/pesticide/usages.json
+					
 					// write usages-search.json
 					fs.writeFile('./data/pesticide/usages-search.json', 
 						JSON.stringify(usageSearchData, null, '\t'), end); // end 2
+					
+					// TODO: write to _data/pestcide/entries/[id].json, replace gulp.dest('./pesticide')
 					
 					// write pesticide entry pages
 					streamy.array(index)

@@ -110791,143 +110791,173 @@
 		}
 	],
 	"pesticides": {
-		"I002": {
-			"id": "I002",
-			"name": "丁基加保扶",
-			"engName": "CARBOSULFAN",
-			"products": "新好年丹#好收冬#蒙賽得#保冬寧#保冬精#無限好#正保冬#總掃#松好過冬#松好年精#農順福#馬尚剋#農好丹精#上介利#新東和丹#新世大冬#好過冬#新世大丹#新興農丹#新正豐丹#好速新丹#丰收寶#嘉益扶#真正讚#真正水#聯克#新大勝丹#省力#新威克#大吉利-精#國豐丹#天羅罩#一把罩#獅子王#龍捲風#農來勇#新利台丹#福滿堂#新富農丹#益效冬精#新收冬#新庵原丹"
-		},
-		"H013": {
-			"id": "H013",
-			"name": "丁基拉草",
-			"engName": "BUTACHLOR",
-			"products": "草滅除#草全除#綜萊除#快速除#必好除#除草靈#滅田草#不發草#馬上除#草好除#草必除#聯草除#允殺草#除草精#田草除#拉梭#祝好除#殺田草#除雜草#金上好除#介好治#嘉滅草#淨園草#新剋草精#瑞克草#免計較#草總除#根本除#免捘草#淨無草#稻草除#草劍#雜草除#省事事省"
-		},
-		"I003": {
-			"id": "I003",
-			"name": "丁基滅必蝨",
-			"engName": "FENOBUCARB",
-			"products": "巴殺#殺靈#蝨必淨#大功蝨#歐斯巴克#克滅蝨#百殺#治蝨寶#全殺#金克參滅#萬殺靈#好丁蝨#蝨速淨#農寶蝨#寶殺#百蝨#包殺蝨#可滅蝨#霸殺#好包蝨#萬殺#利蝨寶#新必滅#霸蝨冬#包蝨#特蝨寶#允滅蝨#建蝨靈#清百蝨"
-		},
-		"H163": {
-			"id": "H163",
-			"name": "丁基賽伏草",
-			"engName": "CYHALOFOP-BUTYL",
-			"products": "克稗"
-		},
-		"H158": {
-			"id": "H158",
-			"name": "丁拉依速隆",
-			"engName": "BUTACHLOR + IMAZOSULFURON",
-			"products": "清田草#立草除-丁"
-		},
-		"H002": {
-			"id": "H002",
-			"name": "丁拉免速隆",
-			"engName": "BUTACHLOR + BENSULFURON-METHYL",
-			"products": "龍無草–丁#億草除"
-		},
-		"H007": {
-			"id": "H007",
-			"name": "丁拉復祿芬",
-			"engName": "OXYFLUORFEN + BUTACHLOR",
-			"products": "稻多多"
-		},
-		"H008": {
-			"id": "H008",
-			"name": "丁拉普芬草",
-			"engName": "BUTACHLOR + PYRAZOXYFEN",
-			"products": "萬全"
-		},
-		"H012": {
-			"id": "H012",
-			"name": "丁拉樂滅草",
-			"engName": "OXADIAZON + BUTACHLOR",
-			"products": "蓋好除#總無草#滴滅草–Ｍ#樂全除#滴草靈#穩除草#樂速達#無犁草#草博士#無草#惠友#優穗#全滅草王#樂沒草"
-		},
-		"H006": {
-			"id": "H006",
-			"name": "丁拉殺丹",
-			"engName": "THIOBENCARB + BUTACHLOR",
-			"products": "掃除丹"
-		},
-		"H009": {
-			"id": "H009",
-			"name": "丁拉氯比",
-			"engName": "TRICLOPYR + BUTACHLOR",
-			"products": "稻家樂"
-		},
-		"H004": {
-			"id": "H004",
-			"name": "丁拉汰草",
-			"engName": "DAIMURON + BUTACHLOR",
-			"products": "田王–８"
-		},
-		"H001": {
-			"id": "H001",
-			"name": "丁拉甲護谷",
-			"engName": "BUTACHLOR + CHLOMETHOXYNIL",
-			"products": "克草丹"
-		},
-		"H147": {
-			"id": "H147",
-			"name": "丁拉百速隆",
-			"engName": "BUTACHLOR + PYRAZOSULFURON-ETHYL",
-			"products": "省草繁-丁#速治草"
-		},
-		"H005": {
-			"id": "H005",
-			"name": "丁拉芬諾",
-			"engName": "BIFENOX + BUTACHLOR",
-			"products": "魔丹–Ｍ#東東好#速滅草"
-		},
 		"A001": {
 			"id": "A001",
 			"name": "三亞蟎",
 			"engName": "AMITRAZ",
 			"products": "一掃螨#塞亞蟎#必滅蟎#三落蟎#壹蟎淨#清蟎寶#易滅蟎#三殺蟎#蟎通靈#可滅蟎#松樹掃蟎#克蟎王#蟎久力#全掃蟎#達克蟎#蟎亞斯#毒克蟎#蟎怕怕"
 		},
-		"F199": {
-			"id": "F199",
-			"name": "三元硫酸銅",
-			"engName": "TRIBASIC COPPER SULFATE",
-			"products": "銅高尚#果太保#統稱#果神#銅尚讚#泰強"
+		"A004": {
+			"id": "A004",
+			"name": "大克蟎",
+			"engName": "DICOFOL",
+			"products": "金滅蟎#克蛛蟎#威力蟎#愛佳靈#除蛛精#克蛛聖#克路生#克果蟎#開樂生#雷克蟎#蟎靈#新克蟎#死蟎多#佳樂仙#除銹蟎#蟎殺丹#好開生"
 		},
-		"F230": {
-			"id": "F230",
-			"name": "三元銅克絕",
-			"engName": "TRIBASIC COPPER SULFATE + CYMOXANIL",
-			"products": "安可穩"
+		"A010": {
+			"id": "A010",
+			"name": "合賽多",
+			"engName": "HEXYTHIAZOX",
+			"products": "日曹蟎#真蟎益#蟎好效#立清蟎#紅蜘蛛敵#剋蟎多#蟎乾淨#蟎清去"
 		},
-		"F007": {
-			"id": "F007",
-			"name": "三得芬",
-			"engName": "TRIDEMORPH",
-			"products": "克力生#可力昇"
+		"A014": {
+			"id": "A014",
+			"name": "克芬蟎",
+			"engName": "CLOFENTEZINE",
+			"products": "先波露#阿波羅"
 		},
-		"F279": {
-			"id": "F279",
-			"name": "三氟得克利",
-			"engName": "TRIFLOXYSTROBIN + TEBUCONAZOLE",
-			"products": "乎粒勇"
+		"A018": {
+			"id": "A018",
+			"name": "芬佈克蟎",
+			"engName": "FENBUTATIN-OXIDE + DICOFOL",
+			"products": "全克"
 		},
-		"F255": {
-			"id": "F255",
-			"name": "三氟敏",
-			"engName": "TRIFLOXYSTROBIN",
-			"products": "福臨#稻紋停"
+		"A019": {
+			"id": "A019",
+			"name": "芬佈賜",
+			"engName": "FENBUTATIN-OXIDE",
+			"products": "封殺蟎#松樹勝蟎#產寶#好滿#松勝蟎精#惠光蟎得斯#大通克#嘉剋蟎#殺蟎靈#殺蟎#治除蛛#通克#蛛蟎絕#綠波#穩剋#蟎斯#上賜適#速蟎淨#蟎必治#勝克#勝蛛蟎#易克蟎#利殺蟎#金捕手#好捕手#剋蟎"
 		},
-		"I008": {
-			"id": "I008",
-			"name": "三氯松",
-			"engName": "TRICHLORFON",
-			"products": "克頑蟲#龍燈三氯松#得滅松#特可豐#萬敵死#殺落蟲#第特松#驅蟲安#松樹三六#速克敵#去蟲靈#青蟲#特寶松#烈普好#地普龍#蟲寶"
+		"A020": {
+			"id": "A020",
+			"name": "芬硫克",
+			"engName": "FENOTHIOCARB",
+			"products": "八蟎王"
 		},
-		"H019": {
-			"id": "H019",
-			"name": "三氯比",
-			"engName": "TRICLOPYR",
-			"products": "加農#克藤草#殺藤#除藤#滅藤"
+		"A030": {
+			"id": "A030",
+			"name": "愛殺松",
+			"engName": "ETHION",
+			"products": "快殺松#蟎全克#羅翰松#治蟎#自立旺#愛殺蟎#速殺蟎#益速寶#大多靈#死蟎蜱#介殺霸#殺蟎大#安克蟎#益速松#速克蟎#好桔寶#松樹治蟎#殺蟎玉#樂除蟎#愛滅蟎#順農心#易速寶#羅地剎#益滅蟎#愛美松#克蟎靈#台殺松#羅殺松#愛蜱殺#新介煞霸#尅蟎精#百事發#新紅兵#特殺松#好滅松#建愛#殺蜏蜱#愛速寶#優克蟎#好殺蟎#庵原愛殺松#愛利強"
+		},
+		"A031": {
+			"id": "A031",
+			"name": "新殺蟎",
+			"engName": "BROMOPROPYLATE",
+			"products": "速利農#利果農#欣蟎殺#滅蟎龍#新蟎清#好克蟎#速尅蟎#蛛蟎克#力果農#霸蟎#穩掃黑#滅蟎#蜘蛛滅#滿香春#銹蜱靈#銹埤殺#蟎銹剋#蟎家收#好保農"
+		},
+		"A032": {
+			"id": "A032",
+			"name": "毆蟎多",
+			"engName": "PROPARGITE",
+			"products": "克蟎特#好滅蟎#穩殺蟎#汰蟎樂#速蟎#奧蟎多#克蟎#殺蟎能#蟎多靈#自立必殺蟎#建殺蟎#毆蟎都#歐殺蟎#瑞伏蟎#蟎王#毆無蟎#蟎好用#呼蟎倒#柑蛛精#速蟎能#蟎多寧#包蟎逸#愛蟎多#金螨意"
+		},
+		"A035": {
+			"id": "A035",
+			"name": "蟎離丹",
+			"engName": "CHINOMETHIONAT",
+			"products": "莫粉生#雙殺丹"
+		},
+		"A036": {
+			"id": "A036",
+			"name": "覆滅蟎",
+			"engName": "FORMETANATE",
+			"products": "真加好#真絕蟎#蟎易"
+		},
+		"A037": {
+			"id": "A037",
+			"name": "合賽芬普寧",
+			"engName": "HEXYTHIAZOX + FENPROPATHRIN",
+			"products": "日速蟎#好速賽寧#立農力蟎"
+		},
+		"A039": {
+			"id": "A039",
+			"name": "畢達本",
+			"engName": "PYRIDABEN",
+			"products": "勝蟎#嘉蟎#蟎難得#蜱蟎清"
+		},
+		"A040": {
+			"id": "A040",
+			"name": "芬普蟎",
+			"engName": "FENPYROXIMATE",
+			"products": "芬普螨#蟎効"
+		},
+		"A041": {
+			"id": "A041",
+			"name": "佈賜芬蟎",
+			"engName": "CLOFENTEZINE + FENBUTATIN-OXIDE",
+			"products": "拳擊蟎"
+		},
+		"A043": {
+			"id": "A043",
+			"name": "芬殺蟎",
+			"engName": "FENAZAQUIN",
+			"products": "蟎尚驚#蟎尚通#蟎速淨#殺蟎通"
+		},
+		"A044": {
+			"id": "A044",
+			"name": "密滅汀",
+			"engName": "MILBEMECTIN",
+			"products": "天官"
+		},
+		"A045": {
+			"id": "A045",
+			"name": "阿納寧",
+			"engName": "ACRINATHRIN",
+			"products": "金正發#蟎踪絕"
+		},
+		"A046": {
+			"id": "A046",
+			"name": "扶吉胺",
+			"engName": "FLUAZINAM",
+			"products": "福農帥#聯立帥#福吉安"
+		},
+		"A047": {
+			"id": "A047",
+			"name": "達馬芬普寧",
+			"engName": "FENPROPATHRIN + METHAMIDOPHOS",
+			"products": "速清蟎"
+		},
+		"A048": {
+			"id": "A048",
+			"name": "畢汰芬",
+			"engName": "PYRIMIDIFEN",
+			"products": "蟎攏死"
+		},
+		"A049": {
+			"id": "A049",
+			"name": "依殺蟎",
+			"engName": "ETOXAZOLE",
+			"products": "住友喜相逢#再相逢"
+		},
+		"A050": {
+			"id": "A050",
+			"name": "亞醌蟎",
+			"engName": "ACEQUINOCYL",
+			"products": "抗劣蟎"
+		},
+		"A051": {
+			"id": "A051",
+			"name": "芬普毆蟎多",
+			"engName": "FENPYROXIMATE + PROPARGITE",
+			"products": "掃蟎寶"
+		},
+		"A053": {
+			"id": "A053",
+			"name": "賜派芬",
+			"engName": "SPIRODICLOFEN",
+			"products": "拜蟎阻"
+		},
+		"A054": {
+			"id": "A054",
+			"name": "賽芬蟎",
+			"engName": "CYFLUMETOFEN",
+			"products": "大殺蟎"
+		},
+		"A055": {
+			"id": "A055",
+			"name": "必芬蟎",
+			"engName": "BIFENAZATE",
+			"products": "愛克蟎"
 		},
 		"F005": {
 			"id": "F005",
@@ -110941,17 +110971,29 @@
 			"engName": "TRIADIMENOL",
 			"products": "拜好當#馬克精#蓋好擋"
 		},
-		"I009": {
-			"id": "I009",
-			"name": "三落松",
-			"engName": "TRIAZOPHOS",
-			"products": "固田園#大發#蟲落#易利松"
+		"F007": {
+			"id": "F007",
+			"name": "三得芬",
+			"engName": "TRIDEMORPH",
+			"products": "克力生#可力昇"
 		},
 		"F011": {
 			"id": "F011",
 			"name": "三賽唑",
 			"engName": "TRICYCLAZOLE",
 			"products": "益友#吉大穗#防熱友#益稻保#勇穗#紅俥#稻樂透#法-財朝富#豪友#勁熱情#有米樂#金稻友#新吉大穗#雙冬穩#佳生#穗多生#好道友#無艱稻#良友#稻熱除#法-財保平安#稻之友#穗清#粑穗"
+		},
+		"F012": {
+			"id": "F012",
+			"name": "大克爛",
+			"engName": "DICLORAN",
+			"products": "達克爛#治爛菌"
+		},
+		"F017": {
+			"id": "F017",
+			"name": "比多農",
+			"engName": "BITERTANOL",
+			"products": "拜可#倍易多#核可#景茂比大農#景茂比多農#駭克二五#惠可#興農樂可"
 		},
 		"F018": {
 			"id": "F018",
@@ -110965,719 +111007,11 @@
 			"engName": "IBP + NEO ASOZIN",
 			"products": "庵原達富仁Ｐ"
 		},
-		"I004": {
-			"id": "I004",
-			"name": "乃力松",
-			"engName": "NALED",
-			"products": "利富農#聯好#上強#好撲蟲#霸王精#億力松#納力農#剋蟲#全掃#卡有力#噴卡多#力克蟲"
-		},
-		"H169": {
-			"id": "H169",
-			"name": "乙基克繁草",
-			"engName": "CARFENTRAZONE-ETHYL",
-			"products": ""
-		},
-		"H014": {
-			"id": "H014",
-			"name": "二、四－地",
-			"engName": "2,4-D",
-			"products": "草多滅#力除#奧斯地#聯地"
-		},
-		"H015": {
-			"id": "H015",
-			"name": "二、四－地胺鹽",
-			"engName": "2,4-D(AMINE)",
-			"products": "嘉濱二、四地#長年刈#嘉旺地"
-		},
-		"H016": {
-			"id": "H016",
-			"name": "二、四－地鈉鹽",
-			"engName": "2,4-D(SODIUM)",
-			"products": "松二四地"
-		},
-		"F261": {
-			"id": "F261",
-			"name": "二氟林",
-			"engName": "DIFLUMETORIM",
-			"products": "粉好治"
-		},
-		"I005": {
-			"id": "I005",
-			"name": "二硫松",
-			"engName": "DISULFOTON",
-			"products": "大神松#快滅樂#大億松#真甲意#粒粒強"
-		},
-		"I007": {
-			"id": "I007",
-			"name": "二福隆",
-			"engName": "DIFLUBENZURON",
-			"products": "立敏寧#億寶#添猛#第一猛#金福氣#抵蟻猛"
-		},
-		"H063": {
-			"id": "H063",
-			"name": "亞喜芬",
-			"engName": "ACIFLUORFEN",
-			"products": "包剋草#好剋草"
-		},
-		"I070": {
-			"id": "I070",
-			"name": "亞培松",
-			"engName": "TEMEPHOS",
-			"products": "用着安#愛魚康#魚寶"
-		},
-		"F272": {
-			"id": "F272",
-			"name": "亞托待克利",
-			"engName": "AZOXYSTROBIN + DIFENOCONAZOLE",
-			"products": "好加讚"
-		},
-		"F226": {
-			"id": "F226",
-			"name": "亞托敏",
-			"engName": "AZOXYSTROBIN",
-			"products": "國豐亞托敏#衝不停#農管家#稱無限#稱恬恬#果再來#非常稱#挺力#金紅#稱乘稱#農好稱大喜#五一五一#尚介稱#多猛哥#優果讚#勇健健#邁凡樂#世界稱#稱上天#衝到發#稱嘜停#稱尚久#霸面稱"
-		},
-		"F275": {
-			"id": "F275",
-			"name": "亞托環克座",
-			"engName": "AZOXYSTROBIN + CYPROCONAZOLE",
-			"products": "穩妥當"
-		},
-		"F296": {
-			"id": "F296",
-			"name": "亞汰尼",
-			"engName": "ISOTIANIL",
-			"products": "稻熱停"
-		},
-		"I225": {
-			"id": "I225",
-			"name": "亞滅培",
-			"engName": "ACETAMIPRID",
-			"products": "莫氏比#日曹強必勇#靠山#穩尚強#貝士得金鑽#猛將#賜福#金好鑽#無粉蝨#速絕#非死不可#蚜沒陪#除蝨機#冠天下#天威#強必勇#天帥#通咬#正豪勇#聯將軍#特勇#粉蝨寶#加倍勇#好速滅培#金贊#統好用#包順事#利統勇#有夠強"
-		},
-		"I071": {
-			"id": "I071",
-			"name": "亞滅寧",
-			"engName": "ALPHA-CYPERMETHRIN",
-			"products": "氰胺亞滅寧#景茂亞滅寧#松亞滅寧#珍猛#貝士得亞滅寧#雅飛寧#亞滅淨#高功能#清立利#易寧易#特易效#蟲好死#滿治#金剋星#金克#亞滅王#好立剋#進財#惠寧#洽益寶#好剋丹精#蟲清清#包滅蟲#大富貴#泰寶寧#金閃剋#閃克精#百發寧#加能#金玾意#總寧#珍好康"
-		},
-		"I066": {
-			"id": "I066",
-			"name": "亞烈寧",
-			"engName": "ALLETHRIN",
-			"products": "龍燈亞烈寧"
-		},
-		"I068": {
-			"id": "I068",
-			"name": "亞特松",
-			"engName": "PIRMIPHOS-METHYL",
-			"products": "立克#特克蟲"
-		},
-		"I069": {
-			"id": "I069",
-			"name": "亞素靈",
-			"engName": "MONOCROTOPHOS",
-			"products": "如萬能#愛禾好"
-		},
-		"I187": {
-			"id": "I187",
-			"name": "亞芬松",
-			"engName": "ISOFENPHOS",
-			"products": "穩根"
-		},
-		"F070": {
-			"id": "F070",
-			"name": "亞賜圃",
-			"engName": "ISOPROTHIOLANE",
-			"products": "富穗王#護穗#富穗旺#保穗旺#穗旺#愛穗寶#穗友#安旺穗#富稻旺#吉好穗#滅稻熱#護穗強"
-		},
-		"H166": {
-			"id": "H166",
-			"name": "亞速隆",
-			"engName": "ETHOXYSULFURON",
-			"products": "太陽星"
-		},
-		"A050": {
-			"id": "A050",
-			"name": "亞醌蟎",
-			"engName": "ACEQUINOCYL",
-			"products": "抗劣蟎"
-		},
-		"H045": {
-			"id": "H045",
-			"name": "伏寄普",
-			"engName": "FLUAZIFOP-P-BUTYL",
-			"products": "新萬帥#新元帥#旺萬歲#萬歲#金太歲#尖草帥#草大帥#搭扣扣#興農元帥#看蕪草"
-		},
-		"R004": {
-			"id": "R004",
-			"name": "伏滅鼠",
-			"engName": "FLOCOUMAFEN",
-			"products": "鼠特#鼠必死#麻吉鼠"
-		},
-		"H160": {
-			"id": "H160",
-			"name": "伏速隆",
-			"engName": "FLAZASULFURON",
-			"products": "芝草原#伏草丹"
-		},
-		"I241": {
-			"id": "I241",
-			"name": "伽瑪賽洛寧",
-			"engName": "GAMMA-CYHALOTHRIN",
-			"products": "速落寧"
-		},
-		"H048": {
-			"id": "H048",
-			"name": "佈殺丹",
-			"engName": "THIOBENCARB + PROMETRYNE",
-			"products": "掃丹–Ｐ"
-		},
-		"A041": {
-			"id": "A041",
-			"name": "佈賜芬蟎",
-			"engName": "CLOFENTEZINE + FENBUTATIN-OXIDE",
-			"products": "拳擊蟎"
-		},
-		"I056": {
-			"id": "I056",
-			"name": "佈飛松",
-			"engName": "PROFENOFOS",
-			"products": "速力龍#貝士得佈飛松#賜而發#常蓋寧#比久寧#好本領#速治蟲#益速龍#蟲末日#爽快#蟲ㄟ淨#吉利龍#蟲速淨#跳蟲淨#蓋猛#掌心雷#祥介勇#自立見喜#特威效#太星#庵原佈飛松"
-		},
-		"I200": {
-			"id": "I200",
-			"name": "佈飛百滅寧",
-			"engName": "PROFENOFOS + PERMETHRIN",
-			"products": "旺來#百蟲清#祝賀"
-		},
-		"I193": {
-			"id": "I193",
-			"name": "佈飛賽滅寧",
-			"engName": "PROFENOFOS + CYPERMETHRIN",
-			"products": "派稱稱#煞死蟲#派慶慶#賜利農#有力頭#真厲害#祝順"
-		},
-		"F071": {
-			"id": "F071",
-			"name": "依得利",
-			"engName": "ETRIDIAZOLE",
-			"products": "尅土菌#阿特菌#畢可喜#興農地菌克"
-		},
-		"F303": {
-			"id": "F303",
-			"name": "依普克敏",
-			"engName": "EPOXICONAZOLE+PYRACLOSTROBIN",
-			"products": "總殺"
-		},
-		"F072": {
-			"id": "F072",
-			"name": "依普同",
-			"engName": "IPRODIONE",
-			"products": "樂富果#福元精#吉旺#棟蓋久#松樂富國#龍福果#依護果#護原精#萬福精#鴻鋒福祿旺#法財果－精#大吉昌#勁有普#治斑寧#百力菌#菌立清#萬福果#美樂果#農寶#農寶精#真讚同#包正青"
-		},
-		"F217": {
-			"id": "F217",
-			"name": "依普座",
-			"engName": "EPOXICONAZOLE",
-			"products": "禾綠贊#祝禾利#紋添祥#真飽穗#新禾綠贊#綠量"
-		},
-		"I199": {
-			"id": "I199",
-			"name": "依殺松",
-			"engName": "ISAZOFOS",
-			"products": ""
-		},
-		"A049": {
-			"id": "A049",
-			"name": "依殺蟎",
-			"engName": "ETOXAZOLE",
-			"products": "住友喜相逢#再相逢"
-		},
-		"F073": {
-			"id": "F073",
-			"name": "依滅列",
-			"engName": "IMAZALIL",
-			"products": "菌好用#利粉靈#易百拉#正通#瓜瓜樂#黑白絕#易收好#龍燈依滅列"
-		},
-		"H064": {
-			"id": "H064",
-			"name": "依滅草",
-			"engName": "IMAZAPYR",
-			"products": "總清#綜清#新綜清"
-		},
-		"F074": {
-			"id": "F074",
-			"name": "依瑞莫",
-			"engName": "ETHIRIMOL",
-			"products": "白粉水仙#黴絕#粉克靈#黴克靈"
-		},
-		"I072": {
-			"id": "I072",
-			"name": "依芬寧",
-			"engName": "ETOFENPROX",
-			"products": "多來寶#易福臨#易福好#特麗本#除蝨寧#得利寶#統介讚#知己#農博士#真正寶#台聯農達多#利美寶#金冠#禾利利#螟靈#克螟蟲#東和寶#愛克松#先覺#尚猛#螟王星"
-		},
-		"H153": {
-			"id": "H153",
-			"name": "依速隆",
-			"engName": "IMAZOSULFURON",
-			"products": "真省工#免下田"
-		},
-		"F079": {
-			"id": "F079",
-			"name": "保米熱斯",
-			"engName": "BLASTICIDIN-S + PHTHALIDE",
-			"products": "巴穗#保米穗"
-		},
-		"F080": {
-			"id": "F080",
-			"name": "保米賜圃",
-			"engName": "BLASTICIDIN-S + ISOPROTHIOLANE",
-			"products": "稻帥"
-		},
-		"F081": {
-			"id": "F081",
-			"name": "保米黴素",
-			"engName": "BLASTICIDIN-S",
-			"products": "保米丹#美谷黴素#稻熱王#稻益斯#美穗靈#米多素#稻熱克#稻熱治#穗粒安#立農保生#富粒穗#勃拉益斯"
-		},
-		"F219": {
-			"id": "F219",
-			"name": "保粒保淨",
-			"engName": "POLYOXINS + THIOPHANATE-METHYL",
-			"products": "穩凍"
-		},
-		"F203": {
-			"id": "F203",
-			"name": "保粒快得寧",
-			"engName": "POLYOXIN B + OXINE-COPPER",
-			"products": "喜旺"
-		},
-		"F086": {
-			"id": "F086",
-			"name": "保粒黴素   丁",
-			"engName": "POLYOXORIM",
-			"products": "日農保利果#斯紋"
-		},
-		"F087": {
-			"id": "F087",
-			"name": "保粒黴素   甲",
-			"engName": "POLYOXINS",
-			"products": "保粒益淨（甲）#保粒精#保粒明#保粒讚"
-		},
-		"H073": {
-			"id": "H073",
-			"name": "倍尼芬",
-			"engName": "BENFLURALIN",
-			"products": "聯榜"
-		},
-		"I230": {
-			"id": "I230",
-			"name": "傑他賽滅寧",
-			"engName": "ZETA-CYPERMETHRIN",
-			"products": "飛龍"
-		},
-		"I263": {
-			"id": "I263",
-			"name": "克凡洛寧",
-			"engName": "CHLORFENAPYR + LAMBDA-CYHALOTHRIN",
-			"products": "佳實靈"
-		},
-		"I217": {
-			"id": "I217",
-			"name": "克凡派",
-			"engName": "CHLORFENAPYR",
-			"products": "好光景#好風采#有錢途#好身手#好消息#好清去#好時機#好氣派"
-		},
-		"F224": {
-			"id": "F224",
-			"name": "克收欣",
-			"engName": "KRESOXIM-METHYL",
-			"products": "好運到#巴斯丹精#斯巴達精#斯巴達丹#萬事欣#萬家欣#包速達精#好收欣#法-財源到#法-財飽飽#白炭黑#稱麥條#統勇#快收欣"
-		},
-		"F287": {
-			"id": "F287",
-			"name": "克枯三賽唑",
-			"engName": "TECLOFTALAM + TRICYCLAZOLE",
-			"products": "稻春"
-		},
-		"F053": {
-			"id": "F053",
-			"name": "克枯爛",
-			"engName": "TECLOFTALAM",
-			"products": "剋白尾#述治菌#白葉青#掃菌清"
-		},
-		"F059": {
-			"id": "F059",
-			"name": "克熱淨",
-			"engName": "IMINOCTADINE TRIACETATE",
-			"products": "倍福農"
-		},
-		"F251": {
-			"id": "F251",
-			"name": "克熱淨(烷苯磺酸鹽)",
-			"engName": "IMINOCTADINE TRIS(ALBESILATE)",
-			"products": "雙頭鷹"
-		},
-		"F263": {
-			"id": "F263",
-			"name": "克熱賜圃",
-			"engName": "IMINOCTADINE TRIACETATE + ISOPROTHIOLANE",
-			"products": "速益旺"
-		},
-		"I061": {
-			"id": "I061",
-			"name": "克福隆",
-			"engName": "CHLORFLUAZURON",
-			"products": "愛扶農#允妥當#保如意"
-		},
-		"F057": {
-			"id": "F057",
-			"name": "克絕",
-			"engName": "CYMOXANIL",
-			"products": "克露"
-		},
-		"F058": {
-			"id": "F058",
-			"name": "克絕波爾多",
-			"engName": "CYMOXANIL + BORDEAUX",
-			"products": "克普定"
-		},
-		"P002": {
-			"id": "P002",
-			"name": "克美素",
-			"engName": "CHLORMEQUAT CHLORIDE",
-			"products": "矮壯素"
-		},
-		"A014": {
-			"id": "A014",
-			"name": "克芬蟎",
-			"engName": "CLOFENTEZINE",
-			"products": "先波露#阿波羅"
-		},
-		"H053": {
-			"id": "H053",
-			"name": "克草",
-			"engName": "BROMACIL",
-			"products": "海拔"
-		},
-		"I063": {
-			"id": "I063",
-			"name": "克蠅香",
-			"engName": "",
-			"products": "耐久香#剋瓜蠅#農克蜂"
-		},
-		"F046": {
-			"id": "F046",
-			"name": "免克寧",
-			"engName": "VINCLOZOLIN",
-			"products": "樂力丹"
-		},
-		"F049": {
-			"id": "F049",
-			"name": "免得爛",
-			"engName": "METIRAM",
-			"products": "保利農抗病#抗病"
-		},
-		"I058": {
-			"id": "I058",
-			"name": "免扶克",
-			"engName": "BENFURACARB",
-			"products": "穩克#頂好#穩固#旺固#絕讚#拿咔"
-		},
-		"I221": {
-			"id": "I221",
-			"name": "免扶賽洛寧",
-			"engName": "BENFURACARB + CYHALOTHRIN",
-			"products": "穩克讚"
-		},
-		"I059": {
-			"id": "I059",
-			"name": "免敵克",
-			"engName": "BENDIOCARB",
-			"products": "速伏敵#好事多#治薊馬"
-		},
-		"F051": {
-			"id": "F051",
-			"name": "免賴地",
-			"engName": "BENOMYL + THIRAM",
-			"products": "億旺#抗菌#億力-帝"
-		},
-		"F052": {
-			"id": "F052",
-			"name": "免賴得",
-			"engName": "BENOMYL",
-			"products": "生力丹#真菌除#全滅菌#萬力#再生#松樹意力#得力#越力#霸菌#臺益益力#猛力#嘉力#億力#一大利#太有利#益利#原力#猛靈#旺果#億萬利#杜邦免賴得#雷速丹#菌清清#來福#利力#免出力#特力"
-		},
-		"H146": {
-			"id": "H146",
-			"name": "免速普拉草",
-			"engName": "BENSULFURON-METHYL + PRETILACHLOR",
-			"products": "踪除龍"
-		},
-		"I188": {
-			"id": "I188",
-			"name": "免速達",
-			"engName": "BENSULTAP",
-			"products": "魯邦#嗄時機"
-		},
-		"H051": {
-			"id": "H051",
-			"name": "免速隆",
-			"engName": "BENSULFURON-METHYL",
-			"products": "龍無草"
-		},
-		"F252": {
-			"id": "F252",
-			"name": "凡殺克絕",
-			"engName": "FAMOXADONE + CYMOXANIL",
-			"products": "杜邦統讚"
-		},
-		"F269": {
-			"id": "F269",
-			"name": "凡殺護矽得",
-			"engName": "FAMOXADONE + FLUSILAZOLE",
-			"products": "新奇星"
-		},
-		"I252": {
-			"id": "I252",
-			"name": "剋安勃",
-			"engName": "CHLORANTRANILIPROLE",
-			"products": "絲奄奄#金靈海"
-		},
-		"H155": {
-			"id": "H155",
-			"name": "剋草同",
-			"engName": "CLETHODIM",
-			"products": "洗草客"
-		},
-		"I019": {
-			"id": "I019",
-			"name": "加丁滅蝨",
-			"engName": "CARBARYL + MIPC + BPMC",
-			"products": "百克#滅蝨粉#滿穗#好寶粉#新特文"
-		},
-		"I023": {
-			"id": "I023",
-			"name": "加保利",
-			"engName": "CARBARYL",
-			"products": "殺蟲淨#塞文－８５#旺立強#勇將水仙#好保利#速敏#施美文#好速家寶#佳寶#賽文#治蟲寶#納克#飛蝨滅#殺猛#絕滅蝨#剋蟲寧#松樹納克#護利寶#加倍利#絕蝨寶#億保利#飛殺滅#賽文福#賽保#佳寶利#佳倍寧#百克蝨#加保殺#加巴利#好家寶#毒蟲精#立倍利#保送#西敏#萬克蝨#好免貢#大克寶#勇將#高喜精#高竿#賽敏王#果蟲寶#新雙福#個卡好#美多寧#祥順#嘉保利#愛心多#法-財卡讚#佳寶力#東和好#賽門"
-		},
-		"I024": {
-			"id": "I024",
-			"name": "加保扶",
-			"engName": "CARBOFURAN",
-			"products": "矮仔冬瓜#穩勝水仙#好田丹#好年冬#興農丹精#好年冬精#必收丹#滿福丹#興農丹#卡好冬#佳寶丹#福樂冬#高寶福#福克丹#庵原丹#好利丹#自立日日春#正豐冬#洽益蟲精#惠光冬#好收丹精#富農冬#好吉丹#萬順丹#好幫手#世大冬#嘉扶精#金克冬#旺立冬#世大冬精#好保扶#大勝冬#大勝冬精#好利丹精#添財#東和丹#自立雙富#聯勝精#大發財#蟲包無#霸王丹#好利冬#雷冬精#東和丹精#珍好冬精#臺聯丹®#固勇#洽益冬"
-		},
-		"I192": {
-			"id": "I192",
-			"name": "加保福化利",
-			"engName": "CARBARYL + TAU-FLUVALINATE",
-			"products": "福加仁#福氣"
-		},
-		"F235": {
-			"id": "F235",
-			"name": "加普胺",
-			"engName": "CARPROPAMID",
-			"products": "允贏"
-		},
-		"I027": {
-			"id": "I027",
-			"name": "加福松",
-			"engName": "ISOXATHION",
-			"products": "三共加福斯#三共加褔斯"
-		},
-		"I025": {
-			"id": "I025",
-			"name": "加馬治蝨",
-			"engName": "CARBARYL + MTMC + MALATHION",
-			"products": "佳好#袪蝨寶#克蝨粉"
-		},
-		"P019": {
-			"id": "P019",
-			"name": "勃寧激素",
-			"engName": "GIBBERELLIN A4 WITH A7 + 6-BENZYLAMINOPU",
-			"products": "新巨果#豪大果"
-		},
-		"P020": {
-			"id": "P020",
-			"name": "勃激素A3",
-			"engName": "GIBBERELLIC ACID",
-			"products": "奇拔利靈協和#催大丹#速大精#植寶素#新奇寶#愛奇靈#真快大#康速力#百利寧#勃大哥#激倍力#新寶捷#奇葩靈#金大胖#惠速大#綠普#早大粒#勃激靈#速勃#金奇寶"
-		},
-		"I216": {
-			"id": "I216",
-			"name": "印楝素",
-			"engName": "AZADIRACHTIN",
-			"products": "現代寶"
-		},
-		"I183": {
-			"id": "I183",
-			"name": "叔丁基滅必蝨",
-			"engName": "TERT-FENOBUCARB",
-			"products": ""
-		},
-		"I238": {
-			"id": "I238",
-			"name": "可尼丁",
-			"engName": "CLOTHIANIDIN",
-			"products": "藍得#吉贏#北海小英雄"
-		},
-		"H165": {
-			"id": "H165",
-			"name": "可滅蹤",
-			"engName": "CLOMAZONE",
-			"products": "豪萬草#園草清"
-		},
-		"R002": {
-			"id": "R002",
-			"name": "可滅鼠",
-			"engName": "BRODIFACOUM",
-			"products": "無鼠樂#鼠王"
-		},
 		"F021": {
 			"id": "F021",
 			"name": "可濕性硫黃",
 			"engName": "SULFUR",
 			"products": "克魔力ＤＦ#愛果旺#殺百粉#果樂多#確實金#大慶#松克魔粒#聯利硫黃#水粉剋#好利靈#旺果粉#果發力#金磺粉#自立愛果丹#愛瓜果#殺也特-勁#速發力#蜱蟎卒#尚蟎益#新力#新力精#白粉淨#黃金寶#硫黃寶#允滅菌#台聯硫黃丹#超蟎益#速發#掃粉精#白菇淨"
-		},
-		"I249": {
-			"id": "I249",
-			"name": "可芬諾",
-			"engName": "CHROMAFENOZIDE",
-			"products": "安樂公"
-		},
-		"F239": {
-			"id": "F239",
-			"name": "右滅達樂",
-			"engName": "METALAXYL-M",
-			"products": "金︱治疫讚#金-疫到勇"
-		},
-		"A010": {
-			"id": "A010",
-			"name": "合賽多",
-			"engName": "HEXYTHIAZOX",
-			"products": "日曹蟎#真蟎益#蟎好效#立清蟎#紅蜘蛛敵#剋蟎多#蟎乾淨#蟎清去"
-		},
-		"A037": {
-			"id": "A037",
-			"name": "合賽芬普寧",
-			"engName": "HEXYTHIAZOX + FENPROPATHRIN",
-			"products": "日速蟎#好速賽寧#立農力蟎"
-		},
-		"H178": {
-			"id": "H178",
-			"name": "合速隆",
-			"engName": "HALOSULFURON-METHYL",
-			"products": "邁草心"
-		},
-		"I064": {
-			"id": "I064",
-			"name": "含毒甲基丁香油",
-			"engName": "METHYL EUGENOL-NALED",
-			"products": "奪蜂香#好速香#穩煞蠅"
-		},
-		"P003": {
-			"id": "P003",
-			"name": "吲哚丁酸",
-			"engName": "IBA",
-			"products": "速育靈#速建#嘉濱根生#根旺#興農催根生"
-		},
-		"F106": {
-			"id": "F106",
-			"name": "喜樂克拉",
-			"engName": "IPROBENFOS + PROCHLORAZ",
-			"products": "穗好#喜達克#尚青操#包滿穗"
-		},
-		"P038": {
-			"id": "P038",
-			"name": "單克素",
-			"engName": "UNICONAZOLE-P",
-			"products": "住友思蜜"
-		},
-		"F123": {
-			"id": "F123",
-			"name": "嘉保信",
-			"engName": "OXYCARBOXIN",
-			"products": "銹滅寧#銹敵#克銑#好速銹#防銹寧#克銹靈#剋銹寶#銹靈#銹絕#東和克銹靈#穩當讚#銹天王#銹殺#保綠大#瑞加福#穩當好#百事吉#剋除銹#銹克#嘉寶#銹好速"
-		},
-		"H125": {
-			"id": "H125",
-			"name": "嘉磷塞",
-			"engName": "GLYPHOSATE",
-			"products": "隔來草"
-		},
-		"H152": {
-			"id": "H152",
-			"name": "嘉磷塞 (胺鹽 )",
-			"engName": "GLYPHOSATE AMMONIUM",
-			"products": "農民樂#樂農家#粒粒春"
-		},
-		"H135": {
-			"id": "H135",
-			"name": "嘉磷塞(三甲基硫鹽)",
-			"engName": "GLYPHOSATE-TRIMESIUM",
-			"products": "免你割"
-		},
-		"H126": {
-			"id": "H126",
-			"name": "嘉磷塞異丙胺鹽",
-			"engName": "GLYPHOSATE IPA",
-			"products": "興農春#草順除#蘭達#狀元春#春達#好過春#世界春#富貴春#免鋤草#日日春#春匯春#草虎#年年春#納殺#農好春#雙春#萬家春#魔草#穠蕪草#治草春#哈雷#泰有春#青山春#時時春#福有春#嘉友春#莎霸#永春#可靈達#農有春#除草魔#萬得春#家家春#春多多#春卡多#速速綜來春#春春春#大地春#惠大春#農農春#妙妙春#旺旺春#祝友春#日產春#大家春#世大春#保農春#泰好春#隴總春#紅星#上緊滅#總是春#克根#春春福#新新春#東和春#速來春#允除#先逢春#農會春#臺聯新滅草#興農除草樂#立農-春#庵原春"
-		},
-		"H142": {
-			"id": "H142",
-			"name": "嘉磷氟氯比",
-			"engName": "GLYPHOSATE + FLUROXYPYR",
-			"products": "双炮軍"
-		},
-		"F218": {
-			"id": "F218",
-			"name": "嘉賜三賽唑",
-			"engName": "KASUGAMYCIN + TRICYCLAZOLE",
-			"products": "稻友#稻熱一優"
-		},
-		"F273": {
-			"id": "F273",
-			"name": "嘉賜克枯爛",
-			"engName": "TECLOFTALAM + KASUGAMYCIN",
-			"products": "嘸免驚"
-		},
-		"F241": {
-			"id": "F241",
-			"name": "嘉賜快得寧",
-			"engName": "KASUGAMYCIN + OXINE-COPPER",
-			"products": "疫定好#雙核心"
-		},
-		"F130": {
-			"id": "F130",
-			"name": "嘉賜熱",
-			"engName": "KASUGAMYCIN + PHTHALIDE",
-			"products": "掃熱靈#立農嘉賜熱"
-		},
-		"F126": {
-			"id": "F126",
-			"name": "嘉賜貝芬",
-			"engName": "KASUGAMYCIN + CARBENDAZIM",
-			"products": "美谷丹"
-		},
-		"F129": {
-			"id": "F129",
-			"name": "嘉賜銅",
-			"engName": "KASUGAMYCIN + COPPER OXYCHLORIDE",
-			"products": "加瑞農#新輕功#高速剃露#春日黴素#輕功#高速攻露#田董"
-		},
-		"F131": {
-			"id": "F131",
-			"name": "嘉賜黴素",
-			"engName": "KASUGAMYCIN",
-			"products": "日產加斯美#加生素#加收米#甲等#佳收美#加因素#好牽成#加多米#嘉賜米#佳賜福#思米香#好稻友#利多素#菌友#萬旺農#包靈#家慶米#優多素#農賜福#卡斯強#卡斯敏#禾康#顧田園#加速沒事#稻會順#農賜米"
-		},
-		"F231": {
-			"id": "F231",
-			"name": "四克利",
-			"engName": "TETRACONAZOLE",
-			"products": "龍滅菌#龍穩"
 		},
 		"F023": {
 			"id": "F023",
@@ -111685,35 +111019,11 @@
 			"engName": "THIOPHANATE-METHYL + CHLOROTHALONIL",
 			"products": "多寶#神雷#瓜寶#保克寧#克菌寧#美友仁#美果靈#水傷靈#新果斯#尚托檔#瓜樂透"
 		},
-		"F288": {
-			"id": "F288",
-			"name": "四氯右滅達樂",
-			"engName": "CHLOROTHALONIL + METALAXYL-M",
-			"products": "火力夠"
-		},
-		"F294": {
-			"id": "F294",
-			"name": "四氯托敏",
-			"engName": "CHLOROTHALONIL + AZOXYSTROBIN",
-			"products": "剋歐"
-		},
-		"F299": {
-			"id": "F299",
-			"name": "四氯曼普胺",
-			"engName": "CHLOROTHALONIL + MINDIPROPAMID",
-			"products": "治直好"
-		},
 		"F024": {
 			"id": "F024",
 			"name": "四氯異苯腈",
 			"engName": "CHLOROTHALONIL",
 			"products": "達克靈#百克寧#大可靈#昭和達克靈#達剋能粒#大可寧#銹露能#達克靈．精#穩施寧#庵原達克靈#大克病#萬尅靈#仙克寧#露露#大克寧#達益靈#達露#好達寧#克氯靈#大克能#上蓋靈#世大達菌能#思菌清-精#炭無露ＳＣ#利克除#萬菌清－精#征露靈#達克尼克#速治寧#農總好#興農露露精#快滅菌#庵原達克靈.精#祥寶#大可靈精#剋菌精#老主固#大克寧精#法財賜露-精#百克露#速滅露#達異精"
-		},
-		"F281": {
-			"id": "F281",
-			"name": "四氯福多寧",
-			"engName": "FLUTOLANIL + CHLOROTHALONIL",
-			"products": "勁豪"
 		},
 		"F025": {
 			"id": "F025",
@@ -111721,197 +111031,11 @@
 			"engName": "CHLOROTHALONIL + FOSETYL AL",
 			"products": "亞得靈#常好清"
 		},
-		"I237": {
-			"id": "I237",
-			"name": "因得克",
-			"engName": "INDOXACARB",
-			"products": "杜邦速保#吉圃園#封火蟻"
-		},
-		"I226": {
-			"id": "I226",
-			"name": "因滅汀",
-			"engName": "EMAMECTIN BENZOATE",
-			"products": "蟲離離#好綠旺#金鼎勇#蟲絕#虫拜拜#清蟲#絕蟲靈#蟲溜溜#虫嘸去#青利利#法-財蟲寶#滅多多#尚穩#蟲清利#蟲倒倒#金爍爍#克蟲霸#蟲呼死#蟲死定#利台蟲ㄟ除#億治蟲#攏嘸蟲#艾滅丁#殺蟲利#菜蟲離#蟲除除#農會牌因滅汀#蟲蟲有危機#菜蟲光#尚方寶劍#迅雷#法－財祝蓋旺#來就福#菜蟲淨#日產虫蹺蹺"
-		},
-		"H143": {
-			"id": "H143",
-			"name": "固殺草",
-			"engName": "GLUFOSINATE-AMMONIUM",
-			"products": "國豐萬事達#斬丈根#百試達#嘉濱達喜草#故殺草#法-財固殺草#司克達#沒德比#狠角色#強手#好淨草#惠光好事達#農會牌固殺草#農事達#根攏斬#春蓋坐#聯利達#草安寧#霸速達#萬斬#牛頓樟#草光光#農好百草淨#十八釗#萬清#殺草強#免搜草#立農固殺草#斬草除根#草將軍#萬事達#草ㄟ搭#草國英雄#草丈根#庵原固殺草"
-		},
-		"I108": {
-			"id": "I108",
-			"name": "培丹",
-			"engName": "CARTAP",
-			"products": "天霸丹#農勁順#聯丹#雷丹#仙丹#巴丹#新主角#霸丹#培靈#元寶#聖手#好巴#培丹勇#培利靈#蓋穩#勁元寶#治蟲丹#財神#龍王丹#雙富#龍燈培丹#輕可#金倍力#利丹#福世丹#榮谷丹#介喜冬#禾頌#霸冬#金培冬#培農冬#九龍丹#除蟲樂#聯丹強#農會牌培丹#奈米丹#加培丹#用得旺#天生殺手"
-		},
-		"F041": {
-			"id": "F041",
-			"name": "多保鏈黴素",
-			"engName": "THIOPHANATE-METHYL + STREPTOMYCIN",
-			"products": "安達菌#細菌亡#安特淨#萬億黴素#保淨素#克腐#鬥腐"
-		},
-		"F043": {
-			"id": "F043",
-			"name": "多寧",
-			"engName": "DODINE",
-			"products": "黑星寶#龍頗寧#保菓寧#龍燈多寧"
-		},
-		"F042": {
-			"id": "F042",
-			"name": "多得淨",
-			"engName": "THIOPHANATE-METHYL + THIRAM",
-			"products": "豐米#農真勇"
-		},
-		"F012": {
-			"id": "F012",
-			"name": "大克爛",
-			"engName": "DICLORAN",
-			"products": "達克爛#治爛菌"
-		},
-		"A004": {
-			"id": "A004",
-			"name": "大克蟎",
-			"engName": "DICOFOL",
-			"products": "金滅蟎#克蛛蟎#威力蟎#愛佳靈#除蛛精#克蛛聖#克路生#克果蟎#開樂生#雷克蟎#蟎靈#新克蟎#死蟎多#佳樂仙#除銹蟎#蟎殺丹#好開生"
-		},
-		"I010": {
-			"id": "I010",
-			"name": "大利松",
-			"engName": "DIAZINON",
-			"products": "大佳好#樂豐收#惠我農#泰來松#保死淨#大利農#大力農#蟲敵#可利農#速利寧#新品松#多利農#大利冬#得克寧#必安穩#大利精#大吉農#金閃閃#大力士#稻滿#保利多#速蟲淨#中國勇#臺聯大利松#得稻生"
-		},
-		"I011": {
-			"id": "I011",
-			"name": "大滅松",
-			"engName": "DIMETHOATE",
-			"products": "滅亣松#大美速#治滅蟲#龍燈大滅松S#獅馬大滅速Ｓ#介殼寧#台美速#松大滅松#快滅速#剋介寶#立農樂果#好桔青#滴滅速#泰滅松#殺滅速#絕滅殺#萬果福#華夏松#達滅速#沖天炮#美舒果"
-		},
-		"I049": {
-			"id": "I049",
-			"name": "好達勝",
-			"engName": "PHOSPHINE",
-			"products": "益美穗#德燻寶#志宗燻得死#臺聯好達勝"
-		},
-		"I050": {
-			"id": "I050",
-			"name": "安丹",
-			"engName": "PROPOXUR",
-			"products": "一直旺#穩冬#紅龍#皇丹#旺丹#稻寶丹#保殺蟲#好安蟲#蝨丹#東和安#新王丹#聯安#農安心#年安丹#金旺冬#臺聯安丹#雙勝#安旺丹"
-		},
-		"F289": {
-			"id": "F289",
-			"name": "安美速",
-			"engName": "AMISULBROM",
-			"products": "網春豐"
-		},
-		"A044": {
-			"id": "A044",
-			"name": "密滅汀",
-			"engName": "MILBEMECTIN",
-			"products": "天官"
-		},
-		"F109": {
-			"id": "F109",
-			"name": "富爾邦",
-			"engName": "FERBAM",
-			"products": "烏藥粉"
-		},
-		"F202": {
-			"id": "F202",
-			"name": "富米熱斯",
-			"engName": "FERIMZONE + PHTHALIDE",
-			"products": "巴米"
-		},
-		"F204": {
-			"id": "F204",
-			"name": "富米綜",
-			"engName": "FERIMZONE",
-			"products": ""
-		},
-		"H164": {
-			"id": "H164",
-			"name": "左旋莫多草",
-			"engName": "S-METOLACHLOR",
-			"products": "金︱除豪"
-		},
-		"P033": {
-			"id": "P033",
-			"name": "巴克素",
-			"engName": "PACLOBUTRAZOL",
-			"products": "巴面擋#法-財批參參#捌剋樹#穩擋#凍頂#擋主席#有擋頭#好擋頂#尚好擋#押生長#真鰲擋#法－財好頭彩#擋藤精#卡有擋"
-		},
-		"H025": {
-			"id": "H025",
-			"name": "巴拉刈",
-			"engName": "PARAQUAT",
-			"products": "總斷根#速草淨#全草滅#富農刈#剋蕪踪#草蕪松#克草靈#克蕪踪#殺青#革蕪根#大霧踪#快滅草#草必淨#金殺草#草立淨#絕蕪草#克草王#速殺草#百草枯#速刈草#連克草#見青除#仙通#綜免刈"
-		},
-		"H026": {
-			"id": "H026",
-			"name": "巴拉刈二氯鹽",
-			"engName": "PARAQUAT DICHLORIDE",
-			"products": ""
-		},
-		"I017": {
-			"id": "I017",
-			"name": "巴賽松",
-			"engName": "PHOXIM",
-			"products": "保谷松"
-		},
-		"H028": {
-			"id": "H028",
-			"name": "巴達刈",
-			"engName": "PARAQUAT + DIURON",
-			"products": "草苙苙#萬年刈"
-		},
-		"I219": {
-			"id": "I219",
-			"name": "布得芬諾",
-			"engName": "BUPROFEZIN + TEBUFENOZIDE",
-			"products": "穩定勇"
-		},
 		"F027": {
 			"id": "F027",
 			"name": "布瑞莫",
 			"engName": "BUPIRIMATE",
 			"products": "克粉靈"
-		},
-		"X005": {
-			"id": "X005",
-			"name": "布芬三亞蟎",
-			"engName": "BUPROFEZIN + AMITRAZ",
-			"products": "三多芬"
-		},
-		"I033": {
-			"id": "I033",
-			"name": "布芬大利松",
-			"engName": "BUPROFEZIN + DIAZINON",
-			"products": "優億利"
-		},
-		"I034": {
-			"id": "I034",
-			"name": "布芬治蝨",
-			"engName": "BUPROFEZIN + MTMC",
-			"products": "優治殺"
-		},
-		"I036": {
-			"id": "I036",
-			"name": "布芬淨",
-			"engName": "BUPROFEZIN",
-			"products": "穩効#穩讚#允讚#穩淨#安普落#蝨中寶#穩當#穩旺#特效#穩宋#巴勝#滅稻蝨"
-		},
-		"I035": {
-			"id": "I035",
-			"name": "布芬益化利",
-			"engName": "BUPROFEZIN + ESFENVALERATE",
-			"products": "速利効#立農友効"
-		},
-		"I037": {
-			"id": "I037",
-			"name": "布芬第滅寧",
-			"engName": "DELTAMETHRIN + BUPROFEZIN",
-			"products": "穩効寧#雙贏#泰順強#双重發"
 		},
 		"F028": {
 			"id": "F028",
@@ -111919,881 +111043,11 @@
 			"engName": "PENCONAZOLE",
 			"products": "國豐平克座#先正達-脫百絲#新-脫百絲#白粉光#脫白粉#妥白絲#麥卡粉#泰勇#新泰勇#金-泰勇"
 		},
-		"H174": {
-			"id": "H174",
-			"name": "平速爛",
-			"engName": "PENOXSULAM",
-			"products": "稻田喜#除田草"
-		},
-		"I257": {
-			"id": "I257",
-			"name": "庫斯蘇力菌ABTS-351",
-			"engName": "",
-			"products": "金太寶"
-		},
-		"I258": {
-			"id": "I258",
-			"name": "庫斯蘇力菌E-911",
-			"engName": "",
-			"products": "速力寶"
-		},
-		"F196": {
-			"id": "F196",
-			"name": "待克利",
-			"engName": "DIFENOCONAZOLE",
-			"products": "炭剋#新-農治#聯戰#炭清#戰力#戰炭#吉實#新-剋星#寶剋力#雙剋#戰鬥力#炭春#強棒#世介猛#菌瑞去#淨豪洗#驚炭#絕剋菌#炭鋤#攏治#炭寧#戰炭大王#大駭客#世介勇#戰車#炭吉#回生丹#炭絕精#治炭素#攏好#免萬炭#好利精#農會牌-新炭霜#探戈#巧是猛#優先#龍有賺#法－財瑞進#金滅菌#龍頭#金輕鬆#除菌王#攏珍順#速利菌"
-		},
-		"F228": {
-			"id": "F228",
-			"name": "待普克利",
-			"engName": "DIFENOCONAZOLE + PROPICONAZOLE",
-			"products": "滿堂彩#雙倍勇#雙利多#兩相好#嗄嗄叫#葉愛用#天將#利多多#金萬通#粉優銹#雙效合一#利双旺#優喜#銹淨#速滅銹#法-財祝平安"
-		},
-		"R006": {
-			"id": "R006",
-			"name": "得伐鼠",
-			"engName": "DIPHACINONE",
-			"products": "滅鼠"
-		},
-		"F201": {
-			"id": "F201",
-			"name": "得克利",
-			"engName": "TEBUCONAZOLE",
-			"products": "獲達多#滅炭#丹克利#嚮馬#金果多#未銹斗#長欣#法－財福祿壽#好秧甲#金正美#標靶#龍挺利#顧全精"
-		},
-		"F290": {
-			"id": "F290",
-			"name": "得克芬胺",
-			"engName": "TEBUCONAZOLE + CYFLUFENAMID",
-			"products": "煞粉大"
-		},
-		"F097": {
-			"id": "F097",
-			"name": "得恩地",
-			"engName": "THIRAM",
-			"products": "新果生#寶果泰#慶達生#保物壯#美果旺#得果丹#保菌淨#農真好"
-		},
-		"H079": {
-			"id": "H079",
-			"name": "得拉本",
-			"engName": "DALAPON",
-			"products": "得本#殺草罷#免針草#茅草滅"
-		},
-		"H170": {
-			"id": "H170",
-			"name": "得殺草",
-			"engName": "TEPRALOXYDIM",
-			"products": "禾全除"
-		},
-		"I247": {
-			"id": "I247",
-			"name": "得芬瑞",
-			"engName": "TEBUFENPYRAD",
-			"products": "蟎速伏#惠光蟎速伏"
-		},
-		"I214": {
-			"id": "I214",
-			"name": "得芬諾",
-			"engName": "TEBUFENOZIDE",
-			"products": "較好#長好#享好#超忽好#擱巧好#聯霸#法－財得福#清尚好#外星丹#蛾賣來-精#剋毒蛾#旺旺好#蛾賣來"
-		},
-		"H081": {
-			"id": "H081",
-			"name": "得速爛",
-			"engName": "ASULAM + DALAPON",
-			"products": ""
-		},
-		"H097": {
-			"id": "H097",
-			"name": "復祿芬",
-			"engName": "OXYFLUORFEN",
-			"products": "草無影#豬狗草#割地草#除園草#免割草"
-		},
-		"I040": {
-			"id": "I040",
-			"name": "必克蝨",
-			"engName": "BUFENCARB",
-			"products": "必速蝨#巴克士#龍燈必克蝨#必稻蝨"
-		},
-		"H036": {
-			"id": "H036",
-			"name": "必芬普拉草",
-			"engName": "BIFENOX + PRETILACHLOR",
-			"products": "魔威"
-		},
-		"I041": {
-			"id": "I041",
-			"name": "必芬松",
-			"engName": "PYRIDAPHENTHION",
-			"products": ""
-		},
-		"A055": {
-			"id": "A055",
-			"name": "必芬蟎",
-			"engName": "BIFENAZATE",
-			"products": "愛克蟎"
-		},
-		"H037": {
-			"id": "H037",
-			"name": "必芬諾",
-			"engName": "BIFENOX",
-			"products": "地福#魔丹"
-		},
-		"H056": {
-			"id": "H056",
-			"name": "快伏草",
-			"engName": "QUIZALOFOP-P-ETHYL",
-			"products": "剋禾草#農好讚#尖葉#日產大家讚#旱草好#正祝讚"
-		},
-		"H057": {
-			"id": "H057",
-			"name": "快克草",
-			"engName": "QUINCLORAC",
-			"products": "攏克草"
-		},
-		"F253": {
-			"id": "F253",
-			"name": "快得依普同",
-			"engName": "OXINE-COPPER + IPRODIONE",
-			"products": "絕招"
-		},
-		"F060": {
-			"id": "F060",
-			"name": "快得保淨",
-			"engName": "THIOPHANATE-METHYL + OXINE-COPPER",
-			"products": "好菌淨#保多利#快保淨#尚蓋好#斑保淨#菌滅丹#快豐收#快得淨#嘉保淨#好得淨#保全青#綠滅菌#果穩讚#大保淨"
-		},
-		"F214": {
-			"id": "F214",
-			"name": "快得克絕",
-			"engName": "OXINE-COPPER + CYMOXANIL",
-			"products": "妥凍#快絕#炮双台"
-		},
-		"F061": {
-			"id": "F061",
-			"name": "快得寧",
-			"engName": "OXINE-COPPER",
-			"products": "億級棒#龍燈快得寧#快樂農#得寧寶#超棒#樂克寧#佳安農#世界棒#牽手#老貴諾#祥讚#松疫奇棒#松疫急粉#萬年青#仙得寧#得安寧#在欉青#益旺#美果銅#祥旺#萬得寧#紅不讓#賜果丹#賜果露#銅司令#益吉讚#萬枝春#絕對旺#好枝春#快淨#綠健#淨果精#快益清#嘉泰寧#國豐寧#太棒#加富冬#聯棒#疫露棒#絕菌王#有貴人#上介棒#尚青#滿青#法-財一級棒"
-		},
-		"F242": {
-			"id": "F242",
-			"name": "快得滅達樂",
-			"engName": "OXINE-COPPER + METALAXYL",
-			"products": "露穩滅#紅運發#快得樂"
-		},
-		"F258": {
-			"id": "F258",
-			"name": "快諾芬",
-			"engName": "QUINOXYFEN",
-			"products": "真青翠"
-		},
-		"A030": {
-			"id": "A030",
-			"name": "愛殺松",
-			"engName": "ETHION",
-			"products": "快殺松#蟎全克#羅翰松#治蟎#自立旺#愛殺蟎#速殺蟎#益速寶#大多靈#死蟎蜱#介殺霸#殺蟎大#安克蟎#益速松#速克蟎#好桔寶#松樹治蟎#殺蟎玉#樂除蟎#愛滅蟎#順農心#易速寶#羅地剎#益滅蟎#愛美松#克蟎靈#台殺松#羅殺松#愛蜱殺#新介煞霸#尅蟎精#百事發#新紅兵#特殺松#好滅松#建愛#殺蜏蜱#愛速寶#優克蟎#好殺蟎#庵原愛殺松#愛利強"
-		},
-		"I054": {
-			"id": "I054",
-			"name": "托福松",
-			"engName": "TERBUFOS",
-			"products": "抗蟲得#抗統特#抗地蟲#地龍#萬能松#滅地蟲#賜農富#樂土#顧田寶#合農時#金抗蟲地#永富王#抗蟲敵#真托福#田頭家#抗蟲靈#勇伯"
-		},
-		"N011": {
-			"id": "N011",
-			"name": "托福毆殺滅",
-			"engName": "TERBUFOS + OXAMYL",
-			"products": "地強"
-		},
-		"A046": {
-			"id": "A046",
-			"name": "扶吉胺",
-			"engName": "FLUAZINAM",
-			"products": "福農帥#聯立帥#福吉安"
-		},
-		"P004": {
-			"id": "P004",
-			"name": "抑芽素",
-			"engName": "MALEIC HYDRAZIDE,MH",
-			"products": ""
-		},
-		"P006": {
-			"id": "P006",
-			"name": "抑芽素   鉀鹽",
-			"engName": "MALEIC-HYDRAZIDE",
-			"products": "利收#益農鉀素#抑芽素–鉀"
-		},
-		"P007": {
-			"id": "P007",
-			"name": "抑芽醇",
-			"engName": "N-DECANOL",
-			"products": "有利抑芽醇"
-		},
-		"F227": {
-			"id": "F227",
-			"name": "披扶座",
-			"engName": "PEFURAZOATE",
-			"products": "健種"
-		},
-		"H065": {
-			"id": "H065",
-			"name": "拉草",
-			"engName": "ALACHLOR",
-			"products": "壓草#拉索#治草#龍燈拉草#除滅草"
-		},
-		"I084": {
-			"id": "I084",
-			"name": "拜裕松",
-			"engName": "QUINALPHOS",
-			"products": "倍新裕#拜爾強#松拜愈爽#滅蟲寧#拜易松#益定通#新雷達松#快又好#建裕松#本事通"
-		},
-		"N012": {
-			"id": "N012",
-			"name": "摩朗得(酒石酸鹽)",
-			"engName": "MORANTEL TARTRATE",
-			"products": "興農保松青"
-		},
-		"F152": {
-			"id": "F152",
-			"name": "撲克拉",
-			"engName": "PROCHLORAZ",
-			"products": "愛卡贊#金克拉#介贊#保滅菌#富利好#松樹您好#救星#金介霸#5克拉#包您豪#霸面讚#包克啦#保加好#保克順#超讚#萬霸#統領#粉總倒#鄉土情#讚果好#白乳好#包好用#包優果#卡斯好#松好#庵原撲克拉#包滿意#包速適#炭粉清#果然好#包大仁#炭呼係#億度讚#安克拉#包果良#田園寶"
-		},
-		"F153": {
-			"id": "F153",
-			"name": "撲克拉錳",
-			"engName": "PROCHLORAZ-MANGANESE",
-			"products": "包利贊#介順#包力錳#包金讚#法-財如意#法財金猛#勁夠錳"
-		},
-		"X004": {
-			"id": "X004",
-			"name": "撲殺培丹",
-			"engName": "PROBENAZOLE + CARTAP",
-			"products": "好米丹#巴好#保穗丹"
-		},
-		"F154": {
-			"id": "F154",
-			"name": "撲殺熱",
-			"engName": "PROBENAZOLE",
-			"products": "興農掃熱丹#稻恩#富農丹#上米滿#得谷丹#永利農#稻香村#田稼友#禾保#稻滿優#好米得#立農撲殺熱"
-		},
-		"F155": {
-			"id": "F155",
-			"name": "撲殺賜圃",
-			"engName": "PROBENAZOLE + ISOPROTHIOLANE",
-			"products": "滅熱寶"
-		},
-		"F156": {
-			"id": "F156",
-			"name": "撲滅寧",
-			"engName": "PROCYMIDONE",
-			"products": "住友速滅寧#速益寧#施美力#金鐘罩#速克寧#快速寧#金福星#萬事寧#疾速靈#好速滅靈#立農速滅靈"
-		},
-		"I160": {
-			"id": "I160",
-			"name": "撲滅松",
-			"engName": "FENITROTHION",
-			"products": "松威力#速克蟲#住友速滅松#富力收#富粒松#普滅#速美旺#新速松#永滅蟲#蜂仔松#速落松#福利松#速青#速美松#死沒蟲#好吉果#可樂松#福農松#青山撲滅松#松友#滅蟲#史美松#松速滅粉#速滅擊蟲#速達松#撲尅#喜萬年#滴滴強#撲克靈#好米松#包允殺#速滅蟲#蜂仔寶#速密吉旺#嘉滅松#撲殺多#住滅強#安速滅#豐利松#好滅松#益速旺#豐果松#福利讚#臺聯撲滅松#立農速滅松"
-		},
-		"I220": {
-			"id": "I220",
-			"name": "撲滅芬普寧",
-			"engName": "FENPROPATHRIN + FENITROTHION",
-			"products": "住友寶#立農寶"
-		},
-		"R008": {
-			"id": "R008",
-			"name": "撲滅鼠",
-			"engName": "BROMADIOLONE",
-			"products": "現代貓"
-		},
-		"I158": {
-			"id": "I158",
-			"name": "撲芬松",
-			"engName": "FENVALERATE + FENITROTHION",
-			"products": "普芬精#青山藍美丹#直滴靈#撲滅靈#總來#撲蟲寶#速芬松#跳仔清#速誠清#好滅芬#頂呱呱#順發#新大松#立農精芬"
-		},
-		"I159": {
-			"id": "I159",
-			"name": "撲馬松",
-			"engName": "FENITROTHION + MALATHION",
-			"products": "速馬松#護米松#滿力松#愛賜松#金克寧#淨園#撲伏寧#吉祥"
-		},
-		"H136": {
-			"id": "H136",
-			"name": "撻乃安",
-			"engName": "DINITRAMINE",
-			"products": "割枯淨#瓦克"
-		},
-		"I206": {
-			"id": "I206",
-			"name": "斜紋夜蛾費洛蒙",
-			"engName": "",
-			"products": "一枝春"
-		},
-		"I212": {
-			"id": "I212",
-			"name": "斜紋夜蛾費洛蒙乙",
-			"engName": "",
-			"products": ""
-		},
-		"I210": {
-			"id": "I210",
-			"name": "斜紋夜蛾費洛蒙甲",
-			"engName": "",
-			"products": ""
-		},
-		"A031": {
-			"id": "A031",
-			"name": "新殺蟎",
-			"engName": "BROMOPROPYLATE",
-			"products": "速利農#利果農#欣蟎殺#滅蟎龍#新蟎清#好克蟎#速尅蟎#蛛蟎克#力果農#霸蟎#穩掃黑#滅蟎#蜘蛛滅#滿香春#銹蜱靈#銹埤殺#蟎銹剋#蟎家收#好保農"
-		},
-		"H070": {
-			"id": "H070",
-			"name": "施得圃",
-			"engName": "PENDIMETHALIN",
-			"products": "斯統普#施通普#法氰斯統普#富利旺#新賜得普#斯通鋪#施統圃#擋無草#新通圃#草秀才#控籽好#適統圃#金斯統普#賜滅草#賜得寶#農好施得圃#賜通圃#草無生#草狀元#剋草圃#施得寶#萌前清#法-財施得圃#斬草#速得福#神通寶#除草通#控草籽#草不玩#施擋圃#賜捕草"
-		},
-		"F222": {
-			"id": "F222",
-			"name": "易胺座",
-			"engName": "IMIBENCONAZOLE",
-			"products": "萬點#金灼灼#造福"
-		},
-		"N004": {
-			"id": "N004",
-			"name": "普伏松",
-			"engName": "ETHOPROPHOS",
-			"products": "勇根路#益收寶#剋線蟲"
-		},
-		"F110": {
-			"id": "F110",
-			"name": "普克利",
-			"engName": "PROPICONAZOLE",
-			"products": "特利得#特風動#普克斑#特利克#雙當好#速利清#普利多#卡是贊#福利得#真有勁#補克菌#祝好#普利得#得力克#普克菌#全壘打#利農好#好利得#大三元#上等讚#特好#克菌霸#包克菌#黃金甲#自立萬年青#煞菌精#大農家#龍普力#速立得"
-		},
-		"H098": {
-			"id": "H098",
-			"name": "普拉草",
-			"engName": "PRETILACHLOR",
-			"products": "樂好除#草蕪#免巡田#稻管用#踪除#淨草丹#田無草#治草淨"
-		},
-		"F111": {
-			"id": "F111",
-			"name": "普拔克",
-			"engName": "PROPAMOCARB HYDROCHLORIDE",
-			"products": "普尅菌#泰利#尚興#有露用#普羅旺#剋疫菌#治露寶"
-		},
-		"H100": {
-			"id": "H100",
-			"name": "普拔根",
-			"engName": "PROPAZINE",
-			"products": ""
-		},
-		"H151": {
-			"id": "H151",
-			"name": "普拔草",
-			"engName": "PROPAQUIZAFOP",
-			"products": "草無春"
-		},
-		"I129": {
-			"id": "I129",
-			"name": "普硫松",
-			"engName": "PROTHIOFOS",
-			"products": "四季靈#賜貴寧#四季常春#季節寧#普農#虎猛克#賜季寧#速解寧#好伴侶"
-		},
-		"H101": {
-			"id": "H101",
-			"name": "普芬草",
-			"engName": "PYRAZOXYFEN",
-			"products": ""
-		},
-		"F292": {
-			"id": "F292",
-			"name": "曼普胺",
-			"engName": "MANDIPROPAMID",
-			"products": "沒疫健"
-		},
-		"H162": {
-			"id": "H162",
-			"name": "本達亞喜芬",
-			"engName": "BENTAZON + ACIFLUORFEN",
-			"products": "田草王"
-		},
-		"F198": {
-			"id": "F198",
-			"name": "本達樂",
-			"engName": "BENALAXYL",
-			"products": "龍本#龍治本#金利果#好立達#根尚勇#阿不倒#固本#地疫斬"
-		},
-		"H039": {
-			"id": "H039",
-			"name": "本達隆",
-			"engName": "BENTAZON",
-			"products": "省疏草#克草星#草霸王#草皇帝"
-		},
-		"F076": {
-			"id": "F076",
-			"name": "松香酯銅",
-			"engName": "CITCOP",
-			"products": "銅好醫"
-		},
-		"P009": {
-			"id": "P009",
-			"name": "果收生長素",
-			"engName": "",
-			"products": "保生丹#愛多收#喜多收#果多#利豐收生長素#大收成#必豐收#新利多生–２#聯利生長素#希豐收#保豐收#萬能寶#新農家寶#金雞牌愛農"
-		},
-		"F234": {
-			"id": "F234",
-			"name": "枯草桿菌",
-			"engName": "BACILLUS SUBTILIS",
-			"products": "台灣寶#樂農寶#沅渼賜倍效#農會寶#興農寶#台灣水寶#金雞牌賜倍效#漢寶牌培農菌"
-		},
-		"H131": {
-			"id": "H131",
-			"name": "樂滅草",
-			"engName": "OXADIAZON",
-			"products": "龍燈樂滅草#禁草仔#滅草樂#利滅草#樂無草#汰籽芽#除草靈#施樂園#法-財樂滅達#法-財樂滅草#滴滅草#農思達#樂速草#治草王#殺草霸#諾殺#草無見#草沒"
-		},
-		"H173": {
-			"id": "H173",
-			"name": "欣克免速隆",
-			"engName": "THENYLCHLOR + BENSULFURONMETHYL",
-			"products": "治草靈"
-		},
-		"I165": {
-			"id": "I165",
-			"name": "歐滅松",
-			"engName": "OMETHOATE",
-			"products": ""
-		},
-		"F250": {
-			"id": "F250",
-			"name": "歐索林酸",
-			"engName": "OXOLINIC ACID",
-			"products": "住友金星"
-		},
-		"H083": {
-			"id": "H083",
-			"name": "殺丹",
-			"engName": "THIOBENCARB",
-			"products": "掃丹#庵原掃丹"
-		},
-		"H154": {
-			"id": "H154",
-			"name": "殺丹免速隆",
-			"engName": "THIOBENCARB + BENSULFURON-METHYL",
-			"products": "大野狼"
-		},
-		"F100": {
-			"id": "F100",
-			"name": "殺紋寧",
-			"engName": "HYMEXAZOL",
-			"products": "立枯靈#易枯能#除枯寧#紋枯寧#立枯宝"
-		},
-		"F193": {
-			"id": "F193",
-			"name": "殺紋滅達樂",
-			"engName": "HYMEXAZOL + METALAXYL",
-			"products": "枯疫王"
-		},
-		"H179": {
-			"id": "H179",
-			"name": "殺芬草",
-			"engName": "Saflufenacil",
-			"products": "八將軍"
-		},
-		"R007": {
-			"id": "R007",
-			"name": "殺鼠靈",
-			"engName": "WARFARIN",
-			"products": ""
-		},
-		"I166": {
-			"id": "I166",
-			"name": "毆殺松",
-			"engName": "ACEPHATE",
-			"products": "萬勝#金谷粉#大勝毆殺松#金達#速好勝#毆特恩#毆信#黑仙#速勝#百勝#殺蟲靈#卡多利#松樹歐仙#歐仙水#福春#毆寶#歐聯#又夠贏#毆寧#毆易松#全勝#好福勝#新-歐聖#歐特利#烏仙粉#保無蟲#毆帝#毆速松#連勝#仙水好#好殺王#福仙#億米松#大統#可勝#龍燈毆殺松#全統#歐世松#蟲攏無#保農收#威力多#金克松#黑賽松#大蟲寶#殺卡多#神仙"
-		},
-		"I167": {
-			"id": "I167",
-			"name": "毆殺滅",
-			"engName": "OXAMYL",
-			"products": "護根#萬強#保你根#天強"
-		},
-		"A032": {
-			"id": "A032",
-			"name": "毆蟎多",
-			"engName": "PROPARGITE",
-			"products": "克蟎特#好滅蟎#穩殺蟎#汰蟎樂#速蟎#奧蟎多#克蟎#殺蟎能#蟎多靈#自立必殺蟎#建殺蟎#毆蟎都#歐殺蟎#瑞伏蟎#蟎王#毆無蟎#蟎好用#呼蟎倒#柑蛛精#速蟎能#蟎多寧#包蟎逸#愛蟎多#金螨意"
-		},
-		"I018": {
-			"id": "I018",
-			"name": "比加普",
-			"engName": "PIRIMICARB",
-			"products": "蚜敵"
-		},
-		"F017": {
-			"id": "F017",
-			"name": "比多農",
-			"engName": "BITERTANOL",
-			"products": "拜可#倍易多#核可#景茂比大農#景茂比多農#駭克二五#惠可#興農樂可"
-		},
-		"F192": {
-			"id": "F192",
-			"name": "比芬諾",
-			"engName": "PYRIFENOX",
-			"products": "諾粉能#吉星#治粉寶#粉銹寧"
-		},
-		"H029": {
-			"id": "H029",
-			"name": "比達寧",
-			"engName": "BUTRALIN",
-			"products": "止芽素#草嘜發#止草素"
-		},
-		"H071": {
-			"id": "H071",
-			"name": "氟丙酸",
-			"engName": "FRENOCK",
-			"products": "佛納"
-		},
-		"I256": {
-			"id": "I256",
-			"name": "氟大滅",
-			"engName": "FLUBENDIAMIDE",
-			"products": "達陣"
-		},
-		"I244": {
-			"id": "I244",
-			"name": "氟尼胺",
-			"engName": "FLONICAMID",
-			"products": "四季紅"
-		},
-		"F277": {
-			"id": "F277",
-			"name": "氟比拔克",
-			"engName": "FLUOPICOLIDE + PROPAMOCARB HYDROCHLORIDE",
-			"products": "搏露阻"
-		},
-		"H072": {
-			"id": "H072",
-			"name": "氟氯比",
-			"engName": "FLUROXYPYR-MEPTYL",
-			"products": "進寶#除藤草#福祿比#隴無藤#福您比#畢凋#免刈藤"
-		},
-		"F243": {
-			"id": "F243",
-			"name": "氟硫滅",
-			"engName": "FLUSULFAMIDE",
-			"products": "根美人#根必強"
-		},
-		"I202": {
-			"id": "I202",
-			"name": "氟芬隆",
-			"engName": "FLUFENOXURON",
-			"products": "添福#臺聯紅"
-		},
-		"F091": {
-			"id": "F091",
-			"name": "氧化亞銅",
-			"engName": "CUPROUS OXIDE",
-			"products": "強壯銅#龍燈氧化亞銅#安吉果"
-		},
-		"F101": {
-			"id": "F101",
-			"name": "氫氧化銅",
-			"engName": "CUPRIC HYDROXIDE",
-			"products": "果菜多-101#顧信用#保果旺#確實多#可菜得水仙#可菜得#自立果寶精#藍青#果再青#果益多#克菌多#可再多#枝枝青#果菜旺#龍喜銅#可利得#嘉津菓#益農寶#優克菌#果菜寶#新固賽得#嘉樂寶#嘉大銅#透腳青#增農益#銅優多"
-		},
-		"P027": {
-			"id": "P027",
-			"name": "氰滿素",
-			"engName": "CYANAMIDE",
-			"products": "春雷"
-		},
-		"H149": {
-			"id": "H149",
-			"name": "汰硫免速隆",
-			"engName": "DITHIOPYR + BENSULFURON METHYL",
-			"products": "隆隆清"
-		},
-		"H148": {
-			"id": "H148",
-			"name": "汰硫草",
-			"engName": "DITHIOPYR",
-			"products": ""
-		},
-		"I229": {
-			"id": "I229",
-			"name": "汰芬諾克",
-			"engName": "DIAFENTHIURON + FENOXYCARB",
-			"products": "大贊"
-		},
-		"I197": {
-			"id": "I197",
-			"name": "汰芬隆",
-			"engName": "DIAFENTHIURON",
-			"products": "金勇#汰勝#汰勇#蟎總煞#必勝"
-		},
-		"H059": {
-			"id": "H059",
-			"name": "汰草龍",
-			"engName": "DAIMURON",
-			"products": "田王#田王–９"
-		},
-		"I073": {
-			"id": "I073",
-			"name": "治滅寧",
-			"engName": "MTMC + TETRAMETHRIN",
-			"products": ""
-		},
-		"I075": {
-			"id": "I075",
-			"name": "治滅蝨",
-			"engName": "METOLCARB",
-			"products": "除稻蝨#袪蝨靈#盡滅蝨#自滅殺#新泰力#治稻蝨#好印象"
-		},
-		"P016": {
-			"id": "P016",
-			"name": "治芽素",
-			"engName": "",
-			"products": ""
-		},
-		"I076": {
-			"id": "I076",
-			"name": "治蝨丹",
-			"engName": "CARTAP + MTMC",
-			"products": "稻安#空白#治稻蝨丹"
-		},
-		"F186": {
-			"id": "F186",
-			"name": "波爾多",
-			"engName": "",
-			"products": "九威旺#藍寶#介新#介猛"
-		},
-		"I215": {
-			"id": "I215",
-			"name": "派滅淨",
-			"engName": "PYMETROZINE",
-			"products": "確是好#無地跑#蝨靖#跑無路#跳仔王#特優#確實讚#滅絕蝨汰#農總讚#確實大"
-		},
-		"F247": {
-			"id": "F247",
-			"name": "派美尼",
-			"engName": "PYRIMETHANIL",
-			"products": "施卡樂"
-		},
-		"F212": {
-			"id": "F212",
-			"name": "溴克座",
-			"engName": "BROMUCONAZOLE",
-			"products": "速克"
-		},
-		"I140": {
-			"id": "I140",
-			"name": "滅克蝨",
-			"engName": "XMC",
-			"products": "保汝安"
-		},
-		"I139": {
-			"id": "I139",
-			"name": "滅多松",
-			"engName": "OXYDEMETON METHYL",
-			"products": "新美實多愛#滅蚜精#好讚#克蚜精"
-		},
-		"I136": {
-			"id": "I136",
-			"name": "滅大松",
-			"engName": "METHIDATHION",
-			"products": "舒霸#超霸粉"
-		},
-		"H110": {
-			"id": "H110",
-			"name": "滅必淨",
-			"engName": "METRIBUZIN",
-			"products": "聖克#普洛淨#勝可#勝力"
-		},
-		"I138": {
-			"id": "I138",
-			"name": "滅必蝨",
-			"engName": "ISOPROCARB",
-			"products": "滅必死#好必蝨#好速滅蝨#滅蝨#必滅蝨#龍燈滅必蝨#米蝨滅#米富仁#新美普馨-50#噴必死#米保珍#滅飛蝨#米富馨#益果生#億必蝨#蝨必滅#嘉必蝨#蝨必死#滅穀蝨#米必新#力降蝨#蝨殺蝨#新果蝨#滅寶蝨#米卡好"
-		},
-		"F119": {
-			"id": "F119",
-			"name": "滅普寧",
-			"engName": "MEPRONIL",
-			"products": "百賜達克#新紋枯精"
-		},
-		"F244": {
-			"id": "F244",
-			"name": "滅派林",
-			"engName": "MEPANIPYRIM",
-			"products": "果必佳#利果精"
-		},
-		"I141": {
-			"id": "I141",
-			"name": "滅爾蝨",
-			"engName": "XYLYLCARB",
-			"products": "滅蟲霸#保滅殺#特滅蝨"
-		},
-		"F267": {
-			"id": "F267",
-			"name": "滅特座",
-			"engName": "METCONAZOLE",
-			"products": "統碳吉#立特座"
-		},
-		"F117": {
-			"id": "F117",
-			"name": "滅紋",
-			"engName": "MALS",
-			"products": "除紋菌#好速紋#紋枯#紋克靈#紋淨#龍燈滅紋#克紋#滅枯靈#殺菌靈#紋特靈#珠馬紋"
-		},
-		"N006": {
-			"id": "N006",
-			"name": "滅線蟲",
-			"engName": "DCIP",
-			"products": "脫線靈#線蟲去#足本領#脫線蟲"
-		},
-		"H156": {
-			"id": "H156",
-			"name": "滅芬免速隆",
-			"engName": "MEFENACET + BENSULFURONMETHYL",
-			"products": "全期除"
-		},
-		"H157": {
-			"id": "H157",
-			"name": "滅芬草",
-			"engName": "MEFENACET",
-			"products": "全‧免草繁"
-		},
-		"I243": {
-			"id": "I243",
-			"name": "滅芬諾",
-			"engName": "METHOXYFENOZIDE",
-			"products": "蛾寶"
-		},
-		"F278": {
-			"id": "F278",
-			"name": "滅芬農",
-			"engName": "METRAFENONE",
-			"products": "新潮流"
-		},
-		"H150": {
-			"id": "H150",
-			"name": "滅草胺",
-			"engName": "METAZACHLOR",
-			"products": "圃地善#魔克草#菜地讚"
-		},
-		"H113": {
-			"id": "H113",
-			"name": "滅落脫",
-			"engName": "NAPROPAMIDE",
-			"products": "剃光頭"
-		},
-		"I142": {
-			"id": "I142",
-			"name": "滅蝨丹",
-			"engName": "CARTAP + MIPC",
-			"products": "倍豐丹#稻必用#倍殺丹#巴米丹#新榮谷丹#新利丹#高培冬#保谷丹#培米丹"
-		},
-		"I143": {
-			"id": "I143",
-			"name": "滅賜克",
-			"engName": "METHIOCARB",
-			"products": "拜薊剋#勇馬#速滅薊"
-		},
-		"I144": {
-			"id": "I144",
-			"name": "滅賜松",
-			"engName": "DEMETON-S-METHYL",
-			"products": "全滅蚜#美利斯#美實多愛#克蚜蟲#利賜多#美達多#滅蟲靈#滅多殺#滅死多#大賜松#美賜福#美達#美多斯#美滅松#除蚜蟲#美達靈#滅達"
-		},
-		"F120": {
-			"id": "F120",
-			"name": "滅達樂",
-			"engName": "METALAXYL",
-			"products": "露達滅#好通露#好露用#征露#瑞年來#地樂隆#露易清#露多滅#勁達樂#貝士得滅達樂#雋農紅藥粉#圍達樂#滅露菌#滅露能#穩滅露#卡好用#攻露#戰菌#紅太陽#露得清#剋露清#愛普殺#速治菌#賜無菌#除菌露-液#露可清#聖露#露菌殺#美佳露"
-		},
-		"F238": {
-			"id": "F238",
-			"name": "無水硫酸銅",
-			"engName": "COPPER SULFATE",
-			"products": "擊發"
-		},
-		"F158": {
-			"id": "F158",
-			"name": "熱必斯",
-			"engName": "PHTHALIDE",
-			"products": "喜丹#立必斯#喜丹精#稻熱淨#保稻旺#稻粒春#真旺盛"
-		},
-		"H088": {
-			"id": "H088",
-			"name": "理有龍",
-			"engName": "LINURON",
-			"products": "龍天下"
-		},
-		"F207": {
-			"id": "F207",
-			"name": "環克座",
-			"engName": "CYPROCONAZOLE",
-			"products": "天王"
-		},
-		"H171": {
-			"id": "H171",
-			"name": "環磺隆",
-			"engName": "CYCLOSULFAMURON",
-			"products": "禾樂"
-		},
-		"I253": {
-			"id": "I253",
-			"name": "甜菜夜蛾核多角體病毒",
-			"engName": "SPODOPTERA EXIGUA NUCLEOPOLYHEDROVIRUS",
-			"products": "奇招"
-		},
-		"I207": {
-			"id": "I207",
-			"name": "甜菜夜蛾費洛蒙",
-			"engName": "SEX PHEROMONES OF SPODOPTERA EXIQUA",
-			"products": "日夜春"
-		},
-		"I211": {
-			"id": "I211",
-			"name": "甜菜夜蛾費洛蒙甲",
-			"engName": "",
-			"products": ""
-		},
-		"P042": {
-			"id": "P042",
-			"name": "生長寧素",
-			"engName": "IBA + NAA + KINETIN",
-			"products": "新根毛王"
-		},
-		"H041": {
-			"id": "H041",
-			"name": "甲基合氯氟",
-			"engName": "HALOXYFOP-METHYL",
-			"products": "新招福#草穩剋#祝禾除"
-		},
 		"F029": {
 			"id": "F029",
 			"name": "甲基多保淨",
 			"engName": "THIOPHANATE-METHYL",
 			"products": "甲基特斃菌#多福淨#克星丹#妥普淨#霸保淨#新寶淨#甲基特斃菌.精#松樹保淨#甲清淨#利滅菌#滅菌丹#速克保#農益#保護寧#多菌清#多寶健#新寶淨–70#殺菌王#毒必淨#多滅菌#快速淨#多斃菌#可殺菌#多福進#金保淨#零菌潔#好速特甲菌#保利春#確保淨#聯保淨#樂得淨#多保精#加加寶#法-達保淨#菌藥精#吉時保#新寶淨‧精#妥普精#滅菌精#雙寶淨#殺菌淨#好照固#護你好#甲基－多保淨"
-		},
-		"I045": {
-			"id": "I045",
-			"name": "甲基巴拉松",
-			"engName": "METHYL-PARATHION",
-			"products": "雷利松#喜得安"
-		},
-		"H042": {
-			"id": "H042",
-			"name": "甲基砷酸鈉",
-			"engName": "MSMA",
-			"products": "殺草精#安康草淨#除草根#草免蕪"
 		},
 		"F030": {
 			"id": "F030",
@@ -112813,77 +111067,11 @@
 			"engName": "PROPINEB",
 			"products": "安收多#安大收#安久多#安全多#安心１００#富貴紅#必旺果#好速多#俺收多"
 		},
-		"H040": {
-			"id": "H040",
-			"name": "甲氧基護谷",
-			"engName": "Chlomethoxyfen",
-			"products": "速剋草#一克草"
-		},
-		"F210": {
-			"id": "F210",
-			"name": "甲鋅保淨",
-			"engName": "PROPINEB + THIOPHANATE-METHYL",
-			"products": "福露收"
-		},
-		"F208": {
-			"id": "F208",
-			"name": "甲鋅保粒素",
-			"engName": "PROPINEB + POLYOXIN B",
-			"products": "青弄弄"
-		},
 		"F035": {
 			"id": "F035",
 			"name": "甲鋅毆殺斯",
 			"engName": "PROPINEB + OXADIXYL",
 			"products": "覆露滅#速剋露"
-		},
-		"A048": {
-			"id": "A048",
-			"name": "畢汰芬",
-			"engName": "PYRIMIDIFEN",
-			"products": "蟎攏死"
-		},
-		"I114": {
-			"id": "I114",
-			"name": "畢芬寧",
-			"engName": "BIFENTHRIN",
-			"products": "地王星#治多星#新慧星#海王星#冠王星#双效星#天王星#蟲蹤無#霸王星#新將星#第王星"
-		},
-		"A039": {
-			"id": "A039",
-			"name": "畢達本",
-			"engName": "PYRIDABEN",
-			"products": "勝蟎#嘉蟎#蟎難得#蜱蟎清"
-		},
-		"P028": {
-			"id": "P028",
-			"name": "番茄生長素",
-			"engName": "4-CPA",
-			"products": "立果多#番茄多旺#番茄生旺"
-		},
-		"F265": {
-			"id": "F265",
-			"name": "白克列",
-			"engName": "BOSCALID",
-			"products": "威力旺#保好果"
-		},
-		"I189": {
-			"id": "I189",
-			"name": "白克松",
-			"engName": "PYRACLOFOS",
-			"products": "松克贊"
-		},
-		"F282": {
-			"id": "F282",
-			"name": "白列克收欣",
-			"engName": "BOSCALID + KRESOXIM-METHYL",
-			"products": "金旺"
-		},
-		"F274": {
-			"id": "F274",
-			"name": "白列克敏",
-			"engName": "PYRACLOSTROBIN + BOSCALID",
-			"products": "祥威豐"
 		},
 		"F037": {
 			"id": "F037",
@@ -112891,23 +111079,1553 @@
 			"engName": "PYRAZOPHOS",
 			"products": "瓜粉靈#愛復健#治白粉"
 		},
+		"F038": {
+			"id": "F038",
+			"name": "石灰硫黃",
+			"engName": "LIME & SULFUR",
+			"products": "優果#好用#祥好#保美淨"
+		},
+		"F041": {
+			"id": "F041",
+			"name": "多保鏈黴素",
+			"engName": "THIOPHANATE-METHYL + STREPTOMYCIN",
+			"products": "安達菌#細菌亡#安特淨#萬億黴素#保淨素#克腐#鬥腐"
+		},
+		"F042": {
+			"id": "F042",
+			"name": "多得淨",
+			"engName": "THIOPHANATE-METHYL + THIRAM",
+			"products": "豐米#農真勇"
+		},
+		"F043": {
+			"id": "F043",
+			"name": "多寧",
+			"engName": "DODINE",
+			"products": "黑星寶#龍頗寧#保菓寧#龍燈多寧"
+		},
+		"F046": {
+			"id": "F046",
+			"name": "免克寧",
+			"engName": "VINCLOZOLIN",
+			"products": "樂力丹"
+		},
+		"F049": {
+			"id": "F049",
+			"name": "免得爛",
+			"engName": "METIRAM",
+			"products": "保利農抗病#抗病"
+		},
+		"F051": {
+			"id": "F051",
+			"name": "免賴地",
+			"engName": "BENOMYL + THIRAM",
+			"products": "億旺#抗菌#億力-帝"
+		},
+		"F052": {
+			"id": "F052",
+			"name": "免賴得",
+			"engName": "BENOMYL",
+			"products": "生力丹#真菌除#全滅菌#萬力#再生#松樹意力#得力#越力#霸菌#臺益益力#猛力#嘉力#億力#一大利#太有利#益利#原力#猛靈#旺果#億萬利#杜邦免賴得#雷速丹#菌清清#來福#利力#免出力#特力"
+		},
+		"F053": {
+			"id": "F053",
+			"name": "克枯爛",
+			"engName": "TECLOFTALAM",
+			"products": "剋白尾#述治菌#白葉青#掃菌清"
+		},
+		"F057": {
+			"id": "F057",
+			"name": "克絕",
+			"engName": "CYMOXANIL",
+			"products": "克露"
+		},
+		"F058": {
+			"id": "F058",
+			"name": "克絕波爾多",
+			"engName": "CYMOXANIL + BORDEAUX",
+			"products": "克普定"
+		},
+		"F059": {
+			"id": "F059",
+			"name": "克熱淨",
+			"engName": "IMINOCTADINE TRIACETATE",
+			"products": "倍福農"
+		},
+		"F060": {
+			"id": "F060",
+			"name": "快得保淨",
+			"engName": "THIOPHANATE-METHYL + OXINE-COPPER",
+			"products": "好菌淨#保多利#快保淨#尚蓋好#斑保淨#菌滅丹#快豐收#快得淨#嘉保淨#好得淨#保全青#綠滅菌#果穩讚#大保淨"
+		},
+		"F061": {
+			"id": "F061",
+			"name": "快得寧",
+			"engName": "OXINE-COPPER",
+			"products": "億級棒#龍燈快得寧#快樂農#得寧寶#超棒#樂克寧#佳安農#世界棒#牽手#老貴諾#祥讚#松疫奇棒#松疫急粉#萬年青#仙得寧#得安寧#在欉青#益旺#美果銅#祥旺#萬得寧#紅不讓#賜果丹#賜果露#銅司令#益吉讚#萬枝春#絕對旺#好枝春#快淨#綠健#淨果精#快益清#嘉泰寧#國豐寧#太棒#加富冬#聯棒#疫露棒#絕菌王#有貴人#上介棒#尚青#滿青#法-財一級棒"
+		},
+		"F062": {
+			"id": "F062",
+			"name": "貝芬同",
+			"engName": "CARBENDAZIM + IPRODIONE",
+			"products": "通順#愛果丹#泰好#保粒穗"
+		},
+		"F064": {
+			"id": "F064",
+			"name": "貝芬硫醌",
+			"engName": "CARBENDAZIM + DITHIANON",
+			"products": "殺菌寶#賜你富#聯巴特#腈霸#旺春風"
+		},
+		"F065": {
+			"id": "F065",
+			"name": "貝芬普寧",
+			"engName": "CARBENDAZIM + MEPRONIL",
+			"products": "治銹靈"
+		},
+		"F066": {
+			"id": "F066",
+			"name": "貝芬替",
+			"engName": "CARBENDAZIM",
+			"products": "倍多芬#殺菌讚#菌絕-８００#大露產#免菌霸#松巴司丁#保舒丁#速克菌#新力丹#大力產#好果青#松大樂剷#克利斯丁#旺福#貝斯王#保粒大#達仙#新巴斯丁#大益產#好派#保速金#新農福產#大豐產#大豐利#巴速汀#大收產#新百賜汀#全滅#百賜靈#包收丁#益寧#大旺生#包速頂#卡滅達仁#世達菌#霸殺菌#嘉樂產#保旺精#泰安康#巴雷#貝剋菌#寶貝精#法-財滿滿#達豐產#保利順精#聯保貝#真有效#新巴斯讚#巴大"
+		},
+		"F068": {
+			"id": "F068",
+			"name": "貝芬錳",
+			"engName": "CARBENDAZIM + MANEB",
+			"products": "億萬生–Ｍ"
+		},
+		"F070": {
+			"id": "F070",
+			"name": "亞賜圃",
+			"engName": "ISOPROTHIOLANE",
+			"products": "富穗王#護穗#富穗旺#保穗旺#穗旺#愛穗寶#穗友#安旺穗#富稻旺#吉好穗#滅稻熱#護穗強"
+		},
+		"F071": {
+			"id": "F071",
+			"name": "依得利",
+			"engName": "ETRIDIAZOLE",
+			"products": "尅土菌#阿特菌#畢可喜#興農地菌克"
+		},
+		"F072": {
+			"id": "F072",
+			"name": "依普同",
+			"engName": "IPRODIONE",
+			"products": "樂富果#福元精#吉旺#棟蓋久#松樂富國#龍福果#依護果#護原精#萬福精#鴻鋒福祿旺#法財果－精#大吉昌#勁有普#治斑寧#百力菌#菌立清#萬福果#美樂果#農寶#農寶精#真讚同#包正青"
+		},
+		"F073": {
+			"id": "F073",
+			"name": "依滅列",
+			"engName": "IMAZALIL",
+			"products": "菌好用#利粉靈#易百拉#正通#瓜瓜樂#黑白絕#易收好#龍燈依滅列"
+		},
+		"F074": {
+			"id": "F074",
+			"name": "依瑞莫",
+			"engName": "ETHIRIMOL",
+			"products": "白粉水仙#黴絕#粉克靈#黴克靈"
+		},
+		"F076": {
+			"id": "F076",
+			"name": "松香酯銅",
+			"engName": "CITCOP",
+			"products": "銅好醫"
+		},
+		"F078": {
+			"id": "F078",
+			"name": "芬瑞莫",
+			"engName": "FENARIMOL",
+			"products": "瑪格利特穩達達#夠旺穩達達"
+		},
+		"F079": {
+			"id": "F079",
+			"name": "保米熱斯",
+			"engName": "BLASTICIDIN-S + PHTHALIDE",
+			"products": "巴穗#保米穗"
+		},
+		"F080": {
+			"id": "F080",
+			"name": "保米賜圃",
+			"engName": "BLASTICIDIN-S + ISOPROTHIOLANE",
+			"products": "稻帥"
+		},
+		"F081": {
+			"id": "F081",
+			"name": "保米黴素",
+			"engName": "BLASTICIDIN-S",
+			"products": "保米丹#美谷黴素#稻熱王#稻益斯#美穗靈#米多素#稻熱克#稻熱治#穗粒安#立農保生#富粒穗#勃拉益斯"
+		},
+		"F086": {
+			"id": "F086",
+			"name": "保粒黴素   丁",
+			"engName": "POLYOXORIM",
+			"products": "日農保利果#斯紋"
+		},
+		"F087": {
+			"id": "F087",
+			"name": "保粒黴素   甲",
+			"engName": "POLYOXINS",
+			"products": "保粒益淨（甲）#保粒精#保粒明#保粒讚"
+		},
+		"F091": {
+			"id": "F091",
+			"name": "氧化亞銅",
+			"engName": "CUPROUS OXIDE",
+			"products": "強壯銅#龍燈氧化亞銅#安吉果"
+		},
+		"F093": {
+			"id": "F093",
+			"name": "益發靈",
+			"engName": "DICHLOFLUANID",
+			"products": "果樂達#速果丹"
+		},
+		"F097": {
+			"id": "F097",
+			"name": "得恩地",
+			"engName": "THIRAM",
+			"products": "新果生#寶果泰#慶達生#保物壯#美果旺#得果丹#保菌淨#農真好"
+		},
+		"F100": {
+			"id": "F100",
+			"name": "殺紋寧",
+			"engName": "HYMEXAZOL",
+			"products": "立枯靈#易枯能#除枯寧#紋枯寧#立枯宝"
+		},
+		"F101": {
+			"id": "F101",
+			"name": "氫氧化銅",
+			"engName": "CUPRIC HYDROXIDE",
+			"products": "果菜多-101#顧信用#保果旺#確實多#可菜得水仙#可菜得#自立果寶精#藍青#果再青#果益多#克菌多#可再多#枝枝青#果菜旺#龍喜銅#可利得#嘉津菓#益農寶#優克菌#果菜寶#新固賽得#嘉樂寶#嘉大銅#透腳青#增農益#銅優多"
+		},
+		"F103": {
+			"id": "F103",
+			"name": "硫酸快得寧",
+			"engName": "OXINE-COPPER + COPPER SULPHATE",
+			"products": "銅霸王"
+		},
+		"F105": {
+			"id": "F105",
+			"name": "脫克松",
+			"engName": "TOLCLOFOS-METHYL",
+			"products": "住友保綠寧#速滅綠#立農脫克松"
+		},
+		"F106": {
+			"id": "F106",
+			"name": "喜樂克拉",
+			"engName": "IPROBENFOS + PROCHLORAZ",
+			"products": "穗好#喜達克#尚青操#包滿穗"
+		},
+		"F109": {
+			"id": "F109",
+			"name": "富爾邦",
+			"engName": "FERBAM",
+			"products": "烏藥粉"
+		},
+		"F110": {
+			"id": "F110",
+			"name": "普克利",
+			"engName": "PROPICONAZOLE",
+			"products": "特利得#特風動#普克斑#特利克#雙當好#速利清#普利多#卡是贊#福利得#真有勁#補克菌#祝好#普利得#得力克#普克菌#全壘打#利農好#好利得#大三元#上等讚#特好#克菌霸#包克菌#黃金甲#自立萬年青#煞菌精#大農家#龍普力#速立得"
+		},
+		"F111": {
+			"id": "F111",
+			"name": "普拔克",
+			"engName": "PROPAMOCARB HYDROCHLORIDE",
+			"products": "普尅菌#泰利#尚興#有露用#普羅旺#剋疫菌#治露寶"
+		},
+		"F114": {
+			"id": "F114",
+			"name": "腈硫醌",
+			"engName": "DITHIANON",
+			"products": "福得寶#炭星#尚紅#茂喜#欣德寶#新雷彈#雷彈精#免怨炭#炭免驚#天寶#炭寶#清龍#好雷菌#菌嘜來#久保丹#包順利#炭剋星#龍腈炭#神農丹"
+		},
+		"F115": {
+			"id": "F115",
+			"name": "腈硫醌銅",
+			"engName": "DITHIANON + COPPER OXYCHLORIDE",
+			"products": "一直旺#大好丹-銅#联联興"
+		},
+		"F117": {
+			"id": "F117",
+			"name": "滅紋",
+			"engName": "MALS",
+			"products": "除紋菌#好速紋#紋枯#紋克靈#紋淨#龍燈滅紋#克紋#滅枯靈#殺菌靈#紋特靈#珠馬紋"
+		},
+		"F119": {
+			"id": "F119",
+			"name": "滅普寧",
+			"engName": "MEPRONIL",
+			"products": "百賜達克#新紋枯精"
+		},
+		"F120": {
+			"id": "F120",
+			"name": "滅達樂",
+			"engName": "METALAXYL",
+			"products": "露達滅#好通露#好露用#征露#瑞年來#地樂隆#露易清#露多滅#勁達樂#貝士得滅達樂#雋農紅藥粉#圍達樂#滅露菌#滅露能#穩滅露#卡好用#攻露#戰菌#紅太陽#露得清#剋露清#愛普殺#速治菌#賜無菌#除菌露-液#露可清#聖露#露菌殺#美佳露"
+		},
+		"F122": {
+			"id": "F122",
+			"name": "達克利",
+			"engName": "DINICONAZOLE-M",
+			"products": "好速克利"
+		},
+		"F123": {
+			"id": "F123",
+			"name": "嘉保信",
+			"engName": "OXYCARBOXIN",
+			"products": "銹滅寧#銹敵#克銑#好速銹#防銹寧#克銹靈#剋銹寶#銹靈#銹絕#東和克銹靈#穩當讚#銹天王#銹殺#保綠大#瑞加福#穩當好#百事吉#剋除銹#銹克#嘉寶#銹好速"
+		},
+		"F126": {
+			"id": "F126",
+			"name": "嘉賜貝芬",
+			"engName": "KASUGAMYCIN + CARBENDAZIM",
+			"products": "美谷丹"
+		},
+		"F129": {
+			"id": "F129",
+			"name": "嘉賜銅",
+			"engName": "KASUGAMYCIN + COPPER OXYCHLORIDE",
+			"products": "加瑞農#新輕功#高速剃露#春日黴素#輕功#高速攻露#田董"
+		},
+		"F130": {
+			"id": "F130",
+			"name": "嘉賜熱",
+			"engName": "KASUGAMYCIN + PHTHALIDE",
+			"products": "掃熱靈#立農嘉賜熱"
+		},
+		"F131": {
+			"id": "F131",
+			"name": "嘉賜黴素",
+			"engName": "KASUGAMYCIN",
+			"products": "日產加斯美#加生素#加收米#甲等#佳收美#加因素#好牽成#加多米#嘉賜米#佳賜福#思米香#好稻友#利多素#菌友#萬旺農#包靈#家慶米#優多素#農賜福#卡斯強#卡斯敏#禾康#顧田園#加速沒事#稻會順#農賜米"
+		},
+		"F132": {
+			"id": "F132",
+			"name": "碳酸鈣",
+			"engName": "",
+			"products": "果利富濃"
+		},
+		"F133": {
+			"id": "F133",
+			"name": "福多寧",
+			"engName": "FLUTOLANIL",
+			"products": "萬佳多#望佳多"
+		},
+		"F137": {
+			"id": "F137",
+			"name": "福賽得",
+			"engName": "FOSETYL-AL",
+			"products": "雅利特#新雅利特#嘉景旺#福星#快滅露#松樹賽得#福益得#旺得好#亞力特#亞力得#露落安#擋露#福再得#新田中王"
+		},
+		"F138": {
+			"id": "F138",
+			"name": "維利熱必斯",
+			"engName": "VALIDAMYCIN + PHTHALIDE",
+			"products": "省工"
+		},
+		"F139": {
+			"id": "F139",
+			"name": "維利黴素",
+			"engName": "VALIDAMYCIN",
+			"products": "紋枯克#金頂真#統赫#維大利－５#為你素–Ａ#稻維力#永讚黴素#養元黴素#威力黴素#爛立停#卡旺素#頂真#龍燈維利黴素#紋病清#對銅"
+		},
+		"F140": {
+			"id": "F140",
+			"name": "腐絕",
+			"engName": "THIABENDAZOLE",
+			"products": "全能#新-霉敵#松樹腐絕#松腐絕精#霉尅#霉得剋#龍燈腐絕#克霉#霉絕#速菌淨#腐敵#黴敵#沒敵#沒敵精#精湛#立農-腐絕#殺菌精"
+		},
+		"F141": {
+			"id": "F141",
+			"name": "腐絕快得寧",
+			"engName": "THIABENDAZOLE + OXINE-COPPER",
+			"products": "億度勇#克爛寶#祝禾勇#炭快除"
+		},
+		"F143": {
+			"id": "F143",
+			"name": "蓋普丹",
+			"engName": "CAPTAN",
+			"products": "好速殺#美果安#好速剎#保粒好#甜旺來"
+		},
+		"F144": {
+			"id": "F144",
+			"name": "賓克隆",
+			"engName": "PENCYCURON",
+			"products": "滿穗寧#金星賓克隆#好美稻#滿穗寧精#禾穗寧#賓利#福穗寶#保穗能#安稻精#新穗能#立克寧#滿穗靈#好根本#紋煞寧#包穗#嘉穗美#好大穗#農會寧#連連發#大稻穗#滿稻寧#賓棒#總穗能#好稻穗#固穗#嘉剋隆#穩好收#穗粒旺#法-財滿穗精#枝枯靈#樂無菌#利稻強#斑枯靈#賓克旺#嘉穗精#飽穗寧#青龍膏#紋沒#正四季春#萬萬穗#枯清清#好速淨"
+		},
+		"F145": {
+			"id": "F145",
+			"name": "銅本達樂",
+			"engName": "COPPER OXYCHLORIDE + BENALAXYL",
+			"products": "龍旺"
+		},
+		"F147": {
+			"id": "F147",
+			"name": "銅快得寧",
+			"engName": "OXINE-COPPER + CUPRIC HYDROXIDE",
+			"products": "攏無菌#新萬果生#克瓜菌#瓜果多#瓜旺#快大寧"
+		},
+		"F148": {
+			"id": "F148",
+			"name": "銅滅達樂",
+			"engName": "COPPER OXYCHLORIDE + METALAXYL",
+			"products": "露疫寧#剋達樂#喜滅露#露滅淨#滅露疫#益剋露#露疫絕#安佳樂#銅巴達#菌好除#新露菌滅"
+		},
+		"F150": {
+			"id": "F150",
+			"name": "銅錳乃浦",
+			"engName": "MANEB + COPPER SULPHATE",
+			"products": "總安#銅佳猛"
+		},
+		"F152": {
+			"id": "F152",
+			"name": "撲克拉",
+			"engName": "PROCHLORAZ",
+			"products": "愛卡贊#金克拉#介贊#保滅菌#富利好#松樹您好#救星#金介霸#5克拉#包您豪#霸面讚#包克啦#保加好#保克順#超讚#萬霸#統領#粉總倒#鄉土情#讚果好#白乳好#包好用#包優果#卡斯好#松好#庵原撲克拉#包滿意#包速適#炭粉清#果然好#包大仁#炭呼係#億度讚#安克拉#包果良#田園寶"
+		},
+		"F153": {
+			"id": "F153",
+			"name": "撲克拉錳",
+			"engName": "PROCHLORAZ-MANGANESE",
+			"products": "包利贊#介順#包力錳#包金讚#法-財如意#法財金猛#勁夠錳"
+		},
+		"F154": {
+			"id": "F154",
+			"name": "撲殺熱",
+			"engName": "PROBENAZOLE",
+			"products": "興農掃熱丹#稻恩#富農丹#上米滿#得谷丹#永利農#稻香村#田稼友#禾保#稻滿優#好米得#立農撲殺熱"
+		},
+		"F155": {
+			"id": "F155",
+			"name": "撲殺賜圃",
+			"engName": "PROBENAZOLE + ISOPROTHIOLANE",
+			"products": "滅熱寶"
+		},
+		"F156": {
+			"id": "F156",
+			"name": "撲滅寧",
+			"engName": "PROCYMIDONE",
+			"products": "住友速滅寧#速益寧#施美力#金鐘罩#速克寧#快速寧#金福星#萬事寧#疾速靈#好速滅靈#立農速滅靈"
+		},
+		"F158": {
+			"id": "F158",
+			"name": "熱必斯",
+			"engName": "PHTHALIDE",
+			"products": "喜丹#立必斯#喜丹精#稻熱淨#保稻旺#稻粒春#真旺盛"
+		},
+		"F162": {
+			"id": "F162",
+			"name": "鋅波爾多",
+			"engName": "Zn + BORDEAUX",
+			"products": "絕菌寶"
+		},
+		"F164": {
+			"id": "F164",
+			"name": "鋅錳乃浦",
+			"engName": "MANCOZEB",
+			"products": "真大生45#安生四十五#萬生｜２００#大生霸王#龍巴斯#道禮金大生Ｍ–４５#道禮金大生M-45#好速–４５#美果寶#美升#旺生#好意-45#天生-45#益菓生–Ｍ４５#美多果#台生精#萬滅靈#來仙#大新４５#鋅錳天王#愛鋅錳#保農安四十五#霸生#強龍#惠生45#皇大仙#愛你錳#威生寶-45#愛果生#興農生–４５#青台生#大昇#萬得生#美生─45#新大生霸王#天霸王#優生45#生果旺#金旺生-四五#尬意－４５#萬果好–４５#自耕農－大生#台生水仙#萬果生#果興旺#聯利大生#利果蔬#好速大王#總寧精#新富王#嘉益精#台生粉#旺綠生#興農生#法-財霸王#多利旺"
+		},
+		"F165": {
+			"id": "F165",
+			"name": "鋅錳本達樂",
+			"engName": "MANCOZEB + BENALAXYL",
+			"products": "星寶達"
+		},
+		"F166": {
+			"id": "F166",
+			"name": "鋅錳克絕",
+			"engName": "CYMOXANIL + MANCOZEB",
+			"products": "嘉樂達#克露#真清露#除露霸#金加味#鐵支露#速配#露光光"
+		},
+		"F169": {
+			"id": "F169",
+			"name": "鋅錳滅達樂",
+			"engName": "MANCOZEB + METALAXYL",
+			"products": "露速淨#真-力樂滅#露疫失#露疫精-鋅錳#疫露滅#全滅露－鋅錳"
+		},
+		"F170": {
+			"id": "F170",
+			"name": "鋅錳毆殺斯",
+			"engName": "MANCOZEB + OXADIXYL",
+			"products": "選得旺"
+		},
+		"F172": {
+			"id": "F172",
+			"name": "錳乃浦",
+			"engName": "MANEB",
+			"products": "青大生#威生寶#夠力精#保農錳#億萬生–２２#鴻福生#自立全家福#大發–Ｍ#安旺錳"
+		},
+		"F173": {
+			"id": "F173",
+			"name": "賽福座",
+			"engName": "TRIFLUMIZOLE",
+			"products": "多富民#多利仁"
+		},
+		"F174": {
+			"id": "F174",
+			"name": "賽福寧",
+			"engName": "TRIFORINE",
+			"products": "沙普多"
+		},
+		"F175": {
+			"id": "F175",
+			"name": "邁克尼",
+			"engName": "MYCLOBUTANIL",
+			"products": "信生#福力克#愛力克#粉好效#超好效#勝生#信心#法-財翔強#自立果農靈#粉贊#擱抹嘜#粉害怕"
+		},
+		"F176": {
+			"id": "F176",
+			"name": "邁隆",
+			"engName": "DAZOMET",
+			"products": "包殺滅"
+		},
+		"F179": {
+			"id": "F179",
+			"name": "鏈土黴素",
+			"engName": "STREPTOMYCIN + OXYTERACYCLINE",
+			"products": "保美黴素"
+		},
+		"F180": {
+			"id": "F180",
+			"name": "鏈黴素",
+			"engName": "STREPTOMYCIN",
+			"products": "有利黴素#立農黴素#瑞芳黴素#保安素#實多黴素#大成素"
+		},
+		"F181": {
+			"id": "F181",
+			"name": "護矽得",
+			"engName": "FLUSILAZOLE",
+			"products": "杜邦護矽得#新星#威星#萬星#興農星"
+		},
+		"F182": {
+			"id": "F182",
+			"name": "護粒丹",
+			"engName": "EDIFENPHOS + FTHALIDE",
+			"products": "穗丹"
+		},
+		"F183": {
+			"id": "F183",
+			"name": "護粒松",
+			"engName": "EDIFENPHOS",
+			"products": "旺稻精#喜稻增#喜稻生#喜多生#喜粒松#臺綠生#稻熱松#喜豐產#嘉穩收#顧穗寶#永得勝#福樂生#喜治生#瑞滿#稻米香#稻保#禧多昇"
+		},
+		"F184": {
+			"id": "F184",
+			"name": "鐵甲砷酸銨",
+			"engName": "NEO ASOZIN",
+			"products": "新紋靈#紋靈#一掃滅#新蘇生銀#東和新滅枯#速治紋#新阿蘇仁#庵原新阿蘇仁#新紋必淨#利農生#鐵龍#新紋克#億滅枯#新鐵甲#消枯精#新阿陸仁#速滅淨#新旺穗#好速鐵#嘉砷滅#新滅淨#克紋淨#稻紋滅#立農沒紋#紋殺淨#滅紋枯#滅稻菌#利枯滅#新滅菌"
+		},
+		"F186": {
+			"id": "F186",
+			"name": "波爾多",
+			"engName": "",
+			"products": "九威旺#藍寶#介新#介猛"
+		},
+		"F187": {
+			"id": "F187",
+			"name": "鹼性氯氧化銅",
+			"engName": "COPPER OXYCHLORIDE",
+			"products": "新必利丹#可保銅#健果銅#高力銅#青銅#好寶銅#銅寶發#疫露清#高綠銅粉#銅老大#果保旺#固保旺#喜果銅#青發#好採多#安美樂#妥當讚#果吉#活力銅#銅歡喜#卡勇"
+		},
+		"F188": {
+			"id": "F188",
+			"name": "菲克利",
+			"engName": "HEXACONAZOLE",
+			"products": "安滅樂#穗紋淨#狀元露#瑞紋清#田老大#尚優秀#安衛果#飛克利#易滅淨#利枯淨#透冬水#對罩時#倍易淨#果瑞收#壹頂讚#好清淨#稻穗勇#新樂園#治紋淨#克紋精#高利#果好收#呼您發#益剋菌#介合用#尚有利#法-達稻果滿#稻欉青#除菌好#安紋寧#新安美農#神龍#田大帥#好吉調#億佳多多#菲哥#菲常好#法-達保精#新氣象#惠放心#穗安淨#安果寧#水叮噹#惠紋寧#治紋枯#凸統久#好銹紋#真稱#稻紋淨#穗飽滿#稻紋精#治枯寧#克菌精#包清天#超星#紋絕#聯速利#農得利#包穗滿#農多利#萬喜精#好紋淨#除紋淨#介好用#出運#包攻#地球春#真本頂#法-財賺蓋多#龍菁翠#菲常旺#酷斯拉#粉清除"
+		},
+		"F189": {
+			"id": "F189",
+			"name": "鏈四環黴素",
+			"engName": "STREPTOMYCIN + TETRACYCLINE",
+			"products": "枯萎寧#尅枯精"
+		},
+		"F190": {
+			"id": "F190",
+			"name": "腈硫克絕",
+			"engName": "DITHIANON + CYMOXANIL",
+			"products": "絕配#腈絕#腈強#生龍"
+		},
+		"F192": {
+			"id": "F192",
+			"name": "比芬諾",
+			"engName": "PYRIFENOX",
+			"products": "諾粉能#吉星#治粉寶#粉銹寧"
+		},
+		"F193": {
+			"id": "F193",
+			"name": "殺紋滅達樂",
+			"engName": "HYMEXAZOL + METALAXYL",
+			"products": "枯疫王"
+		},
+		"F196": {
+			"id": "F196",
+			"name": "待克利",
+			"engName": "DIFENOCONAZOLE",
+			"products": "炭剋#新-農治#聯戰#炭清#戰力#戰炭#吉實#新-剋星#寶剋力#雙剋#戰鬥力#炭春#強棒#世介猛#菌瑞去#淨豪洗#驚炭#絕剋菌#炭鋤#攏治#炭寧#戰炭大王#大駭客#世介勇#戰車#炭吉#回生丹#炭絕精#治炭素#攏好#免萬炭#好利精#農會牌-新炭霜#探戈#巧是猛#優先#龍有賺#法－財瑞進#金滅菌#龍頭#金輕鬆#除菌王#攏珍順#速利菌"
+		},
+		"F197": {
+			"id": "F197",
+			"name": "護粒三賽唑",
+			"engName": "EDIFENPHOS + TRICYCLAZOLE",
+			"products": "正一頂讚"
+		},
+		"F198": {
+			"id": "F198",
+			"name": "本達樂",
+			"engName": "BENALAXYL",
+			"products": "龍本#龍治本#金利果#好立達#根尚勇#阿不倒#固本#地疫斬"
+		},
+		"F199": {
+			"id": "F199",
+			"name": "三元硫酸銅",
+			"engName": "TRIBASIC COPPER SULFATE",
+			"products": "銅高尚#果太保#統稱#果神#銅尚讚#泰強"
+		},
+		"F200": {
+			"id": "F200",
+			"name": "銅合硫磺",
+			"engName": "",
+			"products": "松蓋高尚"
+		},
+		"F201": {
+			"id": "F201",
+			"name": "得克利",
+			"engName": "TEBUCONAZOLE",
+			"products": "獲達多#滅炭#丹克利#嚮馬#金果多#未銹斗#長欣#法－財福祿壽#好秧甲#金正美#標靶#龍挺利#顧全精"
+		},
+		"F202": {
+			"id": "F202",
+			"name": "富米熱斯",
+			"engName": "FERIMZONE + PHTHALIDE",
+			"products": "巴米"
+		},
+		"F203": {
+			"id": "F203",
+			"name": "保粒快得寧",
+			"engName": "POLYOXIN B + OXINE-COPPER",
+			"products": "喜旺"
+		},
+		"F204": {
+			"id": "F204",
+			"name": "富米綜",
+			"engName": "FERIMZONE",
+			"products": ""
+		},
+		"F205": {
+			"id": "F205",
+			"name": "銅合腐絕",
+			"engName": "THIABENDAZOLE + CUPRIC HYDROXIDE",
+			"products": "好治菌"
+		},
+		"F207": {
+			"id": "F207",
+			"name": "環克座",
+			"engName": "CYPROCONAZOLE",
+			"products": "天王"
+		},
+		"F208": {
+			"id": "F208",
+			"name": "甲鋅保粒素",
+			"engName": "PROPINEB + POLYOXIN B",
+			"products": "青弄弄"
+		},
+		"F210": {
+			"id": "F210",
+			"name": "甲鋅保淨",
+			"engName": "PROPINEB + THIOPHANATE-METHYL",
+			"products": "福露收"
+		},
+		"F211": {
+			"id": "F211",
+			"name": "賽福保淨",
+			"engName": "TRIFLUMIZOLE + THIOPHANATE-METHYL",
+			"products": "多保帝#美樂多"
+		},
+		"F212": {
+			"id": "F212",
+			"name": "溴克座",
+			"engName": "BROMUCONAZOLE",
+			"products": "速克"
+		},
+		"F213": {
+			"id": "F213",
+			"name": "菲克利腐絕",
+			"engName": "HEXACONAZOLE + THIABENDAZOLE",
+			"products": "通好#金富丹"
+		},
+		"F214": {
+			"id": "F214",
+			"name": "快得克絕",
+			"engName": "OXINE-COPPER + CYMOXANIL",
+			"products": "妥凍#快絕#炮双台"
+		},
+		"F215": {
+			"id": "F215",
+			"name": "達滅芬",
+			"engName": "DIMETHOMORPH",
+			"products": "祥發#祥優#金牌#報你發#祥展#興農樂菌清#尚發#尚賀#勁發#惠發#翔勇#疫把罩#疫菌王#祥穗#一路清#雄麻嚞#乎依發#祥介好#金祥泰#祥稱#常發#吉發#雙星#帶安分#諾發#露必清#疫ㄟ好#速霸露#一路發#速疫清#禾力發"
+		},
+		"F217": {
+			"id": "F217",
+			"name": "依普座",
+			"engName": "EPOXICONAZOLE",
+			"products": "禾綠贊#祝禾利#紋添祥#真飽穗#新禾綠贊#綠量"
+		},
+		"F218": {
+			"id": "F218",
+			"name": "嘉賜三賽唑",
+			"engName": "KASUGAMYCIN + TRICYCLAZOLE",
+			"products": "稻友#稻熱一優"
+		},
+		"F219": {
+			"id": "F219",
+			"name": "保粒保淨",
+			"engName": "POLYOXINS + THIOPHANATE-METHYL",
+			"products": "穩凍"
+		},
+		"F220": {
+			"id": "F220",
+			"name": "貝芬依滅列",
+			"engName": "CARBENDAZIM + IMAZALIL",
+			"products": "粉霸#白粉王"
+		},
+		"F221": {
+			"id": "F221",
+			"name": "賽普洛",
+			"engName": "CYPRODINIL",
+			"products": "霹靂馬#克百龍"
+		},
+		"F222": {
+			"id": "F222",
+			"name": "易胺座",
+			"engName": "IMIBENCONAZOLE",
+			"products": "萬點#金灼灼#造福"
+		},
+		"F223": {
+			"id": "F223",
+			"name": "貝芬菲克利",
+			"engName": "CARBENDAZIM + HEXACONAZOLE",
+			"products": "新希望#透欉青#輝常讚#貝克利#哥兩好#金希望#菌好滅"
+		},
+		"F224": {
+			"id": "F224",
+			"name": "克收欣",
+			"engName": "KRESOXIM-METHYL",
+			"products": "好運到#巴斯丹精#斯巴達精#斯巴達丹#萬事欣#萬家欣#包速達精#好收欣#法-財源到#法-財飽飽#白炭黑#稱麥條#統勇#快收欣"
+		},
+		"F226": {
+			"id": "F226",
+			"name": "亞托敏",
+			"engName": "AZOXYSTROBIN",
+			"products": "國豐亞托敏#衝不停#農管家#稱無限#稱恬恬#果再來#非常稱#挺力#金紅#稱乘稱#農好稱大喜#五一五一#尚介稱#多猛哥#優果讚#勇健健#邁凡樂#世界稱#稱上天#衝到發#稱嘜停#稱尚久#霸面稱"
+		},
+		"F227": {
+			"id": "F227",
+			"name": "披扶座",
+			"engName": "PEFURAZOATE",
+			"products": "健種"
+		},
+		"F228": {
+			"id": "F228",
+			"name": "待普克利",
+			"engName": "DIFENOCONAZOLE + PROPICONAZOLE",
+			"products": "滿堂彩#雙倍勇#雙利多#兩相好#嗄嗄叫#葉愛用#天將#利多多#金萬通#粉優銹#雙效合一#利双旺#優喜#銹淨#速滅銹#法-財祝平安"
+		},
+		"F229": {
+			"id": "F229",
+			"name": "賽普護汰寧",
+			"engName": "CYPRODINIL + FLUDIOXONIL",
+			"products": "速威"
+		},
+		"F230": {
+			"id": "F230",
+			"name": "三元銅克絕",
+			"engName": "TRIBASIC COPPER SULFATE + CYMOXANIL",
+			"products": "安可穩"
+		},
+		"F231": {
+			"id": "F231",
+			"name": "四克利",
+			"engName": "TETRACONAZOLE",
+			"products": "龍滅菌#龍穩"
+		},
+		"F232": {
+			"id": "F232",
+			"name": "貝芬撲克拉",
+			"engName": "CARBENDAZIM + PROCHLORAZ",
+			"products": "果真贊#包友利#猛果霸#吉市®#法－財翔豪運#菌仙索"
+		},
+		"F234": {
+			"id": "F234",
+			"name": "枯草桿菌",
+			"engName": "BACILLUS SUBTILIS",
+			"products": "台灣寶#樂農寶#沅渼賜倍效#農會寶#興農寶#台灣水寶#金雞牌賜倍效#漢寶牌培農菌"
+		},
+		"F235": {
+			"id": "F235",
+			"name": "加普胺",
+			"engName": "CARPROPAMID",
+			"products": "允贏"
+		},
+		"F236": {
+			"id": "F236",
+			"name": "福賽快得寧",
+			"engName": "FOSETYL-Al + OXINE-COPPER",
+			"products": "雙贊"
+		},
+		"F237": {
+			"id": "F237",
+			"name": "護汰芬",
+			"engName": "FLUTRIAFOL",
+			"products": "落菌寧#乎依勇#好立強"
+		},
+		"F238": {
+			"id": "F238",
+			"name": "無水硫酸銅",
+			"engName": "COPPER SULFATE",
+			"products": "擊發"
+		},
+		"F239": {
+			"id": "F239",
+			"name": "右滅達樂",
+			"engName": "METALAXYL-M",
+			"products": "金︱治疫讚#金-疫到勇"
+		},
+		"F240": {
+			"id": "F240",
+			"name": "碳酸氫鉀",
+			"engName": "POTASSIUM HYDROGENCARBONATE",
+			"products": "速綠佳"
+		},
+		"F241": {
+			"id": "F241",
+			"name": "嘉賜快得寧",
+			"engName": "KASUGAMYCIN + OXINE-COPPER",
+			"products": "疫定好#雙核心"
+		},
+		"F242": {
+			"id": "F242",
+			"name": "快得滅達樂",
+			"engName": "OXINE-COPPER + METALAXYL",
+			"products": "露穩滅#紅運發#快得樂"
+		},
+		"F243": {
+			"id": "F243",
+			"name": "氟硫滅",
+			"engName": "FLUSULFAMIDE",
+			"products": "根美人#根必強"
+		},
+		"F244": {
+			"id": "F244",
+			"name": "滅派林",
+			"engName": "MEPANIPYRIM",
+			"products": "果必佳#利果精"
+		},
+		"F246": {
+			"id": "F246",
+			"name": "銅右滅達樂",
+			"engName": "COPPER OXYCHLORIDE + METALAXYL-M",
+			"products": "金-高手#立達樂"
+		},
+		"F247": {
+			"id": "F247",
+			"name": "派美尼",
+			"engName": "PYRIMETHANIL",
+			"products": "施卡樂"
+		},
+		"F248": {
+			"id": "F248",
+			"name": "福拉比",
+			"engName": "FURAMETPYR",
+			"products": "住友文谷粒#真谷利"
+		},
+		"F249": {
+			"id": "F249",
+			"name": "賓得克利",
+			"engName": "PENCYCURON + TEBUCONAZOLE",
+			"products": "允擋好#穩快好#紋炭#滿朝青#法-財寶你豪#紋定青#利台允ㄟ好"
+		},
+		"F250": {
+			"id": "F250",
+			"name": "歐索林酸",
+			"engName": "OXOLINIC ACID",
+			"products": "住友金星"
+		},
+		"F251": {
+			"id": "F251",
+			"name": "克熱淨(烷苯磺酸鹽)",
+			"engName": "IMINOCTADINE TRIS(ALBESILATE)",
+			"products": "雙頭鷹"
+		},
+		"F252": {
+			"id": "F252",
+			"name": "凡殺克絕",
+			"engName": "FAMOXADONE + CYMOXANIL",
+			"products": "杜邦統讚"
+		},
+		"F253": {
+			"id": "F253",
+			"name": "快得依普同",
+			"engName": "OXINE-COPPER + IPRODIONE",
+			"products": "絕招"
+		},
+		"F254": {
+			"id": "F254",
+			"name": "貝芬待克利",
+			"engName": "CARBENDAZIM + DIFENOCONAZOLE",
+			"products": "好絕配#瓜瓜叫#法－財賀你旺#雙吉"
+		},
+		"F255": {
+			"id": "F255",
+			"name": "三氟敏",
+			"engName": "TRIFLOXYSTROBIN",
+			"products": "福臨#稻紋停"
+		},
+		"F256": {
+			"id": "F256",
+			"name": "鋅錳右滅達樂",
+			"engName": "MANCOZEB + METALAXYL-M",
+			"products": "金-利露滅"
+		},
+		"F258": {
+			"id": "F258",
+			"name": "快諾芬",
+			"engName": "QUINOXYFEN",
+			"products": "真青翠"
+		},
+		"F259": {
+			"id": "F259",
+			"name": "賽座滅",
+			"engName": "CYAZOFAMID",
+			"products": "蘭蔓"
+		},
 		"F260": {
 			"id": "F260",
 			"name": "百克敏",
 			"engName": "PYRACLOSTROBIN",
 			"products": "總司令"
 		},
-		"I224": {
-			"id": "I224",
-			"name": "百利普芬",
-			"engName": "PYRIPROXYFEN",
-			"products": "統友效#蟻友效#代捕完#東方不敗#金大富#介有效#大贏家#滿園春#打火隊抗濕性餌劑#立農靈"
+		"F261": {
+			"id": "F261",
+			"name": "二氟林",
+			"engName": "DIFLUMETORIM",
+			"products": "粉好治"
 		},
-		"I055": {
-			"id": "I055",
-			"name": "百滅寧",
-			"engName": "PERMETHRIN",
-			"products": "猛虎#除害寧#寶獅#貝士得百滅寧#大富#興農滅多寧#吉士能#百靈#包美寧#松樹效寧#百殺淨#好速百滅#百寧#新好幫手#百死靈#即時寧#一品靈#倍速寧#必滅勇#松百萬分#易通寧#立農百滅寧#霸面靈#蟲斃#億滅靈#獨斯靈#樂剋蟲#普滅淨#吉速靈#滅多靈#益賜靈#百全寧#毒蟲靈#易剋蟲#速時靈#囍仕靈#剋蟲靈#獨一靈#臺賜靈精#百萬寧#達克寧#安普施#祥龍#好朋友#施必滅#全面旺#鑽石掌#農伴#金成功"
+		"F262": {
+			"id": "F262",
+			"name": "賽氟滅",
+			"engName": "THIFLUZAMIDE",
+			"products": "利穗#真清紋#禾韻#雄勇"
+		},
+		"F263": {
+			"id": "F263",
+			"name": "克熱賜圃",
+			"engName": "IMINOCTADINE TRIACETATE + ISOPROTHIOLANE",
+			"products": "速益旺"
+		},
+		"F264": {
+			"id": "F264",
+			"name": "貝芬四克利",
+			"engName": "CARBENDAZIM + TETRACONAZOLE",
+			"products": "龍包滅"
+		},
+		"F265": {
+			"id": "F265",
+			"name": "白克列",
+			"engName": "BOSCALID",
+			"products": "威力旺#保好果"
+		},
+		"F266": {
+			"id": "F266",
+			"name": "硫酸銅",
+			"engName": "COPPER SULFATE",
+			"products": "粉多靈"
+		},
+		"F267": {
+			"id": "F267",
+			"name": "滅特座",
+			"engName": "METCONAZOLE",
+			"products": "統碳吉#立特座"
+		},
+		"F269": {
+			"id": "F269",
+			"name": "凡殺護矽得",
+			"engName": "FAMOXADONE + FLUSILAZOLE",
+			"products": "新奇星"
+		},
+		"F270": {
+			"id": "F270",
+			"name": "達滅克敏",
+			"engName": "PYRACLOSTROBIN + DIMETHOMORPH",
+			"products": "總發"
+		},
+		"F271": {
+			"id": "F271",
+			"name": "純白鏈黴菌素",
+			"engName": "STREPTOMYCES CANDIDUS of Y21007-2",
+			"products": "安心寶"
+		},
+		"F272": {
+			"id": "F272",
+			"name": "亞托待克利",
+			"engName": "AZOXYSTROBIN + DIFENOCONAZOLE",
+			"products": "好加讚"
+		},
+		"F273": {
+			"id": "F273",
+			"name": "嘉賜克枯爛",
+			"engName": "TECLOFTALAM + KASUGAMYCIN",
+			"products": "嘸免驚"
+		},
+		"F274": {
+			"id": "F274",
+			"name": "白列克敏",
+			"engName": "PYRACLOSTROBIN + BOSCALID",
+			"products": "祥威豐"
+		},
+		"F275": {
+			"id": "F275",
+			"name": "亞托環克座",
+			"engName": "AZOXYSTROBIN + CYPROCONAZOLE",
+			"products": "穩妥當"
+		},
+		"F277": {
+			"id": "F277",
+			"name": "氟比拔克",
+			"engName": "FLUOPICOLIDE + PROPAMOCARB HYDROCHLORIDE",
+			"products": "搏露阻"
+		},
+		"F278": {
+			"id": "F278",
+			"name": "滅芬農",
+			"engName": "METRAFENONE",
+			"products": "新潮流"
+		},
+		"F279": {
+			"id": "F279",
+			"name": "三氟得克利",
+			"engName": "TRIFLOXYSTROBIN + TEBUCONAZOLE",
+			"products": "乎粒勇"
+		},
+		"F280": {
+			"id": "F280",
+			"name": "邁克諾芬",
+			"engName": "MYCLOBUTANIL + QUINOXYFEN",
+			"products": "保青翠"
+		},
+		"F281": {
+			"id": "F281",
+			"name": "四氯福多寧",
+			"engName": "FLUTOLANIL + CHLOROTHALONIL",
+			"products": "勁豪"
+		},
+		"F282": {
+			"id": "F282",
+			"name": "白列克收欣",
+			"engName": "BOSCALID + KRESOXIM-METHYL",
+			"products": "金旺"
+		},
+		"F284": {
+			"id": "F284",
+			"name": "腈硫克敏",
+			"engName": "PYRACLOSTROBIN + DITHIANON",
+			"products": "炭速靈"
+		},
+		"F285": {
+			"id": "F285",
+			"name": "鋅錳座賽胺",
+			"engName": "MANCOZEB + ZOXAMIDE",
+			"products": "拼出露"
+		},
+		"F286": {
+			"id": "F286",
+			"name": "鋅錳右本達樂",
+			"engName": "MANCOZEB + BENALAXYL-M",
+			"products": "菌敵-M"
+		},
+		"F287": {
+			"id": "F287",
+			"name": "克枯三賽唑",
+			"engName": "TECLOFTALAM + TRICYCLAZOLE",
+			"products": "稻春"
+		},
+		"F288": {
+			"id": "F288",
+			"name": "四氯右滅達樂",
+			"engName": "CHLOROTHALONIL + METALAXYL-M",
+			"products": "火力夠"
+		},
+		"F289": {
+			"id": "F289",
+			"name": "安美速",
+			"engName": "AMISULBROM",
+			"products": "網春豐"
+		},
+		"F290": {
+			"id": "F290",
+			"name": "得克芬胺",
+			"engName": "TEBUCONAZOLE + CYFLUFENAMID",
+			"products": "煞粉大"
+		},
+		"F292": {
+			"id": "F292",
+			"name": "曼普胺",
+			"engName": "MANDIPROPAMID",
+			"products": "沒疫健"
+		},
+		"F293": {
+			"id": "F293",
+			"name": "賽芬胺",
+			"engName": "CYFLUFENAMID",
+			"products": ""
+		},
+		"F294": {
+			"id": "F294",
+			"name": "四氯托敏",
+			"engName": "CHLOROTHALONIL + AZOXYSTROBIN",
+			"products": "剋歐"
+		},
+		"F295": {
+			"id": "F295",
+			"name": "鋅錳曼普胺",
+			"engName": "MANCOZEB + MANDIPROPAMID",
+			"products": "卡是讚"
+		},
+		"F296": {
+			"id": "F296",
+			"name": "亞汰尼",
+			"engName": "ISOTIANIL",
+			"products": "稻熱停"
+		},
+		"F297": {
+			"id": "F297",
+			"name": "賽福芬胺",
+			"engName": "CYFLUFENAMID + TRIFLUMIZOLE",
+			"products": "伴久"
+		},
+		"F298": {
+			"id": "F298",
+			"name": "鹼氯氫氧銅",
+			"engName": "COPPER OXYCHLORIDE + COPPER HYDROXIDE",
+			"products": "銅雙好"
+		},
+		"F299": {
+			"id": "F299",
+			"name": "四氯曼普胺",
+			"engName": "CHLOROTHALONIL + MINDIPROPAMID",
+			"products": "治直好"
+		},
+		"F300": {
+			"id": "F300",
+			"name": "芬諾尼",
+			"engName": "FENOXANIL",
+			"products": "熱鬥"
+		},
+		"F301": {
+			"id": "F301",
+			"name": "綠木黴菌R42",
+			"engName": "Trichoderma virens strain R42",
+			"products": "根益旺"
+		},
+		"F302": {
+			"id": "F302",
+			"name": "達滅克絕",
+			"engName": "DIMETHOMORPH+CYMOXANIL",
+			"products": "掃露"
+		},
+		"F303": {
+			"id": "F303",
+			"name": "依普克敏",
+			"engName": "EPOXICONAZOLE+PYRACLOSTROBIN",
+			"products": "總殺"
+		},
+		"H001": {
+			"id": "H001",
+			"name": "丁拉甲護谷",
+			"engName": "BUTACHLOR + CHLOMETHOXYNIL",
+			"products": "克草丹"
+		},
+		"H002": {
+			"id": "H002",
+			"name": "丁拉免速隆",
+			"engName": "BUTACHLOR + BENSULFURON-METHYL",
+			"products": "龍無草–丁#億草除"
+		},
+		"H004": {
+			"id": "H004",
+			"name": "丁拉汰草",
+			"engName": "DAIMURON + BUTACHLOR",
+			"products": "田王–８"
+		},
+		"H005": {
+			"id": "H005",
+			"name": "丁拉芬諾",
+			"engName": "BIFENOX + BUTACHLOR",
+			"products": "魔丹–Ｍ#東東好#速滅草"
+		},
+		"H006": {
+			"id": "H006",
+			"name": "丁拉殺丹",
+			"engName": "THIOBENCARB + BUTACHLOR",
+			"products": "掃除丹"
+		},
+		"H007": {
+			"id": "H007",
+			"name": "丁拉復祿芬",
+			"engName": "OXYFLUORFEN + BUTACHLOR",
+			"products": "稻多多"
+		},
+		"H008": {
+			"id": "H008",
+			"name": "丁拉普芬草",
+			"engName": "BUTACHLOR + PYRAZOXYFEN",
+			"products": "萬全"
+		},
+		"H009": {
+			"id": "H009",
+			"name": "丁拉氯比",
+			"engName": "TRICLOPYR + BUTACHLOR",
+			"products": "稻家樂"
+		},
+		"H012": {
+			"id": "H012",
+			"name": "丁拉樂滅草",
+			"engName": "OXADIAZON + BUTACHLOR",
+			"products": "蓋好除#總無草#滴滅草–Ｍ#樂全除#滴草靈#穩除草#樂速達#無犁草#草博士#無草#惠友#優穗#全滅草王#樂沒草"
+		},
+		"H013": {
+			"id": "H013",
+			"name": "丁基拉草",
+			"engName": "BUTACHLOR",
+			"products": "草滅除#草全除#綜萊除#快速除#必好除#除草靈#滅田草#不發草#馬上除#草好除#草必除#聯草除#允殺草#除草精#田草除#拉梭#祝好除#殺田草#除雜草#金上好除#介好治#嘉滅草#淨園草#新剋草精#瑞克草#免計較#草總除#根本除#免捘草#淨無草#稻草除#草劍#雜草除#省事事省"
+		},
+		"H014": {
+			"id": "H014",
+			"name": "二、四－地",
+			"engName": "2,4-D",
+			"products": "草多滅#力除#奧斯地#聯地"
+		},
+		"H015": {
+			"id": "H015",
+			"name": "二、四－地胺鹽",
+			"engName": "2,4-D(AMINE)",
+			"products": "嘉濱二、四地#長年刈#嘉旺地"
+		},
+		"H016": {
+			"id": "H016",
+			"name": "二、四－地鈉鹽",
+			"engName": "2,4-D(SODIUM)",
+			"products": "松二四地"
+		},
+		"H019": {
+			"id": "H019",
+			"name": "三氯比",
+			"engName": "TRICLOPYR",
+			"products": "加農#克藤草#殺藤#除藤#滅藤"
+		},
+		"H025": {
+			"id": "H025",
+			"name": "巴拉刈",
+			"engName": "PARAQUAT",
+			"products": "總斷根#速草淨#全草滅#富農刈#剋蕪踪#草蕪松#克草靈#克蕪踪#殺青#革蕪根#大霧踪#快滅草#草必淨#金殺草#草立淨#絕蕪草#克草王#速殺草#百草枯#速刈草#連克草#見青除#仙通#綜免刈"
+		},
+		"H026": {
+			"id": "H026",
+			"name": "巴拉刈二氯鹽",
+			"engName": "PARAQUAT DICHLORIDE",
+			"products": ""
+		},
+		"H028": {
+			"id": "H028",
+			"name": "巴達刈",
+			"engName": "PARAQUAT + DIURON",
+			"products": "草苙苙#萬年刈"
+		},
+		"H029": {
+			"id": "H029",
+			"name": "比達寧",
+			"engName": "BUTRALIN",
+			"products": "止芽素#草嘜發#止草素"
+		},
+		"H036": {
+			"id": "H036",
+			"name": "必芬普拉草",
+			"engName": "BIFENOX + PRETILACHLOR",
+			"products": "魔威"
+		},
+		"H037": {
+			"id": "H037",
+			"name": "必芬諾",
+			"engName": "BIFENOX",
+			"products": "地福#魔丹"
+		},
+		"H039": {
+			"id": "H039",
+			"name": "本達隆",
+			"engName": "BENTAZON",
+			"products": "省疏草#克草星#草霸王#草皇帝"
+		},
+		"H040": {
+			"id": "H040",
+			"name": "甲氧基護谷",
+			"engName": "Chlomethoxyfen",
+			"products": "速剋草#一克草"
+		},
+		"H041": {
+			"id": "H041",
+			"name": "甲基合氯氟",
+			"engName": "HALOXYFOP-METHYL",
+			"products": "新招福#草穩剋#祝禾除"
+		},
+		"H042": {
+			"id": "H042",
+			"name": "甲基砷酸鈉",
+			"engName": "MSMA",
+			"products": "殺草精#安康草淨#除草根#草免蕪"
+		},
+		"H045": {
+			"id": "H045",
+			"name": "伏寄普",
+			"engName": "FLUAZIFOP-P-BUTYL",
+			"products": "新萬帥#新元帥#旺萬歲#萬歲#金太歲#尖草帥#草大帥#搭扣扣#興農元帥#看蕪草"
+		},
+		"H047": {
+			"id": "H047",
+			"name": "西殺草",
+			"engName": "SETHOXYDIM",
+			"products": "新汰王#禾草淨"
+		},
+		"H048": {
+			"id": "H048",
+			"name": "佈殺丹",
+			"engName": "THIOBENCARB + PROMETRYNE",
+			"products": "掃丹–Ｐ"
+		},
+		"H051": {
+			"id": "H051",
+			"name": "免速隆",
+			"engName": "BENSULFURON-METHYL",
+			"products": "龍無草"
+		},
+		"H053": {
+			"id": "H053",
+			"name": "克草",
+			"engName": "BROMACIL",
+			"products": "海拔"
+		},
+		"H056": {
+			"id": "H056",
+			"name": "快伏草",
+			"engName": "QUIZALOFOP-P-ETHYL",
+			"products": "剋禾草#農好讚#尖葉#日產大家讚#旱草好#正祝讚"
+		},
+		"H057": {
+			"id": "H057",
+			"name": "快克草",
+			"engName": "QUINCLORAC",
+			"products": "攏克草"
+		},
+		"H059": {
+			"id": "H059",
+			"name": "汰草龍",
+			"engName": "DAIMURON",
+			"products": "田王#田王–９"
+		},
+		"H063": {
+			"id": "H063",
+			"name": "亞喜芬",
+			"engName": "ACIFLUORFEN",
+			"products": "包剋草#好剋草"
+		},
+		"H064": {
+			"id": "H064",
+			"name": "依滅草",
+			"engName": "IMAZAPYR",
+			"products": "總清#綜清#新綜清"
+		},
+		"H065": {
+			"id": "H065",
+			"name": "拉草",
+			"engName": "ALACHLOR",
+			"products": "壓草#拉索#治草#龍燈拉草#除滅草"
+		},
+		"H070": {
+			"id": "H070",
+			"name": "施得圃",
+			"engName": "PENDIMETHALIN",
+			"products": "斯統普#施通普#法氰斯統普#富利旺#新賜得普#斯通鋪#施統圃#擋無草#新通圃#草秀才#控籽好#適統圃#金斯統普#賜滅草#賜得寶#農好施得圃#賜通圃#草無生#草狀元#剋草圃#施得寶#萌前清#法-財施得圃#斬草#速得福#神通寶#除草通#控草籽#草不玩#施擋圃#賜捕草"
+		},
+		"H071": {
+			"id": "H071",
+			"name": "氟丙酸",
+			"engName": "FRENOCK",
+			"products": "佛納"
+		},
+		"H072": {
+			"id": "H072",
+			"name": "氟氯比",
+			"engName": "FLUROXYPYR-MEPTYL",
+			"products": "進寶#除藤草#福祿比#隴無藤#福您比#畢凋#免刈藤"
+		},
+		"H073": {
+			"id": "H073",
+			"name": "倍尼芬",
+			"engName": "BENFLURALIN",
+			"products": "聯榜"
+		},
+		"H075": {
+			"id": "H075",
+			"name": "草殺淨",
+			"engName": "AMETRYN",
+			"products": "該草除#除草霸#速草滅#草殺精#勁贊#全克草®#殺草王#蓋殺霸#蓋草霸#除草淨#臺聯克草清#法-財草淨#包祝讚#包祝好#雙殺草#草清清#草清利#殺草淨#攏無草"
+		},
+		"H076": {
+			"id": "H076",
+			"name": "草脫淨",
+			"engName": "ATRAZINE",
+			"products": "賜草淨#滋殺遍#亞脫淨#翻無草#阿脫淨#龍燈草脫淨#全草淨#草燒遍#除蔗草#艾割草"
+		},
+		"H077": {
+			"id": "H077",
+			"name": "草滅淨",
+			"engName": "SIMAZINE",
+			"products": "擋草籽#草淨"
+		},
+		"H079": {
+			"id": "H079",
+			"name": "得拉本",
+			"engName": "DALAPON",
+			"products": "得本#殺草罷#免針草#茅草滅"
+		},
+		"H081": {
+			"id": "H081",
+			"name": "得速爛",
+			"engName": "ASULAM + DALAPON",
+			"products": ""
+		},
+		"H083": {
+			"id": "H083",
+			"name": "殺丹",
+			"engName": "THIOBENCARB",
+			"products": "掃丹#庵原掃丹"
+		},
+		"H088": {
+			"id": "H088",
+			"name": "理有龍",
+			"engName": "LINURON",
+			"products": "龍天下"
+		},
+		"H093": {
+			"id": "H093",
+			"name": "脫禾草",
+			"engName": "PHENOTHIOL",
+			"products": "芳米大"
+		},
+		"H094": {
+			"id": "H094",
+			"name": "莫多草",
+			"engName": "METOLACHLOR",
+			"products": "治發#嘉濱耐久圃#莫發草"
+		},
+		"H095": {
+			"id": "H095",
+			"name": "莫多草淨",
+			"engName": "ATRAZINE + METOLACHLOR",
+			"products": "控草寧"
+		},
+		"H097": {
+			"id": "H097",
+			"name": "復祿芬",
+			"engName": "OXYFLUORFEN",
+			"products": "草無影#豬狗草#割地草#除園草#免割草"
+		},
+		"H098": {
+			"id": "H098",
+			"name": "普拉草",
+			"engName": "PRETILACHLOR",
+			"products": "樂好除#草蕪#免巡田#稻管用#踪除#淨草丹#田無草#治草淨"
+		},
+		"H100": {
+			"id": "H100",
+			"name": "普拔根",
+			"engName": "PROPAZINE",
+			"products": ""
+		},
+		"H101": {
+			"id": "H101",
+			"name": "普芬草",
+			"engName": "PYRAZOXYFEN",
+			"products": ""
+		},
+		"H105": {
+			"id": "H105",
+			"name": "鈉得爛",
+			"engName": "NAPTALAM",
+			"products": ""
+		},
+		"H110": {
+			"id": "H110",
+			"name": "滅必淨",
+			"engName": "METRIBUZIN",
+			"products": "聖克#普洛淨#勝可#勝力"
+		},
+		"H113": {
+			"id": "H113",
+			"name": "滅落脫",
+			"engName": "NAPROPAMIDE",
+			"products": "剃光頭"
+		},
+		"H120": {
+			"id": "H120",
+			"name": "達有龍",
+			"engName": "DIURON",
+			"products": "鋤草頭#卡滅克斯#克滅草#克草必斯#可滅草#益滅草#佳滅#益滅草精#龍燈達有龍#不要草#殺草靈#佳滅草#光禿禿#抗草龍#克園草#草絕#清園草"
+		},
+		"H125": {
+			"id": "H125",
+			"name": "嘉磷塞",
+			"engName": "GLYPHOSATE",
+			"products": "隔來草"
+		},
+		"H126": {
+			"id": "H126",
+			"name": "嘉磷塞異丙胺鹽",
+			"engName": "GLYPHOSATE IPA",
+			"products": "興農春#草順除#蘭達#狀元春#春達#好過春#世界春#富貴春#免鋤草#日日春#春匯春#草虎#年年春#納殺#農好春#雙春#萬家春#魔草#穠蕪草#治草春#哈雷#泰有春#青山春#時時春#福有春#嘉友春#莎霸#永春#可靈達#農有春#除草魔#萬得春#家家春#春多多#春卡多#速速綜來春#春春春#大地春#惠大春#農農春#妙妙春#旺旺春#祝友春#日產春#大家春#世大春#保農春#泰好春#隴總春#紅星#上緊滅#總是春#克根#春春福#新新春#東和春#速來春#允除#先逢春#農會春#臺聯新滅草#興農除草樂#立農-春#庵原春"
+		},
+		"H131": {
+			"id": "H131",
+			"name": "樂滅草",
+			"engName": "OXADIAZON",
+			"products": "龍燈樂滅草#禁草仔#滅草樂#利滅草#樂無草#汰籽芽#除草靈#施樂園#法-財樂滅達#法-財樂滅草#滴滅草#農思達#樂速草#治草王#殺草霸#諾殺#草無見#草沒"
+		},
+		"H134": {
+			"id": "H134",
+			"name": "稻得壯",
+			"engName": "MOLINATE",
+			"products": "稻得旺#禾草滅#稻田富"
+		},
+		"H135": {
+			"id": "H135",
+			"name": "嘉磷塞(三甲基硫鹽)",
+			"engName": "GLYPHOSATE-TRIMESIUM",
+			"products": "免你割"
+		},
+		"H136": {
+			"id": "H136",
+			"name": "撻乃安",
+			"engName": "DINITRAMINE",
+			"products": "割枯淨#瓦克"
+		},
+		"H142": {
+			"id": "H142",
+			"name": "嘉磷氟氯比",
+			"engName": "GLYPHOSATE + FLUROXYPYR",
+			"products": "双炮軍"
+		},
+		"H143": {
+			"id": "H143",
+			"name": "固殺草",
+			"engName": "GLUFOSINATE-AMMONIUM",
+			"products": "國豐萬事達#斬丈根#百試達#嘉濱達喜草#故殺草#法-財固殺草#司克達#沒德比#狠角色#強手#好淨草#惠光好事達#農會牌固殺草#農事達#根攏斬#春蓋坐#聯利達#草安寧#霸速達#萬斬#牛頓樟#草光光#農好百草淨#十八釗#萬清#殺草強#免搜草#立農固殺草#斬草除根#草將軍#萬事達#草ㄟ搭#草國英雄#草丈根#庵原固殺草"
 		},
 		"H144": {
 			"id": "H144",
@@ -112915,17 +112633,467 @@
 			"engName": "PYRAZOSULFURON-ETHYL",
 			"products": "省草繁#免除草#免煩惱#免驚草#免草繁#稻草王#毒草片#稻無草#攏免煩"
 		},
+		"H146": {
+			"id": "H146",
+			"name": "免速普拉草",
+			"engName": "BENSULFURON-METHYL + PRETILACHLOR",
+			"products": "踪除龍"
+		},
+		"H147": {
+			"id": "H147",
+			"name": "丁拉百速隆",
+			"engName": "BUTACHLOR + PYRAZOSULFURON-ETHYL",
+			"products": "省草繁-丁#速治草"
+		},
+		"H148": {
+			"id": "H148",
+			"name": "汰硫草",
+			"engName": "DITHIOPYR",
+			"products": ""
+		},
+		"H149": {
+			"id": "H149",
+			"name": "汰硫免速隆",
+			"engName": "DITHIOPYR + BENSULFURON METHYL",
+			"products": "隆隆清"
+		},
+		"H150": {
+			"id": "H150",
+			"name": "滅草胺",
+			"engName": "METAZACHLOR",
+			"products": "圃地善#魔克草#菜地讚"
+		},
+		"H151": {
+			"id": "H151",
+			"name": "普拔草",
+			"engName": "PROPAQUIZAFOP",
+			"products": "草無春"
+		},
+		"H152": {
+			"id": "H152",
+			"name": "嘉磷塞 (胺鹽 )",
+			"engName": "GLYPHOSATE AMMONIUM",
+			"products": "農民樂#樂農家#粒粒春"
+		},
+		"H153": {
+			"id": "H153",
+			"name": "依速隆",
+			"engName": "IMAZOSULFURON",
+			"products": "真省工#免下田"
+		},
+		"H154": {
+			"id": "H154",
+			"name": "殺丹免速隆",
+			"engName": "THIOBENCARB + BENSULFURON-METHYL",
+			"products": "大野狼"
+		},
+		"H155": {
+			"id": "H155",
+			"name": "剋草同",
+			"engName": "CLETHODIM",
+			"products": "洗草客"
+		},
+		"H156": {
+			"id": "H156",
+			"name": "滅芬免速隆",
+			"engName": "MEFENACET + BENSULFURONMETHYL",
+			"products": "全期除"
+		},
+		"H157": {
+			"id": "H157",
+			"name": "滅芬草",
+			"engName": "MEFENACET",
+			"products": "全‧免草繁"
+		},
+		"H158": {
+			"id": "H158",
+			"name": "丁拉依速隆",
+			"engName": "BUTACHLOR + IMAZOSULFURON",
+			"products": "清田草#立草除-丁"
+		},
+		"H160": {
+			"id": "H160",
+			"name": "伏速隆",
+			"engName": "FLAZASULFURON",
+			"products": "芝草原#伏草丹"
+		},
+		"H162": {
+			"id": "H162",
+			"name": "本達亞喜芬",
+			"engName": "BENTAZON + ACIFLUORFEN",
+			"products": "田草王"
+		},
+		"H163": {
+			"id": "H163",
+			"name": "丁基賽伏草",
+			"engName": "CYHALOFOP-BUTYL",
+			"products": "克稗"
+		},
+		"H164": {
+			"id": "H164",
+			"name": "左旋莫多草",
+			"engName": "S-METOLACHLOR",
+			"products": "金︱除豪"
+		},
+		"H165": {
+			"id": "H165",
+			"name": "可滅蹤",
+			"engName": "CLOMAZONE",
+			"products": "豪萬草#園草清"
+		},
+		"H166": {
+			"id": "H166",
+			"name": "亞速隆",
+			"engName": "ETHOXYSULFURON",
+			"products": "太陽星"
+		},
+		"H168": {
+			"id": "H168",
+			"name": "稻得免速隆",
+			"engName": "BENSULFURON-METHYL + MOLINATE",
+			"products": "農會丹"
+		},
+		"H169": {
+			"id": "H169",
+			"name": "乙基克繁草",
+			"engName": "CARFENTRAZONE-ETHYL",
+			"products": ""
+		},
+		"H170": {
+			"id": "H170",
+			"name": "得殺草",
+			"engName": "TEPRALOXYDIM",
+			"products": "禾全除"
+		},
+		"H171": {
+			"id": "H171",
+			"name": "環磺隆",
+			"engName": "CYCLOSULFAMURON",
+			"products": "禾樂"
+		},
+		"H173": {
+			"id": "H173",
+			"name": "欣克免速隆",
+			"engName": "THENYLCHLOR + BENSULFURONMETHYL",
+			"products": "治草靈"
+		},
+		"H174": {
+			"id": "H174",
+			"name": "平速爛",
+			"engName": "PENOXSULAM",
+			"products": "稻田喜#除田草"
+		},
+		"H178": {
+			"id": "H178",
+			"name": "合速隆",
+			"engName": "HALOSULFURON-METHYL",
+			"products": "邁草心"
+		},
+		"H179": {
+			"id": "H179",
+			"name": "殺芬草",
+			"engName": "Saflufenacil",
+			"products": "八將軍"
+		},
+		"I002": {
+			"id": "I002",
+			"name": "丁基加保扶",
+			"engName": "CARBOSULFAN",
+			"products": "新好年丹#好收冬#蒙賽得#保冬寧#保冬精#無限好#正保冬#總掃#松好過冬#松好年精#農順福#馬尚剋#農好丹精#上介利#新東和丹#新世大冬#好過冬#新世大丹#新興農丹#新正豐丹#好速新丹#丰收寶#嘉益扶#真正讚#真正水#聯克#新大勝丹#省力#新威克#大吉利-精#國豐丹#天羅罩#一把罩#獅子王#龍捲風#農來勇#新利台丹#福滿堂#新富農丹#益效冬精#新收冬#新庵原丹"
+		},
+		"I003": {
+			"id": "I003",
+			"name": "丁基滅必蝨",
+			"engName": "FENOBUCARB",
+			"products": "巴殺#殺靈#蝨必淨#大功蝨#歐斯巴克#克滅蝨#百殺#治蝨寶#全殺#金克參滅#萬殺靈#好丁蝨#蝨速淨#農寶蝨#寶殺#百蝨#包殺蝨#可滅蝨#霸殺#好包蝨#萬殺#利蝨寶#新必滅#霸蝨冬#包蝨#特蝨寶#允滅蝨#建蝨靈#清百蝨"
+		},
+		"I004": {
+			"id": "I004",
+			"name": "乃力松",
+			"engName": "NALED",
+			"products": "利富農#聯好#上強#好撲蟲#霸王精#億力松#納力農#剋蟲#全掃#卡有力#噴卡多#力克蟲"
+		},
+		"I005": {
+			"id": "I005",
+			"name": "二硫松",
+			"engName": "DISULFOTON",
+			"products": "大神松#快滅樂#大億松#真甲意#粒粒強"
+		},
+		"I007": {
+			"id": "I007",
+			"name": "二福隆",
+			"engName": "DIFLUBENZURON",
+			"products": "立敏寧#億寶#添猛#第一猛#金福氣#抵蟻猛"
+		},
+		"I008": {
+			"id": "I008",
+			"name": "三氯松",
+			"engName": "TRICHLORFON",
+			"products": "克頑蟲#龍燈三氯松#得滅松#特可豐#萬敵死#殺落蟲#第特松#驅蟲安#松樹三六#速克敵#去蟲靈#青蟲#特寶松#烈普好#地普龍#蟲寶"
+		},
+		"I009": {
+			"id": "I009",
+			"name": "三落松",
+			"engName": "TRIAZOPHOS",
+			"products": "固田園#大發#蟲落#易利松"
+		},
+		"I010": {
+			"id": "I010",
+			"name": "大利松",
+			"engName": "DIAZINON",
+			"products": "大佳好#樂豐收#惠我農#泰來松#保死淨#大利農#大力農#蟲敵#可利農#速利寧#新品松#多利農#大利冬#得克寧#必安穩#大利精#大吉農#金閃閃#大力士#稻滿#保利多#速蟲淨#中國勇#臺聯大利松#得稻生"
+		},
+		"I011": {
+			"id": "I011",
+			"name": "大滅松",
+			"engName": "DIMETHOATE",
+			"products": "滅亣松#大美速#治滅蟲#龍燈大滅松S#獅馬大滅速Ｓ#介殼寧#台美速#松大滅松#快滅速#剋介寶#立農樂果#好桔青#滴滅速#泰滅松#殺滅速#絕滅殺#萬果福#華夏松#達滅速#沖天炮#美舒果"
+		},
+		"I017": {
+			"id": "I017",
+			"name": "巴賽松",
+			"engName": "PHOXIM",
+			"products": "保谷松"
+		},
+		"I018": {
+			"id": "I018",
+			"name": "比加普",
+			"engName": "PIRIMICARB",
+			"products": "蚜敵"
+		},
+		"I019": {
+			"id": "I019",
+			"name": "加丁滅蝨",
+			"engName": "CARBARYL + MIPC + BPMC",
+			"products": "百克#滅蝨粉#滿穗#好寶粉#新特文"
+		},
+		"I023": {
+			"id": "I023",
+			"name": "加保利",
+			"engName": "CARBARYL",
+			"products": "殺蟲淨#塞文－８５#旺立強#勇將水仙#好保利#速敏#施美文#好速家寶#佳寶#賽文#治蟲寶#納克#飛蝨滅#殺猛#絕滅蝨#剋蟲寧#松樹納克#護利寶#加倍利#絕蝨寶#億保利#飛殺滅#賽文福#賽保#佳寶利#佳倍寧#百克蝨#加保殺#加巴利#好家寶#毒蟲精#立倍利#保送#西敏#萬克蝨#好免貢#大克寶#勇將#高喜精#高竿#賽敏王#果蟲寶#新雙福#個卡好#美多寧#祥順#嘉保利#愛心多#法-財卡讚#佳寶力#東和好#賽門"
+		},
+		"I024": {
+			"id": "I024",
+			"name": "加保扶",
+			"engName": "CARBOFURAN",
+			"products": "矮仔冬瓜#穩勝水仙#好田丹#好年冬#興農丹精#好年冬精#必收丹#滿福丹#興農丹#卡好冬#佳寶丹#福樂冬#高寶福#福克丹#庵原丹#好利丹#自立日日春#正豐冬#洽益蟲精#惠光冬#好收丹精#富農冬#好吉丹#萬順丹#好幫手#世大冬#嘉扶精#金克冬#旺立冬#世大冬精#好保扶#大勝冬#大勝冬精#好利丹精#添財#東和丹#自立雙富#聯勝精#大發財#蟲包無#霸王丹#好利冬#雷冬精#東和丹精#珍好冬精#臺聯丹®#固勇#洽益冬"
+		},
+		"I025": {
+			"id": "I025",
+			"name": "加馬治蝨",
+			"engName": "CARBARYL + MTMC + MALATHION",
+			"products": "佳好#袪蝨寶#克蝨粉"
+		},
+		"I027": {
+			"id": "I027",
+			"name": "加福松",
+			"engName": "ISOXATHION",
+			"products": "三共加福斯#三共加褔斯"
+		},
+		"I033": {
+			"id": "I033",
+			"name": "布芬大利松",
+			"engName": "BUPROFEZIN + DIAZINON",
+			"products": "優億利"
+		},
+		"I034": {
+			"id": "I034",
+			"name": "布芬治蝨",
+			"engName": "BUPROFEZIN + MTMC",
+			"products": "優治殺"
+		},
+		"I035": {
+			"id": "I035",
+			"name": "布芬益化利",
+			"engName": "BUPROFEZIN + ESFENVALERATE",
+			"products": "速利効#立農友効"
+		},
+		"I036": {
+			"id": "I036",
+			"name": "布芬淨",
+			"engName": "BUPROFEZIN",
+			"products": "穩効#穩讚#允讚#穩淨#安普落#蝨中寶#穩當#穩旺#特效#穩宋#巴勝#滅稻蝨"
+		},
+		"I037": {
+			"id": "I037",
+			"name": "布芬第滅寧",
+			"engName": "DELTAMETHRIN + BUPROFEZIN",
+			"products": "穩効寧#雙贏#泰順強#双重發"
+		},
+		"I040": {
+			"id": "I040",
+			"name": "必克蝨",
+			"engName": "BUFENCARB",
+			"products": "必速蝨#巴克士#龍燈必克蝨#必稻蝨"
+		},
+		"I041": {
+			"id": "I041",
+			"name": "必芬松",
+			"engName": "PYRIDAPHENTHION",
+			"products": ""
+		},
+		"I045": {
+			"id": "I045",
+			"name": "甲基巴拉松",
+			"engName": "METHYL-PARATHION",
+			"products": "雷利松#喜得安"
+		},
+		"I049": {
+			"id": "I049",
+			"name": "好達勝",
+			"engName": "PHOSPHINE",
+			"products": "益美穗#德燻寶#志宗燻得死#臺聯好達勝"
+		},
+		"I050": {
+			"id": "I050",
+			"name": "安丹",
+			"engName": "PROPOXUR",
+			"products": "一直旺#穩冬#紅龍#皇丹#旺丹#稻寶丹#保殺蟲#好安蟲#蝨丹#東和安#新王丹#聯安#農安心#年安丹#金旺冬#臺聯安丹#雙勝#安旺丹"
+		},
+		"I054": {
+			"id": "I054",
+			"name": "托福松",
+			"engName": "TERBUFOS",
+			"products": "抗蟲得#抗統特#抗地蟲#地龍#萬能松#滅地蟲#賜農富#樂土#顧田寶#合農時#金抗蟲地#永富王#抗蟲敵#真托福#田頭家#抗蟲靈#勇伯"
+		},
+		"I055": {
+			"id": "I055",
+			"name": "百滅寧",
+			"engName": "PERMETHRIN",
+			"products": "猛虎#除害寧#寶獅#貝士得百滅寧#大富#興農滅多寧#吉士能#百靈#包美寧#松樹效寧#百殺淨#好速百滅#百寧#新好幫手#百死靈#即時寧#一品靈#倍速寧#必滅勇#松百萬分#易通寧#立農百滅寧#霸面靈#蟲斃#億滅靈#獨斯靈#樂剋蟲#普滅淨#吉速靈#滅多靈#益賜靈#百全寧#毒蟲靈#易剋蟲#速時靈#囍仕靈#剋蟲靈#獨一靈#臺賜靈精#百萬寧#達克寧#安普施#祥龍#好朋友#施必滅#全面旺#鑽石掌#農伴#金成功"
+		},
+		"I056": {
+			"id": "I056",
+			"name": "佈飛松",
+			"engName": "PROFENOFOS",
+			"products": "速力龍#貝士得佈飛松#賜而發#常蓋寧#比久寧#好本領#速治蟲#益速龍#蟲末日#爽快#蟲ㄟ淨#吉利龍#蟲速淨#跳蟲淨#蓋猛#掌心雷#祥介勇#自立見喜#特威效#太星#庵原佈飛松"
+		},
+		"I058": {
+			"id": "I058",
+			"name": "免扶克",
+			"engName": "BENFURACARB",
+			"products": "穩克#頂好#穩固#旺固#絕讚#拿咔"
+		},
+		"I059": {
+			"id": "I059",
+			"name": "免敵克",
+			"engName": "BENDIOCARB",
+			"products": "速伏敵#好事多#治薊馬"
+		},
+		"I061": {
+			"id": "I061",
+			"name": "克福隆",
+			"engName": "CHLORFLUAZURON",
+			"products": "愛扶農#允妥當#保如意"
+		},
+		"I063": {
+			"id": "I063",
+			"name": "克蠅香",
+			"engName": "",
+			"products": "耐久香#剋瓜蠅#農克蜂"
+		},
+		"I064": {
+			"id": "I064",
+			"name": "含毒甲基丁香油",
+			"engName": "METHYL EUGENOL-NALED",
+			"products": "奪蜂香#好速香#穩煞蠅"
+		},
+		"I065": {
+			"id": "I065",
+			"name": "谷速松",
+			"engName": "AZINPHOS-METHYL",
+			"products": "古克松#固克蟲#速克松#蓋殺松#無敵松#介剌丹#介蟲除#革殺蟲"
+		},
+		"I066": {
+			"id": "I066",
+			"name": "亞烈寧",
+			"engName": "ALLETHRIN",
+			"products": "龍燈亞烈寧"
+		},
+		"I068": {
+			"id": "I068",
+			"name": "亞特松",
+			"engName": "PIRMIPHOS-METHYL",
+			"products": "立克#特克蟲"
+		},
+		"I069": {
+			"id": "I069",
+			"name": "亞素靈",
+			"engName": "MONOCROTOPHOS",
+			"products": "如萬能#愛禾好"
+		},
+		"I070": {
+			"id": "I070",
+			"name": "亞培松",
+			"engName": "TEMEPHOS",
+			"products": "用着安#愛魚康#魚寶"
+		},
+		"I071": {
+			"id": "I071",
+			"name": "亞滅寧",
+			"engName": "ALPHA-CYPERMETHRIN",
+			"products": "氰胺亞滅寧#景茂亞滅寧#松亞滅寧#珍猛#貝士得亞滅寧#雅飛寧#亞滅淨#高功能#清立利#易寧易#特易效#蟲好死#滿治#金剋星#金克#亞滅王#好立剋#進財#惠寧#洽益寶#好剋丹精#蟲清清#包滅蟲#大富貴#泰寶寧#金閃剋#閃克精#百發寧#加能#金玾意#總寧#珍好康"
+		},
+		"I072": {
+			"id": "I072",
+			"name": "依芬寧",
+			"engName": "ETOFENPROX",
+			"products": "多來寶#易福臨#易福好#特麗本#除蝨寧#得利寶#統介讚#知己#農博士#真正寶#台聯農達多#利美寶#金冠#禾利利#螟靈#克螟蟲#東和寶#愛克松#先覺#尚猛#螟王星"
+		},
+		"I073": {
+			"id": "I073",
+			"name": "治滅寧",
+			"engName": "MTMC + TETRAMETHRIN",
+			"products": ""
+		},
+		"I075": {
+			"id": "I075",
+			"name": "治滅蝨",
+			"engName": "METOLCARB",
+			"products": "除稻蝨#袪蝨靈#盡滅蝨#自滅殺#新泰力#治稻蝨#好印象"
+		},
+		"I076": {
+			"id": "I076",
+			"name": "治蝨丹",
+			"engName": "CARTAP + MTMC",
+			"products": "稻安#空白#治稻蝨丹"
+		},
+		"I077": {
+			"id": "I077",
+			"name": "芬化利",
+			"engName": "FENVALERATE",
+			"products": "住友速滅精#自立大喜#穩好利#速利淨#直直春#新速精#松艾立精#嚕禾運#福快殺#好滅淨#穗苔清#立滅精#蟲滅#保力精#法拉力#快滅精#速速死#除蟲淨#泰芬利#益農收#芬多淨#顧條條#利多精#百達克#仙靈#真和運#利滅淨#跑天下#勝利精#蟲怕怕#施滅寧#芬殺精#大家樂#金永讚#抗飛多#殺蟲精#添農#農滅精#住滅清#住滅利#利尅蟲#連地明#建利#芬化寧#快滅清#瑞滅淨#果贏#速滅精#天下丹精#高永讚#剋菜蟲#嘉芬利#好利利#全富#立農速滅精#滅蟲利#施滅丁#百面好#金剛精#果蠅精#卡實好#仙靈－精"
+		},
+		"I079": {
+			"id": "I079",
+			"name": "芬殺松",
+			"engName": "FENTHION",
+			"products": "滅蟲精#臺益力保山#拜粒產#力拔松#力拔山#立拔山#利滅松#利百山#好拔蟲#利富果#力巴三#力蓋世#利百仙#富華松#立拔產#力巴山#力百山#利霸山#大開殺#蛀蟲清#立霸山#嘉芬松#立拔蟲"
+		},
+		"I080": {
+			"id": "I080",
+			"name": "芬普寧",
+			"engName": "FENPROPATHRIN",
+			"products": "住友速滅蟎#賜美蟎#蟎驚#撲蟎#賜利豪#新好利克#住友天蠶變#松樹滅蟎#撲滅蟎#好速蟎#立農速滅蟎#意難忘"
+		},
+		"I084": {
+			"id": "I084",
+			"name": "拜裕松",
+			"engName": "QUINALPHOS",
+			"products": "倍新裕#拜爾強#松拜愈爽#滅蟲寧#拜易松#益定通#新雷達松#快又好#建裕松#本事通"
+		},
+		"I086": {
+			"id": "I086",
+			"name": "美文松",
+			"engName": "MEVINPHOS",
+			"products": "富收靈#大賜福#自立農家福#富克松#富速寧#富士寧#富斯寧#新蟲滅#富施寧#好賜能"
+		},
 		"I093": {
 			"id": "I093",
 			"name": "益丁滅蝨",
 			"engName": "PHOSMET + FENOBUCARB",
 			"products": "滿意冬#蓋好#嘉益蝨#包富靈#總滅#保滅蝨精#益蝨靈#高滅蝨#益米蝨精#冬風虫清#蝨總除"
-		},
-		"I097": {
-			"id": "I097",
-			"name": "益保扶",
-			"engName": "CARBOFURAN + PHOSMET",
-			"products": "益冬#有緣#益米冬#益加勇#金益美"
 		},
 		"I094": {
 			"id": "I094",
@@ -112933,23 +113101,11 @@
 			"engName": "ESFENVALERATE",
 			"products": "住友瑞發#住友速爾發#好速發#立農速爾發"
 		},
-		"P023": {
-			"id": "P023",
-			"name": "益收生長素",
-			"engName": "ETHEPHON",
-			"products": "益收豐#益收樂#億收旺#愛豐收#松樹益收#給你紅#高收益#田露#益收王#嘉果#大益收#得力總收#大粒果#益直收"
-		},
-		"I261": {
-			"id": "I261",
-			"name": "益斯普",
-			"engName": "ETHIPROLE",
-			"products": "轟天雷"
-		},
-		"I236": {
-			"id": "I236",
-			"name": "益洛寧",
-			"engName": "LAMBDA-CYHALOTHRIN + PHOSMET",
-			"products": "好過日"
+		"I097": {
+			"id": "I097",
+			"name": "益保扶",
+			"engName": "CARBOFURAN + PHOSMET",
+			"products": "益冬#有緣#益米冬#益加勇#金益美"
 		},
 		"I098": {
 			"id": "I098",
@@ -112969,192 +113125,6 @@
 			"engName": "PHOSMET + CYPERMETHRIN",
 			"products": "逗陣#賜美丹#青蟲王#新世大寧#祥猛#金福連殺#尚勇#珍果益#龍財寧"
 		},
-		"F093": {
-			"id": "F093",
-			"name": "益發靈",
-			"engName": "DICHLOFLUANID",
-			"products": "果樂達#速果丹"
-		},
-		"I201": {
-			"id": "I201",
-			"name": "益達胺",
-			"engName": "IMIDACLOPRID",
-			"products": "鐵沙掌#金沙掌#火霹靂#金富貴#有保庇#去煞掌#鐵捕頭#天公掌#康福多#旋風掌#鐵煞星#金沙利#勁揚#鐵達安#尚厲害#降蟲掌#金剛掌#鐵殺蟲#卡實讚#絕力旺#金正安#穩清#伊頂安#無帝比#葛來麥#一定安#雄霸天下#嘉潔第一讚#鐵力士#鐵捕#鐵衛#勁厲害#鐵布衫#天帝掃#真額樂#強力殺#益定讚#農會贊#新長紅#新關刀#太極#法-財鐵水#霹靂掌#速殺掌#穩殺淨#掌門人#太空掌#台鉄#如來神掌#如來掌#純陽掌#聯掌#法財-雙鐵水#鐵頭功#真額樂-精#達摩掌#無地避#皇帝大#益地寶#順豐掌#降龍十八掌#申公豹#台福將#雷公掌#殺天虎#力頭飽#盟主#有夠讚#金鋼棒#關佬爺#立達安#一定好#蟲必滅#高鉄#龍總颱#惠光無帝比#練武功"
-		},
-		"F038": {
-			"id": "F038",
-			"name": "石灰硫黃",
-			"engName": "LIME & SULFUR",
-			"products": "優果#好用#祥好#保美淨"
-		},
-		"I117": {
-			"id": "I117",
-			"name": "硫敵克",
-			"engName": "THIODICARB",
-			"products": "來靈#安萬寶#祥靈#金靈#惦惦死#蟲驚驚#羅力#真靈#金羅力#真靈精"
-		},
-		"I194": {
-			"id": "I194",
-			"name": "硫敵芬化利",
-			"engName": "THIODICARB + FENVALERATE",
-			"products": "速友利#剋青跳"
-		},
-		"I116": {
-			"id": "I116",
-			"name": "硫滅松",
-			"engName": "THIOMETON",
-			"products": "一克淨#聯吉#益嘉露#益果松"
-		},
-		"I118": {
-			"id": "I118",
-			"name": "硫賜安",
-			"engName": "THIOCYCLAM HYDROGENOXALATE",
-			"products": "菜旺#永生德"
-		},
-		"F103": {
-			"id": "F103",
-			"name": "硫酸快得寧",
-			"engName": "OXINE-COPPER + COPPER SULPHATE",
-			"products": "銅霸王"
-		},
-		"F266": {
-			"id": "F266",
-			"name": "硫酸銅",
-			"engName": "COPPER SULFATE",
-			"products": "粉多靈"
-		},
-		"F240": {
-			"id": "F240",
-			"name": "碳酸氫鉀",
-			"engName": "POTASSIUM HYDROGENCARBONATE",
-			"products": "速綠佳"
-		},
-		"F132": {
-			"id": "F132",
-			"name": "碳酸鈣",
-			"engName": "",
-			"products": "果利富濃"
-		},
-		"I170": {
-			"id": "I170",
-			"name": "磷化鎂",
-			"engName": "MAGNESIUM PHOSPHIDE",
-			"products": "鎂達勝#快燻寶#快燻寶燻蒸板"
-		},
-		"I240": {
-			"id": "I240",
-			"name": "礦物油",
-			"engName": "PETROLEUM OIL",
-			"products": "美果油#龍燈精鏈油#好果油#旺果油#惠光夏油#皇國果寶#富農夏油#新通７Ｅ#高級夏油九五#聯安油#洗靈#台農機械油#日曹油#豐收油#綠油油窄域油#萬果旺#好速油#霸面清-夏油"
-		},
-		"I223": {
-			"id": "I223",
-			"name": "祿芬隆",
-			"engName": "LUFENURON",
-			"products": "國豐祿芬隆#蛾樂天#愛逮完#攏無蛾#隆無蟲"
-		},
-		"I150": {
-			"id": "I150",
-			"name": "福化利",
-			"engName": "TAU-FLUVALINATE",
-			"products": "蜂寶#現代靈"
-		},
-		"F133": {
-			"id": "F133",
-			"name": "福多寧",
-			"engName": "FLUTOLANIL",
-			"products": "萬佳多#望佳多"
-		},
-		"F248": {
-			"id": "F248",
-			"name": "福拉比",
-			"engName": "FURAMETPYR",
-			"products": "住友文谷粒#真谷利"
-		},
-		"I151": {
-			"id": "I151",
-			"name": "福文松",
-			"engName": "PHOSPHAMIDON + MEVINPHOS",
-			"products": "嘉富寧#合力"
-		},
-		"I155": {
-			"id": "I155",
-			"name": "福瑞松",
-			"engName": "PHORATE",
-			"products": "賽滅得#好美特#黑珍珠#好美德#嘉瑞松#黑金剛#易福松#黑龍寶#地掃#大億丹#青龍#保允得#保田園#殺地蟲#瑞多福#金賽滅地#福瑞得#真讚#福益松"
-		},
-		"P034": {
-			"id": "P034",
-			"name": "福芬素",
-			"engName": "FORCHLORFENURON",
-			"products": "褔祿滿多"
-		},
-		"I157": {
-			"id": "I157",
-			"name": "福賜滅蝨",
-			"engName": "PHOSPHAMIDON + MIPC",
-			"products": "惠滅蝨"
-		},
-		"I156": {
-			"id": "I156",
-			"name": "福賜米松",
-			"engName": "PHOSPHAMIDON",
-			"products": "富米松#速達拉松"
-		},
-		"F137": {
-			"id": "F137",
-			"name": "福賽得",
-			"engName": "FOSETYL-AL",
-			"products": "雅利特#新雅利特#嘉景旺#福星#快滅露#松樹賽得#福益得#旺得好#亞力特#亞力得#露落安#擋露#福再得#新田中王"
-		},
-		"F236": {
-			"id": "F236",
-			"name": "福賽快得寧",
-			"engName": "FOSETYL-Al + OXINE-COPPER",
-			"products": "雙贊"
-		},
-		"N010": {
-			"id": "N010",
-			"name": "福賽絕",
-			"engName": "FOSTHIAZATE",
-			"products": "福氣多#褔氣多#地威剛"
-		},
-		"I191": {
-			"id": "I191",
-			"name": "福隆納乃得",
-			"engName": "DIFLUBENZURON + METHOMYL",
-			"products": "紅帥"
-		},
-		"P025": {
-			"id": "P025",
-			"name": "移植生長素",
-			"engName": "NAD",
-			"products": "移植旺#根多旺#移植棒#栽培旺"
-		},
-		"H168": {
-			"id": "H168",
-			"name": "稻得免速隆",
-			"engName": "BENSULFURON-METHYL + MOLINATE",
-			"products": "農會丹"
-		},
-		"H134": {
-			"id": "H134",
-			"name": "稻得壯",
-			"engName": "MOLINATE",
-			"products": "稻得旺#禾草滅#稻田富"
-		},
-		"I119": {
-			"id": "I119",
-			"name": "第滅寧",
-			"engName": "DELTAMETHRIN",
-			"products": "滴死#金星第滅寧#現達第滅寧#多禧#國豐第滅寧#金有效#聯喜#嘉禧#地美寧#松樹大禧#大禧精#佳喜#寶禧#大力#地禧#特佳靈#達喜#帝美年#蟲淨#景茂第滅寧#達官#寶囍#越禧#果卡好#台喜精#勁殺#送喜#喜來樂#天禧#報喜#新囍#益禧精#達官精#誅僖蟲#泰國禧#凱速靈#勁好#維丰寶禧精#喜洋洋#旺禧#治蟲寧#勁禧精#戰蟲#恭禧#蟲滅寧#法財大家囍#速樂農#薊蚜清#薊馬靈#億喜#大寧#通殺寧#泰喜#大成禧#保青#帝滅寧#雙禧#豐收喜#臺喜精王#眾喜#剌馬#真清去#太喜#金得利#日禧#法財禧寶精#達喜精#雙喜丹精#日禧精#新喜精#通用#代喜多#聯喜冬精#驚虫#歐斯寧#驚虫精#第滅精#帝寶#豐收喜精#喜無蟲#雙禧精#無虫#褔你發#威風精#刺蟲#自立大喜精"
-		},
-		"I260": {
-			"id": "I260",
-			"name": "第滅達胺",
-			"engName": "DELTAMETHRIN + IMIDACLOPRID",
-			"products": "叫小賀#賺大錢"
-		},
 		"I101": {
 			"id": "I101",
 			"name": "納乃得",
@@ -113173,875 +113143,11 @@
 			"engName": "METHOMYL + FLUCYTHRINATE",
 			"products": "適利得#來就富#穩清清#萬富"
 		},
-		"F271": {
-			"id": "F271",
-			"name": "純白鏈黴菌素",
-			"engName": "STREPTOMYCES CANDIDUS of Y21007-2",
-			"products": "安心寶"
-		},
-		"P036": {
-			"id": "P036",
-			"name": "細胞分裂素",
-			"engName": "CYTOKININS",
-			"products": "喜果精"
-		},
-		"F301": {
-			"id": "F301",
-			"name": "綠木黴菌R42",
-			"engName": "Trichoderma virens strain R42",
-			"products": "根益旺"
-		},
-		"F138": {
-			"id": "F138",
-			"name": "維利熱必斯",
-			"engName": "VALIDAMYCIN + PHTHALIDE",
-			"products": "省工"
-		},
-		"F139": {
-			"id": "F139",
-			"name": "維利黴素",
-			"engName": "VALIDAMYCIN",
-			"products": "紋枯克#金頂真#統赫#維大利－５#為你素–Ａ#稻維力#永讚黴素#養元黴素#威力黴素#爛立停#卡旺素#頂真#龍燈維利黴素#紋病清#對銅"
-		},
-		"I171": {
-			"id": "I171",
-			"name": "繁米松",
-			"engName": "VAMIDOTHION",
-			"products": "聯宗#利百靈#克蝨寶"
-		},
-		"I172": {
-			"id": "I172",
-			"name": "繁米蝨",
-			"engName": "BPMC + VAMIDOTHION + MIPC",
-			"products": "謝謝叫"
-		},
-		"I086": {
-			"id": "I086",
-			"name": "美文松",
-			"engName": "MEVINPHOS",
-			"products": "富收靈#大賜福#自立農家福#富克松#富速寧#富士寧#富斯寧#新蟲滅#富施寧#好賜能"
-		},
-		"I251": {
-			"id": "I251",
-			"name": "美氟綜",
-			"engName": "METAFLUMIZONE",
-			"products": "去蟲能"
-		},
-		"I246": {
-			"id": "I246",
-			"name": "美賜平",
-			"engName": "S-METHOPRENE",
-			"products": "火蟻愛呷"
-		},
-		"M002": {
-			"id": "M002",
-			"name": "耐克螺",
-			"engName": "NICLOSAMIDE",
-			"products": "好殺螺#殺螺安#畢螺春#淹螺王#福壽螺#螺滅殺#治螺#寶螺丹#螺速淨#金元寶#刺螺寶#螺立死#金-憶安#滅螺安®"
-		},
-		"M001": {
-			"id": "M001",
-			"name": "聚乙醛",
-			"engName": "METALDEHYDE",
-			"products": "毒蝸死#滅死蝸#土寶#蝸蝓死#松樹克螺#尅螺丹#兩棲滅螺#螺必零#尅蝸#蛞蝸逝#殺螺#無蝸餘#蝸立死#蝸除#助手#蝸全死#螺好除#立農-聚乙醛"
-		},
-		"F105": {
-			"id": "F105",
-			"name": "脫克松",
-			"engName": "TOLCLOFOS-METHYL",
-			"products": "住友保綠寧#速滅綠#立農脫克松"
-		},
-		"H093": {
-			"id": "H093",
-			"name": "脫禾草",
-			"engName": "PHENOTHIOL",
-			"products": "芳米大"
-		},
-		"I248": {
-			"id": "I248",
-			"name": "脫芬瑞",
-			"engName": "TOLFENPYRAD",
-			"products": "哈奇#捌捌－８８"
-		},
-		"F284": {
-			"id": "F284",
-			"name": "腈硫克敏",
-			"engName": "PYRACLOSTROBIN + DITHIANON",
-			"products": "炭速靈"
-		},
-		"F190": {
-			"id": "F190",
-			"name": "腈硫克絕",
-			"engName": "DITHIANON + CYMOXANIL",
-			"products": "絕配#腈絕#腈強#生龍"
-		},
-		"F114": {
-			"id": "F114",
-			"name": "腈硫醌",
-			"engName": "DITHIANON",
-			"products": "福得寶#炭星#尚紅#茂喜#欣德寶#新雷彈#雷彈精#免怨炭#炭免驚#天寶#炭寶#清龍#好雷菌#菌嘜來#久保丹#包順利#炭剋星#龍腈炭#神農丹"
-		},
-		"F115": {
-			"id": "F115",
-			"name": "腈硫醌銅",
-			"engName": "DITHIANON + COPPER OXYCHLORIDE",
-			"products": "一直旺#大好丹-銅#联联興"
-		},
-		"F140": {
-			"id": "F140",
-			"name": "腐絕",
-			"engName": "THIABENDAZOLE",
-			"products": "全能#新-霉敵#松樹腐絕#松腐絕精#霉尅#霉得剋#龍燈腐絕#克霉#霉絕#速菌淨#腐敵#黴敵#沒敵#沒敵精#精湛#立農-腐絕#殺菌精"
-		},
-		"F141": {
-			"id": "F141",
-			"name": "腐絕快得寧",
-			"engName": "THIABENDAZOLE + OXINE-COPPER",
-			"products": "億度勇#克爛寶#祝禾勇#炭快除"
-		},
-		"P039": {
-			"id": "P039",
-			"name": "艾維激素",
-			"engName": "AMINOETHOXYVINYLGLYCINE HYDROCHLORIDE",
-			"products": "住友豐樂果"
-		},
-		"A018": {
-			"id": "A018",
-			"name": "芬佈克蟎",
-			"engName": "FENBUTATIN-OXIDE + DICOFOL",
-			"products": "全克"
-		},
-		"A019": {
-			"id": "A019",
-			"name": "芬佈賜",
-			"engName": "FENBUTATIN-OXIDE",
-			"products": "封殺蟎#松樹勝蟎#產寶#好滿#松勝蟎精#惠光蟎得斯#大通克#嘉剋蟎#殺蟎靈#殺蟎#治除蛛#通克#蛛蟎絕#綠波#穩剋#蟎斯#上賜適#速蟎淨#蟎必治#勝克#勝蛛蟎#易克蟎#利殺蟎#金捕手#好捕手#剋蟎"
-		},
-		"I077": {
-			"id": "I077",
-			"name": "芬化利",
-			"engName": "FENVALERATE",
-			"products": "住友速滅精#自立大喜#穩好利#速利淨#直直春#新速精#松艾立精#嚕禾運#福快殺#好滅淨#穗苔清#立滅精#蟲滅#保力精#法拉力#快滅精#速速死#除蟲淨#泰芬利#益農收#芬多淨#顧條條#利多精#百達克#仙靈#真和運#利滅淨#跑天下#勝利精#蟲怕怕#施滅寧#芬殺精#大家樂#金永讚#抗飛多#殺蟲精#添農#農滅精#住滅清#住滅利#利尅蟲#連地明#建利#芬化寧#快滅清#瑞滅淨#果贏#速滅精#天下丹精#高永讚#剋菜蟲#嘉芬利#好利利#全富#立農速滅精#滅蟲利#施滅丁#百面好#金剛精#果蠅精#卡實好#仙靈－精"
-		},
-		"I080": {
-			"id": "I080",
-			"name": "芬普寧",
-			"engName": "FENPROPATHRIN",
-			"products": "住友速滅蟎#賜美蟎#蟎驚#撲蟎#賜利豪#新好利克#住友天蠶變#松樹滅蟎#撲滅蟎#好速蟎#立農速滅蟎#意難忘"
-		},
-		"I213": {
-			"id": "I213",
-			"name": "芬普尼",
-			"engName": "FIPRONIL",
-			"products": "火龍寶丹#萬得寶#戰將#法台寶#襲蟻長效型粒劑#易級寶#農好寶#剋螟寶#螟蟲絕#雄寶#聯寶#喊台保#地上王#火龍寶#介有好#薊馬淨#法-財進寶#富力旺#藍波#田師傅#紅透天#旺立贊#東風寶#除蟲寶#稻蟲停#撿到寶#地上寶#禾寶#龍克尼#非常銳#臺聯寶®#蝨馬光#富寶#收卡多#尚農寶#真順手#德國寶#農統寶#農統寶精#庵原寶#農家寶#刺克#武田寶#益保丹"
-		},
-		"A051": {
-			"id": "A051",
-			"name": "芬普毆蟎多",
-			"engName": "FENPYROXIMATE + PROPARGITE",
-			"products": "掃蟎寶"
-		},
-		"A040": {
-			"id": "A040",
-			"name": "芬普蟎",
-			"engName": "FENPYROXIMATE",
-			"products": "芬普螨#蟎効"
-		},
-		"I079": {
-			"id": "I079",
-			"name": "芬殺松",
-			"engName": "FENTHION",
-			"products": "滅蟲精#臺益力保山#拜粒產#力拔松#力拔山#立拔山#利滅松#利百山#好拔蟲#利富果#力巴三#力蓋世#利百仙#富華松#立拔產#力巴山#力百山#利霸山#大開殺#蛀蟲清#立霸山#嘉芬松#立拔蟲"
-		},
-		"A043": {
-			"id": "A043",
-			"name": "芬殺蟎",
-			"engName": "FENAZAQUIN",
-			"products": "蟎尚驚#蟎尚通#蟎速淨#殺蟎通"
-		},
-		"N001": {
-			"id": "N001",
-			"name": "芬滅松",
-			"engName": "FENAMIPHOS",
-			"products": "毒線蟲#線虫寶#固根#土龍丹#地神"
-		},
-		"F078": {
-			"id": "F078",
-			"name": "芬瑞莫",
-			"engName": "FENARIMOL",
-			"products": "瑪格利特穩達達#夠旺穩達達"
-		},
-		"A020": {
-			"id": "A020",
-			"name": "芬硫克",
-			"engName": "FENOTHIOCARB",
-			"products": "八蟎王"
-		},
-		"I205": {
-			"id": "I205",
-			"name": "芬諾克",
-			"engName": "FENOXYCARB",
-			"products": "蛋蛋滅#特洛伊#金好康"
-		},
-		"F300": {
-			"id": "F300",
-			"name": "芬諾尼",
-			"engName": "FENOXANIL",
-			"products": "熱鬥"
-		},
-		"P040": {
-			"id": "P040",
-			"name": "茉莉酸丙酯",
-			"engName": "PROHYDROJASMON",
-			"products": "包果優"
-		},
-		"H075": {
-			"id": "H075",
-			"name": "草殺淨",
-			"engName": "AMETRYN",
-			"products": "該草除#除草霸#速草滅#草殺精#勁贊#全克草®#殺草王#蓋殺霸#蓋草霸#除草淨#臺聯克草清#法-財草淨#包祝讚#包祝好#雙殺草#草清清#草清利#殺草淨#攏無草"
-		},
-		"H077": {
-			"id": "H077",
-			"name": "草滅淨",
-			"engName": "SIMAZINE",
-			"products": "擋草籽#草淨"
-		},
-		"H076": {
-			"id": "H076",
-			"name": "草脫淨",
-			"engName": "ATRAZINE",
-			"products": "賜草淨#滋殺遍#亞脫淨#翻無草#阿脫淨#龍燈草脫淨#全草淨#草燒遍#除蔗草#艾割草"
-		},
-		"H094": {
-			"id": "H094",
-			"name": "莫多草",
-			"engName": "METOLACHLOR",
-			"products": "治發#嘉濱耐久圃#莫發草"
-		},
-		"H095": {
-			"id": "H095",
-			"name": "莫多草淨",
-			"engName": "ATRAZINE + METOLACHLOR",
-			"products": "控草寧"
-		},
-		"F188": {
-			"id": "F188",
-			"name": "菲克利",
-			"engName": "HEXACONAZOLE",
-			"products": "安滅樂#穗紋淨#狀元露#瑞紋清#田老大#尚優秀#安衛果#飛克利#易滅淨#利枯淨#透冬水#對罩時#倍易淨#果瑞收#壹頂讚#好清淨#稻穗勇#新樂園#治紋淨#克紋精#高利#果好收#呼您發#益剋菌#介合用#尚有利#法-達稻果滿#稻欉青#除菌好#安紋寧#新安美農#神龍#田大帥#好吉調#億佳多多#菲哥#菲常好#法-達保精#新氣象#惠放心#穗安淨#安果寧#水叮噹#惠紋寧#治紋枯#凸統久#好銹紋#真稱#稻紋淨#穗飽滿#稻紋精#治枯寧#克菌精#包清天#超星#紋絕#聯速利#農得利#包穗滿#農多利#萬喜精#好紋淨#除紋淨#介好用#出運#包攻#地球春#真本頂#法-財賺蓋多#龍菁翠#菲常旺#酷斯拉#粉清除"
-		},
-		"F213": {
-			"id": "F213",
-			"name": "菲克利腐絕",
-			"engName": "HEXACONAZOLE + THIABENDAZOLE",
-			"products": "通好#金富丹"
-		},
-		"P030": {
-			"id": "P030",
-			"name": "萘乙酸鈉",
-			"engName": "NAA-SODIUM",
-			"products": "早生果#美旺素#豐產多#根多生#增產冬#賽珍珠"
-		},
-		"F143": {
-			"id": "F143",
-			"name": "蓋普丹",
-			"engName": "CAPTAN",
-			"products": "好速殺#美果安#好速剎#保粒好#甜旺來"
-		},
-		"I184": {
-			"id": "I184",
-			"name": "蘇力菌",
-			"engName": "BACILLUS THURINGIENSIS",
-			"products": "力寶#菜寶#大寶#速利殺#惠光寶#新大寶#貴寶#尚賜配#獨佳#大寶天機#松蘇力菌#加倍強#見達利#愛吃蟲#高招#住友福祿寶#蘇滅寶#殊立菌#舒立旺#見招"
-		},
-		"I168": {
-			"id": "I168",
-			"name": "蝨必殺",
-			"engName": "CPMC",
-			"products": "好寶蝨#快滅蝨#蝨蝨靈#好撲蝨#福寶殺#效必殺#百殺滅#新克蝨#龍燈蝨必殺#全滅蝨"
-		},
-		"A035": {
-			"id": "A035",
-			"name": "蟎離丹",
-			"engName": "CHINOMETHIONAT",
-			"products": "莫粉生#雙殺丹"
-		},
-		"I147": {
-			"id": "I147",
-			"name": "裕必松",
-			"engName": "PHOSALONE",
-			"products": "松樹必爽#松裕必爽#松必爽粉#萬得隆#蟲必寧#普利農#百益松#金谷王#農家好"
-		},
-		"H047": {
-			"id": "H047",
-			"name": "西殺草",
-			"engName": "SETHOXYDIM",
-			"products": "新汰王#禾草淨"
-		},
-		"A036": {
-			"id": "A036",
-			"name": "覆滅蟎",
-			"engName": "FORMETANATE",
-			"products": "真加好#真絕蟎#蟎易"
-		},
-		"I242": {
-			"id": "I242",
-			"name": "諾伐隆",
-			"engName": "NOVALURON",
-			"products": "愛將"
-		},
-		"F237": {
-			"id": "F237",
-			"name": "護汰芬",
-			"engName": "FLUTRIAFOL",
-			"products": "落菌寧#乎依勇#好立強"
-		},
-		"F181": {
-			"id": "F181",
-			"name": "護矽得",
-			"engName": "FLUSILAZOLE",
-			"products": "杜邦護矽得#新星#威星#萬星#興農星"
-		},
-		"F197": {
-			"id": "F197",
-			"name": "護粒三賽唑",
-			"engName": "EDIFENPHOS + TRICYCLAZOLE",
-			"products": "正一頂讚"
-		},
-		"F182": {
-			"id": "F182",
-			"name": "護粒丹",
-			"engName": "EDIFENPHOS + FTHALIDE",
-			"products": "穗丹"
-		},
-		"F183": {
-			"id": "F183",
-			"name": "護粒松",
-			"engName": "EDIFENPHOS",
-			"products": "旺稻精#喜稻增#喜稻生#喜多生#喜粒松#臺綠生#稻熱松#喜豐產#嘉穩收#顧穗寶#永得勝#福樂生#喜治生#瑞滿#稻米香#稻保#禧多昇"
-		},
-		"I185": {
-			"id": "I185",
-			"name": "護賽寧",
-			"engName": "FLUCYTHRINATE",
-			"products": "保您富#速斃#祥蓋稱#保你福#及時寧#乎利富#包你富#蜂砲"
-		},
-		"I065": {
-			"id": "I065",
-			"name": "谷速松",
-			"engName": "AZINPHOS-METHYL",
-			"products": "古克松#固克蟲#速克松#蓋殺松#無敵松#介剌丹#介蟲除#革殺蟲"
-		},
-		"I198": {
-			"id": "I198",
-			"name": "貝他-賽扶寧",
-			"engName": "BETA-CYFLUTHRIN",
-			"products": "拜勝格#蓋性格"
-		},
-		"F220": {
-			"id": "F220",
-			"name": "貝芬依滅列",
-			"engName": "CARBENDAZIM + IMAZALIL",
-			"products": "粉霸#白粉王"
-		},
-		"F062": {
-			"id": "F062",
-			"name": "貝芬同",
-			"engName": "CARBENDAZIM + IPRODIONE",
-			"products": "通順#愛果丹#泰好#保粒穗"
-		},
-		"F264": {
-			"id": "F264",
-			"name": "貝芬四克利",
-			"engName": "CARBENDAZIM + TETRACONAZOLE",
-			"products": "龍包滅"
-		},
-		"F254": {
-			"id": "F254",
-			"name": "貝芬待克利",
-			"engName": "CARBENDAZIM + DIFENOCONAZOLE",
-			"products": "好絕配#瓜瓜叫#法－財賀你旺#雙吉"
-		},
-		"F232": {
-			"id": "F232",
-			"name": "貝芬撲克拉",
-			"engName": "CARBENDAZIM + PROCHLORAZ",
-			"products": "果真贊#包友利#猛果霸#吉市®#法－財翔豪運#菌仙索"
-		},
-		"F065": {
-			"id": "F065",
-			"name": "貝芬普寧",
-			"engName": "CARBENDAZIM + MEPRONIL",
-			"products": "治銹靈"
-		},
-		"F066": {
-			"id": "F066",
-			"name": "貝芬替",
-			"engName": "CARBENDAZIM",
-			"products": "倍多芬#殺菌讚#菌絕-８００#大露產#免菌霸#松巴司丁#保舒丁#速克菌#新力丹#大力產#好果青#松大樂剷#克利斯丁#旺福#貝斯王#保粒大#達仙#新巴斯丁#大益產#好派#保速金#新農福產#大豐產#大豐利#巴速汀#大收產#新百賜汀#全滅#百賜靈#包收丁#益寧#大旺生#包速頂#卡滅達仁#世達菌#霸殺菌#嘉樂產#保旺精#泰安康#巴雷#貝剋菌#寶貝精#法-財滿滿#達豐產#保利順精#聯保貝#真有效#新巴斯讚#巴大"
-		},
-		"F064": {
-			"id": "F064",
-			"name": "貝芬硫醌",
-			"engName": "CARBENDAZIM + DITHIANON",
-			"products": "殺菌寶#賜你富#聯巴特#腈霸#旺春風"
-		},
-		"F223": {
-			"id": "F223",
-			"name": "貝芬菲克利",
-			"engName": "CARBENDAZIM + HEXACONAZOLE",
-			"products": "新希望#透欉青#輝常讚#貝克利#哥兩好#金希望#菌好滅"
-		},
-		"F068": {
-			"id": "F068",
-			"name": "貝芬錳",
-			"engName": "CARBENDAZIM + MANEB",
-			"products": "億萬生–Ｍ"
-		},
-		"F144": {
-			"id": "F144",
-			"name": "賓克隆",
-			"engName": "PENCYCURON",
-			"products": "滿穗寧#金星賓克隆#好美稻#滿穗寧精#禾穗寧#賓利#福穗寶#保穗能#安稻精#新穗能#立克寧#滿穗靈#好根本#紋煞寧#包穗#嘉穗美#好大穗#農會寧#連連發#大稻穗#滿稻寧#賓棒#總穗能#好稻穗#固穗#嘉剋隆#穩好收#穗粒旺#法-財滿穗精#枝枯靈#樂無菌#利稻強#斑枯靈#賓克旺#嘉穗精#飽穗寧#青龍膏#紋沒#正四季春#萬萬穗#枯清清#好速淨"
-		},
-		"F249": {
-			"id": "F249",
-			"name": "賓得克利",
-			"engName": "PENCYCURON + TEBUCONAZOLE",
-			"products": "允擋好#穩快好#紋炭#滿朝青#法-財寶你豪#紋定青#利台允ㄟ好"
-		},
-		"I262": {
-			"id": "I262",
-			"name": "賜派滅",
-			"engName": "SPIROTETRAMAT",
-			"products": "頭爺好"
-		},
-		"A053": {
-			"id": "A053",
-			"name": "賜派芬",
-			"engName": "SPIRODICLOFEN",
-			"products": "拜蟎阻"
-		},
-		"I228": {
-			"id": "I228",
-			"name": "賜諾殺",
-			"engName": "SPINOSAD",
-			"products": "金菜園#好菜園#克火蟻#香兒寶#祝自然"
-		},
-		"I255": {
-			"id": "I255",
-			"name": "賜諾特",
-			"engName": "SPINETORAM",
-			"products": "道禮菜園寶#道禮農園寶"
-		},
-		"F259": {
-			"id": "F259",
-			"name": "賽座滅",
-			"engName": "CYAZOFAMID",
-			"products": "蘭蔓"
-		},
-		"I174": {
-			"id": "I174",
-			"name": "賽扶寧",
-			"engName": "CYFLUTHRIN",
-			"products": "拜舒樂#拜樂精#百樹寧#百福樂#包有效#真福氣"
-		},
-		"I233": {
-			"id": "I233",
-			"name": "賽扶益達胺",
-			"engName": "CYFLUTHRIN + IMIDACLOPRID",
-			"products": "雙沙掌"
-		},
-		"F221": {
-			"id": "F221",
-			"name": "賽普洛",
-			"engName": "CYPRODINIL",
-			"products": "霹靂馬#克百龍"
-		},
-		"F229": {
-			"id": "F229",
-			"name": "賽普護汰寧",
-			"engName": "CYPRODINIL + FLUDIOXONIL",
-			"products": "速威"
-		},
-		"I245": {
-			"id": "I245",
-			"name": "賽果培",
-			"engName": "THIACLOPRID",
-			"products": "祝豐成"
-		},
-		"F262": {
-			"id": "F262",
-			"name": "賽氟滅",
-			"engName": "THIFLUZAMIDE",
-			"products": "利穗#真清紋#禾韻#雄勇"
-		},
-		"I259": {
-			"id": "I259",
-			"name": "賽洛安勃",
-			"engName": "LAMBDA-CYHALOTHRIN + CHLORANTRANILIPROLE",
-			"products": "衝衝衝"
-		},
-		"I175": {
-			"id": "I175",
-			"name": "賽洛寧",
-			"engName": "LAMBDA-CYHALOTHRIN",
-			"products": "金農夫#功夫#好功夫#青棒棒#勁功夫#千百利#功力#金豐收#真有力#勁勇#卡旺#勁強#蟲敗敗#祥冷攢#穩豐收#戰神#勁猛#清蟲寧#克蟲利#法-財正武功#霸面清#絕洛寧#沒看蟲#蟲無氣#上好#嘉安泰#豪工夫#空手道#真愛用#法-財武功#蟲真驚#蟲好除#通勇#立農賽洛寧#天劍#如來神功#穩響#西樂寧#聯功#愛福好#祝好收#攏會通#上帝功#千心魔#聯真功#阿拉神功#除蟲保#興農樂無蟲#龍顧#賽得靈#好農夫"
-		},
-		"I177": {
-			"id": "I177",
-			"name": "賽滅寧",
-			"engName": "CYPERMETHRIN",
-			"products": "黑寶#雷克#庵原新滅靈#賽能#現達賽滅寧#新安寧#尅蟲寶#賜美寧#滴滴靈#黑豹#足甘心#新力寧#速普寧#松樹黑寶#松樹賽寧#億萬寧#寶賽寧#益寧大喜#雷公靈#真寧#賽全靈#賽利旺精#全福寧#速寧#雷貢#好彩頭#速滅#滅青蟲#包植健#允克#菜克靈#菜蟲靈#立農賽滅寧#伏虫寧#利台大吉#好青青#果菜能#樂通寧#殺滅寧#新世紀#法-財大喆#新福施#蛟龍#殺定#力克寧#倍豐靈#新年豐寧#好能#建旺#瑞#加達#賽嘉寧#通用寧#包旺#馬力強#賽滅蟻抗濕性餌劑"
-		},
-		"I176": {
-			"id": "I176",
-			"name": "賽滅松",
-			"engName": "PHENTHOATE+DIMETHOATE",
-			"products": "祝友效#喜美松#大家好#自立菜蟲靈#聯利松#眾益安力農#菜蟲寶#達農安#洽益寧#新威力#保蟲滅#菜農寶#菜寶靈#特滅靈#大發展"
-		},
-		"I190": {
-			"id": "I190",
-			"name": "賽滅淨",
-			"engName": "CYROMAZINE",
-			"products": "汽嘉讚#新-汽巴讚#一掃淨#希特樂#易利讚#利能收#萬讚#治蟲淨#穩煞#真清蠅#克圖淨#至尊#真無蠅#殺能蟲#禾立旺#三能剋"
-		},
-		"F211": {
-			"id": "F211",
-			"name": "賽福保淨",
-			"engName": "TRIFLUMIZOLE + THIOPHANATE-METHYL",
-			"products": "多保帝#美樂多"
-		},
-		"F174": {
-			"id": "F174",
-			"name": "賽福寧",
-			"engName": "TRIFORINE",
-			"products": "沙普多"
-		},
-		"F173": {
-			"id": "F173",
-			"name": "賽福座",
-			"engName": "TRIFLUMIZOLE",
-			"products": "多富民#多利仁"
-		},
-		"F297": {
-			"id": "F297",
-			"name": "賽福芬胺",
-			"engName": "CYFLUFENAMID + TRIFLUMIZOLE",
-			"products": "伴久"
-		},
-		"F293": {
-			"id": "F293",
-			"name": "賽芬胺",
-			"engName": "CYFLUFENAMID",
-			"products": ""
-		},
-		"A054": {
-			"id": "A054",
-			"name": "賽芬蟎",
-			"engName": "CYFLUMETOFEN",
-			"products": "大殺蟎"
-		},
-		"I235": {
-			"id": "I235",
-			"name": "賽速安",
-			"engName": "THIAMETHOXAM",
-			"products": "國豐賽速安#討勁久#果來特#勁夠力#好賽雷#蚜科醫生"
-		},
-		"I254": {
-			"id": "I254",
-			"name": "賽速安勃",
-			"engName": "THIAMETHOXAM + CHLORANTRANILIPROLE",
-			"products": "嘸你ㄟ死#好田地"
-		},
-		"I250": {
-			"id": "I250",
-			"name": "賽速洛寧",
-			"engName": "LAMBDA-CYHALOTHRIN + THIAMETHOXAM",
-			"products": "農發財#響叮噹"
-		},
-		"I178": {
-			"id": "I178",
-			"name": "賽達松",
-			"engName": "PHENTHOATE",
-			"products": "益農產#巴斯松#利農產#利菜農#愛農產#益樂殺#大克安#殺達松#易樂產#菜利農#好助手#永讚#愛達農#必利菜#益路產#立農益利農#殺多靈#愛如松#豐達松#豐樂寶#益利產#菜蟲精#用未仙#喜地雅#加速靈#菜友#菜嘸蟲"
-		},
-		"F122": {
-			"id": "F122",
-			"name": "達克利",
-			"engName": "DINICONAZOLE-M",
-			"products": "好速克利"
-		},
-		"H120": {
-			"id": "H120",
-			"name": "達有龍",
-			"engName": "DIURON",
-			"products": "鋤草頭#卡滅克斯#克滅草#克草必斯#可滅草#益滅草#佳滅#益滅草精#龍燈達有龍#不要草#殺草靈#佳滅草#光禿禿#抗草龍#克園草#草絕#清園草"
-		},
-		"F270": {
-			"id": "F270",
-			"name": "達滅克敏",
-			"engName": "PYRACLOSTROBIN + DIMETHOMORPH",
-			"products": "總發"
-		},
-		"F302": {
-			"id": "F302",
-			"name": "達滅克絕",
-			"engName": "DIMETHOMORPH+CYMOXANIL",
-			"products": "掃露"
-		},
-		"F215": {
-			"id": "F215",
-			"name": "達滅芬",
-			"engName": "DIMETHOMORPH",
-			"products": "祥發#祥優#金牌#報你發#祥展#興農樂菌清#尚發#尚賀#勁發#惠發#翔勇#疫把罩#疫菌王#祥穗#一路清#雄麻嚞#乎依發#祥介好#金祥泰#祥稱#常發#吉發#雙星#帶安分#諾發#露必清#疫ㄟ好#速霸露#一路發#速疫清#禾力發"
-		},
-		"I239": {
-			"id": "I239",
-			"name": "達特南",
-			"engName": "DINOTEFURAN",
-			"products": "鐵金剛"
-		},
-		"I149": {
-			"id": "I149",
-			"name": "達馬松",
-			"engName": "METHAMIDOPHOS",
-			"products": "上界靈#達滿龍#好速龍#大馬龍#達馬隆#大尾龍#達利農#台馬農#介久#太龍#龍燈達馬松#快馬龍#大美農#佳美松#總殺滅#點點靈#大殺松#達滅寧"
-		},
-		"A047": {
-			"id": "A047",
-			"name": "達馬芬普寧",
-			"engName": "FENPROPATHRIN + METHAMIDOPHOS",
-			"products": "速清蟎"
-		},
-		"F175": {
-			"id": "F175",
-			"name": "邁克尼",
-			"engName": "MYCLOBUTANIL",
-			"products": "信生#福力克#愛力克#粉好效#超好效#勝生#信心#法-財翔強#自立果農靈#粉贊#擱抹嘜#粉害怕"
-		},
-		"F280": {
-			"id": "F280",
-			"name": "邁克諾芬",
-			"engName": "MYCLOBUTANIL + QUINOXYFEN",
-			"products": "保青翠"
-		},
-		"F176": {
-			"id": "F176",
-			"name": "邁隆",
-			"engName": "DAZOMET",
-			"products": "包殺滅"
-		},
-		"H105": {
-			"id": "H105",
-			"name": "鈉得爛",
-			"engName": "NAPTALAM",
-			"products": ""
-		},
-		"F246": {
-			"id": "F246",
-			"name": "銅右滅達樂",
-			"engName": "COPPER OXYCHLORIDE + METALAXYL-M",
-			"products": "金-高手#立達樂"
-		},
-		"F200": {
-			"id": "F200",
-			"name": "銅合硫磺",
-			"engName": "",
-			"products": "松蓋高尚"
-		},
-		"F205": {
-			"id": "F205",
-			"name": "銅合腐絕",
-			"engName": "THIABENDAZOLE + CUPRIC HYDROXIDE",
-			"products": "好治菌"
-		},
-		"F147": {
-			"id": "F147",
-			"name": "銅快得寧",
-			"engName": "OXINE-COPPER + CUPRIC HYDROXIDE",
-			"products": "攏無菌#新萬果生#克瓜菌#瓜果多#瓜旺#快大寧"
-		},
-		"F145": {
-			"id": "F145",
-			"name": "銅本達樂",
-			"engName": "COPPER OXYCHLORIDE + BENALAXYL",
-			"products": "龍旺"
-		},
-		"F148": {
-			"id": "F148",
-			"name": "銅滅達樂",
-			"engName": "COPPER OXYCHLORIDE + METALAXYL",
-			"products": "露疫寧#剋達樂#喜滅露#露滅淨#滅露疫#益剋露#露疫絕#安佳樂#銅巴達#菌好除#新露菌滅"
-		},
-		"F150": {
-			"id": "F150",
-			"name": "銅錳乃浦",
-			"engName": "MANEB + COPPER SULPHATE",
-			"products": "總安#銅佳猛"
-		},
-		"F162": {
-			"id": "F162",
-			"name": "鋅波爾多",
-			"engName": "Zn + BORDEAUX",
-			"products": "絕菌寶"
-		},
-		"F164": {
-			"id": "F164",
-			"name": "鋅錳乃浦",
-			"engName": "MANCOZEB",
-			"products": "真大生45#安生四十五#萬生｜２００#大生霸王#龍巴斯#道禮金大生Ｍ–４５#道禮金大生M-45#好速–４５#美果寶#美升#旺生#好意-45#天生-45#益菓生–Ｍ４５#美多果#台生精#萬滅靈#來仙#大新４５#鋅錳天王#愛鋅錳#保農安四十五#霸生#強龍#惠生45#皇大仙#愛你錳#威生寶-45#愛果生#興農生–４５#青台生#大昇#萬得生#美生─45#新大生霸王#天霸王#優生45#生果旺#金旺生-四五#尬意－４５#萬果好–４５#自耕農－大生#台生水仙#萬果生#果興旺#聯利大生#利果蔬#好速大王#總寧精#新富王#嘉益精#台生粉#旺綠生#興農生#法-財霸王#多利旺"
-		},
-		"F166": {
-			"id": "F166",
-			"name": "鋅錳克絕",
-			"engName": "CYMOXANIL + MANCOZEB",
-			"products": "嘉樂達#克露#真清露#除露霸#金加味#鐵支露#速配#露光光"
-		},
-		"F286": {
-			"id": "F286",
-			"name": "鋅錳右本達樂",
-			"engName": "MANCOZEB + BENALAXYL-M",
-			"products": "菌敵-M"
-		},
-		"F256": {
-			"id": "F256",
-			"name": "鋅錳右滅達樂",
-			"engName": "MANCOZEB + METALAXYL-M",
-			"products": "金-利露滅"
-		},
-		"F285": {
-			"id": "F285",
-			"name": "鋅錳座賽胺",
-			"engName": "MANCOZEB + ZOXAMIDE",
-			"products": "拼出露"
-		},
-		"F295": {
-			"id": "F295",
-			"name": "鋅錳曼普胺",
-			"engName": "MANCOZEB + MANDIPROPAMID",
-			"products": "卡是讚"
-		},
-		"F165": {
-			"id": "F165",
-			"name": "鋅錳本達樂",
-			"engName": "MANCOZEB + BENALAXYL",
-			"products": "星寶達"
-		},
-		"F170": {
-			"id": "F170",
-			"name": "鋅錳毆殺斯",
-			"engName": "MANCOZEB + OXADIXYL",
-			"products": "選得旺"
-		},
-		"F169": {
-			"id": "F169",
-			"name": "鋅錳滅達樂",
-			"engName": "MANCOZEB + METALAXYL",
-			"products": "露速淨#真-力樂滅#露疫失#露疫精-鋅錳#疫露滅#全滅露－鋅錳"
-		},
-		"F172": {
-			"id": "F172",
-			"name": "錳乃浦",
-			"engName": "MANEB",
-			"products": "青大生#威生寶#夠力精#保農錳#億萬生–２２#鴻福生#自立全家福#大發–Ｍ#安旺錳"
-		},
-		"F189": {
-			"id": "F189",
-			"name": "鏈四環黴素",
-			"engName": "STREPTOMYCIN + TETRACYCLINE",
-			"products": "枯萎寧#尅枯精"
-		},
-		"F179": {
-			"id": "F179",
-			"name": "鏈土黴素",
-			"engName": "STREPTOMYCIN + OXYTERACYCLINE",
-			"products": "保美黴素"
-		},
-		"F180": {
-			"id": "F180",
-			"name": "鏈黴素",
-			"engName": "STREPTOMYCIN",
-			"products": "有利黴素#立農黴素#瑞芳黴素#保安素#實多黴素#大成素"
-		},
-		"F184": {
-			"id": "F184",
-			"name": "鐵甲砷酸銨",
-			"engName": "NEO ASOZIN",
-			"products": "新紋靈#紋靈#一掃滅#新蘇生銀#東和新滅枯#速治紋#新阿蘇仁#庵原新阿蘇仁#新紋必淨#利農生#鐵龍#新紋克#億滅枯#新鐵甲#消枯精#新阿陸仁#速滅淨#新旺穗#好速鐵#嘉砷滅#新滅淨#克紋淨#稻紋滅#立農沒紋#紋殺淨#滅紋枯#滅稻菌#利枯滅#新滅菌"
-		},
-		"I265": {
-			"id": "I265",
-			"name": "阿巴安勃",
-			"engName": "ABAMECTIN + CHLORANTRANILIPROLE",
-			"products": "一炮紅"
-		},
-		"I195": {
-			"id": "I195",
-			"name": "阿巴汀",
-			"engName": "ABAMECTIN",
-			"products": "壹等勇#農好勇#阿拉丁#剋蟲王#勁旺#鼎勇#金正強#一多好#絕頂勇#法財勇#第壹勇#蟻餌殺#一度勇#巴面通#一定勇#望勇勤#強蟎牛#螨分#包你勇#百面勇#阿里巴巴#巧實勇#泰好勇#確實勇#正港勇#水咚咚#勇哥#祥好用#津湧#龍勇#金呷意#庵原阿巴汀#有夠勇#阿巴汀#勁好勇#真正勇"
-		},
-		"A045": {
-			"id": "A045",
-			"name": "阿納寧",
-			"engName": "ACRINATHRIN",
-			"products": "金正發#蟎踪絕"
-		},
 		"I104": {
 			"id": "I104",
 			"name": "除蟲菊精",
 			"engName": "PYRETHRINS",
 			"products": "除蟲菊"
-		},
-		"I125": {
-			"id": "I125",
-			"name": "陶斯寧",
-			"engName": "CHLORPYRIFOS + CYPERMETHRIN",
-			"products": "道禮農順#農得意#福多松#撲滅殺#陶士寧#得斯寧#一條龍#惠大強#介親切#金押霸#毒斯寧#特賜寧#確斯寧#蟲斯斯#點點通#水噹噹#上介通#賜必寧#雷火精#有夠力#新毒斯寧-精#水噴噴#穩介讚#六六大順#聯順#阿莎力#集馬寧"
-		},
-		"I124": {
-			"id": "I124",
-			"name": "陶斯松",
-			"engName": "CHLORPYRIFOS",
-			"products": "道氏本#好是松#毒絲本#樂斯本#噴蟲樂#毒速丹#臺益毒速丹#陶斯蟲#免煩#大旺寶#穩夠本#松穩夠本#佳絲本#松好作夥#松好斯本#多利松#嘉斯本#好作伙#松毒斯粉#萬夠本#真賜錫#易利特陶斯松#毒蟲勇#霹靂克#霹力寧#旺來松#效死本#福力松#克滅蟲#松寧#好吉強#陶太郎#拔蟲去#泰斯松#土蟲清#陶大強#必洛斯#陶蟲本#好作伴#愛滅能#百農靈#金正勇#獨斯本#好稼在#汰斯蟲#安農松#合作夥#億萬#福燦松#打蚜薊#必殺劑#金順#樂心#毒斯蟲#特速滅#百蟲靈#必樂斯#省時本#蟲煞#好厝邊#陶大松#托斯本#蟲必効#好速松#除絲蟲#農事寶#專治蟲#毒死蟲#富雨#好家在#特賜本#保毒本#強斯陶#統殺#包收成#攏斯本#吉利松#陶斯本#毒蟲本#速施蟲#美吉克#全多寧#吉利收#好吉兆#興時本#好作息#毒斯精#毒佳絲#蟲會剉#攏作伙#新好顧#顧真闊#蟲落跑#作夥來"
-		},
-		"I127": {
-			"id": "I127",
-			"name": "陶毆松",
-			"engName": "CHLORPYRIFOS + ACEPHATE",
-			"products": "穗多多#兩合益#益多多"
-		},
-		"I126": {
-			"id": "I126",
-			"name": "陶滅蝨",
-			"engName": "CHLORPYRIFOS + MIPC",
-			"products": "山霸#富力通#速必効#新絲本–Ｍ#看標#祈多靈#先流行#剌蝨霸#新招#刺粉蝨#嘉滅蝨#非凡"
-		},
-		"I179": {
-			"id": "I179",
-			"name": "雙必蝨",
-			"engName": "MIPC + BPMC",
-			"products": "雙特殺#金必蝨#快蝨#美克#富農粉劑#滅蝨強#嘉力必蝨#金蝨王#利蝨粉"
-		},
-		"I182": {
-			"id": "I182",
-			"name": "雙滅必蝨",
-			"engName": "FENOBUCARB+TERT-FENOBUCARB",
-			"products": "滅雙殺#好克寶#速雙滅#益必殺#新蝨寶#滅蝨王#雙稻蝨#速蝨#治蝨靈#剋蝨寶#雙霸#福尅蝨#好寶靈#雙特蝨#新必蝨#龍燈雙滅必蝨#特雙殺#雙治蝨寶#雙滅蝨#速蝨滅#樂蝨靈#稻雙滿"
-		},
-		"I180": {
-			"id": "I180",
-			"name": "雙特松",
-			"engName": "DICROTOPHOS",
-			"products": ""
-		},
-		"I181": {
-			"id": "I181",
-			"name": "雙特氯松",
-			"engName": "DICROTOPHOS + TRICHLORFON",
-			"products": "愉萬龍#雙寶#雙特靈#億靈#全利松#雙倍能#雙倍好#利普寧"
 		},
 		"I106": {
 			"id": "I106",
@@ -114055,23 +113161,917 @@
 			"engName": "MALATHION",
 			"products": "米倉#允殺淨#美果松#愛果蔬#飛龍掌#龍燈允殺好#馬來松#馬克#好馬松#寶農收#賜安#聯馬精#眾果生#大桔松#佳倍好#馬拉桑#稻谷淨#好吉馬#松樹馬拉#馬殺#馬力蝨#速可脫#益殺松#果蠅粉#篤農家#特殺#無臭馬拉松#順吉利#穩青#剋蠅#大蟲松#保穀#克果蠅#賜果寧#馬上安#臺聯馬拉松#治蠅寶#果蠅寶"
 		},
+		"I108": {
+			"id": "I108",
+			"name": "培丹",
+			"engName": "CARTAP",
+			"products": "天霸丹#農勁順#聯丹#雷丹#仙丹#巴丹#新主角#霸丹#培靈#元寶#聖手#好巴#培丹勇#培利靈#蓋穩#勁元寶#治蟲丹#財神#龍王丹#雙富#龍燈培丹#輕可#金倍力#利丹#福世丹#榮谷丹#介喜冬#禾頌#霸冬#金培冬#培農冬#九龍丹#除蟲樂#聯丹強#農會牌培丹#奈米丹#加培丹#用得旺#天生殺手"
+		},
+		"I114": {
+			"id": "I114",
+			"name": "畢芬寧",
+			"engName": "BIFENTHRIN",
+			"products": "地王星#治多星#新慧星#海王星#冠王星#双效星#天王星#蟲蹤無#霸王星#新將星#第王星"
+		},
+		"I116": {
+			"id": "I116",
+			"name": "硫滅松",
+			"engName": "THIOMETON",
+			"products": "一克淨#聯吉#益嘉露#益果松"
+		},
+		"I117": {
+			"id": "I117",
+			"name": "硫敵克",
+			"engName": "THIODICARB",
+			"products": "來靈#安萬寶#祥靈#金靈#惦惦死#蟲驚驚#羅力#真靈#金羅力#真靈精"
+		},
+		"I118": {
+			"id": "I118",
+			"name": "硫賜安",
+			"engName": "THIOCYCLAM HYDROGENOXALATE",
+			"products": "菜旺#永生德"
+		},
+		"I119": {
+			"id": "I119",
+			"name": "第滅寧",
+			"engName": "DELTAMETHRIN",
+			"products": "滴死#金星第滅寧#現達第滅寧#多禧#國豐第滅寧#金有效#聯喜#嘉禧#地美寧#松樹大禧#大禧精#佳喜#寶禧#大力#地禧#特佳靈#達喜#帝美年#蟲淨#景茂第滅寧#達官#寶囍#越禧#果卡好#台喜精#勁殺#送喜#喜來樂#天禧#報喜#新囍#益禧精#達官精#誅僖蟲#泰國禧#凱速靈#勁好#維丰寶禧精#喜洋洋#旺禧#治蟲寧#勁禧精#戰蟲#恭禧#蟲滅寧#法財大家囍#速樂農#薊蚜清#薊馬靈#億喜#大寧#通殺寧#泰喜#大成禧#保青#帝滅寧#雙禧#豐收喜#臺喜精王#眾喜#剌馬#真清去#太喜#金得利#日禧#法財禧寶精#達喜精#雙喜丹精#日禧精#新喜精#通用#代喜多#聯喜冬精#驚虫#歐斯寧#驚虫精#第滅精#帝寶#豐收喜精#喜無蟲#雙禧精#無虫#褔你發#威風精#刺蟲#自立大喜精"
+		},
+		"I124": {
+			"id": "I124",
+			"name": "陶斯松",
+			"engName": "CHLORPYRIFOS",
+			"products": "道氏本#好是松#毒絲本#樂斯本#噴蟲樂#毒速丹#臺益毒速丹#陶斯蟲#免煩#大旺寶#穩夠本#松穩夠本#佳絲本#松好作夥#松好斯本#多利松#嘉斯本#好作伙#松毒斯粉#萬夠本#真賜錫#易利特陶斯松#毒蟲勇#霹靂克#霹力寧#旺來松#效死本#福力松#克滅蟲#松寧#好吉強#陶太郎#拔蟲去#泰斯松#土蟲清#陶大強#必洛斯#陶蟲本#好作伴#愛滅能#百農靈#金正勇#獨斯本#好稼在#汰斯蟲#安農松#合作夥#億萬#福燦松#打蚜薊#必殺劑#金順#樂心#毒斯蟲#特速滅#百蟲靈#必樂斯#省時本#蟲煞#好厝邊#陶大松#托斯本#蟲必効#好速松#除絲蟲#農事寶#專治蟲#毒死蟲#富雨#好家在#特賜本#保毒本#強斯陶#統殺#包收成#攏斯本#吉利松#陶斯本#毒蟲本#速施蟲#美吉克#全多寧#吉利收#好吉兆#興時本#好作息#毒斯精#毒佳絲#蟲會剉#攏作伙#新好顧#顧真闊#蟲落跑#作夥來"
+		},
+		"I125": {
+			"id": "I125",
+			"name": "陶斯寧",
+			"engName": "CHLORPYRIFOS + CYPERMETHRIN",
+			"products": "道禮農順#農得意#福多松#撲滅殺#陶士寧#得斯寧#一條龍#惠大強#介親切#金押霸#毒斯寧#特賜寧#確斯寧#蟲斯斯#點點通#水噹噹#上介通#賜必寧#雷火精#有夠力#新毒斯寧-精#水噴噴#穩介讚#六六大順#聯順#阿莎力#集馬寧"
+		},
+		"I126": {
+			"id": "I126",
+			"name": "陶滅蝨",
+			"engName": "CHLORPYRIFOS + MIPC",
+			"products": "山霸#富力通#速必効#新絲本–Ｍ#看標#祈多靈#先流行#剌蝨霸#新招#刺粉蝨#嘉滅蝨#非凡"
+		},
+		"I127": {
+			"id": "I127",
+			"name": "陶毆松",
+			"engName": "CHLORPYRIFOS + ACEPHATE",
+			"products": "穗多多#兩合益#益多多"
+		},
 		"I128": {
 			"id": "I128",
 			"name": "魚藤精",
 			"engName": "ROTENONE",
 			"products": "植物精"
 		},
-		"F187": {
-			"id": "F187",
-			"name": "鹼性氯氧化銅",
-			"engName": "COPPER OXYCHLORIDE",
-			"products": "新必利丹#可保銅#健果銅#高力銅#青銅#好寶銅#銅寶發#疫露清#高綠銅粉#銅老大#果保旺#固保旺#喜果銅#青發#好採多#安美樂#妥當讚#果吉#活力銅#銅歡喜#卡勇"
+		"I129": {
+			"id": "I129",
+			"name": "普硫松",
+			"engName": "PROTHIOFOS",
+			"products": "四季靈#賜貴寧#四季常春#季節寧#普農#虎猛克#賜季寧#速解寧#好伴侶"
 		},
-		"F298": {
-			"id": "F298",
-			"name": "鹼氯氫氧銅",
-			"engName": "COPPER OXYCHLORIDE + COPPER HYDROXIDE",
-			"products": "銅雙好"
+		"I136": {
+			"id": "I136",
+			"name": "滅大松",
+			"engName": "METHIDATHION",
+			"products": "舒霸#超霸粉"
+		},
+		"I138": {
+			"id": "I138",
+			"name": "滅必蝨",
+			"engName": "ISOPROCARB",
+			"products": "滅必死#好必蝨#好速滅蝨#滅蝨#必滅蝨#龍燈滅必蝨#米蝨滅#米富仁#新美普馨-50#噴必死#米保珍#滅飛蝨#米富馨#益果生#億必蝨#蝨必滅#嘉必蝨#蝨必死#滅穀蝨#米必新#力降蝨#蝨殺蝨#新果蝨#滅寶蝨#米卡好"
+		},
+		"I139": {
+			"id": "I139",
+			"name": "滅多松",
+			"engName": "OXYDEMETON METHYL",
+			"products": "新美實多愛#滅蚜精#好讚#克蚜精"
+		},
+		"I140": {
+			"id": "I140",
+			"name": "滅克蝨",
+			"engName": "XMC",
+			"products": "保汝安"
+		},
+		"I141": {
+			"id": "I141",
+			"name": "滅爾蝨",
+			"engName": "XYLYLCARB",
+			"products": "滅蟲霸#保滅殺#特滅蝨"
+		},
+		"I142": {
+			"id": "I142",
+			"name": "滅蝨丹",
+			"engName": "CARTAP + MIPC",
+			"products": "倍豐丹#稻必用#倍殺丹#巴米丹#新榮谷丹#新利丹#高培冬#保谷丹#培米丹"
+		},
+		"I143": {
+			"id": "I143",
+			"name": "滅賜克",
+			"engName": "METHIOCARB",
+			"products": "拜薊剋#勇馬#速滅薊"
+		},
+		"I144": {
+			"id": "I144",
+			"name": "滅賜松",
+			"engName": "DEMETON-S-METHYL",
+			"products": "全滅蚜#美利斯#美實多愛#克蚜蟲#利賜多#美達多#滅蟲靈#滅多殺#滅死多#大賜松#美賜福#美達#美多斯#美滅松#除蚜蟲#美達靈#滅達"
+		},
+		"I147": {
+			"id": "I147",
+			"name": "裕必松",
+			"engName": "PHOSALONE",
+			"products": "松樹必爽#松裕必爽#松必爽粉#萬得隆#蟲必寧#普利農#百益松#金谷王#農家好"
+		},
+		"I149": {
+			"id": "I149",
+			"name": "達馬松",
+			"engName": "METHAMIDOPHOS",
+			"products": "上界靈#達滿龍#好速龍#大馬龍#達馬隆#大尾龍#達利農#台馬農#介久#太龍#龍燈達馬松#快馬龍#大美農#佳美松#總殺滅#點點靈#大殺松#達滅寧"
+		},
+		"I150": {
+			"id": "I150",
+			"name": "福化利",
+			"engName": "TAU-FLUVALINATE",
+			"products": "蜂寶#現代靈"
+		},
+		"I151": {
+			"id": "I151",
+			"name": "福文松",
+			"engName": "PHOSPHAMIDON + MEVINPHOS",
+			"products": "嘉富寧#合力"
+		},
+		"I155": {
+			"id": "I155",
+			"name": "福瑞松",
+			"engName": "PHORATE",
+			"products": "賽滅得#好美特#黑珍珠#好美德#嘉瑞松#黑金剛#易福松#黑龍寶#地掃#大億丹#青龍#保允得#保田園#殺地蟲#瑞多福#金賽滅地#福瑞得#真讚#福益松"
+		},
+		"I156": {
+			"id": "I156",
+			"name": "福賜米松",
+			"engName": "PHOSPHAMIDON",
+			"products": "富米松#速達拉松"
+		},
+		"I157": {
+			"id": "I157",
+			"name": "福賜滅蝨",
+			"engName": "PHOSPHAMIDON + MIPC",
+			"products": "惠滅蝨"
+		},
+		"I158": {
+			"id": "I158",
+			"name": "撲芬松",
+			"engName": "FENVALERATE + FENITROTHION",
+			"products": "普芬精#青山藍美丹#直滴靈#撲滅靈#總來#撲蟲寶#速芬松#跳仔清#速誠清#好滅芬#頂呱呱#順發#新大松#立農精芬"
+		},
+		"I159": {
+			"id": "I159",
+			"name": "撲馬松",
+			"engName": "FENITROTHION + MALATHION",
+			"products": "速馬松#護米松#滿力松#愛賜松#金克寧#淨園#撲伏寧#吉祥"
+		},
+		"I160": {
+			"id": "I160",
+			"name": "撲滅松",
+			"engName": "FENITROTHION",
+			"products": "松威力#速克蟲#住友速滅松#富力收#富粒松#普滅#速美旺#新速松#永滅蟲#蜂仔松#速落松#福利松#速青#速美松#死沒蟲#好吉果#可樂松#福農松#青山撲滅松#松友#滅蟲#史美松#松速滅粉#速滅擊蟲#速達松#撲尅#喜萬年#滴滴強#撲克靈#好米松#包允殺#速滅蟲#蜂仔寶#速密吉旺#嘉滅松#撲殺多#住滅強#安速滅#豐利松#好滅松#益速旺#豐果松#福利讚#臺聯撲滅松#立農速滅松"
+		},
+		"I165": {
+			"id": "I165",
+			"name": "歐滅松",
+			"engName": "OMETHOATE",
+			"products": ""
+		},
+		"I166": {
+			"id": "I166",
+			"name": "毆殺松",
+			"engName": "ACEPHATE",
+			"products": "萬勝#金谷粉#大勝毆殺松#金達#速好勝#毆特恩#毆信#黑仙#速勝#百勝#殺蟲靈#卡多利#松樹歐仙#歐仙水#福春#毆寶#歐聯#又夠贏#毆寧#毆易松#全勝#好福勝#新-歐聖#歐特利#烏仙粉#保無蟲#毆帝#毆速松#連勝#仙水好#好殺王#福仙#億米松#大統#可勝#龍燈毆殺松#全統#歐世松#蟲攏無#保農收#威力多#金克松#黑賽松#大蟲寶#殺卡多#神仙"
+		},
+		"I167": {
+			"id": "I167",
+			"name": "毆殺滅",
+			"engName": "OXAMYL",
+			"products": "護根#萬強#保你根#天強"
+		},
+		"I168": {
+			"id": "I168",
+			"name": "蝨必殺",
+			"engName": "CPMC",
+			"products": "好寶蝨#快滅蝨#蝨蝨靈#好撲蝨#福寶殺#效必殺#百殺滅#新克蝨#龍燈蝨必殺#全滅蝨"
+		},
+		"I170": {
+			"id": "I170",
+			"name": "磷化鎂",
+			"engName": "MAGNESIUM PHOSPHIDE",
+			"products": "鎂達勝#快燻寶#快燻寶燻蒸板"
+		},
+		"I171": {
+			"id": "I171",
+			"name": "繁米松",
+			"engName": "VAMIDOTHION",
+			"products": "聯宗#利百靈#克蝨寶"
+		},
+		"I172": {
+			"id": "I172",
+			"name": "繁米蝨",
+			"engName": "BPMC + VAMIDOTHION + MIPC",
+			"products": "謝謝叫"
+		},
+		"I174": {
+			"id": "I174",
+			"name": "賽扶寧",
+			"engName": "CYFLUTHRIN",
+			"products": "拜舒樂#拜樂精#百樹寧#百福樂#包有效#真福氣"
+		},
+		"I175": {
+			"id": "I175",
+			"name": "賽洛寧",
+			"engName": "LAMBDA-CYHALOTHRIN",
+			"products": "金農夫#功夫#好功夫#青棒棒#勁功夫#千百利#功力#金豐收#真有力#勁勇#卡旺#勁強#蟲敗敗#祥冷攢#穩豐收#戰神#勁猛#清蟲寧#克蟲利#法-財正武功#霸面清#絕洛寧#沒看蟲#蟲無氣#上好#嘉安泰#豪工夫#空手道#真愛用#法-財武功#蟲真驚#蟲好除#通勇#立農賽洛寧#天劍#如來神功#穩響#西樂寧#聯功#愛福好#祝好收#攏會通#上帝功#千心魔#聯真功#阿拉神功#除蟲保#興農樂無蟲#龍顧#賽得靈#好農夫"
+		},
+		"I176": {
+			"id": "I176",
+			"name": "賽滅松",
+			"engName": "PHENTHOATE+DIMETHOATE",
+			"products": "祝友效#喜美松#大家好#自立菜蟲靈#聯利松#眾益安力農#菜蟲寶#達農安#洽益寧#新威力#保蟲滅#菜農寶#菜寶靈#特滅靈#大發展"
+		},
+		"I177": {
+			"id": "I177",
+			"name": "賽滅寧",
+			"engName": "CYPERMETHRIN",
+			"products": "黑寶#雷克#庵原新滅靈#賽能#現達賽滅寧#新安寧#尅蟲寶#賜美寧#滴滴靈#黑豹#足甘心#新力寧#速普寧#松樹黑寶#松樹賽寧#億萬寧#寶賽寧#益寧大喜#雷公靈#真寧#賽全靈#賽利旺精#全福寧#速寧#雷貢#好彩頭#速滅#滅青蟲#包植健#允克#菜克靈#菜蟲靈#立農賽滅寧#伏虫寧#利台大吉#好青青#果菜能#樂通寧#殺滅寧#新世紀#法-財大喆#新福施#蛟龍#殺定#力克寧#倍豐靈#新年豐寧#好能#建旺#瑞#加達#賽嘉寧#通用寧#包旺#馬力強#賽滅蟻抗濕性餌劑"
+		},
+		"I178": {
+			"id": "I178",
+			"name": "賽達松",
+			"engName": "PHENTHOATE",
+			"products": "益農產#巴斯松#利農產#利菜農#愛農產#益樂殺#大克安#殺達松#易樂產#菜利農#好助手#永讚#愛達農#必利菜#益路產#立農益利農#殺多靈#愛如松#豐達松#豐樂寶#益利產#菜蟲精#用未仙#喜地雅#加速靈#菜友#菜嘸蟲"
+		},
+		"I179": {
+			"id": "I179",
+			"name": "雙必蝨",
+			"engName": "MIPC + BPMC",
+			"products": "雙特殺#金必蝨#快蝨#美克#富農粉劑#滅蝨強#嘉力必蝨#金蝨王#利蝨粉"
+		},
+		"I180": {
+			"id": "I180",
+			"name": "雙特松",
+			"engName": "DICROTOPHOS",
+			"products": ""
+		},
+		"I181": {
+			"id": "I181",
+			"name": "雙特氯松",
+			"engName": "DICROTOPHOS + TRICHLORFON",
+			"products": "愉萬龍#雙寶#雙特靈#億靈#全利松#雙倍能#雙倍好#利普寧"
+		},
+		"I182": {
+			"id": "I182",
+			"name": "雙滅必蝨",
+			"engName": "FENOBUCARB+TERT-FENOBUCARB",
+			"products": "滅雙殺#好克寶#速雙滅#益必殺#新蝨寶#滅蝨王#雙稻蝨#速蝨#治蝨靈#剋蝨寶#雙霸#福尅蝨#好寶靈#雙特蝨#新必蝨#龍燈雙滅必蝨#特雙殺#雙治蝨寶#雙滅蝨#速蝨滅#樂蝨靈#稻雙滿"
+		},
+		"I183": {
+			"id": "I183",
+			"name": "叔丁基滅必蝨",
+			"engName": "TERT-FENOBUCARB",
+			"products": ""
+		},
+		"I184": {
+			"id": "I184",
+			"name": "蘇力菌",
+			"engName": "BACILLUS THURINGIENSIS",
+			"products": "力寶#菜寶#大寶#速利殺#惠光寶#新大寶#貴寶#尚賜配#獨佳#大寶天機#松蘇力菌#加倍強#見達利#愛吃蟲#高招#住友福祿寶#蘇滅寶#殊立菌#舒立旺#見招"
+		},
+		"I185": {
+			"id": "I185",
+			"name": "護賽寧",
+			"engName": "FLUCYTHRINATE",
+			"products": "保您富#速斃#祥蓋稱#保你福#及時寧#乎利富#包你富#蜂砲"
+		},
+		"I187": {
+			"id": "I187",
+			"name": "亞芬松",
+			"engName": "ISOFENPHOS",
+			"products": "穩根"
+		},
+		"I188": {
+			"id": "I188",
+			"name": "免速達",
+			"engName": "BENSULTAP",
+			"products": "魯邦#嗄時機"
+		},
+		"I189": {
+			"id": "I189",
+			"name": "白克松",
+			"engName": "PYRACLOFOS",
+			"products": "松克贊"
+		},
+		"I190": {
+			"id": "I190",
+			"name": "賽滅淨",
+			"engName": "CYROMAZINE",
+			"products": "汽嘉讚#新-汽巴讚#一掃淨#希特樂#易利讚#利能收#萬讚#治蟲淨#穩煞#真清蠅#克圖淨#至尊#真無蠅#殺能蟲#禾立旺#三能剋"
+		},
+		"I191": {
+			"id": "I191",
+			"name": "福隆納乃得",
+			"engName": "DIFLUBENZURON + METHOMYL",
+			"products": "紅帥"
+		},
+		"I192": {
+			"id": "I192",
+			"name": "加保福化利",
+			"engName": "CARBARYL + TAU-FLUVALINATE",
+			"products": "福加仁#福氣"
+		},
+		"I193": {
+			"id": "I193",
+			"name": "佈飛賽滅寧",
+			"engName": "PROFENOFOS + CYPERMETHRIN",
+			"products": "派稱稱#煞死蟲#派慶慶#賜利農#有力頭#真厲害#祝順"
+		},
+		"I194": {
+			"id": "I194",
+			"name": "硫敵芬化利",
+			"engName": "THIODICARB + FENVALERATE",
+			"products": "速友利#剋青跳"
+		},
+		"I195": {
+			"id": "I195",
+			"name": "阿巴汀",
+			"engName": "ABAMECTIN",
+			"products": "壹等勇#農好勇#阿拉丁#剋蟲王#勁旺#鼎勇#金正強#一多好#絕頂勇#法財勇#第壹勇#蟻餌殺#一度勇#巴面通#一定勇#望勇勤#強蟎牛#螨分#包你勇#百面勇#阿里巴巴#巧實勇#泰好勇#確實勇#正港勇#水咚咚#勇哥#祥好用#津湧#龍勇#金呷意#庵原阿巴汀#有夠勇#阿巴汀#勁好勇#真正勇"
+		},
+		"I197": {
+			"id": "I197",
+			"name": "汰芬隆",
+			"engName": "DIAFENTHIURON",
+			"products": "金勇#汰勝#汰勇#蟎總煞#必勝"
+		},
+		"I198": {
+			"id": "I198",
+			"name": "貝他-賽扶寧",
+			"engName": "BETA-CYFLUTHRIN",
+			"products": "拜勝格#蓋性格"
+		},
+		"I199": {
+			"id": "I199",
+			"name": "依殺松",
+			"engName": "ISAZOFOS",
+			"products": ""
+		},
+		"I200": {
+			"id": "I200",
+			"name": "佈飛百滅寧",
+			"engName": "PROFENOFOS + PERMETHRIN",
+			"products": "旺來#百蟲清#祝賀"
+		},
+		"I201": {
+			"id": "I201",
+			"name": "益達胺",
+			"engName": "IMIDACLOPRID",
+			"products": "鐵沙掌#金沙掌#火霹靂#金富貴#有保庇#去煞掌#鐵捕頭#天公掌#康福多#旋風掌#鐵煞星#金沙利#勁揚#鐵達安#尚厲害#降蟲掌#金剛掌#鐵殺蟲#卡實讚#絕力旺#金正安#穩清#伊頂安#無帝比#葛來麥#一定安#雄霸天下#嘉潔第一讚#鐵力士#鐵捕#鐵衛#勁厲害#鐵布衫#天帝掃#真額樂#強力殺#益定讚#農會贊#新長紅#新關刀#太極#法-財鐵水#霹靂掌#速殺掌#穩殺淨#掌門人#太空掌#台鉄#如來神掌#如來掌#純陽掌#聯掌#法財-雙鐵水#鐵頭功#真額樂-精#達摩掌#無地避#皇帝大#益地寶#順豐掌#降龍十八掌#申公豹#台福將#雷公掌#殺天虎#力頭飽#盟主#有夠讚#金鋼棒#關佬爺#立達安#一定好#蟲必滅#高鉄#龍總颱#惠光無帝比#練武功"
+		},
+		"I202": {
+			"id": "I202",
+			"name": "氟芬隆",
+			"engName": "FLUFENOXURON",
+			"products": "添福#臺聯紅"
+		},
+		"I205": {
+			"id": "I205",
+			"name": "芬諾克",
+			"engName": "FENOXYCARB",
+			"products": "蛋蛋滅#特洛伊#金好康"
+		},
+		"I206": {
+			"id": "I206",
+			"name": "斜紋夜蛾費洛蒙",
+			"engName": "",
+			"products": "一枝春"
+		},
+		"I207": {
+			"id": "I207",
+			"name": "甜菜夜蛾費洛蒙",
+			"engName": "SEX PHEROMONES OF SPODOPTERA EXIQUA",
+			"products": "日夜春"
+		},
+		"I210": {
+			"id": "I210",
+			"name": "斜紋夜蛾費洛蒙甲",
+			"engName": "",
+			"products": ""
+		},
+		"I211": {
+			"id": "I211",
+			"name": "甜菜夜蛾費洛蒙甲",
+			"engName": "",
+			"products": ""
+		},
+		"I212": {
+			"id": "I212",
+			"name": "斜紋夜蛾費洛蒙乙",
+			"engName": "",
+			"products": ""
+		},
+		"I213": {
+			"id": "I213",
+			"name": "芬普尼",
+			"engName": "FIPRONIL",
+			"products": "火龍寶丹#萬得寶#戰將#法台寶#襲蟻長效型粒劑#易級寶#農好寶#剋螟寶#螟蟲絕#雄寶#聯寶#喊台保#地上王#火龍寶#介有好#薊馬淨#法-財進寶#富力旺#藍波#田師傅#紅透天#旺立贊#東風寶#除蟲寶#稻蟲停#撿到寶#地上寶#禾寶#龍克尼#非常銳#臺聯寶®#蝨馬光#富寶#收卡多#尚農寶#真順手#德國寶#農統寶#農統寶精#庵原寶#農家寶#刺克#武田寶#益保丹"
+		},
+		"I214": {
+			"id": "I214",
+			"name": "得芬諾",
+			"engName": "TEBUFENOZIDE",
+			"products": "較好#長好#享好#超忽好#擱巧好#聯霸#法－財得福#清尚好#外星丹#蛾賣來-精#剋毒蛾#旺旺好#蛾賣來"
+		},
+		"I215": {
+			"id": "I215",
+			"name": "派滅淨",
+			"engName": "PYMETROZINE",
+			"products": "確是好#無地跑#蝨靖#跑無路#跳仔王#特優#確實讚#滅絕蝨汰#農總讚#確實大"
+		},
+		"I216": {
+			"id": "I216",
+			"name": "印楝素",
+			"engName": "AZADIRACHTIN",
+			"products": "現代寶"
+		},
+		"I217": {
+			"id": "I217",
+			"name": "克凡派",
+			"engName": "CHLORFENAPYR",
+			"products": "好光景#好風采#有錢途#好身手#好消息#好清去#好時機#好氣派"
+		},
+		"I219": {
+			"id": "I219",
+			"name": "布得芬諾",
+			"engName": "BUPROFEZIN + TEBUFENOZIDE",
+			"products": "穩定勇"
+		},
+		"I220": {
+			"id": "I220",
+			"name": "撲滅芬普寧",
+			"engName": "FENPROPATHRIN + FENITROTHION",
+			"products": "住友寶#立農寶"
+		},
+		"I221": {
+			"id": "I221",
+			"name": "免扶賽洛寧",
+			"engName": "BENFURACARB + CYHALOTHRIN",
+			"products": "穩克讚"
+		},
+		"I223": {
+			"id": "I223",
+			"name": "祿芬隆",
+			"engName": "LUFENURON",
+			"products": "國豐祿芬隆#蛾樂天#愛逮完#攏無蛾#隆無蟲"
+		},
+		"I224": {
+			"id": "I224",
+			"name": "百利普芬",
+			"engName": "PYRIPROXYFEN",
+			"products": "統友效#蟻友效#代捕完#東方不敗#金大富#介有效#大贏家#滿園春#打火隊抗濕性餌劑#立農靈"
+		},
+		"I225": {
+			"id": "I225",
+			"name": "亞滅培",
+			"engName": "ACETAMIPRID",
+			"products": "莫氏比#日曹強必勇#靠山#穩尚強#貝士得金鑽#猛將#賜福#金好鑽#無粉蝨#速絕#非死不可#蚜沒陪#除蝨機#冠天下#天威#強必勇#天帥#通咬#正豪勇#聯將軍#特勇#粉蝨寶#加倍勇#好速滅培#金贊#統好用#包順事#利統勇#有夠強"
+		},
+		"I226": {
+			"id": "I226",
+			"name": "因滅汀",
+			"engName": "EMAMECTIN BENZOATE",
+			"products": "蟲離離#好綠旺#金鼎勇#蟲絕#虫拜拜#清蟲#絕蟲靈#蟲溜溜#虫嘸去#青利利#法-財蟲寶#滅多多#尚穩#蟲清利#蟲倒倒#金爍爍#克蟲霸#蟲呼死#蟲死定#利台蟲ㄟ除#億治蟲#攏嘸蟲#艾滅丁#殺蟲利#菜蟲離#蟲除除#農會牌因滅汀#蟲蟲有危機#菜蟲光#尚方寶劍#迅雷#法－財祝蓋旺#來就福#菜蟲淨#日產虫蹺蹺"
+		},
+		"I228": {
+			"id": "I228",
+			"name": "賜諾殺",
+			"engName": "SPINOSAD",
+			"products": "金菜園#好菜園#克火蟻#香兒寶#祝自然"
+		},
+		"I229": {
+			"id": "I229",
+			"name": "汰芬諾克",
+			"engName": "DIAFENTHIURON + FENOXYCARB",
+			"products": "大贊"
+		},
+		"I230": {
+			"id": "I230",
+			"name": "傑他賽滅寧",
+			"engName": "ZETA-CYPERMETHRIN",
+			"products": "飛龍"
+		},
+		"I233": {
+			"id": "I233",
+			"name": "賽扶益達胺",
+			"engName": "CYFLUTHRIN + IMIDACLOPRID",
+			"products": "雙沙掌"
+		},
+		"I235": {
+			"id": "I235",
+			"name": "賽速安",
+			"engName": "THIAMETHOXAM",
+			"products": "國豐賽速安#討勁久#果來特#勁夠力#好賽雷#蚜科醫生"
+		},
+		"I236": {
+			"id": "I236",
+			"name": "益洛寧",
+			"engName": "LAMBDA-CYHALOTHRIN + PHOSMET",
+			"products": "好過日"
+		},
+		"I237": {
+			"id": "I237",
+			"name": "因得克",
+			"engName": "INDOXACARB",
+			"products": "杜邦速保#吉圃園#封火蟻"
+		},
+		"I238": {
+			"id": "I238",
+			"name": "可尼丁",
+			"engName": "CLOTHIANIDIN",
+			"products": "藍得#吉贏#北海小英雄"
+		},
+		"I239": {
+			"id": "I239",
+			"name": "達特南",
+			"engName": "DINOTEFURAN",
+			"products": "鐵金剛"
+		},
+		"I240": {
+			"id": "I240",
+			"name": "礦物油",
+			"engName": "PETROLEUM OIL",
+			"products": "美果油#龍燈精鏈油#好果油#旺果油#惠光夏油#皇國果寶#富農夏油#新通７Ｅ#高級夏油九五#聯安油#洗靈#台農機械油#日曹油#豐收油#綠油油窄域油#萬果旺#好速油#霸面清-夏油"
+		},
+		"I241": {
+			"id": "I241",
+			"name": "伽瑪賽洛寧",
+			"engName": "GAMMA-CYHALOTHRIN",
+			"products": "速落寧"
+		},
+		"I242": {
+			"id": "I242",
+			"name": "諾伐隆",
+			"engName": "NOVALURON",
+			"products": "愛將"
+		},
+		"I243": {
+			"id": "I243",
+			"name": "滅芬諾",
+			"engName": "METHOXYFENOZIDE",
+			"products": "蛾寶"
+		},
+		"I244": {
+			"id": "I244",
+			"name": "氟尼胺",
+			"engName": "FLONICAMID",
+			"products": "四季紅"
+		},
+		"I245": {
+			"id": "I245",
+			"name": "賽果培",
+			"engName": "THIACLOPRID",
+			"products": "祝豐成"
+		},
+		"I246": {
+			"id": "I246",
+			"name": "美賜平",
+			"engName": "S-METHOPRENE",
+			"products": "火蟻愛呷"
+		},
+		"I247": {
+			"id": "I247",
+			"name": "得芬瑞",
+			"engName": "TEBUFENPYRAD",
+			"products": "蟎速伏#惠光蟎速伏"
+		},
+		"I248": {
+			"id": "I248",
+			"name": "脫芬瑞",
+			"engName": "TOLFENPYRAD",
+			"products": "哈奇#捌捌－８８"
+		},
+		"I249": {
+			"id": "I249",
+			"name": "可芬諾",
+			"engName": "CHROMAFENOZIDE",
+			"products": "安樂公"
+		},
+		"I250": {
+			"id": "I250",
+			"name": "賽速洛寧",
+			"engName": "LAMBDA-CYHALOTHRIN + THIAMETHOXAM",
+			"products": "農發財#響叮噹"
+		},
+		"I251": {
+			"id": "I251",
+			"name": "美氟綜",
+			"engName": "METAFLUMIZONE",
+			"products": "去蟲能"
+		},
+		"I252": {
+			"id": "I252",
+			"name": "剋安勃",
+			"engName": "CHLORANTRANILIPROLE",
+			"products": "絲奄奄#金靈海"
+		},
+		"I253": {
+			"id": "I253",
+			"name": "甜菜夜蛾核多角體病毒",
+			"engName": "SPODOPTERA EXIGUA NUCLEOPOLYHEDROVIRUS",
+			"products": "奇招"
+		},
+		"I254": {
+			"id": "I254",
+			"name": "賽速安勃",
+			"engName": "THIAMETHOXAM + CHLORANTRANILIPROLE",
+			"products": "嘸你ㄟ死#好田地"
+		},
+		"I255": {
+			"id": "I255",
+			"name": "賜諾特",
+			"engName": "SPINETORAM",
+			"products": "道禮菜園寶#道禮農園寶"
+		},
+		"I256": {
+			"id": "I256",
+			"name": "氟大滅",
+			"engName": "FLUBENDIAMIDE",
+			"products": "達陣"
+		},
+		"I257": {
+			"id": "I257",
+			"name": "庫斯蘇力菌ABTS-351",
+			"engName": "",
+			"products": "金太寶"
+		},
+		"I258": {
+			"id": "I258",
+			"name": "庫斯蘇力菌E-911",
+			"engName": "",
+			"products": "速力寶"
+		},
+		"I259": {
+			"id": "I259",
+			"name": "賽洛安勃",
+			"engName": "LAMBDA-CYHALOTHRIN + CHLORANTRANILIPROLE",
+			"products": "衝衝衝"
+		},
+		"I260": {
+			"id": "I260",
+			"name": "第滅達胺",
+			"engName": "DELTAMETHRIN + IMIDACLOPRID",
+			"products": "叫小賀#賺大錢"
+		},
+		"I261": {
+			"id": "I261",
+			"name": "益斯普",
+			"engName": "ETHIPROLE",
+			"products": "轟天雷"
+		},
+		"I262": {
+			"id": "I262",
+			"name": "賜派滅",
+			"engName": "SPIROTETRAMAT",
+			"products": "頭爺好"
+		},
+		"I263": {
+			"id": "I263",
+			"name": "克凡洛寧",
+			"engName": "CHLORFENAPYR + LAMBDA-CYHALOTHRIN",
+			"products": "佳實靈"
+		},
+		"I265": {
+			"id": "I265",
+			"name": "阿巴安勃",
+			"engName": "ABAMECTIN + CHLORANTRANILIPROLE",
+			"products": "一炮紅"
+		},
+		"M001": {
+			"id": "M001",
+			"name": "聚乙醛",
+			"engName": "METALDEHYDE",
+			"products": "毒蝸死#滅死蝸#土寶#蝸蝓死#松樹克螺#尅螺丹#兩棲滅螺#螺必零#尅蝸#蛞蝸逝#殺螺#無蝸餘#蝸立死#蝸除#助手#蝸全死#螺好除#立農-聚乙醛"
+		},
+		"M002": {
+			"id": "M002",
+			"name": "耐克螺",
+			"engName": "NICLOSAMIDE",
+			"products": "好殺螺#殺螺安#畢螺春#淹螺王#福壽螺#螺滅殺#治螺#寶螺丹#螺速淨#金元寶#刺螺寶#螺立死#金-憶安#滅螺安®"
+		},
+		"N001": {
+			"id": "N001",
+			"name": "芬滅松",
+			"engName": "FENAMIPHOS",
+			"products": "毒線蟲#線虫寶#固根#土龍丹#地神"
+		},
+		"N004": {
+			"id": "N004",
+			"name": "普伏松",
+			"engName": "ETHOPROPHOS",
+			"products": "勇根路#益收寶#剋線蟲"
+		},
+		"N006": {
+			"id": "N006",
+			"name": "滅線蟲",
+			"engName": "DCIP",
+			"products": "脫線靈#線蟲去#足本領#脫線蟲"
+		},
+		"N010": {
+			"id": "N010",
+			"name": "福賽絕",
+			"engName": "FOSTHIAZATE",
+			"products": "福氣多#褔氣多#地威剛"
+		},
+		"N011": {
+			"id": "N011",
+			"name": "托福毆殺滅",
+			"engName": "TERBUFOS + OXAMYL",
+			"products": "地強"
+		},
+		"N012": {
+			"id": "N012",
+			"name": "摩朗得(酒石酸鹽)",
+			"engName": "MORANTEL TARTRATE",
+			"products": "興農保松青"
+		},
+		"P002": {
+			"id": "P002",
+			"name": "克美素",
+			"engName": "CHLORMEQUAT CHLORIDE",
+			"products": "矮壯素"
+		},
+		"P003": {
+			"id": "P003",
+			"name": "吲哚丁酸",
+			"engName": "IBA",
+			"products": "速育靈#速建#嘉濱根生#根旺#興農催根生"
+		},
+		"P004": {
+			"id": "P004",
+			"name": "抑芽素",
+			"engName": "MALEIC HYDRAZIDE,MH",
+			"products": ""
+		},
+		"P006": {
+			"id": "P006",
+			"name": "抑芽素   鉀鹽",
+			"engName": "MALEIC-HYDRAZIDE",
+			"products": "利收#益農鉀素#抑芽素–鉀"
+		},
+		"P007": {
+			"id": "P007",
+			"name": "抑芽醇",
+			"engName": "N-DECANOL",
+			"products": "有利抑芽醇"
+		},
+		"P009": {
+			"id": "P009",
+			"name": "果收生長素",
+			"engName": "",
+			"products": "保生丹#愛多收#喜多收#果多#利豐收生長素#大收成#必豐收#新利多生–２#聯利生長素#希豐收#保豐收#萬能寶#新農家寶#金雞牌愛農"
+		},
+		"P016": {
+			"id": "P016",
+			"name": "治芽素",
+			"engName": "",
+			"products": ""
+		},
+		"P019": {
+			"id": "P019",
+			"name": "勃寧激素",
+			"engName": "GIBBERELLIN A4 WITH A7 + 6-BENZYLAMINOPU",
+			"products": "新巨果#豪大果"
+		},
+		"P020": {
+			"id": "P020",
+			"name": "勃激素A3",
+			"engName": "GIBBERELLIC ACID",
+			"products": "奇拔利靈協和#催大丹#速大精#植寶素#新奇寶#愛奇靈#真快大#康速力#百利寧#勃大哥#激倍力#新寶捷#奇葩靈#金大胖#惠速大#綠普#早大粒#勃激靈#速勃#金奇寶"
+		},
+		"P023": {
+			"id": "P023",
+			"name": "益收生長素",
+			"engName": "ETHEPHON",
+			"products": "益收豐#益收樂#億收旺#愛豐收#松樹益收#給你紅#高收益#田露#益收王#嘉果#大益收#得力總收#大粒果#益直收"
+		},
+		"P025": {
+			"id": "P025",
+			"name": "移植生長素",
+			"engName": "NAD",
+			"products": "移植旺#根多旺#移植棒#栽培旺"
+		},
+		"P027": {
+			"id": "P027",
+			"name": "氰滿素",
+			"engName": "CYANAMIDE",
+			"products": "春雷"
+		},
+		"P028": {
+			"id": "P028",
+			"name": "番茄生長素",
+			"engName": "4-CPA",
+			"products": "立果多#番茄多旺#番茄生旺"
+		},
+		"P030": {
+			"id": "P030",
+			"name": "萘乙酸鈉",
+			"engName": "NAA-SODIUM",
+			"products": "早生果#美旺素#豐產多#根多生#增產冬#賽珍珠"
+		},
+		"P033": {
+			"id": "P033",
+			"name": "巴克素",
+			"engName": "PACLOBUTRAZOL",
+			"products": "巴面擋#法-財批參參#捌剋樹#穩擋#凍頂#擋主席#有擋頭#好擋頂#尚好擋#押生長#真鰲擋#法－財好頭彩#擋藤精#卡有擋"
+		},
+		"P034": {
+			"id": "P034",
+			"name": "福芬素",
+			"engName": "FORCHLORFENURON",
+			"products": "褔祿滿多"
+		},
+		"P036": {
+			"id": "P036",
+			"name": "細胞分裂素",
+			"engName": "CYTOKININS",
+			"products": "喜果精"
+		},
+		"P038": {
+			"id": "P038",
+			"name": "單克素",
+			"engName": "UNICONAZOLE-P",
+			"products": "住友思蜜"
+		},
+		"P039": {
+			"id": "P039",
+			"name": "艾維激素",
+			"engName": "AMINOETHOXYVINYLGLYCINE HYDROCHLORIDE",
+			"products": "住友豐樂果"
+		},
+		"P040": {
+			"id": "P040",
+			"name": "茉莉酸丙酯",
+			"engName": "PROHYDROJASMON",
+			"products": "包果優"
+		},
+		"P042": {
+			"id": "P042",
+			"name": "生長寧素",
+			"engName": "IBA + NAA + KINETIN",
+			"products": "新根毛王"
+		},
+		"R002": {
+			"id": "R002",
+			"name": "可滅鼠",
+			"engName": "BRODIFACOUM",
+			"products": "無鼠樂#鼠王"
+		},
+		"R004": {
+			"id": "R004",
+			"name": "伏滅鼠",
+			"engName": "FLOCOUMAFEN",
+			"products": "鼠特#鼠必死#麻吉鼠"
+		},
+		"R006": {
+			"id": "R006",
+			"name": "得伐鼠",
+			"engName": "DIPHACINONE",
+			"products": "滅鼠"
+		},
+		"R007": {
+			"id": "R007",
+			"name": "殺鼠靈",
+			"engName": "WARFARIN",
+			"products": ""
+		},
+		"R008": {
+			"id": "R008",
+			"name": "撲滅鼠",
+			"engName": "BROMADIOLONE",
+			"products": "現代貓"
+		},
+		"X004": {
+			"id": "X004",
+			"name": "撲殺培丹",
+			"engName": "PROBENAZOLE + CARTAP",
+			"products": "好米丹#巴好#保穗丹"
+		},
+		"X005": {
+			"id": "X005",
+			"name": "布芬三亞蟎",
+			"engName": "BUPROFEZIN + AMITRAZ",
+			"products": "三多芬"
 		}
 	},
 	"corpMap": {}
