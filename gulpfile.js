@@ -83,7 +83,7 @@ gulp.task('data.build', [
 gulp.task('data.build.pesticide', function (callback) {
 	
 	// callback is invoked when end is called three times
-	var end = streamy.util.wait(3, callback);
+	var end = streamy.util.wait(4, callback);
 	
 	fs.readFile('./_raw/download/pesticide/index.json', 'utf8', function (err, data) {
 		
@@ -91,6 +91,17 @@ gulp.task('data.build.pesticide', function (callback) {
 			m = {};
 		
 		fs.writeFile('./_data/pesticide/list.json', data, end); // end 1
+		
+		streamy.array(index.slice(0)) // TODO: stream array bug
+			.pipe(streamy.map.sync(function (data) {
+				return new File({
+					path: './' + data.id + '.html',
+					contents: new Buffer('---\nlayout: pesticide-entry\nid: ' + data.id + '\n---\n')
+				});
+			}))
+			.pipe(gulp.dest('./pesticide/entries'))
+			.on('data', function () {})
+			.on('end', end); // end 2
 		
 		// initialize entry objects
 		index.forEach(function (entry) {
@@ -181,11 +192,9 @@ gulp.task('data.build.pesticide', function (callback) {
 				})
 				.on('end', function () {
 					
-					// TODO: write to _data/pesticide/usages.json
-					
 					// write usages-search.json
 					fs.writeFile('./data/pesticide/usages-search.json', 
-						JSON.stringify(usageSearchData, null, '\t'), end); // end 2
+						JSON.stringify(usageSearchData, null, '\t'), end); // end 3
 					
 					// TODO: write to _data/pestcide/entries/[id].json, replace gulp.dest('./pesticide')
 					
@@ -193,13 +202,13 @@ gulp.task('data.build.pesticide', function (callback) {
 					streamy.array(index)
 						.pipe(streamy.map.sync(function (data) {
 							return new File({
-								path: './' + data.id + '.html',
-								contents: new Buffer(jekyllify('pesticide-entry', data))
+								path: './' + data.id + '.json',
+								contents: new Buffer(JSON.stringify(data, null, '\t'))
 							});
 						}))
-						.pipe(gulp.dest('./pesticide'))
+						.pipe(gulp.dest('./_data/pesticide/entries'))
 						.on('data', function () {})
-						.on('end', end); // end 3
+						.on('end', end); // end 4
 				});
 			
 		});

@@ -8,7 +8,7 @@ class: pesticide-index
 	<ul>
 	{% for entry in (site.data.pesticide.list | sort: "name") %}
 		<li ng-show = "!mySearch || '{{ entry.name }}'.indexOf(mySearch) > -1">
-			<a href="{{ entry.id }}">{{ entry.name }}</a>
+			<a href="entries/{{ entry.id }}">{{ entry.name }}</a>
 		</li>
 	{% endfor %}
 	</ul>

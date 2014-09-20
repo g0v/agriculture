@@ -1,0 +1,173 @@
+{
+	"id": "I100",
+	"name": "益滅賽寧",
+	"licenses": [
+		{
+			"許可證號": "03737",
+			"化學成分": "(1)O,O-dimethyl S-phthalimidomethyl phosphorodithioate…30% (2)(RS)-α-cyano-3-phenoxybenzyl(1RS)-cis-trans-3-(2,2-dichlorovinyl)-2,2-dimethyl cyclopropanecarboxylate …10%",
+			"廠牌名稱": "逗陣",
+			"國外原製造廠商": "",
+			"有效期限": "108/01/29",
+			"廠商名稱": "大勝化學工業股份有限公司"
+		},
+		{
+			"許可證號": "04375",
+			"化學成分": "(1)O,O-dimethyl S-phthalimidomethyl phosphorodithioate…30% (2)(RS)-α-cyano-3-phenoxybenzyl(1RS)-cis-trans-3-(2,2-dichlorovinyl)-2,2-dimethyl cyclopropanecarboxylate …10%",
+			"廠牌名稱": "賜美丹",
+			"國外原製造廠商": "",
+			"有效期限": "107/05/26",
+			"廠商名稱": "利臺化學工業股份有限公司"
+		},
+		{
+			"許可證號": "04429",
+			"化學成分": "(1)O,O-dimethyl S-phthalimidomethyl phosphorodithioate…30% (2)(RS)-α-cyano-3-phenoxybenzyl(1RS)-cis-trans-3-(2,2-dichlorovinyl)-2,2-dimethyl cyclopropanecarboxylate …10%",
+			"廠牌名稱": "青蟲王",
+			"國外原製造廠商": "",
+			"有效期限": "107/10/07",
+			"廠商名稱": "臺益工業股份有限公司"
+		},
+		{
+			"許可證號": "04465",
+			"化學成分": "(1)O,O-dimethyl S-phthalimidomethyl phosphorodithioate…30% (2)(RS)-α-cyano-3-phenoxybenzyl(1RS)-cis-trans-3-(2,2-dichlorovinyl)-2,2-dimethyl cyclopropanecarboxylate …10%",
+			"廠牌名稱": "新世大寧",
+			"國外原製造廠商": "",
+			"有效期限": "107/12/10",
+			"廠商名稱": "世大農化工廠股份有限公司"
+		},
+		{
+			"許可證號": "04475",
+			"化學成分": "(1)O,O-dimethyl S-phthalimidomethyl phosphorodithioate…30% (2)(RS)-α-cyano-3-phenoxybenzyl(1RS)-cis-trans-3-(2,2-dichlorovinyl)-2,2-dimethyl cyclopropanecarboxylate …10%",
+			"廠牌名稱": "祥猛",
+			"國外原製造廠商": "",
+			"有效期限": "108/01/29",
+			"廠商名稱": "南億企業股份有限公司"
+		},
+		{
+			"許可證號": "04485",
+			"化學成分": "(1)O,O-dimethyl S-phthalimidomethyl phosphorodithioate…30% (2)(RS)-α-cyano-3-phenoxybenzyl(1RS)-cis-trans-3-(2,2-dichlorovinyl)-2,2-dimethyl cyclopropanecarboxylate …10%",
+			"廠牌名稱": "金福連殺",
+			"國外原製造廠商": "",
+			"有效期限": "108/03/25",
+			"廠商名稱": "國豐化學工業股份有限公司"
+		},
+		{
+			"許可證號": "04523",
+			"化學成分": "(1)O,O-dimethyl S-phthalimidomethyl phosphorodithioate…30% (2)(RS)-α-cyano-3-phenoxybenzyl(1RS)-cis-trans-3-(2,2-dichlorovinyl)-2,2-dimethyl cyclopropanecarboxylate …10%",
+			"廠牌名稱": "尚勇",
+			"國外原製造廠商": "",
+			"有效期限": "108/06/23",
+			"廠商名稱": "東和化學企業股份有限公司"
+		},
+		{
+			"許可證號": "04634",
+			"化學成分": "(1)O,O-dimethyl S-phthalimidomethyl phosphorodithioate…30% (2)(RS)-α-cyano-3-phenoxybenzyl(1RS)-cis-trans-3-(2,2-dichlorovinyl)-2,2-dimethyl cyclopropanecarboxylate …10%",
+			"廠牌名稱": "珍果益",
+			"國外原製造廠商": "",
+			"有效期限": "104/07/09",
+			"廠商名稱": "富農化學工業股份有限公司"
+		},
+		{
+			"許可證號": "05335",
+			"化學成分": "(1)O,O-dimethyl S-phthalimidomethyl phosphorodithioate…30% (2)(RS)-α-cyano-3-phenoxybenzyl(1RS)-cis-trans-3-(2,2-dichlorovinyl)-2,2-dimethyl cyclopropanecarboxylate …10%",
+			"廠牌名稱": "龍財寧",
+			"國外原製造廠商": "",
+			"有效期限": "108/03/08",
+			"廠商名稱": "龍燈生物科技股份有限公司"
+		}
+	],
+	"英文名稱": "PHOSMET + CYPERMETHRIN",
+	"廠牌名稱": "IMIDAN-C",
+	"通過日期": "076-09-01",
+	"usages": [
+		{
+			"劑型": "WP",
+			"含量": "40.000",
+			"混合": "A",
+			"作物名稱": "十字花科蔬菜",
+			"病蟲名稱": "紋白蝶",
+			"每公頃每次用量": "0.3-0.5公斤",
+			"稀釋倍數": "2500",
+			"使用時期": "害蟲發生時",
+			"施藥間隔": "7-10",
+			"施用次數": "-",
+			"安全採收期": "15",
+			"核准日期": "",
+			"原始登記廠商名稱": "",
+			"施藥方法": "",
+			"注意事項": "包葉菜類採收前9天,小葉菜類採收前15天停止用藥",
+			"備註": ""
+		},
+		{
+			"劑型": "WP",
+			"含量": "40.000",
+			"混合": "A",
+			"作物名稱": "水稻",
+			"病蟲名稱": "瘤野螟",
+			"每公頃每次用量": "初0.48公斤",
+			"稀釋倍數": "2500",
+			"使用時期": "孕穗抽穗初",
+			"施藥間隔": "-",
+			"施用次數": "-",
+			"安全採收期": "15",
+			"核准日期": "",
+			"原始登記廠商名稱": "",
+			"施藥方法": "",
+			"注意事項": "成蟲發生盛期後7天或幼蟲捲葉率在2%(或每叢幼蟲1隻)以上開始施藥",
+			"備註": ""
+		},
+		{
+			"劑型": "WP",
+			"含量": "40.000",
+			"混合": "A",
+			"作物名稱": "柑桔",
+			"病蟲名稱": "潛葉蛾",
+			"每公頃每次用量": "0.3-1公斤",
+			"稀釋倍數": "2500",
+			"使用時期": "萌芽時",
+			"施藥間隔": "10",
+			"施用次數": "-",
+			"安全採收期": "12",
+			"核准日期": "",
+			"原始登記廠商名稱": "",
+			"施藥方法": "",
+			"注意事項": "",
+			"備註": ""
+		},
+		{
+			"劑型": "WP",
+			"含量": "40.000",
+			"混合": "A",
+			"作物名稱": "番茄",
+			"病蟲名稱": "番茄夜蛾",
+			"每公頃每次用量": "",
+			"稀釋倍數": "2500",
+			"使用時期": "結果期",
+			"施藥間隔": "5",
+			"施用次數": "-",
+			"安全採收期": "-",
+			"核准日期": "",
+			"原始登記廠商名稱": "",
+			"施藥方法": "",
+			"注意事項": "",
+			"備註": ""
+		},
+		{
+			"劑型": "WP",
+			"含量": "40.000",
+			"混合": "A",
+			"作物名稱": "蔬菜",
+			"病蟲名稱": "番茄夜蛾",
+			"每公頃每次用量": "",
+			"稀釋倍數": "2500",
+			"使用時期": "結果期",
+			"施藥間隔": "5-7",
+			"施用次數": "-",
+			"安全採收期": "6",
+			"核准日期": "",
+			"原始登記廠商名稱": "",
+			"施藥方法": "",
+			"注意事項": "",
+			"備註": ""
+		}
+	]
+}

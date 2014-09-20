@@ -3,12 +3,13 @@ layout: default
 class: pesticide-entry
 ---
 
+{% assign entry = site.data.pesticide.entries[page.id] %}
 <div class="container">
 	<ul>
-		<li>農藥代號：{{ page.data.id }}</li>
-		<li>中文名稱：{{ page.data.name }}</li>
-		<li>英文名稱：{{ page.data['英文名稱'] }}</li>
-		<li>通過日期：{{ page.data['通過日期'] }}</li>
+		<li>農藥代號：{{ entry.id }}</li>
+		<li>中文名稱：{{ entry.name }}</li>
+		<li>英文名稱：{{ entry['英文名稱'] }}</li>
+		<li>通過日期：{{ entry['通過日期'] }}</li>
 	</ul>
 
 	<h2>許可證</h2>
@@ -20,7 +21,7 @@ class: pesticide-entry
 			<th>有效期限</th>
 			<th>廠商名稱</th>
 		</tr>
-	{% for lic in page.data.licenses %}
+	{% for lic in entry.licenses %}
 		<tr>
 			<td>{{ lic['許可證號'] }}</td>
 			<td>{{ lic['廠牌名稱'] }}</td>
@@ -51,7 +52,7 @@ class: pesticide-entry
 			<th>注意事項</th>
 			<th>備註</th>
 		</tr>
-	{% for u in page.data.usages %}
+	{% for u in entry.usages %}
 		<tr>
 			<td>{{ u['劑型'] }}</td>
 			<td>{{ u['含量'] }}</td>
