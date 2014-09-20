@@ -288,6 +288,14 @@ function start() {
 		stateManager.ready();
 	});
 	
+	// ad hoc way to enable experimental features
+	$(document).on('keydown', function (e) {
+		if (e.ctrlKey && e.which == 192) { // '~'
+			e.preventDefault();
+			$('.experimental').toggleClass('hide');
+		}
+	});
+	
 }
 
 // start when DOM is ready
