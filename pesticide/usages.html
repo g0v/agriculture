@@ -43,13 +43,20 @@ js: [
 
 <div>
 	<div class="container">
-		<div id="result"></div>
+		<div id="result" class="card-layout"></div>
 		<div id="no-result">
 			<span class="bubble card">找不到您查詢的施藥方法喔！</span>
 			<br>
 			<span class="fallen-man" style="top: 32px">_(:3」∠)_</span>
 		</div>
 		{% include loading.html id="loading" %}
+	</div>
+</div>
+
+<div id ="display-options" style="position: absolute; top: 16px; left: 16px">
+	<div>
+		<input type="checkbox" class="toggle-layout-btn" autocomplete="off">
+		Table Layout
 	</div>
 </div>
 
@@ -70,25 +77,27 @@ js: [
 	</ul>
 </script>
 <script id="usage-template" type="text/x-handlebars-template">
-	<li id="{{id}}" class="usage card">
-		<div>
-			<i class="fa fa-flask x16"></i>
-			<span class="desc-label">藥劑：</span>{{藥劑}}
+	<li id="{{id}}" class="usage">
+		<div class="clearfix">
+			<div class="field pesticide">
+				<i class="fa fa-flask x16"></i>
+				<span class="desc-label">藥劑：</span>{{藥劑}}
+			</div>
+			<div class="field crop">
+				<i class="fa fa-leaf x16"></i>
+				<span class="desc-label">作物：</span>{{作物名稱}}
+			</div>
+			<div class="field disease">
+				<i class="fa fa-bug x16"></i>
+				<span class="desc-label">病蟲：</span>{{病蟲名稱}}
+			</div>
+			{{#if 安全採收期 }}
+			<div class="field">
+				<i class="fa fa-calendar x16"></i>
+				<span class="desc-label">安全採收期：</span>{{安全採收期}}
+			</div>
+			{{/if}}
 		</div>
-		<div>
-			<i class="fa fa-leaf x16"></i>
-			<span class="desc-label">作物：</span>{{作物名稱}}
-		</div>
-		<div>
-			<i class="fa fa-bug x16"></i>
-			<span class="desc-label">病蟲：</span>{{病蟲名稱}}
-		</div>
-		{{#if 安全採收期 }}
-		<div>
-			<i class="fa fa-calendar x16"></i>
-			<span class="desc-label">安全採收期：</span>{{安全採收期}}
-		</div>
-		{{/if}}
 		{{#if 使用時期 }}
 		<div class="desc-block">
 			<div class="desc-label">使用時期：</div>
@@ -96,7 +105,9 @@ js: [
 		</div>
 		{{/if}}
 		<div class="desc-block">
-			<button type="button" class="toggle-detail-btn btn btn-link">詳細資料</button>
+			<button type="button" class="toggle-detail-btn btn btn-link">
+				<span>詳細資料</span>
+			</button>
 		</div>
 		<div class="detail">
 		</div>

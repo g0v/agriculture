@@ -207,6 +207,20 @@ function decodeURL(location) {
 	return query.keywords && query;
 }
 
+function DisplayOptions(element) {
+	var $element = this.$element = $(element);
+	
+	var tableLayout = false;
+	
+	$element.on('change', '.toggle-layout-btn', function () {
+		window.console.log('hit');
+		tableLayout = !tableLayout;
+		$('#result')
+		[tableLayout ? 'addClass' : 'removeClass']('table-layout')
+		[!tableLayout ? 'addClass' : 'removeClass']('card-layout');
+	});
+}
+
 
 
 var _grouper_map = {
@@ -219,7 +233,8 @@ function start() {
 	
 	var stateManager = new window.StateManager(encodeURL, decodeURL),
 		list = new UsageList('#result'),
-		form = new Form('#form');
+		form = new Form('#form'),
+		displayOptions = new DisplayOptions('#display-options');
 	
 	function query(options) {
 		var kws = (options && options.keywords) || [],

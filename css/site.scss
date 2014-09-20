@@ -59,9 +59,12 @@ ul.inline {
 	height: 16px;
 }
 
-.card {
+.card-shadow {
 	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.26);
 	border-radius: 2px;
+}
+.card {
+	@extend .card-shadow;
 	background-color: #FFF;
 }
 .bubble {
@@ -249,7 +252,6 @@ body.pesticide-usages {
 		}
 	}
 	#result {
-		text-align: center;
 		color: #555;
 		
 		.group-header {
@@ -257,42 +259,67 @@ body.pesticide-usages {
 			font-size: 20px;
 		}
 		.usage {
-			display: inline-block;
-			margin: 16px;
-			padding: 16px;
-			text-align: left;
-			vertical-align: top;
-			max-width: 30%;
-		}
-		.usage.open {
-			max-width: 45%;
 			
-			 .toggle-detail-btn::before {
-				content: '關閉';
-			}
-			 .detail {
-				display: block;
-			}
-		}
-		.usage .desc-label {
+			@extend .card;
 			
+			.toggle-detail-btn {
+				display: inline;
+				padding: 0;
+				font-size: 16px;
+				border: none;
+				outline: none;
+				text-decoration: none;
+			}
+			.detail {
+				display: none;
+			}
+			&.open {
+				 .toggle-detail-btn > span::before {
+					content: '關閉';
+				}
+				 .detail {
+					display: block;
+				}
+			}
 		}
-		.usage .desc-block {
-			margin-top: 12px;
+		&.card-layout {
+			text-align: center;
+			
+			.usage {
+				display: inline-block;
+				margin: 16px;
+				padding: 16px;
+				text-align: left;
+				vertical-align: top;
+				max-width: 30%;
+				
+				&.open {
+					max-width: 45%;
+				}
+				.desc-block {
+					margin-top: 12px;
+				}
+				.desc-indent {
+					padding-left: 16px;
+				}
+			}
 		}
-		.usage .desc-indent {
-			padding-left: 16px;
-		}
-		.usage .toggle-detail-btn {
-			display: inline;
-			padding: 0;
-			font-size: 16px;
-			border: none;
-			outline: none;
-			text-decoration: none;
-		}
-		.usage .detail {
-			display: none;
+		&.table-layout {
+			.usage {
+				@extend .card;
+				padding: 16px;
+				margin-bottom: 6px;
+			}
+			.field {
+				display: inline-block;
+				float: left;
+				width: 120px;
+				
+				i,
+				.desc-label {
+					display: none;
+				}
+			}
 		}
 		.products {
 			display: block;
