@@ -77,7 +77,8 @@ gulp.task('data.build', [
  * 
  * This task shall write the following files:
  * + /_data/pesticide/list.json
- * + /pesticide/{id}/index.html
+ * + /_data/pesticide/entries/{id}.json
+ * + /pesticide/entries/{id}.html
  * + /data/pesticide/usages-search.json
  */
 gulp.task('data.build.pesticide', function (callback) {
@@ -218,28 +219,20 @@ gulp.task('data.build.pesticide', function (callback) {
 });
 
 /* Precondition: the following files are available:
- * + /_raw/manual/pesticide/fomulation.json
+ * + /_raw/manual/pesticide/fomulations.json
  * 
  * This task shall write the following files:
- * + /data/pesticide/formulation.json
- * + /pesticide/formulation.html
+ * + /_data/pesticide/formulations.json
+ * + /data/pesticide/formulations.json
  */
-gulp.task('data.build.formulation', function (callback) {
+gulp.task('data.build.formulations', function (callback) {
 	
 	// callback is invoked when end is called 2 times
 	var end = streamy.util.wait(2, callback);
 	
-	fs.readFile('./_raw/manual/pesticide/formulation.json', 'utf8', function (err, data) {
-		fs.writeFile('./data/pesticide/formulation.json', data, end); // end 1
-		fs.writeFile('./pesticide/formulation.html', 
-			jekyllify('pesticide-formulation', data), end); // end 2
+	fs.readFile('./_raw/manual/pesticide/formulations.json', 'utf8', function (err, data) {
+		fs.writeFile('./_data/pesticide/formulations.json', data, end); // end 1
+		fs.writeFile('./data/pesticide/formulations.json', data, end); // end 2
 	});
 	
 });
-
-// helper //
-// TODO: keep gulp file clear, move to bin/jekyll
-function jekyllify(template, data) {
-	var cnt = typeof data === 'string' ? data : JSON.stringify(data, null, '\t');
-	return '---\nlayout: ' + template + '\ndata: ' + cnt + '\n---\n';
-}
