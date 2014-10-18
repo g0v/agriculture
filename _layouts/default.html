@@ -22,8 +22,26 @@
 {% endfor %}
 </head>
 <body class="{% if page.class %}{{ page.class }}{% endif %}">
-	{{ content }}
-	<div class="navbar navbar-inverse navbar-fixed-bottom noPhone" role="navigation">
+	<div id="header" class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+					<i class="fa fa-bars"></i>
+				</button>
+				<a href="/" class="navbar-brand"></a>
+				<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+					<ul class="nav navbar-nav">
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<div id="body">
+		{{ content }}
+	</div>
+	<div id="footer" class="navbar navbar-inverse navbar-fixed-bottom noPhone" role="navigation">
 		<div class="container">
 			<div class="navbar-header pull-left">
 				<div class = "navbar-left">

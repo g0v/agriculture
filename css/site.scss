@@ -98,7 +98,19 @@ body {
 	color: #333;
 	line-height: 1.6em;
 }
-.navbar-fixed-bottom {
+
+/* layout */
+$header-height: 48px;
+
+#header {
+	height: $header-height + 1px;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.26);
+}
+#body {
+	position: relative;
+	padding-top: $header-height + 1px;
+}
+#footer {
 	box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.26);
 }
 
@@ -162,7 +174,7 @@ body.pesticide-usages {
 		position: fixed;
 		left: 0;
 		right: 0;
-		top: 0;
+		top: $header-height + 1px;
 		
 		> * {
 			pointer-events: auto;
