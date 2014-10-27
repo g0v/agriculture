@@ -23,7 +23,7 @@ StateManager.prototype.fireEvent = function (state) {
  */
 StateManager.prototype.push = function (state) {
 	window.history.pushState(state, null, this.encode(state));
-	this.fireEvent(state);
+	//this.fireEvent(state);
 };
 
 /* Tell the manager that we are ready after a page request, so it can replace

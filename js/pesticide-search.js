@@ -1,7 +1,8 @@
 (function (window) {
 
 'use strict';
-var $ = window.jQuery;
+var $ = window.jQuery,
+	DataModel = window.DataModel;
 
 function fieldContains(obj, field, keyword) {
 	return obj && obj[field] && obj[field].indexOf(keyword) > -1;
@@ -28,72 +29,94 @@ function containsKeyword(item, keyword) {
 		fieldContains(pesticide, 'products', keyword);
 }
 
-var Form = function (element) {
-	var self = this,
-		$element = this.$element = $(element);
-	this._advanced = false;
-	
-	this.$header = $('header');
-	this.$grouper = $('#grouper');
-	this.advancedOptions = $('#adv-options');
-	
-	this.keywordInput = $element.find('.keyword')[0];
-	this.submitButton = $element.find('.submit')[0];
-	this.advancedOptionsToogleButton = $element.find('.adv-options-toggle-btn')[0];
-	
-	$element
-	.on('click', '.submit', function () {
-		self.submit();
-	})
-	.on('keydown', '.keyword', function (e) {
-		if (window.data && e.which == 13)
-			self.submit();
-	})
-	.on('click', '.adv-options-toggle-btn', function () {
-		self.openAdvancedOptions(!self._advanced);
-	});
-};
-
-Form.prototype.submit = function () {
-	var advanced = this._advanced,
-		input = this.keywordInput.value.trim(),
-		keywords = input && input.split(/\s+/),
-		query = { keywords: keywords };
-	if (advanced) {
-		query.grouper = this.$grouper.data('selected');
-	}
-	this.$element.trigger('query', query);
-};
-
-Form.prototype.openAdvancedOptions = function (open) {
-	if (this._advanced === open)
-		return;
-	this._advanced = open;
-	this.advancedOptionsToogleButton.innerHTML = open ? '基本' : '進階';
-	// TODO: animation
-	this.$header[open ? 'addClass' : 'removeClass']('advanced');
-};
-
 function getTemplate(selector) {
 	return window.Handlebars.compile($(selector).html());
 }
 
-var UsageList = function (element) {
+
+
+// component //
+function SearchForm(element, searchModel) {
+	var self = this,
+		$element = $(element);
+	
+	this._enabled = true;
+	
+	this.inputElement = $element.find('.input')[0];
+	this.submitButton = $element.find('.submit')[0];
+	this.searchModel = searchModel;
+	
+	$element
+	.on('click', '.submit', function () {
+		if (self._enabled)
+			self.submit();
+	})
+	.on('keydown', '.input', function (e) {
+		if (self._enabled && e.which == 13)
+			self.submit();
+	});
+}
+
+SearchForm.prototype.setKeywords = function (keywords) {
+	this.inputElement.value = keywords ? keywords.join(' ') : '';
+};
+
+SearchForm.prototype.disable = function () {
+	this._enabled = false;
+	this.submitButton.disabled = true;
+};
+
+SearchForm.prototype.enable = function () {
+	this._enabled = true;
+	this.submitButton.disabled = false;
+};
+
+SearchForm.prototype.submit = function () {
+	var input = this.inputElement.value.trim(),
+		keywords = input && input.split(/\s+/);
+	this.searchModel.setKeywords(keywords);
+};
+
+function ResultList(element, searchModel, renderScheme) {
 	var $element = this.$element = $(element),
 		self = this;
+	
 	this.templates = {
 		container: getTemplate('#container-template'),
 		group: getTemplate('#group-template'),
 		usage: getTemplate('#usage-template'),
 		detail: getTemplate('#usage-detail-template')
 	};
+	
+	// receptor //
 	$element.on('click', '.toggle-detail-btn', function (e) {
 		var $usage = $(e.currentTarget).closest('.usage');
 		self.setOpen($usage[0], !$usage.hasClass('open'));
 	});
-};
+	
+	// actuator //
+	searchModel
+	.on('results', function (data) {
+		var keywords = data.keywords,
+			grouper = data.grouper,
+			results = data.results;
+		// TODO: ad-hoc
+		$('body')[results && results.length ? 'removeClass' : 'addClass']('no-result');
+		self[grouper ? 'renderGroups' : 'renderItems'](results, keywords);
+	})
+	.on('clear', function () {
+		self.clear();
+	});
+	
+	renderScheme.on('layout', function (layout) {
+		$element
+		.removeClass('table-layout')
+		.removeClass('card-layout')
+		.addClass(layout + '-layout');
+	});
+}
 
-UsageList.prototype.setOpen = function (element, value) {
+ResultList.prototype.setOpen = function (element, value) {
 	var detail = $(element).find('.detail')[0];
 	if (value && !detail.firstElementChild) {
 		detail.innerHTML = this._detailHTML(this.results[element.id]);
@@ -102,7 +125,7 @@ UsageList.prototype.setOpen = function (element, value) {
 	//$usage[0].scrollIntoView(); // TODO: do this manually
 };
 
-UsageList.prototype.clear = function () {
+ResultList.prototype.clear = function () {
 	this.results = {};
 	this.groups = {};
 	this.keywords = null;
@@ -119,52 +142,56 @@ function _renderHits(html, keywords) {
 	return html;
 }
 
-UsageList.prototype._detailHTML = function (row) {
+ResultList.prototype._detailHTML = function (row) {
 	return _renderHits(this.templates.detail(row.data), this.keywords);
 };
 
-UsageList.prototype._usageHTML = function (row) {
+ResultList.prototype._usageHTML = function (row) {
 	return _renderHits(this.templates.usage(row.data), this.keywords);
 };
 
-function _normalizeUsageData(row, id) {
-	row.data.id = id;
+//function _normalizeUsageData(row, id) {
+	//row.data.id = id;
+	/*
 	var pesticide = window.data.pesticides[row.data.pesticideId];
 	if (pesticide) {
 		row.data['藥劑'] = pesticide.name;
 		row.data.products = pesticide.products.split('#');
 	}
-}
+	*/
+//}
 
-UsageList.prototype._groupListHTML = function (groups) {
+ResultList.prototype._groupListHTML = function (groups) {
 	var self = this,
 		content = '',
-		gsn = 0,
-		sn = 0;
+		gsn = 0;
 	groups.forEach(function (group) {
 		var gid = 'g' + (gsn++),
 			gcontent = '';
 		group.id = gid;
 		self.groups[gid] = group;
 		group.members.forEach(function (row) {
-			var id = 'u' + (sn++);
-			_normalizeUsageData(row, id);
-			self.results[id] = row;
+			//var id = 'u' + (sn++);
+			//_normalizeUsageData(row, id);
+			self.results[row.data.id] = row;
 			gcontent += self._usageHTML(row);
 		});
-		content += self.templates.group({ id: gid, value: group.value, content: gcontent });
+		content += self.templates.group({
+			id: gid, 
+			value: group.value, 
+			content: gcontent
+		});
 	});
 	return this.templates.container({ content: content });
 };
 
-UsageList.prototype._usageListHTML = function (rows) {
+ResultList.prototype._ResultListHTML = function (rows) {
 	var self = this,
-		content = '',
-		sn = 0;
+		content = '';
 	rows.forEach(function (row) {
-		var id = 'u' + (sn++);
-		_normalizeUsageData(row, id);
-		self.results[id] = row;
+		//var id = 'u' + (sn++);
+		//_normalizeUsageData(row, id);
+		self.results[row.data.id] = row;
 		content += self._usageHTML(row);
 	});
 	return this.templates.container({
@@ -172,17 +199,161 @@ UsageList.prototype._usageListHTML = function (rows) {
 	});
 };
 
-UsageList.prototype.renderItems = function (rows, keywords) {
+ResultList.prototype.renderItems = function (rows, keywords) {
 	this.clear();
 	this.keywords = keywords;
-	this.$element[0].innerHTML = this._usageListHTML(rows);
+	this.$element[0].innerHTML = this._ResultListHTML(rows);
 };
 
-UsageList.prototype.renderGroups = function (groups, keywords) {
+ResultList.prototype.renderGroups = function (groups, keywords) {
 	this.clear();
 	this.keywords = keywords;
 	this.$element[0].innerHTML = this._groupListHTML(groups);
 };
+
+
+
+function valueOf(elem) {
+	return elem && $(elem).data('value');
+}
+
+function OptionGroup(name, element) {
+	var self = this,
+		selector = '[data-group="' + name + '"]',
+		$members = this.$members = $(selector);
+	
+	this.index = window.util.createIndex($members, valueOf);
+	for (var i = 0, len = $members.length, elem; i < len; i++) {
+		// jshint eqnull: true
+		if ((valueOf(elem = $members[i])) == null) {
+			this.nullValueOption = elem;
+			break;
+		}
+	}
+	
+	$(element || window.document).on('click', selector, function (e) {
+		self.trigger('select', valueOf(e.currentTarget));
+	});
+}
+window.inherit(OptionGroup, DataModel);
+
+OptionGroup.prototype.select = function (value) {
+	this.$members.removeClass('selected');
+	// jshint eqnull: true
+	if (value != null)
+		$(this.index[value]).addClass('selected');
+	else if (this.nullValueOption)
+		$(this.nullValueOption).addClass('selected');
+};
+
+
+
+function SearchOptions(searchModel, renderScheme) {
+	var layoutOptions = new OptionGroup('layout'),
+		grouperOptions = new OptionGroup('grouper');
+	
+	// receptor //
+	layoutOptions.on('select', function (value) {
+		renderScheme.setLayout(value);
+	});
+	
+	grouperOptions.on('select', function (value) {
+		searchModel.setGrouper(value);
+	});
+	
+	// actuator //
+	searchModel.on('grouper', function (value) {
+		grouperOptions.select(value);
+	});
+	
+	renderScheme.on('layout', function (value) {
+		layoutOptions.select(value);
+	});
+}
+//window.inherit(SearchOptions, DataModel);
+
+
+
+// model //
+var fieldMap = {
+	pesticide: '藥劑',
+	crop: '作物名稱',
+	disease: '病蟲名稱'
+};
+
+function PesticideSearchModel() {
+	var self = this;
+	(this.innerModel = new window.search.SearchModel())
+	.on('results', function (results) {
+		self.trigger('results', {
+			keywords: self._keywords,
+			grouper: self._grouper,
+			results: results
+		});
+	});
+}
+window.inherit(PesticideSearchModel, DataModel);
+
+PesticideSearchModel.prototype.enable = function () {
+	this.innerModel.enable();
+};
+
+PesticideSearchModel.prototype.disable = function () {
+	this.innerModel.disable();
+};
+
+PesticideSearchModel.prototype.setSource = function (source) {
+	this.innerModel.setSource(source);
+};
+
+function normailizeKeywords(keywords) {
+	if (!keywords)
+		return [];
+	var kws = [];
+	keywords.forEach(function (w) {
+		if (w)
+			kws.push(w);
+	});
+	return kws;
+}
+
+PesticideSearchModel.prototype.setKeywords = function (keywords) {
+	this._keywords = keywords = normailizeKeywords(keywords);
+	this.trigger('keywords', keywords);
+	if (keywords.length) {
+		this.innerModel.setFilter(multipleKeywordFilter(keywords));
+	} else {
+		this.trigger('clear');
+	}
+};
+
+/*
+PesticideSearchModel.prototype.isGrouped = function () {
+	return !!this._grouper;
+};
+*/
+
+PesticideSearchModel.prototype.setGrouper = function (grouper) {
+	if (this._grouper == grouper)
+		return; // idempotent
+	this._grouper = grouper;
+	this.trigger('grouper', grouper);
+	this.innerModel.setGrouper(fieldMap[grouper]);
+};
+
+
+
+function RenderSchemeModel() {}
+window.inherit(RenderSchemeModel, DataModel);
+
+RenderSchemeModel.prototype.setLayout = function (layout) {
+	if (this._layout == layout)
+		return;
+	this._layout = layout;
+	this.trigger('layout', layout);
+};
+
+
 
 function encodeURL(query) {
 	return (!query || !query.keywords) ? '' : '?q=' + query.keywords.join('+');
@@ -207,74 +378,69 @@ function decodeURL(location) {
 	return query.keywords && query;
 }
 
-function DisplayOptions(element) {
-	var $element = this.$element = $(element);
+$(function () {
 	
-	var tableLayout = false;
+	var model = window.model = {},
+		view = window.view = {},
+		stateManager = new window.StateManager(encodeURL, decodeURL),
+		searchModel = model.searchModel = new PesticideSearchModel(),
+		renderScheme = model.renderScheme = new RenderSchemeModel(),
+		form = view.form = new SearchForm('#form', searchModel),
+		_state = {};
 	
-	$element.on('change', '.toggle-layout-btn', function () {
-		window.console.log('hit');
-		tableLayout = !tableLayout;
-		$('#result')
-		[tableLayout ? 'addClass' : 'removeClass']('table-layout')
-		[!tableLayout ? 'addClass' : 'removeClass']('card-layout');
-	});
-}
-
-
-
-var _grouper_map = {
-	pesticide: '藥劑',
-	crop: '作物名稱',
-	disease: '病蟲名稱'
-};
-
-function start() {
+	view.resultList = new ResultList('#result', searchModel, renderScheme);
+	view.searchOptions = new SearchOptions(searchModel, renderScheme);
 	
-	var stateManager = new window.StateManager(encodeURL, decodeURL),
-		list = new UsageList('#result'),
-		form = new Form('#form'),
-		displayOptions = new DisplayOptions('#display-options');
+	form.disable();
+	renderScheme.setLayout('card'); // TODO: consider default to table
 	
-	function query(options) {
-		var kws = (options && options.keywords) || [],
-			keywords = [];
-		kws.forEach(function (w) {
-			if (w)
-				keywords.push(w);
-		});
-		if (!keywords || !keywords.length) {
-			list.clear();
-			return;
-		}
-		
-		var filter = multipleKeywordFilter(keywords),
-			order = options.order,
-			grouper = _grouper_map[options.grouper];
-		
-		var result = window.search(window.data.usages, filter, order);
-		if (grouper)
-			result = window.group(result, grouper);
-		document.body.classList[result && result.length > 0 ? 'remove' : 'add']('no-result');
-		list[grouper ? 'renderGroups' : 'renderItems'](result, keywords);
+	
+	
+	// state management //
+	var popingState = false;
+	
+	function syncState() {
+		if (!popingState)
+			stateManager.push(_state);
 	}
 	
 	stateManager.onchangestate = function (state) {
-		if (!state)
-			return; // TODO: check first page loading scenario
-		var keywords = state.keywords ? state.keywords.join(' ') : '';
-		if (form.keywordInput.value != keywords)
-			form.keywordInput.value = keywords;
-		query(state);
+		popingState = true;
+		_state = state = state || {};
+		var keywords = state.keywords;
+		form.setKeywords(keywords);
+		// TODO: we may want setCriteria() API
+		searchModel.setKeywords(keywords);
+		popingState = false;
 	};
 	
-	form.$element.on('query', function (e, options) {
-		stateManager.push(options);
+	searchModel.on('keywords', function (keywords) {
+		_state.keywords = keywords;
+		syncState();
 	});
 	
+	
+	
+	// data //
 	$.ajax('../../data/pesticide/usages-search.json')
 	.done(function (data) {
 		window.data = data;
+		var usages = data.usages;
+		
+		// normalize
+		var sn = 0, 
+			pesticide;
+		usages.forEach(function (u) {
+			u.id = 'u' + sn++;
+			pesticide = data.pesticides[u.pesticideId];
+			if (pesticide) {
+				u['藥劑'] = pesticide.name;
+				u.products = pesticide.products.split('#');
+			}
+		});
+		
+		searchModel.setSource(usages);
+		searchModel.enable();
 		
 		// remove loading mark & enable submit
 		$('#loading')
@@ -282,7 +448,7 @@ function start() {
 			this.remove();
 		})
 		.removeClass('in');
-		form.submitButton.disabled = false;
+		form.enable();
 		
 		// process query params, if any
 		stateManager.ready();
@@ -296,10 +462,7 @@ function start() {
 		}
 	});
 	
-}
-
-// start when DOM is ready
-$(start);
+});
 
 })(this);
 

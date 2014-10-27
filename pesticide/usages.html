@@ -5,9 +5,8 @@ css: [
 	'css/spinner.css'
 ]
 js: [
-	'//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.3.0/handlebars.min.js',
+	'js/search.js',
 	'js/combobutton.js',
-	'js/search-model.js',
 	'js/state-manager.js',
 	'js/pesticide-search.js'
 ]
@@ -17,27 +16,10 @@ js: [
 	<div class="container">
 		<div id="form" class="card form-row">
 			<i class="fa fa-search"></i>
-			<input class="keyword" placeholder="請輸入關鍵字">
-			<button type="submit" class="submit btn btn-primary" disabled>搜尋</button>
-			<button type="submit" class="adv-options-toggle-btn btn btn-info">進階</button>
+			<input class="input" placeholder="請輸入關鍵字">
+			<button type="submit" class="submit btn btn-primary">搜尋</button>
 		</div>
-		<div id="adv-options">
-			<div class="form-row">
-				<div id="grouper" class="dropdown combobutton" data-label="#grouper-label">
-					<button class="btn btn-default card dropdown-toggle" type="button" data-toggle="dropdown">
-						<span id="grouper-label">不分類</span>
-						<span class="caret"></span>
-					</button>
-					<ul class="dropdown-menu" role="menu">
-						<li class="combobutton-item"><a tabindex="-1">不分類</a></li>
-						<li class="divider"></li>
-						<li class="combobutton-item" data-value="pesticide"><a tabindex="-1">依藥劑分類</a></li>
-						<li class="combobutton-item" data-value="crop"><a tabindex="-1">依作物分類</a></li>
-						<li class="combobutton-item" data-value="disease"><a tabindex="-1">依害蟲分類</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
+		<!-- result header -->
 	</div>
 </header>
 
@@ -195,5 +177,38 @@ js: [
 		<div class="desc-indent">{{備註}}</div>
 	</div>
 	{{/if}}
+</script>
+<script id="menu-left-template" type="text/x-handlebars-template">
+	<li>
+		<div class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown">
+				顯示<i class="fa fa-caret-down"></i>
+			</a>
+			<ul class="dropdown-menu" role="menu">
+				<li data-group="layout" data-value="table">
+					<a>表格排版</a>
+				</li>
+				<li class="selected" data-group="layout" data-value="card">
+					<a>卡片排版</a>
+				</li>
+				<hr>
+				<li class="selected" data-group="grouper">
+					<a>不分類</a>
+				</li>
+				<li data-group="grouper" data-value="pesticide">
+					<a>依藥劑分類</a>
+				</li>
+				<li data-group="grouper" data-value="disease">
+					<a>依害蟲分類</a>
+				</li>
+				<li data-group="grouper" data-value="crop">
+					<a>依作物分類</a>
+				</li>
+			</ul>
+		</div>
+	</li>
+</script>
+<script id="menu-right-template" type="text/x-handlebars-template">
+	<!-- TODO -->
 </script>
 {% endraw %}
