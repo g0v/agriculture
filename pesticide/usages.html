@@ -6,6 +6,7 @@ css: [
 ]
 js: [
 	'js/search.js',
+	'js/drag.js',
 	'js/combobutton.js',
 	'js/state-manager.js',
 	'js/pesticide-search.js'
@@ -13,13 +14,26 @@ js: [
 ---
 
 <header>
-	<div class="container">
-		<div id="form" class="card form-row">
-			<i class="fa fa-search"></i>
-			<input class="input" placeholder="請輸入關鍵字">
-			<button type="submit" class="submit btn btn-primary">搜尋</button>
+	<div class="u-curtain">
+		<div class="container">
+			<div id="form" class="card u-row">
+				<i class="fa fa-search"></i>
+				<input class="input" placeholder="請輸入關鍵字">
+				<button type="submit" class="submit btn btn-primary">搜尋</button>
+			</div>
+			<div id="result-header" class="u-row">
+				<div class="u-customize dropdown">
+					<button type="button" class="btn btn-link card" data-toggle="dropdown">
+						<i class="fa fa-pencil"></i>
+					</button>
+					<div class="dropdown-menu card" role="menu">
+						<ul class="u-pool clear clearfix"></ul>
+					</div>
+				</div>
+				<ul class="u-summaries clear clearfix">
+				</ul>
+			</div>
 		</div>
-		<!-- result header -->
 	</div>
 </header>
 
@@ -43,6 +57,20 @@ js: [
 </div>
 
 {% raw %}
+<script id="header-summary-template" type="text/x-handlebars-template">
+	<li id="{{id}}" class="field{{#if verbose}} verbose{{/if}}{{#if size}} {{size}}{{/if}}" data-value="{{name}}">
+		<div class="u-frame">
+			<span class="u-label">{{label}}</span>
+			<div class="u-order"></div>
+		</div>
+	</li>
+</script>
+<script id="header-pool-template" type="text/x-handlebars-template">
+	<li id="{{id}}" class="field" data-value="{{name}}">
+		<span class="u-checkmark fa fa-check"></span>
+		<span class="u-label">{{label}}</span>
+	</li>
+</script>
 <script id="container-template" type="text/x-handlebars-template">
 	<div class="usages">
 		{{{content}}}
@@ -60,123 +88,34 @@ js: [
 </script>
 <script id="usage-template" type="text/x-handlebars-template">
 	<li id="{{id}}" class="usage">
-		<div class="clearfix">
-			<div class="field pesticide">
-				<i class="fa fa-flask x16"></i>
-				<span class="desc-label">藥劑：</span>{{藥劑}}
-			</div>
-			<div class="field crop">
-				<i class="fa fa-leaf x16"></i>
-				<span class="desc-label">作物：</span>{{作物名稱}}
-			</div>
-			<div class="field disease">
-				<i class="fa fa-bug x16"></i>
-				<span class="desc-label">病蟲：</span>{{病蟲名稱}}
-			</div>
-			{{#if 安全採收期 }}
-			<div class="field">
-				<i class="fa fa-calendar x16"></i>
-				<span class="desc-label">安全採收期：</span>{{安全採收期}}
-			</div>
-			{{/if}}
+		<div class="u-summary clearfix">
+			{{{ content }}}
 		</div>
-		{{#if 使用時期 }}
-		<div class="desc-block">
-			<div class="desc-label">使用時期：</div>
-			<div class="desc-indent">{{使用時期}}</div>
-		</div>
-		{{/if}}
-		<div class="desc-block">
-			<button type="button" class="toggle-detail-btn btn btn-link">
-				<span>詳細資料</span>
-			</button>
-		</div>
-		<div class="detail">
+		<button type="button" class="toggle-detail-btn">
+			<span class="u-label"></span>
+		</button>
+		<div class="u-detail">
 		</div>
 	</li>
 </script>
+<script id="usage-field-template" type="text/x-handlebars-template">
+	<div class="field {{name}}{{#if verbose}} verbose{{/if}}{{#if size}} {{size}}{{/if}}">
+		<i class="fa u-icon{{#if icon}} {{icon}}{{/if}} x16"></i>
+		<span class="u-label">{{label}}：</span><span class="u-value">{{#if value}}{{value}}{{else}}&nbsp;{{/if}}</span>
+	</div>
+</script>
 <script id="usage-detail-template" type="text/x-handlebars-template">
 	<hr>
-	
-	<div class="clearfix">
+	<div class="field u-products clearfix">
 		<span class="pull-left">
-			<i class="fa fa-flask x16"></i>
-			<span class="desc-label">產品：</span>
+			<i class="fa u-icon x16"></i>
+			<span class="u-label">產品：</span>
 		</span>
 		<ul class="products inline comma-zh">
 			{{#each products}}<li>{{this}}</li>{{/each}}
 		</ul>
 	</div>
-	{{#if 核准日期 }}
-	<div>
-		<span class="space x16"></span>
-		<span class="desc-label">核准日期：</span>{{核准日期}}
-	</div>
-	{{/if}}
-	{{#if 原始登記廠商名稱 }}
-	<div>
-		<span class="space x16"></span>
-		<span class="desc-label">原始登記廠商名稱：</span>{{原始登記廠商名稱}}
-	</div>
-	{{/if}}
-	
-	<div class="desc-block">
-		<div>
-			<span class="space x16"></span>
-			<span class="desc-label">劑型：</span>{{劑型}}
-		</div>
-		{{#if 含量 }}
-		<div>
-			<span class="space x16"></span>
-			<span class="desc-label">含量：</span>{{含量}}
-		</div>
-		{{/if}}
-		{{#if 每公頃每次用量 }}
-		<div>
-			<span class="space x16"></span>
-			<span class="desc-label">每公頃每次用量：</span>{{每公頃每次用量}}
-		</div>
-		{{/if}}
-		{{#if 稀釋倍數 }}
-		<div>
-			<span class="space x16"></span>
-			<span class="desc-label">稀釋倍數：</span>{{稀釋倍數}}
-		</div>
-		{{/if}}
-		{{#if 施藥間隔 }}
-		<div>
-			<span class="space x16"></span>
-			<span class="desc-label">施藥間隔：</span>{{施藥間隔}}
-		</div>
-		{{/if}}
-		{{#if 施用次數 }}
-		<div>
-			<span class="space x16"></span>
-			<span class="desc-label">施用次數：</span>{{施用次數}}
-		</div>
-		{{/if}}
-	</div>
-	
-	{{#if 施藥方法 }}
-	<div class="desc-block">
-		<div class="desc-label">施藥方法：</div>
-		<div class="desc-indent">{{施藥方法}}</div>
-	</div>
-	{{/if}}
-	
-	{{#if 注意事項 }}
-	<div class="desc-block">
-		<div class="desc-label">注意事項：</div>
-		<div class="desc-indent">{{注意事項}}</div>
-	</div>
-	{{/if}}
-	
-	{{#if 備註 }}
-	<div class="desc-block">
-		<div class="desc-label">備註：</div>
-		<div class="desc-indent">{{備註}}</div>
-	</div>
-	{{/if}}
+	{{{ content }}}
 </script>
 <script id="menu-left-template" type="text/x-handlebars-template">
 	<li>

@@ -25,7 +25,6 @@
 
 ul.clear,
 ul.inline {
-	display: inline;
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -49,9 +48,6 @@ ul.inline {
 	}
 }
 
-.space {
-	display: inline-block;
-}
 .x16 {
 	width: 16px;
 	height: 16px;
@@ -60,6 +56,7 @@ ul.inline {
 .card-shadow {
 	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.26);
 	border-radius: 2px;
+	overflow: hidden;
 }
 .card {
 	@extend .card-shadow;
@@ -99,6 +96,7 @@ body {
 
 /* layout */
 $header-height: 48px;
+$footer-height: 56px;
 
 #header {
 	height: $header-height + 1px;
@@ -236,29 +234,40 @@ body.home {
 }
 
 
+
 /* pesticide search page */
 body.pesticide-usages {
-	
 	background-color: #E5E5E5;
 	
 	header {
 		pointer-events: none;
-		height: 80px;
 		position: fixed;
+		z-index: 50;
 		left: 0;
 		right: 0;
 		top: $header-height + 1px;
+		bottom: $footer-height + 1px;
 		
 		> * {
 			pointer-events: auto;
 		}
 		+ * {
-			padding-top: 160px;
+			padding-top: 140px;
 		}
-		.form-row {
+		.u-curtain {
+			padding-bottom: 20px;
+			// TODO: mixin this
+			background-color: #F5F5F5;
+			background: -webkit-linear-gradient(top, rgba(229,229,229,1) 0%, rgba(229,229,229,1) 80%, rgba(229,229,229,0) 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top, rgba(229,229,229,1) 0%, rgba(229,229,229,1) 80%, rgba(229,229,229,0) 100%); /* Opera 11.10+ */
+			background: linear-gradient(to bottom, rgba(229,229,229,1) 0%, rgba(229,229,229,1) 80%, rgba(229,229,229,0) 100%); /* W3C */
+		}
+		.u-row {
 			position: relative;
-			width: 480px;
 			height: 40px;
+		}
+		#form {
+			width: 480px;
 			margin: 20px auto 0 auto;
 		}
 		i,
@@ -336,6 +345,97 @@ body.pesticide-usages {
 			}
 		}
 	}
+	#result-header {
+		margin-top: 20px;
+		
+		$pool-field-width: 120px;
+		$pool-checkmark-width: 30px;
+		
+		.u-summaries {
+			@extend .card;
+			display: block;
+			overflow: hidden;
+			height: 100%;
+			margin-left: 48px;
+			
+			.u-frame {
+				display: inline-block;
+				height: 100%;
+			}
+			.field {
+				display: inline-block;
+				height: 100%;
+				line-height: 38px;
+				border-right: 1px solid #CCC;
+				
+				.u-label {
+					padding: 0 8px;
+					overflow: hidden;
+					text-overflow: ellipsis;
+				}
+			}
+		}
+		.u-pool {
+			width: $pool-field-width * 3;
+			
+			.field {
+				position: relative;
+				float: left;
+				width: $pool-field-width;
+				height: 40px;
+				line-height: 40px;
+				padding: 0 8px 0 $pool-checkmark-width;
+				cursor: pointer;
+				font-size: 16px;
+				
+				&:hover {
+					background-color: #EEE;
+				}
+				&[data-value='dose-per-hectare-per-use'],
+				&[data-value='original-registrant'] {
+					width: $pool-field-width * 2;
+				}
+				.u-checkmark {
+					position: absolute;
+					top: 0;
+					left: 0;
+					height: 100%;
+					width: $pool-checkmark-width;
+					visibility: hidden;
+					line-height: 40px;
+					text-align: center;
+				}
+				&.selected {
+					.u-checkmark {
+						visibility: visible;
+					}
+				}
+			}
+		}
+		.u-customize {
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 40px;
+			
+			& > .btn {
+				height: 100%;
+				width: 40px;
+				outline: none;
+				text-decoration: none;
+				background: #FFF;
+				
+				&.card {
+					line-height: 38px;
+				}
+			}
+			& > .dropdown-menu {
+				margin-top: 8px;
+				padding: 0;
+			}
+		}
+	}
 	#result {
 		color: #555;
 		
@@ -345,8 +445,8 @@ body.pesticide-usages {
 			font-size: 20px;
 		}
 		.usage {
-			
 			@extend .card;
+			position: relative;
 			
 			.toggle-detail-btn {
 				display: inline;
@@ -356,14 +456,31 @@ body.pesticide-usages {
 				outline: none;
 				text-decoration: none;
 			}
-			.detail {
+			.u-detail {
 				display: none;
+				
+				hr {
+					margin: 12px 0;
+				}
+				.field {
+					&.verbose {
+						margin-top: 12px;
+						
+						.u-value {
+							display: block;
+							
+							&::before {
+								content: '　';
+							}
+						}
+					}
+					.u-icon {
+						display: none;
+					}
+				}
 			}
 			&.open {
-				 .toggle-detail-btn > span::before {
-					content: '關閉';
-				}
-				 .detail {
+				 .u-detail {
 					display: block;
 				}
 			}
@@ -379,31 +496,71 @@ body.pesticide-usages {
 				vertical-align: top;
 				max-width: 30%;
 				
+				.toggle-detail-btn {
+					margin-top: 12px;
+					background: none;
+					color: #428BCA;
+					cursor: pointer;
+					
+					&:hover {
+						color: #2A6496;
+					}
+					> .u-label::before {
+						content: '詳細資料';
+					}
+				}
 				&.open {
 					max-width: 45%;
-				}
-				.desc-block {
-					margin-top: 12px;
-				}
-				.desc-indent {
-					padding-left: 16px;
+					
+					.toggle-detail-btn > .u-label::before {
+						content: '關閉詳細資料';
+					}
 				}
 			}
 		}
 		&.table-layout {
 			.usage {
 				@extend .card;
-				padding: 16px;
+				padding: 7px 8px 7px 48px;
 				margin-bottom: 6px;
-			}
-			.field {
-				display: inline-block;
-				float: left;
-				width: 120px;
 				
-				i,
-				.desc-label {
-					display: none;
+				.toggle-detail-btn {
+					display: inline-block;
+					position: absolute;
+					height: 24px;
+					width: 24px;
+					line-height: 24px;
+					left: 8px;
+					top: 8px;
+					background: none;
+					cursor: pointer;
+				}
+				.toggle-detail-btn > .u-label::before {
+					font-family: FontAwesome;
+					content: '\f054';
+				}
+				&.open {
+					.toggle-detail-btn > .u-label::before {
+						content: '\f078';
+					}
+				}
+				.u-detail {
+					padding: 0 8px 20px 8px;
+				}
+			}
+			.u-summary {
+				overflow: hidden;
+				height: 26px;
+				
+				.field {
+					display: inline-block;
+					float: left;
+					padding: 0 8px;
+					
+					i,
+					.u-label {
+						display: none;
+					}
 				}
 			}
 		}
@@ -418,6 +575,22 @@ body.pesticide-usages {
 		.hit {
 			border-radius: 2px;
 			background-color: #FFF176; /* yellow 300 */
+		}
+	}
+	#result-header,
+	#result.table-layout .u-summary {
+		
+		$field-width: 120px;
+		
+		.field {
+			width: $field-width;
+			
+			&.m-size {
+				width: $field-width * 1.5;
+			}
+			&.l-size {
+				width: $field-width * 2;
+			}
 		}
 	}
 	#no-result {

@@ -28,14 +28,82 @@ $(function () {
 
 'use strict';
 
-var util = window.util = {};
+if (!window.Array.isArray) {
+	window.Array.isArray = function (arg) {
+		return window.Object.prototype.toString.call(arg) === '[object Array]';
+	};
+}
+if (!window.Array.prototype.forEach) {
+	// this is an ad hoc polyfill. see:
+	// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+	window.Array.prototype.forEach = function (f) {
+		for (var i = 0, len = this.length; i < len; i++)
+			f(this[i]);
+	};
+}
+if (!window.Element.prototype.remove) {
+	window.Element.prototype.remove = function () {
+		var p = this.parentElement;
+		if (p && p.removeChild)
+			p.removeChild(this);
+	};
+}
 
-util.createIndex = function (list, map) {
+function List(array) {
+	this._array = array || [];
+}
+List.prototype.indexBy = function (map) {
+	if (typeof map === 'string')
+		map = function (item) { return item && item[map]; };
 	var index = {};
-	for (var i = 0, len = list.length, item, val; i < len; i++)
-		if ((val = map(item = list[i])))
+	for (var i = 0, len = this._array.length, item, val; i < len; i++)
+		if ((val = map(item = this._array[i])))
 			index[val] = item;
 	return index;
+};
+List.prototype.clone = function () {
+	var c = [];
+	for (var i = 0, len = this._array.length; i < len; i++)
+		c.push(this._array[i]);
+	return c;
+};
+List.prototype.remove = function (item) {
+	var i = this._array.indexOf(item),
+		b = i > -1;
+	if (b)
+		this._array.splice(i, 1);
+	return b;
+};
+window.list = function (array) {
+	return new List(array);
+};
+
+function Set(obj) {
+	if (Array.isArray(obj)) {
+		this._obj = {};
+		for (var i = 0, len = obj.length; i < len; i++)
+			this._obj[obj[i]] = true;
+	} else {
+		this._obj = obj || {};
+	}
+}
+Set.prototype.contains = function (item) {
+	return this._obj[item] === true;
+};
+window.set = function (obj) {
+	return new Set(obj);
+};
+
+function Map(obj) {
+	this._obj = obj || {};
+}
+Map.prototype.forEach = function (f) {
+	var keys = Object.keys(this._obj);
+	for (var i = 0, len = keys.length, k; i < len; i++)
+		f(k = keys[i], this._obj[k]);
+};
+window.map = function (obj) {
+	return new Map(obj);
 };
 
 })(this);
@@ -50,6 +118,21 @@ util.createIndex = function (list, map) {
 window.inherit = function (X, Y) {
 	X.prototype = new Y();
 	X.prototype.constructor = X;
+};
+
+window.aggregator = function (f, delay) {
+	var g = function (data) {
+		g._cmds.push(data);
+		setTimeout(function () {
+			if (!g._cmds.length)
+				return;
+			var cmds = g._cmds;
+			g._cmds = [];
+			f(cmds);
+		}, delay);
+	};
+	g._cmds = [];
+	return g;
 };
 
 })(this);
