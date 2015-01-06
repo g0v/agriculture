@@ -67,7 +67,7 @@ gulp.task('data.download.pesticide', function (callback) {
  */
 gulp.task('data.build', [
 	'data.build.pesticide',
-	'data.build.formulation'
+	'data.build.formulations'
 ]);
 
 /* Precondition: all downloaded raw files are available, which includes:
@@ -90,7 +90,7 @@ gulp.task('data.build.pesticide', function (callback) {
 		
 		var index = JSON.parse(data),
 			m = {};
-		
+	
 		fs.writeFile('./_data/pesticide/list.json', data, end); // end 1
 		
 		streamy.array(index.slice(0)) // TODO: stream array bug
@@ -133,8 +133,13 @@ gulp.task('data.build.pesticide', function (callback) {
 			};
 			
 			var copyIfAbsent = function (tar, src, field) {
-				var vo = tar[field],
-					vn = src[field];
+				var vo, vn;
+				if (tar === undefined)
+					throw new Error('Target is missing: ' + field);
+				if (src === undefined)
+					throw new Error('Source is missing: ' + field);
+				vo = tar[field];
+				vn = src[field];
 				if (!vo)
 					tar[field] = vn;
 				else if (vo != vn)
@@ -182,9 +187,18 @@ gulp.task('data.build.pesticide', function (callback) {
 				.on('data', function (data) {
 					// merge into pesticide entries
 					var entry = m[data.id];
-					copyIfAbsent(entry, data, '廠牌名稱');
-					copyIfAbsent(entry, data, '通過日期');
-					entry.usages = data.usages;
+					if (entry === undefined) {
+						console.warn(
+							'Should update',
+							'`./_raw/download/pesticide/index.json`',
+							'for ' + data.id + '.'
+						);
+						entry = data
+					} else {
+						copyIfAbsent(entry, data, '廠牌名稱');
+						copyIfAbsent(entry, data, '通過日期');
+						copyIfAbsent(entry, data, 'usages');
+					}
 					
 					// collect pesticide search: usage entries
 					data.usages.forEach(function (u) {
