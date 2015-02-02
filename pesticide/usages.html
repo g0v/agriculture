@@ -6,7 +6,6 @@ css: [
 ]
 js: [
 	'js/search.js',
-	'js/drag.js',
 	'js/combobutton.js',
 	'js/state-manager.js',
 	'js/pesticide-search.js'
@@ -30,8 +29,9 @@ js: [
 						<ul class="u-pool clear clearfix"></ul>
 					</div>
 				</div>
-				<ul class="u-summaries clear clearfix">
-				</ul>
+				<div class="u-summaries-frame card">
+					<ul class="u-summaries clear clearfix"></ul>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -59,9 +59,11 @@ js: [
 {% raw %}
 <script id="header-summary-template" type="text/x-handlebars-template">
 	<li id="{{id}}" class="field{{#if verbose}} verbose{{/if}}{{#if size}} {{size}}{{/if}}" data-value="{{name}}">
-		<div class="u-frame">
-			<span class="u-label">{{label}}</span>
-			<div class="u-order"></div>
+		<div draggable="true" class="u-draggable">
+			<div class="u-frame draggable">
+				<span class="u-label">{{label}}</span>
+				<div class="u-order"></div>
+			</div>
 		</div>
 	</li>
 </script>
