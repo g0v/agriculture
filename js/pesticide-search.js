@@ -42,6 +42,19 @@ function valueOf(elem) {
 // TODO: put this in data folder?
 // meta //
 var meta = window.meta = {};
+meta.sizes = {
+	s: {
+		value: 120
+	},
+	m: {
+		className: 'm-size',
+		value: 180
+	},
+	l: {
+		className: 'l-size',
+		value: 240
+	}
+};
 meta.fields = {
 	pesticide: {
 		key: '藥劑',
@@ -72,7 +85,7 @@ meta.fields = {
 	},
 	'dose-per-hectare-per-use': {
 		key: '每公頃每次用量',
-		size: 'm-size',
+		size: meta.sizes.m,
 		optional: true
 	},
 	'dilution-factor': {
@@ -81,7 +94,7 @@ meta.fields = {
 	},
 	'used-when': {
 		key: '使用時期',
-		size: 'l-size',
+		size: meta.sizes.l,
 		verbose: true,
 		optional: true
 	},
@@ -108,24 +121,24 @@ meta.fields = {
 	},
 	'original-registrant': {
 		key: '原始登記廠商名稱',
-		size: 'l-size',
+		size: meta.sizes.l,
 		optional: true
 	},
 	method: {
 		key: '施藥方法',
-		size: 'l-size',
+		size: meta.sizes.l,
 		verbose: true,
 		optional: true
 	},
 	notice: {
 		key: '注意事項',
-		size: 'l-size',
+		size: meta.sizes.l,
 		verbose: true,
 		optional: true
 	},
 	remark: {
 		key: '備註',
-		size: 'l-size',
+		size: meta.sizes.l,
 		verbose: true,
 		optional: true
 	}
@@ -186,8 +199,9 @@ function ResultHeader(element, fields, model) {
 	element = $element[0];
 	var summariesContainer = element.querySelector('.u-summaries');
 	
-	//this.scheme = model.renderScheme;
 	this.searchModel = model.searchModel;
+	this.renderScheme = model.renderScheme;
+	this.fields = fields;
 	
 	var templates = this.templates = {
 		summary: getTemplate('#header-summary-template'),
@@ -202,14 +216,14 @@ function ResultHeader(element, fields, model) {
 			id: 'hfs-' + name,
 			name: name,
 			label: params.label || params.key,
-			size: params.size,
+			size: params.size && params.size.className,
 			verbose: params.verbose
 		}))[0];
 		poolHtml += templates.pool({
 			id: 'hfp-' + name,
 			name: name,
 			label: params.label || params.key,
-			size: params.size,
+			size: params.size && params.size.className,
 			verbose: params.verbose
 		});
 	});
@@ -229,16 +243,7 @@ function ResultHeader(element, fields, model) {
 		// TODO
 	});
 	
-	/*
-	var dragged, ghost;
-	window.drag(element)
-	.on('start', function (data) {
-	})
-	.on('move', function (data) {
-	})
-	.on('end', function (data) {
-	});
-	*/
+	_initDrag(this, summaries);
 	
 	// actuator //
 	var updateMember = window.aggregator(updateMemberSync);
@@ -304,6 +309,98 @@ function ResultHeader(element, fields, model) {
 		}
 	});
 	
+}
+
+function _initDrag(header, summaries) {
+	var element = header.$element[0],
+		$element = $(element),
+		summariesElem = element.querySelector('.u-summaries');
+	
+	function _buildPositionQuery(field) {
+		var thresholds = [],
+			names = [],
+			sum = $(summariesElem).offset().left,
+			psize = 0;
+		header.renderScheme.summaries.forEach(function (name) {
+			if (name == field)
+				return;
+			// TODO: meta ref ad hoc
+			var size = (header.fields[name].size || window.meta.sizes.s).value / 2;
+			sum += size + psize;
+			psize = size;
+			thresholds.push(sum);
+			names.push(name);
+		});
+		return function (x) {
+			for (var i = 0, len = thresholds.length; i < len; i++)
+				if (x < thresholds[i])
+					return names[i];
+			return null;
+		};
+	}
+	
+	var _pushed, 
+		_init = false,
+		_valid = false, 
+		_pushedElem;
+	function _resetPushedElement() {
+		$element.removeClass('valid');
+		$(_pushedElem || summariesElem).removeClass('pushed');
+		_pushedElem = _pushed = null;
+		_init = _valid = false;
+	}
+	function _updatePushedElement(pushed, valid) {
+		if (!_init || valid != _valid) {
+			$element[valid ? 'addClass' : 'removeClass']('valid');
+			_valid = valid;
+		}
+		if (!_init || (valid && pushed != _pushed)) { // TODO: init case
+			var pushedElem = summaries[pushed];
+			$(_pushedElem || summariesElem).removeClass('pushed');
+			$(pushedElem || summariesElem).addClass('pushed');
+			_pushed = pushed;
+			_pushedElem = pushedElem;
+		}
+		_init = true;
+	}
+	
+	var _context;
+	$element
+	.on('dragstart', '.u-summaries .field > .u-draggable', function (event) {
+		var target = event.currentTarget.parentElement, // ad hoc
+			field = valueOf(target),
+			size = header.fields[field].size || window.meta.sizes.s;
+		
+		_context = {
+			element: target,
+			field: field,
+			size: size,
+			query: _buildPositionQuery(field)
+		};
+		event.originalEvent.dataTransfer.setData('field', field);
+		
+		$(target).addClass('dragged');
+		$element.addClass('dragging');
+	})
+	.on('dragend', function () {
+		$(_context.element).removeClass('dragged');
+		$element.removeClass('dragging');
+		if (_valid) {
+			header.renderScheme.addField(_context.field, _pushed);
+		}
+		_resetPushedElement();
+		_context = null;
+	})
+	.on('dragover', function (event) {
+		var pushed = _context.query(event.originalEvent.clientX);
+		event.preventDefault();
+		event.stopPropagation();
+		_updatePushedElement(pushed, true);
+	});
+	$(window.document)
+	.on('dragover', function () {
+		_updatePushedElement(null, false);
+	});
 }
 
 ResultHeader.prototype.setEditing = function (value) {
@@ -454,7 +551,7 @@ ResultList.prototype._usageHTML = function (row) {
 			name: name,
 			icon: m.icon,
 			label: m.label || m.key,
-			size: m.size,
+			size: m.size && m.size.className,
 			verbose: m.verbose,
 			value: data[m.key]
 		});
@@ -675,12 +772,14 @@ RenderSchemeModel.prototype.toggleField = function (field) {
 	this[this.containsField(field) ? 'removeField' : 'addField'](field);
 };
 
-RenderSchemeModel.prototype.addField = function (name, index) { // TODO: use before to ref
+RenderSchemeModel.prototype.addField = function (name, ref) {
 	// TODO: idempotent
 	// jshint -W030
 	window.list(this.summaries).remove(name) || window.list(this.pool).remove(name);
 	
-	if (index === undefined) {
+	var index = ref && this.summaries.indexOf(ref);
+	// jshint eqnull: true
+	if (index == null || index < 0) {
 		this.summaries.push(name);
 		index = this.summaries.length - 1;
 	} else {

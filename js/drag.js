@@ -14,7 +14,7 @@ function distanceBetween(p, q) {
 	return window.Math.sqrt(dx * dx + dy * dy);
 }
 
-function Dragger(element, options) {
+function Dragger(element, options) { // TODO: polyfill with HTML 5 and mobile
 	
 	options = options || {};
 	

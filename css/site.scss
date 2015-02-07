@@ -5,6 +5,10 @@
 .center-aligned {
 	text-align: center;
 }
+.draggable {
+	cursor: grab;
+	cursor: -webkit-grab;
+}
 
 .combobutton {
 	> .dropdown-toggle {
@@ -347,31 +351,47 @@ body.pesticide-usages {
 	}
 	#result-header {
 		margin-top: 20px;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
 		
 		$pool-field-width: 120px;
 		$pool-checkmark-width: 30px;
 		
-		.u-summaries {
-			@extend .card;
+		.u-summaries-frame {
 			display: block;
 			overflow: hidden;
 			height: 100%;
 			margin-left: 48px;
+		}
+		.u-summaries {
+			display: inline-block;
+			height: 100%;
+			border-right: 1px solid #CCC;
 			
 			.u-frame {
 				display: inline-block;
 				height: 100%;
+				width: 100%;
 			}
 			.field {
+				position: relative;
 				display: inline-block;
 				height: 100%;
 				line-height: 38px;
-				border-right: 1px solid #CCC;
+				border-left: 1px solid #CCC;
 				
+				&:first-child {
+					border-left: none;
+				}
 				.u-label {
 					padding: 0 8px;
 					overflow: hidden;
 					text-overflow: ellipsis;
+				}
+				.u-draggable {
+					height: 100%;
 				}
 			}
 		}
@@ -435,6 +455,27 @@ body.pesticide-usages {
 				padding: 0;
 			}
 		}
+		&.dragging.valid {
+			.u-summaries {
+				&.pushed {
+					border-right-color: #333;
+					//box-shadow: 0 0 5px #333;
+				}
+				.field {
+					&.pushed {
+						border-left-color: #333;
+						//box-shadow: inset 4px 0px 9px -6px;
+					}
+					&.dragged {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+	.u-ghost {
+		position: absolute;
+		z-index: 100;
 	}
 	#result {
 		color: #555;
@@ -549,7 +590,7 @@ body.pesticide-usages {
 				}
 			}
 			.u-summary {
-				overflow: hidden;
+				//overflow: hidden;
 				height: 26px;
 				
 				.field {
