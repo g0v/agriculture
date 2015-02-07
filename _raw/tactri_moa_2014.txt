@@ -1,0 +1,877 @@
+﻿中文普通名索引
+中文普通名                                                                           英文普通名                     作用機制分類
+一品松                                                                             EPN                       [IRAC] 1B
+乙基克繁草                                                                           carfentrazone-ethyl       [HRAC] E
+乙基派芬草                                                                           pyraflufen-ethyl          [HRAC] E
+丁拉克普草成分之一                                                                       clomeprop                 [HRAC] O
+丁基加保扶                                                                           carbosulfan               [IRAC] 1A
+丁基拉草                                                                            butachlor                 [HRAC] K3
+丁基滅必蝨                                                                           fenobucarb                [IRAC] 1A
+丁基賽伏草                                                                           cyhalofop-P-butyl         [HRAC] A
+乃力松                                                                             naled                     [IRAC] 1B
+二四地                                                                             D, 2,4-                   [HRAC] O
+二氟林                                                                             diflumetorim              [FRAC] 39, C1
+二硫松                                                                             disulfoton                [IRAC] 1B
+二氯甲氧苯                                                                           chloroneb                 [FRAC] 14, F3
+二氯松                                                                             dichlorvos                [IRAC] 1B
+二氯苯腈                                                                            dichlobenil               [HRAC] L
+二福隆                                                                             diflubenzuron             [IRAC] 15
+三元硫酸銅                                                                           tribasic copper sulfate   [FRAC] M1
+三亞蟎                                                                             amitraz                   [IRAC] 19
+三氟敏                                                                             trifloxystrobin           [FRAC] 11, C3
+三苯羥錫                                                                            fentin hydroxide          [FRAC] 30, C6
+三苯醋錫                                                                            fentin acetate            [FRAC] 30, C6
+三泰芬                                                                             triadimefon               [FRAC] 3, G1
+三泰隆                                                                             triadimenol               [FRAC] 3, G1
+三得芬                                                                             tridemorph                [FRAC] 5, G2
+三氯比                                                                             triclopyr-butotyl         [HRAC] O
+三氯松                                                                             trichlorfon               [IRAC] 1B
+三落松                                                                             triazophos                [IRAC] 1B
+三福林                                                                             trifluralin               [HRAC] K1
+三賽唑                                                                             tricyclazole              [FRAC] 16.1, I1
+凡殺同                                                                             famoxadone                [FRAC] 11, C3
+土黴素                                                                             oxytetracycline           [FRAC] 41, D5
+大克草                                                                             chlorthal-dimethyl        [HRAC] K1
+大克爛                                                                             dicloran                  [FRAC] 14, F3
+大克蟎                                                                             dicofol                   [IRAC] un
+大利松                                                                             diazinon                  [IRAC] 1B
+大芬滅                                                                             diphenamid                [HRAC] K3
+大滅松                                                                             dimethoate                [IRAC] 1B
+五氯硝苯                                                                            quintozene                [FRAC] 14, F3
+六伏隆                                                                             hexaflumuron                 [IRAC] 15
+巴拉刈                                                                             paraquat                     [HRAC] D
+巴拉刈  (二氯鹽)                                                                      paraquat dichloride          [HRAC] D
+巴拉松                                                                             parathion                    [IRAC] 1B
+巴賽松                                                                             phoxim                       [IRAC] 1B
+比加普                                                                             pirimicarb                   [IRAC] 1A
+比多農                                                                             bitertanol                   [FRAC] 3, G1
+比芬諾                                                                             pyrifenox                    [FRAC] 3, G1
+比達寧                                                                             butralin                     [HRAC] K1
+丙基喜樂松                                                                           iprobenfos                   [FRAC] 6, F2
+加保利                                                                             carbaryl                     [IRAC] 1A
+加保扶                                                                             carbofuran                   [IRAC] 1A
+加普胺                                                                             carpropamid                  [FRAC] 16.2, I2
+加福松                                                                             isoxathion                   [IRAC] 1B
+加撲草                                                                             MCPB-ethyl                   [HRAC] O
+可尼丁                                                                             clothianidin                 [IRAC] 4A
+可芬諾                                                                             chromafenozide               [IRAC] 18
+可滅蹤                                                                             clomazone                    [HRAC] F3
+可奪草                                                                             fluometuron                  [HRAC] C2
+右本達樂                                                                            benalaxyl-M                  [FRAC] 4, A1
+右滅達樂                                                                            metalaxyl-M                  [FRAC] 4, A1
+四克利                                                                             tetraconazole                [FRAC] 3, G1
+四氯丹                                                                             captafol                     [FRAC] M4
+四氯異苯腈                                                                           chlorothalonil               [FRAC] M5
+四環黴素                                                                            tetracycline hydrochloride   [FRAC] 41, D5
+尼瑞莫                                                                             nuarimol                     [FRAC] 3, G1
+左旋莫多草                                                                           metolachlor, S-              [HRAC] K3
+布芬草                                                                             butafenacil                  [HRAC] E
+布芬淨                                                                             buprofezin                   [IRAC] 16
+布瑞莫                                                                             bupirimate                   [FRAC] 8, A2
+平克座                                                                             penconazole                  [FRAC] 3, G1
+平速爛                                                                             penoxsulam                   [HRAC] B
+必汰草                                                                             pyridate                     [HRAC] C3
+必芬松                                                                             pyridaphenthion              [IRAC] 1B
+必芬諾                                                                             bifenox                      [HRAC] E
+必芬蟎                                                                             bifenazate                   [IRAC] un
+本達隆                                                                             bentazone                    [HRAC] C3
+本達樂                                                                             benalaxyl                    [FRAC] 4, A1
+甲氧基護谷                                                                           chlomethoxynil               [HRAC] E
+甲基巴拉松                                                                           parathion-methyl              [IRAC] 1B
+甲基合氯氟                                                                           haloxyfop-P-methyl            [HRAC] A
+甲基多保淨                                                                           thiophanate-methyl            [FRAC] 1, B1
+甲基益發靈                                                                           tolyfluanid                   [FRAC] M6
+甲基砷酸鈣                                                                           MAC, calcium methylarsonate   [HRAC] Z
+                                                                                MSMA, monosodium
+甲基砷酸鈉                                                                                                         [HRAC] Z
+                                                                                methylarsonate
+甲基鋅乃浦                                                                           propineb                      [FRAC] M3
+白克列                                                                             boscalid                      [FRAC] 7, C2
+白克松                                                                             pyraclofos                    [IRAC] 1B
+白粉克                                                                             dinocap                       [FRAC] 29, C5
+白粉松                                                                             pyrazophos                    [FRAC] 6, F2
+伏寄普                                                                             fluazifop-P-butyl             [HRAC] A
+伏速隆                                                                             flazasulfuron                 [HRAC] B
+印楝素                                                                             azadirachtin                  [IRAC] un
+合芬寧                                                                             halfenprox                    [IRAC] 3A
+合速隆                                                                             halosulfuron-methyl           [HRAC] B
+合賽多                                                                             hexythiazox                   [IRAC] 10A
+因得克                                                                             indoxacarb                    [IRAC] 22A
+因滅汀                                                                             emamectin benzoate            [IRAC] 6
+多保淨                                                                             thiophanate                   [FRAC] 1, B1
+多寧                                                                              dodine                        [FRAC] U12
+好達勝                                                                             aluminium phosphide           [IRAC] 24A
+安丹                                                                              propoxur                      [IRAC] 1A
+安美速                                                                             amisulbrom                    [FRAC] 21, C4
+安殺番                                                                             endosulfan                    [IRAC] 2A
+托福松                                                                             terbufos                      [IRAC] 1B
+百克敏                                                                             pyraclostrobin                [FRAC] 11, C3
+百利普芬                                                                            pyriproxyfen                  [IRAC] 7C
+百快隆                                                                             pyroquilon                    [FRAC] 16.1, I1
+百速隆                                                                             pyrazosulfuron-ethyl          [HRAC] B
+百滅寧                                                                             permethrin                    [IRAC] 3A
+百蟎克                                                                             binapacryl                    [FRAC] 29, C5
+西殺草                                                                             sethoxydim                    [HRAC] A
+西脫蟎                                                                             benzoximate                   [IRAC] un
+西速隆                                                                             cinosulfuron                  [HRAC] B
+伽瑪賽洛寧                                                                           cyhalothrin, gamma-           [IRAC] 3A
+佈飛松                                                                             profenofos                    [IRAC] 1B
+佈滅淨                                                                             prometryn                     [HRAC] C1
+佈嘉信                                                                             butocarboxim                    [IRAC] 1A
+克乃達                                                                             TCA-sodium                      [HRAC] N
+克凡派                                                                             chlorfenapyr                    [IRAC] 13
+克收欣                                                                             kresoxim-methyl                 [FRAC] 11, C3
+克芬蟎                                                                             clofentezine                    [IRAC] 10A
+克枯爛                                                                             tecloftalam                     [FRAC] 34, un03
+克草                                                                              bromacil                        [HRAC] C1
+克氯得                                                                             chlozolinate                    [FRAC] 2, E3
+克絕                                                                              cymoxanil                       [FRAC] 27, un01
+克福隆                                                                             chlorfluazuron                  [IRAC] 15
+克熱淨                                                                             iminoctadine triacetate         [FRAC] M7
+克熱淨(烷苯磺酸鹽)                                                                      iminoctadine tris(albesilate)   [FRAC] M7
+克爛本                                                                             chloramben                      [HRAC] O
+免克寧                                                                             vinclozolin                     [FRAC] 2, E3
+免扶克                                                                             benfuracarb                     [IRAC] 1A
+免得爛                                                                             metiram complex                 [FRAC] M3
+免速隆                                                                             bensulfuron-methyl              [HRAC] B
+免速達                                                                             bensultap                       [IRAC] 14
+免敵克                                                                             bendiocarb                      [IRAC] 1A
+免賴得                                                                             benomyl                         [FRAC] 1, B1
+快伏草                                                                             quizalofop-P-ethyl              [HRAC] A
+快克草                                                                             quinclorac                      [HRAC] L 及 O
+快得寧                                                                             oxine-copper                    [FRAC] M1
+快諾芬                                                                             quinoxyfen                      [FRAC] 13, E1
+扶吉胺                                                                             fluazinam                       [FRAC] 29, C5
+汰克草                                                                             dicamba                         [HRAC] O
+汰芬隆                                                                             diafenthiuron                   [IRAC] 12A
+汰草滅                                                                             dimethenamid                    [HRAC] K3
+汰草龍                                                                             daimuron                        [HRAC] Z
+汰硫草                                                                             dithiopyr                       [HRAC] K1
+谷速松                                                                             azinphos-methyl                 [IRAC] 1B
+貝他賽扶寧                                                                           cyfluthrin, beta-               [IRAC] 3A
+貝芬替                                                                             carbendazim                     [FRAC] 1, B1
+亞托敏                                                                             azoxystrobin                    [FRAC] 11, C3
+亞汰草                                                                             alloxydim-sodium                [HRAC] A
+亞汰尼                                                                             isotianil                       [FRAC] P, P3
+亞芬松                                                                             isofenphos                      [IRAC] 1B
+亞烈寧                                                                             allethrin                       [IRAC] 3A
+亞特松                                                                             pirimiphos-methyl               [IRAC] 1B
+亞素靈                                                                             monocrotophos          [IRAC] 1B
+亞培松                                                                             temephos               [IRAC] 1B
+亞速隆                                                                             ethoxysulfuron         [HRAC] B
+亞速爛                                                                             asulam                 [HRAC] I
+亞喜芬                                                                             acifluorfen-sodium     [HRAC] E
+亞滅培                                                                             acetamiprid            [IRAC] 4A
+亞滅寧                                                                             cypermethrin, alpha-   [IRAC] 3A
+亞賜圃                                                                             isoprothiolane         [FRAC] 6, F2
+亞環錫                                                                             azocyclotin            [IRAC] 12B
+亞磷酸                                                                             phosphorous acid       [FRAC] 33, un02
+亞醌蟎                                                                             acequinocyl            [IRAC] 20B
+依芬寧                                                                             etofenprox             [IRAC] 3A
+依得利                                                                             etridiazole            [FRAC] 14, F3
+依殺蟎                                                                             etoxazole              [IRAC] 10B
+依速隆                                                                             imazosulfuron          [HRAC] B
+依普同                                                                             iprodione              [FRAC] 2, E3
+依普座                                                                             epoxiconazole          [FRAC] 3, G1
+依滅列                                                                             imazalil               [FRAC] 3, G1
+依滅草                                                                             imazapyr               [HRAC] B
+依瑞莫                                                                             ethirimol              [FRAC] 8, A2
+固殺草                                                                             glufosinate-ammonium   [HRAC] H
+拉草                                                                              alachlor               [HRAC] K3
+披扶座                                                                             pefurazoate            [FRAC] 3, G1
+拔敵草                                                                             butylate               [HRAC] N
+易胺座                                                                             imibenconazole         [FRAC] 3, G1
+欣克草                                                                             thenylchlor            [HRAC] K3
+波爾多                                                                             Bordeaux mixture       [FRAC] M1
+治滅蝨                                                                             metolcarb              [IRAC] 1A
+矽護芬                                                                             silafluofen            [IRAC] 3A
+芬化利                                                                             fenvalerate            [IRAC] 3A
+芬佈賜                                                                             fenbutatin oxide       [IRAC] 12B
+芬克座                                                                             fenbuconazole          [FRAC] 3, G1
+芬殺松                                                                             fenthion               [IRAC] 1B
+芬殺草                                                                             fenoxaprop-P-ethyl     [HRAC] A
+芬殺蟎                                                                             fenazaquin             [IRAC] 21A
+芬普尼                                                                             fipronil               [IRAC] 2B
+芬普寧                                                                             fenpropathrin          [IRAC] 3A
+芬普福                                                                             fenpropimorph          [FRAC] 5, G2
+芬普蟎                                                                             fenpyroximate          [IRAC] 21A
+芬滅松                                                                             fenamiphos            [IRAC] 1B
+芬瑞莫                                                                             fenarimol             [FRAC] 3, G1
+芬諾尼                                                                             fenoxanil             [FRAC] 16.2, I2
+芬諾克                                                                             fenoxycarb            [IRAC] 7B
+阿巴汀                                                                             abamectin             [IRAC] 6
+阿納寧                                                                             acrinathrin           [IRAC] 3A
+保米黴素                                                                            blasticidin-S         [FRAC] 23, D2
+保粒黴素丁                                                                           polyoxorim            [FRAC] 19, H4
+保粒黴素甲                                                                           polyoxins             [FRAC] 19, H4
+枯草桿菌                                                                            Bacillus subtilis     [FRAC] 44, F6
+剋安勃                                                                             chlorantraniliprole   [IRAC] 28
+剋草同                                                                             clethodim             [HRAC] A
+待克利                                                                             difenoconazole        [FRAC] 3, G1
+拜裕松                                                                             quinalphos            [IRAC] 1B
+施得圃                                                                             pendimethalin         [HRAC] K1
+氟大滅                                                                             flubendiamide         [IRAC] 28
+氟比來                                                                             fluopicolide          [FRAC] 43, B5
+氟丙酸                                                                             flupropanate-sodium   [HRAC] N
+氟尼胺                                                                             flonicamid            [IRAC] 9C
+氟芬隆                                                                             flufenoxuron          [IRAC] 15
+氟硫滅                                                                             flusulfamide          [FRAC] 36, un05
+氟氯比                                                                             fluroxypyr-meptyl     [HRAC] O
+派美尼                                                                             pyrimethanil          [FRAC] 9, D1
+派滅淨                                                                             pymetrozine           [IRAC] 9B
+美文松                                                                             mevinphos             [IRAC] 1B
+美氟綜                                                                             metaflumizone         [IRAC] 22B
+美賜平                                                                             methoprene            [IRAC] 7A
+飛達松                                                                             heptenophos           [IRAC] 1B
+倍尼芬                                                                             benfluralin           [HRAC] K1
+座賽胺                                                                             zoxamide              [FRAC] 22, B3
+氧化亞銅                                                                            cuprous oxide         [FRAC] M1
+泰滅寧                                                                             tralomethrin          [IRAC] 3A
+益化利                                                                             esfenvalerate         [IRAC] 3A
+益必田成分之一                                                                         MCPB                  [HRAC] O
+益斯普                                                                             ethiprole             [IRAC] 2B
+益發靈                                                                             dichlofluanid         [FRAC] M6
+益滅松                                                                             phosmet               [IRAC] 1B
+益達胺                                                                             imidacloprid          [IRAC] 4A
+益覆滅                                                                             ethofumesate          [HRAC] N
+納乃得                                                                             methomyl               [IRAC] 1A
+草芬定                                                                             azafenidin             [HRAC] E
+草殺淨                                                                             ametryn                [HRAC] C1
+草脫淨                                                                             atrazine               [HRAC] C1
+草滅淨                                                                             simazine               [HRAC] C1
+除草靈                                                                             propanil               [HRAC] C2
+除蟲菊精                                                                            pyrethrins             [IRAC] 3A
+馬拉松                                                                             malathion              [IRAC] 1B
+培丹                                                                              cartap hydrochloride   [IRAC] 14
+密滅汀                                                                             milbemectin            [IRAC] 6
+得克利                                                                             tebuconazole           [FRAC] 3, G1
+得拉本                                                                             dalapon-sodium         [HRAC] N
+得芬瑞                                                                             tebufenpyrad           [IRAC] 21A
+得芬諾                                                                             tebufenozide           [IRAC] 18
+得匍隆                                                                             tebuthiuron            [HRAC] C2
+得恩地                                                                             thiram                 [FRAC] M3
+得殺草                                                                             tepraloxydim           [HRAC] A
+得脫蟎                                                                             tetradifon             [IRAC] 12D
+得滅克                                                                             aldicarb               [IRAC] 1A
+得福隆                                                                             teflubenzuron          [IRAC] 15
+曼普胺                                                                             mandipropamid          [FRAC] 40, H5
+殺丹                                                                              thiobencarb            [HRAC] N
+殺克丹成分之一                                                                         fluothiuron            [HRAC] C2
+殺芬草                                                                             saflufenacil           [HRAC] E
+殺紋寧                                                                             hymexazol              [FRAC] 32, A3
+殺蟎多                                                                             Smite                  [IRAC] 12C
+氫氧化銅                                                                            copper hydroxide       [FRAC] M1
+理有龍                                                                             linuron                [HRAC] C2
+畢克草                                                                             clopyralid             [HRAC] O
+畢克爛                                                                             picloram               [HRAC] O
+畢汰芬                                                                             pyrimidifen            [IRAC] 21A
+畢拉草                                                                             bilanafos              [HRAC] H
+畢芬寧                                                                             bifenthrin             [IRAC] 3A
+畢達本                                                                             pyridaben              [IRAC] 21A
+異亞烈寧                                                                            allethrin, d-          [IRAC] 3A
+異治滅寧                                                                            tetramethrin, d-       [IRAC] 3A
+硫伐隆                                                                             thiofanox              [IRAC] 1A
+硫滅松                                                                             thiometon              [IRAC] 1B
+硫酸銅                                                                             copper sulfate         [FRAC] M1
+硫敵克                                                                             thiodicarb                    [IRAC] 1A
+硫賜安                                                                             thiocyclam hydrogen oxalate   [IRAC] 14
+第滅寧                                                                             deltamethrin                  [IRAC] 3A
+脫禾草                                                                             MCPA-thioethyl                [HRAC] O
+脫克松                                                                             tolclofos-methyl              [FRAC] 14, F3
+脫芬瑞                                                                             tolfenpyrad                   [IRAC] 21A
+莫多草                                                                             metolachlor                   [HRAC] K3
+陶斯松                                                                             chlorpyrifos                  [IRAC] 1B
+魚藤精                                                                             rotenone                      [IRAC] 21B
+傑他賽滅寧                                                                           cypermethrin, zeta-           [IRAC] 3A
+富米綜                                                                             ferimzone                     [FRAC] 29, C5
+富爾邦                                                                             ferbam                        [FRAC] M3
+復祿芬                                                                             oxyfluorfen                   [HRAC] E
+斯美地                                                                             metam-sodium                  [HRAC] Z
+普伏松                                                                             ethoprophos                   [IRAC] 1B
+普克利                                                                             propiconazole                 [FRAC] 3, G1
+普拉草                                                                             pretilachlor                  [HRAC] K3
+普拔克                                                                             propamocarb hydrochloride     [FRAC] 28, F4
+普拔根                                                                             propazine                     [HRAC] C1
+普拔草                                                                             propaquizafop                 [HRAC] A
+普芬草                                                                             pyrazoxyfen                   [HRAC] F2
+普硫松                                                                             prothiofos                    [IRAC] 1B
+替拔草                                                                             TBA, 2,3,6-                   [HRAC] O
+氯化苦                                                                             chloropicrin                  [IRAC] 8B
+氯芬松                                                                             chlorfenvinphos               [IRAC] 1B
+菲克利                                                                             hexaconazole                  [FRAC] 3, G1
+菲殺淨                                                                             hexazinone                    [HRAC] C1
+萘普草                                                                             naproanilide                  [HRAC] K3
+鈉得爛                                                                             naptalam                      [HRAC] P
+開抑草成分之一                                                                         bensulide                     [HRAC] N
+氰乃松                                                                             cyanophos                     [IRAC] 1B
+氰乃淨                                                                             cyanazine                     [HRAC] C1
+腈硫醌                                                                             dithianon                     [FRAC] M9
+愛殺松                                                                             ethion                        [IRAC] 1B
+愛速隆                                                                             isouron                       [HRAC] C2
+愛落殺成分之一                                                                         dimethametryn                 [HRAC] C1
+愛落殺成分之一                                                                         piperophos                    [HRAC] K3
+新殺蟎                                                                             bromopropylate                [IRAC] un
+滅大松                                                                             methidathion                  [IRAC] 1B
+滅加松                                                                             mecarbam            [IRAC] 1B
+滅必淨                                                                             metribuzin          [HRAC] C1
+滅必蝨                                                                             isoprocarb          [IRAC] 1A
+滅多松                                                                             oxydemeton-methyl   [IRAC] 1B
+滅克蝨                                                                             XMC                 [IRAC] 1A
+滅芬草                                                                             mefenacet           [HRAC] K3
+滅芬諾                                                                             methoxyfenozide     [IRAC] 18
+滅芬農                                                                             metrafenone         [FRAC] U8, un13
+滅派林                                                                             mepanipyrim         [FRAC] 9, D1
+滅特座                                                                             metconazole         [FRAC] 3, G1
+滅草成分之一                                                                       MCPA                [HRAC] O
+滅草胺                                                                             metazachlor         [HRAC] K3
+滅速克                                                                             methasulfocarb      [FRAC] 42, un07
+滅脫定                                                                             ametoctradin        [FRAC] 45, C8
+滅普寧                                                                             mepronil            [FRAC] 7, C2
+滅落脫                                                                             napropamide         [HRAC] K3
+滅落寧                                                                             chlorbromuron       [HRAC] C2
+滅達樂                                                                             metalaxyl           [FRAC] 4, A1
+滅爾蝨                                                                             xylylcarb           [IRAC] 1A
+滅賜克                                                                             methiocarb          [IRAC] 1A
+滅賜松                                                                             demeton-S-methyl    [IRAC] 1B
+溴化甲烷                                                                           methyl bromide      [IRAC] 8A
+溴克座                                                                             bromuconazole       [FRAC] 3, G1
+溴芬諾成分之一                                                                     bromobutide         [HRAC] Z
+祿芬隆                                                                             lufenuron           [IRAC] 15
+萬隆                                                                              vernolate           [HRAC] N
+裕必松                                                                             phosalone           [IRAC] 1B
+達有龍                                                                             diuron              [HRAC] C2
+達克利                                                                             diniconazole-M      [FRAC] 3, G1
+達特南                                                                             dinotefuran         [IRAC] 4A
+達馬松                                                                             methamidophos       [IRAC] 1B
+達滅芬                                                                             dimethomorph        [FRAC] 40, H5
+達滅淨                                                                             diclomezine         [FRAC] 37, un06
+達諾殺                                                                             dinoseb             [HRAC] M
+雷蒙得                                                                             propachlor          [HRAC] K3
+嘉保信                                                                             oxycarboxin         [FRAC] 7, C2
+嘉賜黴素                                                          kasugamycin hydrate hydrochloride    [FRAC] 24, D3
+嘉磷塞                                                                             glyphosate          [HRAC] G
+嘉磷塞三甲基硫鹽                                                                   glyphosate-trimesium           [HRAC] G
+嘉磷塞胺鹽                                                                         glyphosate-ammonium            [HRAC] G
+嘉磷塞異丙胺鹽                                                                     glyphosate-isopropylammonium   [HRAC] G
+滴滴涕                                                                             DDT                            [IRAC] 3B
+福化利                                                                             tau-fluvalinate                [IRAC] 3A
+福木松                                                                             formothion                     [IRAC] 1B
+福多寧                                                                             flutolanil                     [FRAC] 7, C2
+福拉比                                                                             furametpyr                     [FRAC] 7, C2
+福瑞松                                                                             phorate                        [IRAC] 1B
+福爾培                                                                             folpet                         [FRAC] M4
+福賜米松                                                                            phosphamidon                   [IRAC] 1B
+福賽得                                                                             fosetyl-aluminium              [FRAC] 33, un02
+福賽絕                                                                             fosthiazate                    [IRAC] 1B
+維利黴素                                                                            validamycin A                  [FRAC] 26, H3
+腐絕                                                                              thiabendazole                  [FRAC] 1, B1
+蓋普丹                                                                             captan                         [FRAC] M4
+賓克隆                                                                             pencycuron                     [FRAC] 20, B4
+撲克拉                                                                             prochloraz                     [FRAC] 3, G1
+撲殺熱                                                                             probenazole                    [FRAC] P, P2
+撲滅松                                                                             fenitrothion                   [IRAC] 1B
+撲滅芬成分之一                                                                         phenothrin                     [IRAC] 3A
+撲滅寧                                                                             procymidone                    [FRAC] 2, E3
+撲奪草                                                                             metobromuron                   [HRAC] C2
+樂本松                                                                             tetrachlorvinphos              [IRAC] 1B
+樂滅草                                                                             oxadiazon                      [HRAC] E
+歐索林酸                                                                            oxolinic acid                  [FRAC] 31, A4
+毆拉靈                                                                             oryzalin                       [HRAC] K1
+毆殺松                                                                             acephate                       [IRAC] 1B
+毆殺斯                                                                             oxadixyl                       [FRAC] 4, A1
+毆殺滅                                                                             oxamyl                         [IRAC] 1A
+毆滅松                                                                             omethoate                      [IRAC] 1B
+毆蟎多                                                                             propargite                     [IRAC] 12C
+熱必斯                                                                             phthalide                      [FRAC] 16.1, I1
+稻得壯                                                                             molinate                       [HRAC] N
+賜派芬                                                                             spirodiclofen                  [IRAC] 23
+賜派滅                                                                             spirotetramat                  [IRAC] 23
+賜諾特                                                                             spinetoram                     [IRAC] 5
+賜諾殺                                                                             spinosad                       [IRAC] 5
+鋅乃浦                                                                             zineb                          [FRAC] M3
+鋅錳乃浦                                                                           mancozeb                     [FRAC] M3
+撻乃安                                                                             dinitramine                  [HRAC] K1
+諾伐隆                                                                             novaluron                    [IRAC] 15
+錳乃浦                                                                             maneb                        [FRAC] M3
+錫蟎丹                                                                             cyhexatin                    [IRAC] 12B
+蟎離丹                                                                             chinomethionat               [IRAC] un
+獲賜松                                                                             isothioate                   [IRAC] 1B
+環克座                                                                             cyproconazole                [FRAC] 3, G1
+環殺草                                                                             cycloxydim                   [HRAC] A
+環磺隆                                                                             cyclosulfamuron              [HRAC] B
+磷化鎂                                                                             magnesium phosphide          [IRAC] 24A
+繁米松                                                                             vamidothion                  [IRAC] 1B
+賽扶寧                                                                             cyfluthrin                   [IRAC] 3A
+賽果培                                                                             thiacloprid                  [IRAC] 4A
+賽芬胺                                                                             cyflufenamid                 [FRAC] U6, un11
+賽芬蟎                                                                             cyflumetofen                 [IRAC] 25
+賽氟滅                                                                             thifluzamide                 [FRAC] 7, C2
+賽洛寧                                                                             cyhalothrin, lambda-         [IRAC] 3A
+賽座滅                                                                             cyazofamid                   [FRAC] 21, C4
+賽速安                                                                             thiamethoxam                 [IRAC] 4A
+賽普洛                                                                             cyprodinil                   [FRAC] 9, D1
+賽滅淨                                                                             cyromazine                   [IRAC] 17
+賽滅寧                                                                             cypermethrin                 [IRAC] 3A
+賽達松                                                                             phenthoate                   [IRAC] 1B
+賽福座                                                                             triflumizole                 [FRAC] 3, G1
+賽福寧                                                                             triforine                    [FRAC] 3, G1
+邁克尼                                                                             myclobutanil                 [FRAC] 3, G1
+邁隆                                                                              dazomet                      [HRAC] Z
+覆滅蟎                                                                             formetanate                  [IRAC] 1A
+雙特松                                                                             dicrotophos                  [IRAC] 1B
+鏈黴素                                                                             streptomycin sesquisulfate   [FRAC] 25, D4
+礦物油                                                                             petroleum oils               [FRAC] NC
+蘇力菌                                                                             Bacillus thuringiensis       [IRAC] 11
+護汰芬                                                                             flutriafol                   [FRAC] 3, G1
+護汰寧                                                                             fludioxonil                  [FRAC] 12, E2
+護矽得                                                                             flusilazole                  [FRAC] 3, G1
+護粒松                                                                             edifenphos                   [FRAC] 6, F2
+護賽寧                                                                             flucythrinate                [IRAC] 3A
+鹼性氯氧化銅                                                                          copper oxychloride           [FRAC] M1
+
+以下登記中，尚未命名
+                                                                                benthiavalicarb   [FRAC] 40, H5
+                                                                                cyenopyrafen      [IRAC] 25
+                                                                                fluxapyroxad      [FRAC] 7, C2
+                                                                                orthosulfamuron   [HRAC] B
+                                                                                picoxystrobin     [FRAC] 11, C3
+                                                                                proquinazid       [FRAC] 13, E1
+                                                                                valifenalate      [FRAC] 40, H5
+
+
+*********************************************************************************************************************************************
+英文普通名索引
+英文普通名                                                                           中文普通名     作用機制分類
+abamectin                                                                       阿巴汀       [IRAC] 6
+acephate                                                                        毆殺松       [IRAC] 1B
+acequinocyl                                                                     亞醌蟎       [IRAC] 20B
+acetamiprid                                                                     亞滅培       [IRAC] 4A
+acifluorfen-sodium                                                              亞喜芬       [HRAC] E
+acrinathrin                                                                     阿納寧       [IRAC] 3A
+alachlor                                                                        拉草        [HRAC] K3
+aldicarb                                                                        得滅克       [IRAC] 1A
+allethrin                                                                       亞烈寧       [IRAC] 3A
+allethrin, d-                                                                   異亞烈寧      [IRAC] 3A
+alloxydim-sodium                                                                亞汰草       [HRAC] A
+aluminium phosphide                                                             好達勝       [IRAC] 24A
+ametoctradin                                                                    滅脫定       [FRAC] 45, C8
+ametryn                                                                         草殺淨       [HRAC] C1
+amisulbrom                                                                      安美速       [FRAC] 21, C4
+amitraz                                                                         三亞蟎       [IRAC] 19
+asulam                                                                          亞速爛       [HRAC] I
+atrazine                                                                        草脫淨       [HRAC] C1
+azadirachtin                                                                    印楝素       [IRAC] un
+azafenidin                                                                      草芬定       [HRAC] E
+azinphos-methyl                                                                 谷速松       [IRAC] 1B
+azocyclotin                                                                     亞環錫       [IRAC] 12B
+azoxystrobin                                                                    亞托敏       [FRAC] 11, C3
+Bacillus subtilis                                                               枯草桿菌      [FRAC] 44, F6
+Bacillus thuringiensis                                                          蘇力菌       [IRAC] 11
+benalaxyl                                                                       本達樂       [FRAC] 4, A1
+benalaxyl-M                                                                     右本達樂      [FRAC] 4, A1
+bendiocarb                                                                      免敵克       [IRAC] 1A
+benfluralin                                                                     倍尼芬       [HRAC] K1
+benfuracarb                                                                     免扶克       [IRAC] 1A
+benomyl                                                                         免賴得       [FRAC] 1, B1
+benthiavalicarb                                                                 登記中       [FRAC] 40, H5
+bensulfuron-methyl                                                              免速隆       [HRAC] B
+bensulide                                                                       開抑草成分之一   [HRAC] N
+bensultap                                                                       免速達       [IRAC] 14
+bentazone                                                                       本達隆       [HRAC] C3
+benzoximate                                                                     西脫蟎       [IRAC] un
+bifenox                                                                         必芬諾       [HRAC] E
+bifenazate                                                                      必芬蟎       [IRAC] un
+bifenthrin                                                                      畢芬寧       [IRAC] 3A
+bilanafos                                                                       畢拉草       [HRAC] H
+binapacryl                                                                      百蟎克       [FRAC] 29, C5
+bitertanol                                                                      比多農       [FRAC] 3, G1
+blasticidin-S                                                                   保米黴素      [FRAC] 23, D2
+Bordeaux mixture                                                                波爾多       [FRAC] M1
+boscalid                                                                        白克列       [FRAC] 7, C2
+bromacil                                                                        克草        [HRAC] C1
+bromobutide                                                                     溴芬諾成分之一   [HRAC] Z
+bromopropylate                                                                  新殺蟎       [IRAC] un
+bromuconazole                                                                   溴克座       [FRAC] 3, G1
+bupirimate                                                                      布瑞莫       [FRAC] 8, A2
+buprofezin                                                                      布芬淨       [IRAC] 16
+butachlor                                                                       丁基拉草      [HRAC] K3
+butafenacil                                                                     布芬草       [HRAC] E
+butocarboxim                                                                    佈嘉信       [IRAC] 1A
+butralin                                                                        比達寧       [HRAC] K1
+butylate                                                                        拔敵草       [HRAC] N
+captafol                                                                        四氯丹       [FRAC] M4
+captan                                                                          蓋普丹       [FRAC] M4
+carbaryl                                                                        加保利       [IRAC] 1A
+carbendazim                                                                     貝芬替       [FRAC] 1, B1
+carbofuran                                                                      加保扶       [IRAC] 1A
+carbosulfan                                                                     丁基加保扶     [IRAC] 1A
+carfentrazone-ethyl                                                             乙基克繁草     [HRAC] E
+carpropamid                                                                     加普胺       [FRAC] 16.2, I2
+cartap hydrochloride                                                            培丹        [IRAC] 14
+chinomethionat                                                                  蟎離丹       [IRAC] un
+chlomethoxynil                                                                  甲氧基護谷     [HRAC] E
+chloramben                                                                      克爛本       [HRAC] O
+chlorantraniliprole                                                             剋安勃       [IRAC] 28
+chlorbromuron                                                                   滅落寧       [HRAC] C2
+chlorfenapyr                                                                    克凡派       [IRAC] 13
+chlorfenvinphos                                                                 氯芬松       [IRAC] 1B
+chlorfluazuron                                                                  克福隆       [IRAC] 15
+chloroneb                                                                       二氯甲氧苯     [FRAC] 14, F3
+chloropicrin                                                                    氯化苦       [IRAC] 8B
+chlorothalonil                                                                  四氯異苯腈     [FRAC] M5
+chlorpyrifos                                                                    陶斯松         [IRAC] 1B
+chlorthal-dimethyl                                                              大克草         [HRAC] K1
+chlozolinate                                                                    克氯得         [FRAC] 2, E3
+chromafenozide                                                                  可芬諾         [IRAC] 18
+cinosulfuron                                                                    西速隆         [HRAC] B
+clethodim                                                                       剋草同         [HRAC] A
+clofentezine                                                                    克芬蟎         [IRAC] 10A
+clomazone                                                                       可滅蹤         [HRAC] F3
+clomeprop                                                                       丁拉克普草成分之一   [HRAC] O
+clopyralid                                                                      畢克草         [HRAC] O
+clothianidin                                                                    可尼丁         [IRAC] 4A
+copper hydroxide                                                                氫氧化銅        [FRAC] M1
+copper oxychloride                                                              鹼性氯氧化銅      [FRAC] M1
+copper sulfate                                                                  硫酸銅         [FRAC] M1
+cuprous oxide                                                                   氧化亞銅        [FRAC] M1
+cyanazine                                                                       氰乃淨         [HRAC] C1
+cyanophos                                                                       氰乃松         [IRAC] 1B
+cyazofamid                                                                      賽座滅         [FRAC] 21, C4
+cyclosulfamuron                                                                 環磺隆         [HRAC] B
+cycloxydim                                                                      環殺草         [HRAC] A
+cyenopyrafen                                                                    登記中         [IRAC] 25
+cyflufenamid                                                                    賽芬胺         [FRAC] U6, un11
+cyflumetofen                                                                    賽芬蟎         [IRAC] 25
+cyfluthrin                                                                      賽扶寧         [IRAC] 3A
+cyfluthrin, beta-                                                               貝他賽扶寧       [IRAC] 3A
+cyhalofop-P-butyl                                                               丁基賽伏草       [HRAC] A
+cyhalothrin, gamma-                                                             伽瑪賽洛寧       [IRAC] 3A
+cyhalothrin, lambda-                                                            賽洛寧         [IRAC] 3A
+cyhexatin                                                                       錫蟎丹         [IRAC] 12B
+cymoxanil                                                                       克絕          [FRAC] 27, un01
+cypermethrin                                                                    賽滅寧         [IRAC] 3A
+cypermethrin, alpha-                                                            亞滅寧         [IRAC] 3A
+cypermethrin, zeta-                                                             傑他賽滅寧       [IRAC] 3A
+cyproconazole                                                                   環克座         [FRAC] 3, G1
+cyprodinil                                                                      賽普洛         [FRAC] 9, D1
+cyromazine                                                                      賽滅淨         [IRAC] 17
+D, 2,4-                                                                         二四地         [HRAC] O
+daimuron                                                                        汰草龍         [HRAC] Z
+dalapon-sodium                                                                  得拉本         [HRAC] N
+dazomet                                                                         邁隆        [HRAC] Z
+DDT                                                                             滴滴涕       [IRAC] 3B
+deltamethrin                                                                    第滅寧       [IRAC] 3A
+demeton-S-methyl                                                                滅賜松       [IRAC] 1B
+diafenthiuron                                                                   汰芬隆       [IRAC] 12A
+diazinon                                                                        大利松       [IRAC] 1B
+dicamba                                                                         汰克草       [HRAC] O
+dichlobenil                                                                     二氯苯腈      [HRAC] L
+dichlofluanid                                                                   益發靈       [FRAC] M6
+dichlorvos                                                                      二氯松       [IRAC] 1B
+diclomezine                                                                     達滅淨       [FRAC] 37, un06
+dicloran                                                                        大克爛       [FRAC] 14, F3
+dicofol                                                                         大克蟎       [IRAC] un
+dicrotophos                                                                     雙特松       [IRAC] 1B
+difenoconazole                                                                  待克利       [FRAC] 3, G1
+diflubenzuron                                                                   二福隆       [IRAC] 15
+diflumetorim                                                                    二氟林       [FRAC] 39, C1
+dimethametryn                                                                   愛落殺成分之一   [HRAC] C1
+dimethenamid                                                                    汰草滅       [HRAC] K3
+dimethoate                                                                      大滅松       [IRAC] 1B
+dimethomorph                                                                    達滅芬       [FRAC] 40, H5
+diniconazole-M                                                                  達克利       [FRAC] 3, G1
+dinitramine                                                                     撻乃安       [HRAC] K1
+dinocap                                                                         白粉克       [FRAC] 29, C5
+dinoseb                                                                         達諾殺       [HRAC] M
+dinotefuran                                                                     達特南       [IRAC] 4A
+diphenamid                                                                      大芬滅       [HRAC] K3
+disulfoton                                                                      二硫松       [IRAC] 1B
+dithianon                                                                       腈硫醌       [FRAC] M9
+dithiopyr                                                                       汰硫草       [HRAC] K1
+diuron                                                                          達有龍       [HRAC] C2
+dodine                                                                          多寧        [FRAC] U12
+edifenphos                                                                      護粒松       [FRAC] 6, F2
+emamectin benzoate                                                              因滅汀       [IRAC] 6
+endosulfan                                                                      安殺番       [IRAC] 2A
+EPN                                                                             一品松       [IRAC] 1B
+epoxiconazole                                                                   依普座       [FRAC] 3, G1
+esfenvalerate                                                                   益化利       [IRAC] 3A
+ethion                                                                          愛殺松       [IRAC] 1B
+ethiprole                                                                       益斯普     [IRAC] 2B
+ethirimol                                                                       依瑞莫     [FRAC] 8, A2
+ethofumesate                                                                    益覆滅     [HRAC] N
+ethoprophos                                                                     普伏松     [IRAC] 1B
+ethoxysulfuron                                                                  亞速隆     [HRAC] B
+etofenprox                                                                      依芬寧     [IRAC] 3A
+etoxazole                                                                       依殺蟎     [IRAC] 10B
+etridiazole                                                                     依得利     [FRAC] 14, F3
+famoxadone                                                                      凡殺同     [FRAC] 11, C3
+fenamiphos                                                                      芬滅松     [IRAC] 1B
+fenarimol                                                                       芬瑞莫     [FRAC] 3, G1
+fenazaquin                                                                      芬殺蟎     [IRAC] 21A
+fenbuconazole                                                                   芬克座     [FRAC] 3, G1
+fenbutatin oxide                                                                芬佈賜     [IRAC] 12B
+fenitrothion                                                                    撲滅松     [IRAC] 1B
+fenobucarb                                                                      丁基滅必蝨   [IRAC] 1A
+fenoxanil                                                                       芬諾尼     [FRAC] 16.2, I2
+fenoxaprop-P-ethyl                                                              芬殺草     [HRAC] A
+fenoxycarb                                                                      芬諾克     [IRAC] 7B
+fenpropathrin                                                                   芬普寧     [IRAC] 3A
+fenpropimorph                                                                   芬普福     [FRAC] 5, G2
+fenpyroximate                                                                   芬普蟎     [IRAC] 21A
+fenthion                                                                        芬殺松     [IRAC] 1B
+fentin acetate                                                                  三苯醋錫    [FRAC] 30, C6
+fentin hydroxide                                                                三苯羥錫    [FRAC] 30, C6
+fenvalerate                                                                     芬化利     [IRAC] 3A
+ferbam                                                                          富爾邦     [FRAC] M3
+ferimzone                                                                       富米綜     [FRAC] 29, C5
+fipronil                                                                        芬普尼     [IRAC] 2B
+flazasulfuron                                                                   伏速隆     [HRAC] B
+flonicamid                                                                      氟尼胺     [IRAC] 9C
+fluazifop-P-butyl                                                               伏寄普     [HRAC] A
+fluazinam                                                                       扶吉胺     [FRAC] 29, C5
+flubendiamide                                                                   氟大滅     [IRAC] 28
+flucythrinate                                                                   護賽寧     [IRAC] 3A
+fludioxonil                                                                     護汰寧     [FRAC] 12, E2
+flufenoxuron                                                                    氟芬隆     [IRAC] 15
+fluometuron                                                                     可奪草     [HRAC] C2
+fluopicolide                                                                    氟比來     [FRAC] 43, B5
+fluothiuron                                                                     殺克丹成分之一      [HRAC] C2
+flupropanate-sodium                                                             氟丙酸          [HRAC] N
+fluroxypyr-meptyl                                                               氟氯比          [HRAC] O
+flusilazole                                                                     護矽得          [FRAC] 3, G1
+flusulfamide                                                                    氟硫滅          [FRAC] 36, un05
+flutolanil                                                                      福多寧          [FRAC] 7, C2
+flutriafol                                                                      護汰芬          [FRAC] 3, G1
+fluvalinate, tau-                                                               福化利          [IRAC] 3A
+fluxapyroxad                                                                    登記中          [FRAC] 7, C2
+folpet                                                                          福爾培          [FRAC] M4
+formetanate                                                                     覆滅蟎          [IRAC] 1A
+formothion                                                                      福木松          [IRAC] 1B
+fosetyl-aluminium                                                               福賽得          [FRAC] 33, un02
+fosthiazate                                                                     福賽絕          [IRAC] 1B
+furametpyr                                                                      福拉比          [FRAC] 7, C2
+glufosinate-ammonium                                                            固殺草          [HRAC] H
+glyphosate                                                                      嘉磷塞          [HRAC] G
+glyphosate-ammonium                                                             嘉磷塞胺鹽        [HRAC] G
+glyphosate-isopropylammonium                                                    嘉磷塞異丙胺鹽      [HRAC] G
+glyphosate-trimesium                                                            嘉磷塞三甲基硫鹽     [HRAC] G
+halfenprox                                                                      合芬寧          [IRAC] 3A
+halosulfuron-methyl                                                             合速隆          [HRAC] B
+haloxyfop-P-methyl                                                              甲基合氯氟        [HRAC] A
+heptenophos                                                                     飛達松          [IRAC] 1B
+hexaconazole                                                                    菲克利          [FRAC] 3, G1
+hexaflumuron                                                                    六伏隆          [IRAC] 15
+hexazinone                                                                      菲殺淨          [HRAC] C1
+hexythiazox                                                                     合賽多          [IRAC] 10A
+hymexazol                                                                       殺紋寧          [FRAC] 32, A3
+imazalil                                                                        依滅列          [FRAC] 3, G1
+imazapyr                                                                        依滅草          [HRAC] B
+imazosulfuron                                                                   依速隆          [HRAC] B
+imibenconazole                                                                  易胺座          [FRAC] 3, G1
+imidacloprid                                                                    益達胺          [IRAC] 4A
+iminoctadine triacetate                                                         克熱淨          [FRAC] M7
+iminoctadine tris(albesilate)                                                   克熱淨(烷苯磺酸鹽)   [FRAC] M7
+indoxacarb                                                                      因得克          [IRAC] 22A
+iprobenfos                                                                      丙基喜樂松        [FRAC] 6, F2
+iprodione                                                                       依普同          [FRAC] 2, E3
+isofenphos                                                                      亞芬松       [IRAC] 1B
+isoprocarb                                                                      滅必蝨       [IRAC] 1A
+isoprothiolane                                                                  亞賜圃       [FRAC] 6, F2
+isothioate                                                                      獲賜松       [IRAC] 1B
+isotianil                                                                       亞汰尼       [FRAC] P, P3
+isouron                                                                         愛速隆       [HRAC] C2
+isoxathion                                                                      加福松       [IRAC] 1B
+kasugamycin hydrate hydrochloride                                               嘉賜黴素      [FRAC] 24, D3
+kresoxim-methyl                                                                 克收欣       [FRAC] 11, C3
+linuron                                                                         理有龍       [HRAC] C2
+lufenuron                                                                       祿芬隆       [IRAC] 15
+MAC, calcium methylarsonate                                                     甲基砷酸鈣     [HRAC] Z
+magnesium phosphide                                                             磷化鎂       [IRAC] 24A
+malathion                                                                       馬拉松       [IRAC] 1B
+mancozeb                                                                        鋅錳乃浦      [FRAC] M3
+mandipropamid                                                                   曼普胺       [FRAC] 40, H5
+maneb                                                                           錳乃浦       [FRAC] M3
+MCPA                                                                            滅草成分之一    [HRAC] O
+MCPA-thioethyl                                                                  脫禾草       [HRAC] O
+MCPB                                                                            益必田成分之一   [HRAC] O
+MCPB-ethyl                                                                      加撲草       [HRAC] O
+mecarbam                                                                        滅加松       [IRAC] 1B
+mefenacet                                                                       滅芬草       [HRAC] K3
+mepanipyrim                                                                     滅派林       [FRAC] 9, D1
+mepronil                                                                        滅普寧       [FRAC] 7, C2
+metaflumizone                                                                   美氟綜       [IRAC] 22B
+metalaxyl                                                                       滅達樂       [FRAC] 4, A1
+metalaxyl-M                                                                     右滅達樂      [FRAC] 4, A1
+metam-sodium                                                                    斯美地       [HRAC] Z
+metazachlor                                                                     滅草胺       [HRAC] K3
+metconazole                                                                     滅特座       [FRAC] 3, G1
+methamidophos                                                                   達馬松       [IRAC] 1B
+methasulfocarb                                                                  滅速克       [FRAC] 42, un07
+methidathion                                                                    滅大松       [IRAC] 1B
+methiocarb                                                                      滅賜克       [IRAC] 1A
+methomyl                                                                        納乃得       [IRAC] 1A
+methoprene                                                                      美賜平       [IRAC] 7A
+methoxyfenozide                                                                 滅芬諾       [IRAC] 18
+methyl bromide                                                                  溴化甲烷      [IRAC] 8A
+metiram complex                                                                 免得爛     [FRAC] M3
+metobromuron                                                                    撲奪草     [HRAC] C2
+metolachlor                                                                     莫多草     [HRAC] K3
+metolachlor, S-                                                                 左旋莫多草   [HRAC] K3
+metolcarb                                                                       治滅蝨     [IRAC] 1A
+metrafenone                                                                     滅芬農     [FRAC] U8, un13
+metribuzin                                                                      滅必淨     [HRAC] C1
+mevinphos                                                                       美文松     [IRAC] 1B
+milbemectin                                                                     密滅汀     [IRAC] 6
+molinate                                                                        稻得壯     [HRAC] N
+monocrotophos                                                                   亞素靈     [IRAC] 1B
+MSMA, monosodium methylarsonate                                                 甲基砷酸鈉   [HRAC] Z
+myclobutanil                                                                    邁克尼     [FRAC] 3, G1
+naled                                                                           乃力松     [IRAC] 1B
+naproanilide                                                                    萘普草     [HRAC] K3
+napropamide                                                                     滅落脫     [HRAC] K3
+naptalam                                                                        鈉得爛     [HRAC] P
+novaluron                                                                       諾伐隆     [IRAC] 15
+nuarimol                                                                        尼瑞莫     [FRAC] 3, G1
+omethoate                                                                       毆滅松     [IRAC] 1B
+orthosulfamuron                                                                 登記中     [HRAC] B
+oryzalin                                                                        毆拉靈     [HRAC] K1
+oxadiazon                                                                       樂滅草     [HRAC] E
+oxadixyl                                                                        毆殺斯     [FRAC] 4, A1
+oxamyl                                                                          毆殺滅     [IRAC] 1A
+oxine-copper                                                                    快得寧     [FRAC] M1
+oxolinic acid                                                                   歐索林酸    [FRAC] 31, A4
+oxycarboxin                                                                     嘉保信     [FRAC] 7, C2
+oxydemeton-methyl                                                               滅多松     [IRAC] 1B
+oxyfluorfen                                                                     復祿芬     [HRAC] E
+oxytetracycline                                                                 土黴素     [FRAC] 41, D5
+paraquat dichloride                                                             巴拉刈     [HRAC] D
+parathion                                                                       巴拉松     [IRAC] 1B
+parathion-methyl                                                                甲基巴拉松   [IRAC] 1B
+pefurazoate                                                                     披扶座     [FRAC] 3, G1
+penconazole                                                                     平克座     [FRAC] 3, G1
+pencycuron                                                                      賓克隆     [FRAC] 20, B4
+pendimethalin                                                                   施得圃     [HRAC] K1
+penoxsulam                                                                      平速爛     [HRAC] B
+permethrin                                                                      百滅寧       [IRAC] 3A
+petroleum oils                                                                  礦物油       [FRAC] NC
+phenothrin                                                                      撲滅芬成分之一   [IRAC] 3A
+phenthoate                                                                      賽達松       [IRAC] 1B
+phorate                                                                         福瑞松       [IRAC] 1B
+phosalone                                                                       裕必松       [IRAC] 1B
+phosmet                                                                         益滅松       [IRAC] 1B
+phosphamidon                                                                    福賜米松      [IRAC] 1B
+phosphorous acid                                                                亞磷酸       [FRAC] 33, un02
+phoxim                                                                          巴賽松       [IRAC] 1B
+phthalide                                                                       熱必斯       [FRAC] 16.1, I1
+picloram                                                                        畢克爛       [HRAC] O
+picoxystrobin                                                                   登記中       [FRAC] 11, C3
+piperophos                                                                      愛落殺成分之一   [HRAC] K3
+pirimicarb                                                                      比加普       [IRAC] 1A
+pirimiphos-methyl                                                               亞特松       [IRAC] 1B
+polyoxins                                                                       保粒黴素甲     [FRAC] 19, H4
+polyoxorim                                                                      保粒黴素丁     [FRAC] 19, H4
+pretilachlor                                                                    普拉草       [HRAC] K3
+probenazole                                                                     撲殺熱       [FRAC] P, P2
+prochloraz                                                                      撲克拉       [FRAC] 3, G1
+procymidone                                                                     撲滅寧       [FRAC] 2, E3
+profenofos                                                                      佈飛松       [IRAC] 1B
+prometryn                                                                       佈滅淨       [HRAC] C1
+propachlor                                                                      雷蒙得       [HRAC] K3
+propamocarb hydrochloride                                                       普拔克       [FRAC] 28, F4
+propanil                                                                        除草靈       [HRAC] C2
+propaquizafop                                                                   普拔草       [HRAC] A
+propargite                                                                      毆蟎多       [IRAC] 12C
+propazine                                                                       普拔根       [HRAC] C1
+propiconazole                                                                   普克利       [FRAC] 3, G1
+propineb                                                                        甲基鋅乃浦     [FRAC] M3
+propoxur                                                                        安丹        [IRAC] 1A
+proquinazid                                                                     登記中       [FRAC] 13, E1
+prothiofos                                                                      普硫松       [IRAC] 1B
+pymetrozine                                                                     派滅淨       [IRAC] 9B
+pyraclofos                                                                      白克松       [IRAC] 1B
+pyraclostrobin                                                                  百克敏       [FRAC] 11, C3
+pyraflufen-ethyl                                                                乙基派芬草     [HRAC] E
+pyrazophos                                                                      白粉松     [FRAC] 6, F2
+pyrazosulfuron-ethyl                                                            百速隆     [HRAC] B
+pyrazoxyfen                                                                     普芬草     [HRAC] F2
+pyrethrins                                                                      除蟲菊精    [IRAC] 3A
+pyridaben                                                                       畢達本     [IRAC] 21A
+pyridaphenthion                                                                 必芬松     [IRAC] 1B
+pyridate                                                                        必汰草     [HRAC] C3
+pyrifenox                                                                       比芬諾     [FRAC] 3, G1
+pyrimethanil                                                                    派美尼     [FRAC] 9, D1
+pyrimidifen                                                                     畢汰芬     [IRAC] 21A
+pyriproxyfen                                                                    百利普芬    [IRAC] 7C
+pyroquilon                                                                      百快隆     [FRAC] 16.1, I1
+quinalphos                                                                      拜裕松     [IRAC] 1B
+quinclorac                                                                      快克草     [HRAC] L & O
+quinoxyfen                                                                      快諾芬     [FRAC] 13, E1
+quintozene                                                                      五氯硝苯    [FRAC] 14, F3
+quizalofop-P-ethyl                                                              快伏草     [HRAC] A
+rotenone                                                                        魚藤精     [IRAC] 21B
+saflufenacil                                                                    殺芬草     [HRAC] E
+sethoxydim                                                                      西殺草     [HRAC] A
+silafluofen                                                                     矽護芬     [IRAC] 3A
+simazine                                                                        草滅淨     [HRAC] C1
+Smite                                                                           殺蟎多     [IRAC] 12C
+spinetoram                                                                      賜諾特     [IRAC] 5
+spinosad                                                                        賜諾殺     [IRAC] 5
+spirodiclofen                                                                   賜派芬     [IRAC] 23
+spirotetramat                                                                   賜派滅     [IRAC] 23
+streptomycin sesquisulfate                                                      鏈黴素     [FRAC] 25, D4
+TBA, 2,3,6-                                                                     替拔草     [HRAC] O
+TCA-sodium                                                                      克乃達     [HRAC] N
+tebuconazole                                                                    得克利     [FRAC] 3, G1
+tebufenozide                                                                    得芬諾     [IRAC] 18
+tebufenpyrad                                                                    得芬瑞     [IRAC] 21A
+tebuthiuron                                                                     得匍隆     [HRAC] C2
+tecloftalam                                                                     克枯爛     [FRAC] 34, un03
+teflubenzuron                                                                   得福隆     [IRAC] 15
+temephos                                                                        亞培松     [IRAC] 1B
+tepraloxydim                                                                    得殺草     [HRAC] A
+terbufos                                                                        托福松     [IRAC] 1B
+tetrachlorvinphos                                                               樂本松     [IRAC] 1B
+tetraconazole                                                                   四克利     [FRAC] 3, G1
+tetracycline hydrochloride                                                      四環黴素    [FRAC] 41, D5
+tetradifon                                                                      得脫蟎     [IRAC] 12D
+tetramethrin, d-                                                                異治滅寧    [IRAC] 3A
+thenylchlor                                                                     欣克草     [HRAC] K3
+thiabendazole                                                                   腐絕      [FRAC] 1, B1
+thiacloprid                                                                     賽果培     [IRAC] 4A
+thiamethoxam                                                                    賽速安     [IRAC] 4A
+thifluzamide                                                                    賽氟滅     [FRAC] 7, C2
+thiobencarb                                                                     殺丹      [HRAC] N
+thiocyclam hydrogen oxalate                                                     硫賜安     [IRAC] 14
+thiodicarb                                                                      硫敵克     [IRAC] 1A
+thiofanox                                                                       硫伐隆     [IRAC] 1A
+thiometon                                                                       硫滅松     [IRAC] 1B
+thiophanate                                                                     多保淨     [FRAC] 1, B1
+thiophanate-methyl                                                              甲基多保淨   [FRAC] 1, B1
+thiram                                                                          得恩地     [FRAC] M3
+tolclofos-methyl                                                                脫克松     [FRAC] 14, F3
+tolfenpyrad                                                                     脫芬瑞     [IRAC] 21A
+tolyfluanid                                                                     甲基益發靈   [FRAC] M6
+tralomethrin                                                                    泰滅寧     [IRAC] 3A
+triadimefon                                                                     三泰芬     [FRAC] 3, G1
+triadimenol                                                                     三泰隆     [FRAC] 3, G1
+triazophos                                                                      三落松     [IRAC] 1B
+tribasic copper sulfate                                                         三元硫酸銅   [FRAC] M1
+trichlorfon                                                                     三氯松     [IRAC] 1B
+triclopyr-butotyl                                                               三氯比     [HRAC] O
+tricyclazole                                                                    三賽唑     [FRAC] 16.1, I1
+tridemorph                                                                      三得芬     [FRAC] 5, G2
+trifloxystrobin                                                                 三氟敏     [FRAC] 11, C3
+triflumizole                                                                    賽福座     [FRAC] 3, G1
+trifluralin                                                                     三福林     [HRAC] K1
+triforine                                                                       賽福寧     [FRAC] 3, G1
+validamycin A                                                                   維利黴素    [FRAC] 26, H3
+valifenalate                                                                    登記中     [FRAC] 40, H5
+vamidothion                                                                     繁米松     [IRAC] 1B
+vernolate                                                                       萬隆      [HRAC] N
+vinclozolin                                                                     免克寧     [FRAC] 2, E3
+XMC                                                                             滅克蝨     [IRAC] 1A
+xylylcarb                                                                       滅爾蝨     [IRAC] 1A
+zineb                                                                           鋅乃浦     [FRAC] M3
+zoxamide                                                                        座賽胺     [FRAC] 22, B3
+
