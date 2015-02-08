@@ -198,7 +198,7 @@ gulp.task('data.build.pesticide', function (callback) {
 						if (record) {
 							entry['作用機制'] = record.moa
 						} else {
-							entry['作用機制'] = ''
+							entry['作用機制'] = '-'
 						}
 
 						if (entry === undefined) {
@@ -216,7 +216,14 @@ gulp.task('data.build.pesticide', function (callback) {
 					
 						// collect pesticide search: usage entries
 						data.usages.forEach(function (u) {
-							usages.push(clone({ pesticideId: data.id }, u));
+							var usage = clone(
+								{
+									pesticideId: data.id,
+									'作用機制': entry['作用機制']
+								},
+								u
+							);
+							usages.push(usage);
 						});
 					})
 					.on('end', function () {

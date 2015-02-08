@@ -108,6 +108,7 @@ meta.fields = {
 	},
 	moa: {
 		key: '作用機制',
+		size: meta.sizes.m,
 		optional: true
 	},
 	'harvest-safe-period': {
