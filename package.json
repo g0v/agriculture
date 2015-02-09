@@ -3,13 +3,15 @@
   "version": "0.1.0",
   "devDependencies": {
     "collections": "^1.1.0",
+    "gulp": "^3.5.2",
+    "gulp-concat": "^2.1.7",
+    "gulp-rename": "^1.0.0",
+    "gulp-uglify": "^0.2.1",
+    "gulp-util": "^2.2.14",
+    "line-input-stream": "^1.0.1",
+    "prelude-ls": "^1.1.1",
     "request": "^2.34.0",
     "streamy-data": ">=0.2.2",
-    "gulp": "^3.5.2",
-    "gulp-util": "^2.2.14",
-    "gulp-concat": "^2.1.7",
-    "gulp-uglify": "^0.2.1",
-    "gulp-rename": "^1.0.0",
     "vinyl": "^0.2.3"
   },
   "repository": {

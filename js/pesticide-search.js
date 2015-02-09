@@ -106,6 +106,11 @@ meta.fields = {
 		key: '施用次數',
 		optional: true
 	},
+	moa: {
+		key: '作用機制',
+		size: meta.sizes.m,
+		optional: true
+	},
 	'harvest-safe-period': {
 		key: '安全採收期',
 		icon: 'fa-calendar',
@@ -144,7 +149,7 @@ meta.details = [
 	'approval-date', 'original-registrant',
 	'<hr>', 'pesticide', 'crop', 'disease', 
 	'formulation', 'quantity', 'mix', 'dose-per-hectare-per-use', 
-	'dilution-factor', 'interval',  'times', 'harvest-safe-period', 'used-when',
+	'dilution-factor', 'interval',  'times', 'moa', 'harvest-safe-period', 'used-when',
 	'<hr>', 'method', 'notice', 'remark'
 ];
 

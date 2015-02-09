@@ -2,9 +2,12 @@
 /* global require, console, Buffer */
 var streamy = require('streamy-data'),
 	pesticide = require('./bin/pesticide'),
+	moa = require('./bin/zh-en-moa'),
+	prelude = require('prelude-ls'),
 	gulp = require('gulp'),
 	File = require('vinyl'),
-	fs = require('fs');
+	fs = require('fs'),
+	find = prelude.find;
 
 gulp.task('data.download', [
 	'data.download.pesticide'
@@ -182,50 +185,68 @@ gulp.task('data.build.pesticide', function (callback) {
 			});
 			
 			// include information from entry files
-			gulp.src(['./_raw/download/pesticide/entries/*'])
-				.pipe(streamy.file.unvinylify())
-				.on('data', function (data) {
-					// merge into pesticide entries
-					var entry = m[data.id];
-					if (entry === undefined) {
-						console.warn(
-							'Should update',
-							'`./_raw/download/pesticide/index.json`',
-							'for ' + data.id + '.'
-						);
-						entry = data
-					} else {
-						copyIfAbsent(entry, data, '廠牌名稱');
-						copyIfAbsent(entry, data, '通過日期');
-						copyIfAbsent(entry, data, 'usages');
-					}
+			moa('./_raw/tactri_moa_2014.txt', function(moaList) {
+				gulp.src(['./_raw/download/pesticide/entries/*'])
+					.pipe(streamy.file.unvinylify())
+					.on('data', function (data) {
+						// merge into pesticide entries
+						var entry = m[data.id];
+						var record = find(function(target) {
+							return target.zh === entry.name;
+						}, moaList);
+
+						if (record) {
+							entry['作用機制'] = record.moa
+						} else {
+							entry['作用機制'] = '-'
+						}
+
+						if (entry === undefined) {
+							console.warn(
+								'Should update',
+								'`./_raw/download/pesticide/index.json`',
+								'for ' + data.id + '.'
+							);
+							entry = data
+						} else {
+							copyIfAbsent(entry, data, '廠牌名稱');
+							copyIfAbsent(entry, data, '通過日期');
+							copyIfAbsent(entry, data, 'usages');
+						}
 					
-					// collect pesticide search: usage entries
-					data.usages.forEach(function (u) {
-						usages.push(clone({ pesticideId: data.id }, u));
+						// collect pesticide search: usage entries
+						data.usages.forEach(function (u) {
+							var usage = clone(
+								{
+									pesticideId: data.id,
+									'作用機制': entry['作用機制']
+								},
+								u
+							);
+							usages.push(usage);
+						});
+					})
+					.on('end', function () {
+					
+						// write usages-search.json
+						fs.writeFile('./data/pesticide/usages-search.json', 
+							JSON.stringify(usageSearchData, null, '\t'), end); // end 3
+					
+						// TODO: write to _data/pestcide/entries/[id].json, replace gulp.dest('./pesticide')
+					
+						// write pesticide entry pages
+						streamy.array(index)
+							.pipe(streamy.map.sync(function (data) {
+								return new File({
+									path: './' + data.id + '.json',
+									contents: new Buffer(JSON.stringify(data, null, '\t'))
+								});
+							}))
+							.pipe(gulp.dest('./_data/pesticide/entries'))
+							.on('data', function () {})
+							.on('end', end); // end 4
 					});
-				})
-				.on('end', function () {
-					
-					// write usages-search.json
-					fs.writeFile('./data/pesticide/usages-search.json', 
-						JSON.stringify(usageSearchData, null, '\t'), end); // end 3
-					
-					// TODO: write to _data/pestcide/entries/[id].json, replace gulp.dest('./pesticide')
-					
-					// write pesticide entry pages
-					streamy.array(index)
-						.pipe(streamy.map.sync(function (data) {
-							return new File({
-								path: './' + data.id + '.json',
-								contents: new Buffer(JSON.stringify(data, null, '\t'))
-							});
-						}))
-						.pipe(gulp.dest('./_data/pesticide/entries'))
-						.on('data', function () {})
-						.on('end', end); // end 4
-				});
-			
+			});
 		});
 		
 	});
