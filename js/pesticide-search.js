@@ -24,6 +24,7 @@ function containsKeyword(item, keyword) {
 	var pesticide = window.data.pesticides[item.pesticideId];
 	return fieldContains(item, '作物名稱', keyword) ||
 		fieldContains(item, '病蟲名稱', keyword) ||
+		fieldContains(item, '作用機制', keyword) ||
 		fieldContains(pesticide, 'name', keyword) ||
 		fieldContains(pesticide, 'engName', keyword) ||
 		fieldContains(pesticide, 'products', keyword);
