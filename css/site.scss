@@ -371,13 +371,11 @@ body.pesticide-usages {
 			border-right: 1px solid #CCC;
 			
 			.u-frame {
-				display: inline-block;
 				height: 100%;
-				width: 100%;
 			}
 			.field {
 				position: relative;
-				display: inline-block;
+				float: left;
 				height: 100%;
 				line-height: 38px;
 				border-left: 1px solid #CCC;
@@ -390,8 +388,38 @@ body.pesticide-usages {
 					overflow: hidden;
 					text-overflow: ellipsis;
 				}
-				.u-draggable {
+				.u-draggable { // TODO: merge with .field
 					height: 100%;
+					padding-right: 22px;
+				}
+				.u-order {
+					position: absolute;
+					top: 0;
+					bottom: 0;
+					right: 0;
+					width: 24px;
+					border-left: 1px solid transparent;
+					line-height: 38px;
+					text-align: center;
+					cursor: pointer;
+					
+					&:hover {
+						border-left-color: #CCC;
+						&::before {
+							content: '\f0dc';
+							color: #CCC;
+						}
+					}
+				}
+				&.order-by {
+					.u-order::before {
+						content: '\f0dd';
+						color: #333;
+					}
+					&.order-descending .u-order::before {
+						content: '\f0de';
+						color: #333;
+					}
 				}
 			}
 		}

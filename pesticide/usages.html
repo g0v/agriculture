@@ -59,11 +59,11 @@ js: [
 {% raw %}
 <script id="header-summary-template" type="text/x-handlebars-template">
 	<li id="{{id}}" class="field{{#if verbose}} verbose{{/if}}{{#if size}} {{size}}{{/if}}" data-value="{{name}}">
-		<div draggable="true" class="u-draggable">
-			<div class="u-frame draggable">
+		<div class="u-draggable">
+			<div draggable="true" class="u-frame draggable">
 				<span class="u-label">{{label}}</span>
-				<div class="u-order"></div>
 			</div>
+			<div class="u-order fa"></div>
 		</div>
 	</li>
 </script>

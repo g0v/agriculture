@@ -21,8 +21,10 @@ function fieldMap(fieldname) {
 /* jshint eqnull:true */
 function toString(obj) { return obj != null ? obj.toString() : ''; }
 
-function compareMapped(order, map) {
-	return function (x, y) { return order(map(x), map(y)); };
+function compareMapped(order, map, descending) {
+	return descending ? 
+		function (x, y) { return order(map(y), map(x)); } :
+		function (x, y) { return order(map(x), map(y)); };
 }
 
 function normalizeGroupOrder(order) {
@@ -35,16 +37,17 @@ function normalizeOrder(order) {
 		defaultCompare;
 }
 
-function normalizeSearchOrder(order) {
+function normalizeSearchOrder(order, descending) {
 	if (!order)
 		return order;
 	if (typeof order === 'string') {
 		var fieldname = order;
 		return compareMapped(defaultCompare, function (row) {
 			return row.data && row.data[fieldname];
-		});
-	} else if (typeof order === 'function')
-		return compareMapped(order, fieldMap('data'));
+		}, descending);
+	} else if (typeof order === 'function') {
+		return compareMapped(order, fieldMap('data'), descending);
+	}
 	return null;
 }
 
@@ -69,9 +72,13 @@ search.filter = function (data, filter) {
 	return result;
 };
 
-search.sort = function (data, ordering) {
-	ordering = normalizeSearchOrder(ordering);
-	return ordering ? data.sort(ordering) : data;
+search.sort = function (data, ordering, descending) {
+	ordering = normalizeSearchOrder(ordering, descending);
+	if (!ordering)
+		return data;
+	var c = data.slice(0); // clone
+	c.sort(ordering);
+	return c;
 };
 
 search.group = function (list, grouper, hash) {
@@ -95,7 +102,7 @@ search.group = function (list, grouper, hash) {
 	return result;
 };
 
-search.sortGroup = function (data, ordering) {
+search.sortGroup = function (data, ordering) { // TODO: descending?
 	ordering = normalizeGroupOrder(ordering);
 	return data.sort(ordering);
 };
@@ -128,8 +135,11 @@ SearchModel.prototype.setFilter = function (filter) {
 		this.refilter();
 };
 
-SearchModel.prototype.setOrdering = function (ordering) {
-	this.ordering = ordering;
+SearchModel.prototype.setOrdering = function (ordering, descending) {
+	this.ordering = {
+		by: ordering,
+		descending: descending
+	};
 	if (this._enabled)
 		this.resort();
 };
@@ -140,7 +150,7 @@ SearchModel.prototype.setGrouper = function (grouper) {
 		this.regroup();
 };
 
-SearchModel.prototype.setGroupOrdering = function (ordering) {
+SearchModel.prototype.setGroupOrdering = function (ordering) { // TODO: descending?
 	this.groupOrdering = ordering;
 	if (this._enabled)
 		this.resortGroup();
@@ -156,8 +166,9 @@ SearchModel.prototype.refilter = function () {
 SearchModel.prototype.resort = function () {
 	if (!this._filtered)
 		return;
-	this._sorted = this.ordering ? 
-		search.sort(this._filtered, this.ordering) : this._filtered;
+	var ord = this.ordering;
+	this._sorted = ord && ord.by ? 
+		search.sort(this._filtered, ord.by, ord.descending) : this._filtered;
 	this.regroup();
 };
 

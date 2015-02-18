@@ -235,8 +235,14 @@ function ResultHeader(element, fields, model) {
 	.on('click', '.u-pool', function (e) {
 		e.stopPropagation(); // escape from bootstrap default dropdown behavior
 	})
-	.on('click', '.u-order', function () {
-		// TODO
+	.on('click', '.u-order', function (e) {
+		var value = valueOf($(e.currentTarget).closest('.field')[0]),
+			psm = model.searchModel,
+			ord = psm._order; // TODO: ad hoc access
+		if (value) {
+			// set to descending if currently ordered by the same field in ascending order
+			psm.setOrder(value, (value == ord.field) && !ord.descending);
+		}
 	});
 	
 	_initDrag(this, summaries);
@@ -292,17 +298,24 @@ function ResultHeader(element, fields, model) {
 		});
 	});
 	
-	var orderingField;
+	var currentOrderByElem;
 	model.searchModel
 	.on('order', function (data) {
-		$element[data.descending ? 'addClass' : 'removeClass']('order-descending');
-		if (orderingField != data.field) {
-			if (orderingField)
-				summaries[orderingField].removeClass('order-by');
-			if (data.field)
-				summaries[data.field].addClass('order-by');
-			orderingField = data.field;
+		var elem = data.field && summaries[data.field],
+			$elem = elem && $(elem);
+		if (currentOrderByElem != elem) {
+			if (currentOrderByElem) {
+				$(currentOrderByElem).removeClass('order-by').removeClass('order-descending');
+			}
+			if (elem) {
+				$elem.addClass('order-by');
+				if (data.descending)
+					$elem.addClass('order-descending');
+			}
+		} else {
+			$elem[data.descending ? 'addClass' : 'removeClass']('order-descending');
 		}
+		currentOrderByElem = elem;
 	});
 	
 }
@@ -362,8 +375,8 @@ function _initDrag(header, summaries) {
 	
 	var _context;
 	$element
-	.on('dragstart', '.u-summaries .field > .u-draggable', function (event) {
-		var target = event.currentTarget.parentElement, // ad hoc
+	.on('dragstart', '.u-summaries .field .u-frame', function (event) {
+		var target = $(event.currentTarget).closest('.field')[0],
 			field = valueOf(target),
 			size = header.fields[field].size || window.meta.sizes.s;
 		
@@ -456,8 +469,6 @@ function ResultList(element, meta, model) {
 		delete self._data;
 		rerender();
 	});
-	
-	// TODO: order
 	
 	model.renderScheme
 	.on('layout', function (layout) {
@@ -666,11 +677,13 @@ function SearchOptions(model) {
 // model //
 function PesticideSearchModel() {
 	var self = this;
+	this._order = {};
 	(this.innerModel = new window.search.SearchModel())
 	.on('results', function (results) {
 		self.trigger('results', {
 			keywords: self._keywords,
 			grouper: self._grouper,
+			order: self._order,
 			results: results
 		});
 	});
@@ -710,12 +723,6 @@ PesticideSearchModel.prototype.setKeywords = function (keywords) {
 	}
 };
 
-/*
-PesticideSearchModel.prototype.isGrouped = function () {
-	return !!this._grouper;
-};
-*/
-
 PesticideSearchModel.prototype.setGrouper = function (grouper) {
 	if (this._grouper == grouper)
 		return; // idempotent
@@ -725,12 +732,11 @@ PesticideSearchModel.prototype.setGrouper = function (grouper) {
 };
 
 PesticideSearchModel.prototype.setOrder = function (field, descending) {
-	if (this._orderBy == field && this._orderDescending == descending)
+	if (this._order.field == field && this._order.descending == descending)
 		return; // idempotent
-	this._orderBy = field;
-	this._orderDescending = descending;
+	this._order = { field: field, descending: descending };
 	this.trigger('order', { field: field, descending: descending });
-	// TODO
+	this.innerModel.setOrdering(field && meta.fields[field].key, descending);
 };
 
 
@@ -856,7 +862,6 @@ $(function () {
 		_state = state = state || {};
 		var keywords = state.keywords;
 		view.form.setKeywords(keywords);
-		// TODO: we may want setCriteria() API
 		model.searchModel.setKeywords(keywords);
 		popingState = false;
 	};
