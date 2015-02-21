@@ -11,6 +11,7 @@
     "line-input-stream": "^1.0.1",
     "prelude-ls": "^1.1.1",
     "request": "^2.34.0",
+    "rsvp": "^3.0.17",
     "streamy-data": ">=0.2.2",
     "vinyl": "^0.2.3"
   },
