@@ -40,7 +40,6 @@
 五氯硝苯                                                                            quintozene                [FRAC] 14, F3
 六伏隆                                                                             hexaflumuron                 [IRAC] 15
 巴拉刈                                                                             paraquat                     [HRAC] D
-巴拉刈  (二氯鹽)                                                                      paraquat dichloride          [HRAC] D
 巴拉松                                                                             parathion                    [IRAC] 1B
 巴賽松                                                                             phoxim                       [IRAC] 1B
 比加普                                                                             pirimicarb                   [IRAC] 1A
@@ -81,10 +80,8 @@
 甲基合氯氟                                                                           haloxyfop-P-methyl            [HRAC] A
 甲基多保淨                                                                           thiophanate-methyl            [FRAC] 1, B1
 甲基益發靈                                                                           tolyfluanid                   [FRAC] M6
-甲基砷酸鈣                                                                           MAC, calcium methylarsonate   [HRAC] Z
-                                                                                MSMA, monosodium
-甲基砷酸鈉                                                                                                         [HRAC] Z
-                                                                                methylarsonate
+甲基砷酸鈣                                                                      MAC, calcium methylarsonate      [HRAC] Z
+甲基砷酸鈉                                                                      MSMA, monosodium methylarsonate  [HRAC] Z
 甲基鋅乃浦                                                                           propineb                      [FRAC] M3
 白克列                                                                             boscalid                      [FRAC] 7, C2
 白克松                                                                             pyraclofos                    [IRAC] 1B
@@ -138,7 +135,7 @@
 免敵克                                                                             bendiocarb                      [IRAC] 1A
 免賴得                                                                             benomyl                         [FRAC] 1, B1
 快伏草                                                                             quizalofop-P-ethyl              [HRAC] A
-快克草                                                                             quinclorac                      [HRAC] L 及 O
+快克草                                                                             quinclorac                      [HRAC] L & O
 快得寧                                                                             oxine-copper                    [FRAC] M1
 快諾芬                                                                             quinoxyfen                      [FRAC] 13, E1
 扶吉胺                                                                             fluazinam                       [FRAC] 29, C5
@@ -643,7 +640,7 @@ flusilazole                                                                     
 flusulfamide                                                                    氟硫滅          [FRAC] 36, un05
 flutolanil                                                                      福多寧          [FRAC] 7, C2
 flutriafol                                                                      護汰芬          [FRAC] 3, G1
-fluvalinate, tau-                                                               福化利          [IRAC] 3A
+tau-fluvalinate                                                                 福化利          [IRAC] 3A
 fluxapyroxad                                                                    登記中          [FRAC] 7, C2
 folpet                                                                          福爾培          [FRAC] M4
 formetanate                                                                     覆滅蟎          [IRAC] 1A
@@ -745,7 +742,7 @@ oxycarboxin                                                                     
 oxydemeton-methyl                                                               滅多松     [IRAC] 1B
 oxyfluorfen                                                                     復祿芬     [HRAC] E
 oxytetracycline                                                                 土黴素     [FRAC] 41, D5
-paraquat dichloride                                                             巴拉刈     [HRAC] D
+paraquat                                                                        巴拉刈     [HRAC] D
 parathion                                                                       巴拉松     [IRAC] 1B
 parathion-methyl                                                                甲基巴拉松   [IRAC] 1B
 pefurazoate                                                                     披扶座     [FRAC] 3, G1

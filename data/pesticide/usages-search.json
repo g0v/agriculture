@@ -43762,7 +43762,7 @@
 		},
 		{
 			"pesticideId": "H025",
-			"作用機制": "paraquat dichloride          [HRAC] D",
+			"作用機制": "[HRAC] D",
 			"劑型": "SL",
 			"含量": "24.000",
 			"混合": "",
@@ -43782,7 +43782,7 @@
 		},
 		{
 			"pesticideId": "H025",
-			"作用機制": "paraquat dichloride          [HRAC] D",
+			"作用機制": "[HRAC] D",
 			"劑型": "SL",
 			"含量": "24.000",
 			"混合": "",
@@ -43802,7 +43802,7 @@
 		},
 		{
 			"pesticideId": "H025",
-			"作用機制": "paraquat dichloride          [HRAC] D",
+			"作用機制": "[HRAC] D",
 			"劑型": "SL",
 			"含量": "24.000",
 			"混合": "",
@@ -43822,7 +43822,7 @@
 		},
 		{
 			"pesticideId": "H025",
-			"作用機制": "paraquat dichloride          [HRAC] D",
+			"作用機制": "[HRAC] D",
 			"劑型": "SL",
 			"含量": "24.000",
 			"混合": "",
@@ -43842,7 +43842,7 @@
 		},
 		{
 			"pesticideId": "H025",
-			"作用機制": "paraquat dichloride          [HRAC] D",
+			"作用機制": "[HRAC] D",
 			"劑型": "SL",
 			"含量": "24.000",
 			"混合": "",
@@ -43862,7 +43862,7 @@
 		},
 		{
 			"pesticideId": "H025",
-			"作用機制": "paraquat dichloride          [HRAC] D",
+			"作用機制": "[HRAC] D",
 			"劑型": "SL",
 			"含量": "24.000",
 			"混合": "",
@@ -45022,7 +45022,7 @@
 		},
 		{
 			"pesticideId": "H057",
-			"作用機制": "[HRAC] L 及 O",
+			"作用機制": "[HRAC] L & O",
 			"劑型": "SC",
 			"含量": "22.000",
 			"混合": "",
@@ -45042,7 +45042,7 @@
 		},
 		{
 			"pesticideId": "H057",
-			"作用機制": "[HRAC] L 及 O",
+			"作用機制": "[HRAC] L & O",
 			"劑型": "WP",
 			"含量": "50.000",
 			"混合": "",
