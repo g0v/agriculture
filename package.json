@@ -13,6 +13,7 @@
     "request": "^2.34.0",
     "rsvp": "^3.0.17",
     "streamy-data": ">=0.2.2",
+    "unorm": "^1.3.3",
     "vinyl": "^0.2.3"
   },
   "repository": {

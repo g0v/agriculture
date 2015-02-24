@@ -2,6 +2,7 @@
 require! {
   fs
   path
+  unorm
   'prelude-ls': { find }
   'line-input-stream': LineInputStream
 }
@@ -23,11 +24,13 @@ parse = (filepath, done) ->
         if r = re.exec it
           { 1: zh, 2: en, 3: moa } = r
           zh = undefined if zh is ' '
+          zh = unorm.nfc zh
           result.push { zh, en, moa }
       | mode is \en =>
         if r = re.exec it
           { 1: en, 2: zh, 3: moa } = r
           zh = undefined if zh is '登記中'
+          zh = unorm.nfc zh
           tluser.push { zh, en, moa }
       ++count
     ..on \end  ->
@@ -38,7 +41,10 @@ parse = (filepath, done) ->
         else
           console.warn 'zh not match: ' drug if r.zh isnt drug.zh
           console.warn 'moa not match: ' drug if r.moa isnt drug.moa
-      done? result
+      ret = {}
+      for drug in result when drug.zh
+        ret[drug.zh] = drug.moa
+      done? ret
 
 if running-as-script
   [,, ...files] = process.argv

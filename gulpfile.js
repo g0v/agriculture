@@ -3,11 +3,10 @@
 var streamy = require('streamy-data'),
 	pesticide = require('./bin/pesticide'),
 	moa = require('./bin/zh-en-moa'),
-	prelude = require('prelude-ls'),
+	unorm = require('unorm'),
 	gulp = require('gulp'),
 	File = require('vinyl'),
-	fs = require('fs'),
-	find = prelude.find;
+	fs = require('fs');
 
 gulp.task('data.download', [
 	'data.download.pesticide'
@@ -185,18 +184,16 @@ gulp.task('data.build.pesticide', function (callback) {
 			});
 			
 			// include information from entry files
-			moa('./_raw/tactri_moa_2014.txt', function(moaList) {
+			moa('./_raw/tactri_moa_2014.txt', function(moaObj) {
 				gulp.src(['./_raw/download/pesticide/entries/*'])
 					.pipe(streamy.file.unvinylify())
 					.on('data', function (data) {
 						// merge into pesticide entries
 						var entry = m[data.id];
-						var record = find(function(target) {
-							return target.zh === entry.name;
-						}, moaList);
+						var record = moaObj[unorm.nfc(entry.name)];
 
 						if (record) {
-							entry['作用機制'] = record.moa
+							entry['作用機制'] = record
 						} else {
 							entry['作用機制'] = '-'
 						}
