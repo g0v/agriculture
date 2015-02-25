@@ -12,6 +12,8 @@ var fs = require('fs'),
 	File = require('vinyl'),
 	fs = require('fs');
 
+RSVP.on('error', console.error);
+
 gulp.task('data.download', [
 	'data.download.pesticide'
 ]);
@@ -35,7 +37,7 @@ function write (filename, data, callback) {
 function saveEntry (p) {
 	return p.then(function (entry) {
 		var filename = './_raw/download/pesticide/entries/' + entry.id + '.json';
-		return write(filename, JSON.stringify(entry, null, 2));
+		return write(filename, JSON.stringify(entry, null, '\t'));
 	});
 }
 
@@ -43,8 +45,6 @@ gulp.task('data.download.pesticide', function (callback) {
 
 	// grab index json data from the website
 	pesticide.download.licenses().then(function (licenses) {
-
-		console.log('license file downloaded.');
 
 		var tasks = [];
 		tasks.push(
@@ -63,13 +63,18 @@ gulp.task('data.download.pesticide', function (callback) {
 		);
 
 		tasks.push(
-			index
-				.map(function (data) { return data.id })
-				.map(pesticude.download.entry)
-				.map(saveEntry)
+			all(
+				index
+					.map(function (data) { return data.id })
+					.map(pesticide.download.entry)
+					.map(saveEntry)
+			)
 		);
 
-		tasks.then(callback);
+		all(tasks).then(function () {
+			console.log('license file downloaded.');
+			callback();
+		});
 
 	});
 
