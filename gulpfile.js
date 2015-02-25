@@ -1,6 +1,10 @@
 'use strict';
 /* global require, console, Buffer */
-var streamy = require('streamy-data'),
+var fs = require('fs'),
+	RSVP = require('rsvp'),
+	Promise = RSVP.Promise,
+	all = RSVP.all,
+	streamy = require('streamy-data'),
 	pesticide = require('./bin/pesticide'),
 	moa = require('./bin/zh-en-moa'),
 	unorm = require('unorm'),
@@ -18,48 +22,57 @@ gulp.task('data.download', [
  * + /_raw/download/entries/{id}.json
  */
 /* jshint asi: true */
-gulp.task('data.download.pesticide', function (callback) {
-	
-	// TODO: clear
-	
-	// callback is invoked when end is called three times
-	var end = streamy.util.wait(3, callback);
-	
-	// grab index json data from the website
-	pesticide.download.licenses(function (licenses) {
-		
-		console.log('license file downloaded.');
-		
-		// TODO: use mkdirp or writefile
-		
-		// write licenses file
-		fs.writeFile('./_raw/download/pesticide/licenses.json', 
-			JSON.stringify(licenses, null, '\t'), end); // end 1
-		
-		/* Write index file. We could have deferred this part to 
-		 * building phase, but this will make everything easier.
-		 */
-		var index = pesticide.build.indexFromLicenses(licenses);
-		fs.writeFile('./_raw/download/pesticide/index.json', 
-			JSON.stringify(index, null, '\t'), end); // end 2
-		
-		// transform the index list into an object stream
-		var ids = index.map(function (data) { return data.id });
-		streamy.array(ids)
-			// transform them into detailed data object from the website
-			.pipe(streamy.map(pesticide.download.entry))
-			// transform them into vinyl file format (to work with gulp.dest)
-			.pipe(streamy.file.vinylify(function (data) {
-				return './' + data.id + '.json';
-			}, {
-				stringify: { space: '\t' }
-			}))
-			// write file to specified destination
-			.pipe(gulp.dest('./_raw/download/pesticide/entries'))
-			.on('data', function () {})
-			.on('end', end); // end 3
+
+function write (filename, data, callback) {
+	return new Promise(function (resolve, reject){
+		fs.writeFile(filename, data, function (err) {
+			if (err) return reject(err);
+			return resolve(filename);
+		});
 	});
-	
+}
+
+function saveEntry (p) {
+	return p.then(function (entry) {
+		var filename = './_raw/download/pesticide/entries/' + entry.id + '.json';
+		return write(filename, JSON.stringify(entry, null, 2));
+	});
+}
+
+gulp.task('data.download.pesticide', function (callback) {
+
+	// grab index json data from the website
+	pesticide.download.licenses().then(function (licenses) {
+
+		console.log('license file downloaded.');
+
+		var tasks = [];
+		tasks.push(
+			write(
+				'./_raw/download/pesticide/licenses.json',
+				JSON.stringify(licenses, null, '\t')
+			)
+		);
+
+		var index = pesticide.build.indexFromLicenses(licenses);
+		tasks.push(
+			write(
+				'./_raw/download/pesticide/index.json',
+				JSON.stringify(index, null, '\t')
+			)
+		);
+
+		tasks.push(
+			index
+				.map(function (data) { return data.id })
+				.map(pesticude.download.entry)
+				.map(saveEntry)
+		);
+
+		tasks.then(callback);
+
+	});
+
 });
 
 
