@@ -4,6 +4,7 @@ var fs = require('fs'),
 	RSVP = require('rsvp'),
 	Promise = RSVP.Promise,
 	all = RSVP.all,
+	lift = require('liftp')(all),
 	streamy = require('streamy-data'),
 	pesticide = require('./bin/pesticide'),
 	moa = require('./bin/zh-en-moa'),
@@ -25,58 +26,57 @@ gulp.task('data.download', [
  */
 /* jshint asi: true */
 
-function write (filename, data, callback) {
+var show = lift(console.log);
+
+var write = lift(function (filename, data, callback) {
 	return new Promise(function (resolve, reject){
 		fs.writeFile(filename, data, function (err) {
 			if (err) return reject(err);
 			return resolve(filename);
 		});
 	});
-}
+});
 
-function saveEntry (p) {
-	return p.then(function (entry) {
-		var filename = './_raw/download/pesticide/entries/' + entry.id + '.json';
-		return write(filename, JSON.stringify(entry, null, '\t'));
-	});
-}
+var saveEntry = lift(function (entry) {
+	var filename = './_raw/download/pesticide/entries/' + entry.id + '.json';
+	return write(filename, JSON.stringify(entry, null, '\t'));
+});
+
+var stringify = lift(JSON.stringify);
+
+var getId = lift(function (data) { return data.id; });
+
+var indexFromLicenses = lift(pesticide.build.indexFromLicenses);
+
+var getEntry = lift(pesticide.download.entry);
 
 gulp.task('data.download.pesticide', function (callback) {
 
 	// grab index json data from the website
-	pesticide.download.licenses().then(function (licenses) {
+	var licenses = pesticide.download.licenses(),
+		index = indexFromLicenses(licenses),
+		tasks;
 
-		var tasks = [];
-		tasks.push(
-			write(
-				'./_raw/download/pesticide/licenses.json',
-				JSON.stringify(licenses, null, '\t')
-			)
-		);
-
-		var index = pesticide.build.indexFromLicenses(licenses);
-		tasks.push(
-			write(
-				'./_raw/download/pesticide/index.json',
-				JSON.stringify(index, null, '\t')
-			)
-		);
-
-		tasks.push(
-			all(
-				index
-					.map(function (data) { return data.id })
-					.map(pesticide.download.entry)
+	tasks = [
+		write(
+			'./_raw/download/pesticide/licenses.json',
+			stringify(licenses, null, '\t')
+		),
+		write(
+			'./_raw/download/pesticide/index.json',
+			stringify(index, null, '\t')
+		),
+		index.then(function (idx) {
+			return all(
+				idx
+					.map(getId)
+					.map(getEntry)
 					.map(saveEntry)
-			)
-		);
+			);
+		})
+	];
 
-		all(tasks).then(function () {
-			console.log('license file downloaded.');
-			callback();
-		});
-
-	});
+	all(tasks).then(function () { callback() });
 
 });
 

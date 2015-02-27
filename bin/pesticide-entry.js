@@ -4,6 +4,7 @@
 var RSVP = require('rsvp'),
 	Promise = RSVP.Promise,
 	all = RSVP.all,
+	lift = require('liftp')(all),
 	streamy = require('streamy-data'),
 	hp = streamy.util.htmlparser,
 	hpu = hp.DomUtils;
@@ -12,15 +13,9 @@ var runningAsScript = !module.parent,
 	entryPrefix = 'http://pesticide.baphiq.gov.tw/web/Insecticides_MenuItem5_3_UseRange.aspx?id=',
 	args;
 
-function _show(p) {
-	if (p.then) {
-		p.then(function(v) {
-			console.log(JSON.stringify(v, null, 2));
-		});
-	} else {
-		console.log(JSON.stringify(p, null, 2));
-	}
-}
+var _show = lift(function (args) {
+	console.log(JSON.stringify(args, null, '\t'));
+});
 
 function _textFromElement(elem) {
 	var text;
