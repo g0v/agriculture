@@ -11,6 +11,14 @@
 			"廠商名稱": "興農股份有限公司"
 		},
 		{
+			"許可證號": "00186",
+			"化學成分": "methyl (E)-2-{2-[6-(2-cyanophenoxy)pyrimidin-4-yloxy]phenyl}-3-methoxyacrylate",
+			"廠牌名稱": "",
+			"國外原製造廠商": "",
+			"有效期限": "108/07/09",
+			"廠商名稱": "惠光股份有限公司"
+		},
+		{
 			"許可證號": "00674",
 			"化學成分": "methyl (E)-2-{2-[6-(2-cyanophenoxy)pyrimidin-4-yloxy]phenyl}-3-methoxyacrylate",
 			"廠牌名稱": "",
@@ -59,6 +67,14 @@
 			"廠商名稱": "興農股份有限公司"
 		},
 		{
+			"許可證號": "00899",
+			"化學成分": "methyl (E)-2-{2-[6-(2-cyanophenoxy)pyrimidin-4-yloxy]phenyl}-3-methoxyacrylate",
+			"廠牌名稱": "",
+			"國外原製造廠商": "SHANGHAI HEBEN-EASTSUN MEDICAMENTS CO., LTD.",
+			"有效期限": "108/07/06",
+			"廠商名稱": "明篁股份有限公司"
+		},
+		{
 			"許可證號": "01825",
 			"化學成分": "methyl (E)-2-{2-[6-(2-cyanophenoxy)pyrimidin-4-yloxy]phenyl}-3-methoxyacrylate",
 			"廠牌名稱": "稱無限",
@@ -78,153 +94,9 @@
 			"許可證號": "02447",
 			"化學成分": "methyl (E)-2-{2-[6-(2-cyanophenoxy)pyrimidin-4-yloxy]phenyl}-3-methoxyacrylate",
 			"廠牌名稱": "果再來",
-			"國外原製造廠商": "SYNGENTA CROP PROTECTION, INC.",
-			"有效期限": "104/05/15",
+			"國外原製造廠商": "GOWAN MILLING COMPANY, L.L.C.",
+			"有效期限": "109/05/15",
 			"廠商名稱": "台灣先正達股份有限公司"
-		},
-		{
-			"許可證號": "02796",
-			"化學成分": "methyl (E)-2-{2-[6-(2-cyanophenoxy)pyrimidin-4-yloxy]phenyl}-3-methoxyacrylate",
-			"廠牌名稱": "非常稱",
-			"國外原製造廠商": "BIOQUEST INTERNATIONAL",
-			"有效期限": "105/04/26",
-			"廠商名稱": "臺聯實業股份有限公司"
-		},
-		{
-			"許可證號": "02813",
-			"化學成分": "methyl (E)-2-{2-[6-(2-cyanophenoxy)pyrimidin-4-yloxy]phenyl}-3-methoxyacrylate",
-			"廠牌名稱": "挺力",
-			"國外原製造廠商": "SHARDA WORLD WIDE EXPORTS PVT. LTD.",
-			"有效期限": "105/08/01",
-			"廠商名稱": "貝士得開發企業有限公司"
-		},
-		{
-			"許可證號": "02823",
-			"化學成分": "methyl (E)-2-{2-[6-(2-cyanophenoxy)pyrimidin-4-yloxy]phenyl}-3-methoxyacrylate",
-			"廠牌名稱": "金紅",
-			"國外原製造廠商": "CHEMINOVA INDIA LTD.",
-			"有效期限": "106/01/31",
-			"廠商名稱": "台灣科麥農有限公司"
-		},
-		{
-			"許可證號": "02846",
-			"化學成分": "methyl (E)-2-{2-[6-(2-cyanophenoxy)pyrimidin-4-yloxy]phenyl}-3-methoxyacrylate",
-			"廠牌名稱": "稱乘稱",
-			"國外原製造廠商": "THANH HUNG COMPANY LIMITED",
-			"有效期限": "106/06/07",
-			"廠商名稱": "大成化學工業股份有限公司"
-		},
-		{
-			"許可證號": "02854",
-			"化學成分": "methyl (E)-2-{2-[6-(2-cyanophenoxy)pyrimidin-4-yloxy]phenyl}-3-methoxyacrylate",
-			"廠牌名稱": "衝不停",
-			"國外原製造廠商": "WONDERFUL AGRICULTURE (VN) CO., LTD.",
-			"有效期限": "106/09/10",
-			"廠商名稱": "萬得發有限公司"
-		},
-		{
-			"許可證號": "02865",
-			"化學成分": "methyl (E)-2-{2-[6-(2-cyanophenoxy)pyrimidin-4-yloxy]phenyl}-3-methoxyacrylate",
-			"廠牌名稱": "農好稱大喜",
-			"國外原製造廠商": "SUB-MICRON INDUSTRIES LIMITED",
-			"有效期限": "106/12/02",
-			"廠商名稱": "台灣瑪斯德股份有限公司"
-		},
-		{
-			"許可證號": "02869",
-			"化學成分": "methyl (E)-2-{2-[6-(2-cyanophenoxy)pyrimidin-4-yloxy]phenyl}-3-methoxyacrylate",
-			"廠牌名稱": "五一五一",
-			"國外原製造廠商": "KIM LONG AGRICULTURE DEVELOPMENT CO., LTD.",
-			"有效期限": "107/01/01",
-			"廠商名稱": "思高國際有限公司"
-		},
-		{
-			"許可證號": "02878",
-			"化學成分": "methyl (E)-2-{2-[6-(2-cyanophenoxy)pyrimidin-4-yloxy]phenyl}-3-methoxyacrylate",
-			"廠牌名稱": "尚介稱",
-			"國外原製造廠商": "HOP TRI AGROCHEMICALS CO., LTD.",
-			"有效期限": "107/04/28",
-			"廠商名稱": "海博生技股份有限公司"
-		},
-		{
-			"許可證號": "02883",
-			"化學成分": "methyl (E)-2-{2-[6-(2-cyanophenoxy)pyrimidin-4-yloxy]phenyl}-3-methoxyacrylate",
-			"廠牌名稱": "多猛哥",
-			"國外原製造廠商": "ANGSANA PLANTATIONS SDN. BHD.",
-			"有效期限": "107/05/12",
-			"廠商名稱": "青山貿易有限公司"
-		},
-		{
-			"許可證號": "02906",
-			"化學成分": "methyl (E)-2-{2-[6-(2-cyanophenoxy)pyrimidin-4-yloxy]phenyl}-3-methoxyacrylate",
-			"廠牌名稱": "優果讚",
-			"國外原製造廠商": "COROMANDEL INTERNATIONAL LIMITED",
-			"有效期限": "107/11/28",
-			"廠商名稱": "美商雅柏生活科技有限公司臺灣分公司"
-		},
-		{
-			"許可證號": "02914",
-			"化學成分": "methyl (E)-2-{2-[6-(2-cyanophenoxy)pyrimidin-4-yloxy]phenyl}-3-methoxyacrylate",
-			"廠牌名稱": "勇健健",
-			"國外原製造廠商": "COROMANDEL INTERNATIONAL LIMITED",
-			"有效期限": "107/12/25",
-			"廠商名稱": "美商雅柏生活科技有限公司臺灣分公司"
-		},
-		{
-			"許可證號": "02920",
-			"化學成分": "methyl (E)-2-{2-[6-(2-cyanophenoxy)pyrimidin-4-yloxy]phenyl}-3-methoxyacrylate",
-			"廠牌名稱": "邁凡樂",
-			"國外原製造廠商": "DENKA INTERNATIONAL B. V.",
-			"有效期限": "108/01/13",
-			"廠商名稱": "惠光股份有限公司"
-		},
-		{
-			"許可證號": "02923",
-			"化學成分": "methyl (E)-2-{2-[6-(2-cyanophenoxy)pyrimidin-4-yloxy]phenyl}-3-methoxyacrylate",
-			"廠牌名稱": "世界稱",
-			"國外原製造廠商": "THANHSON AGROCHEMICALS CO., LTD.",
-			"有效期限": "108/02/19",
-			"廠商名稱": "雋農實業股份有限公司"
-		},
-		{
-			"許可證號": "02928",
-			"化學成分": "methyl (E)-2-{2-[6-(2-cyanophenoxy)pyrimidin-4-yloxy]phenyl}-3-methoxyacrylate",
-			"廠牌名稱": "稱上天",
-			"國外原製造廠商": "KENSO CORPORATION (M) SDN. BHD.",
-			"有效期限": "108/04/02",
-			"廠商名稱": "春匯有限公司"
-		},
-		{
-			"許可證號": "02938",
-			"化學成分": "methyl (E)-2-{2-[6-(2-cyanophenoxy)pyrimidin-4-yloxy]phenyl}-3-methoxyacrylate",
-			"廠牌名稱": "衝到發",
-			"國外原製造廠商": "ALFA (SAIGON) COMPANY LIMITED",
-			"有效期限": "108/05/13",
-			"廠商名稱": "雅飛有限公司"
-		},
-		{
-			"許可證號": "04945",
-			"化學成分": "methyl (E)-2-{2-[6-(2-cyanophenoxy)pyrimidin-4-yloxy]phenyl}-3-methoxyacrylate",
-			"廠牌名稱": "稱嘜停",
-			"國外原製造廠商": "",
-			"有效期限": "105/06/16",
-			"廠商名稱": "嘉泰企業股份有限公司"
-		},
-		{
-			"許可證號": "05591",
-			"化學成分": "methyl (E)-2-{2-[6-(2-cyanophenoxy)pyrimidin-4-yloxy]phenyl}-3-methoxyacrylate",
-			"廠牌名稱": "稱尚久",
-			"國外原製造廠商": "",
-			"有效期限": "106/07/10",
-			"廠商名稱": "國豐化學工業股份有限公司"
-		},
-		{
-			"許可證號": "05731",
-			"化學成分": "methyl (E)-2-{2-[6-(2-cyanophenoxy)pyrimidin-4-yloxy]phenyl}-3-methoxyacrylate",
-			"廠牌名稱": "霸面稱",
-			"國外原製造廠商": "",
-			"有效期限": "107/11/26",
-			"廠商名稱": "臺灣庵原農藥股份有限公司"
 		}
 	],
 	"英文名稱": "AZOXYSTROBIN",

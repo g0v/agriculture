@@ -14,7 +14,7 @@
 			"許可證號": "00819",
 			"化學成分": "2-methylbiphenyl-3-ylmethyl (Z)-(1RS,3RS)-3-(2-chloro-3,3,3-trifluoroprop-1-enyl)-2,2-dimethylcyclopropanecarboxylate",
 			"廠牌名稱": "",
-			"國外原製造廠商": "MAKHTESHIM CHEMICAL WORKS LTD.",
+			"國外原製造廠商": "ADAMA MAKHTESHIM LTD.",
 			"有效期限": "104/03/04",
 			"廠商名稱": "聯利農業科技股份有限公司"
 		},
@@ -25,6 +25,14 @@
 			"國外原製造廠商": "JIANGSU YANGNONG CHEMICAL CO., LTD.",
 			"有效期限": "108/02/17",
 			"廠商名稱": "昆言企業股份有限公司"
+		},
+		{
+			"許可證號": "00896",
+			"化學成分": "2-methylbiphenyl-3-ylmethyl (Z)-(1RS,3RS)-3-(2-chloro-3,3,3-trifluoroprop-1-enyl)-2,2-dimethylcyclopropanecarboxylate",
+			"廠牌名稱": "國豐畢芬寧",
+			"國外原製造廠商": "SHARDA WORLD WIDE EXPORTS PVT. LTD.",
+			"有效期限": "108/06/22",
+			"廠商名稱": "國豐化學工業股份有限公司"
 		},
 		{
 			"許可證號": "01046",
@@ -57,62 +65,6 @@
 			"國外原製造廠商": "LONG HIEP STOCK COMPANY",
 			"有效期限": "105/03/04",
 			"廠商名稱": "優必樂有限公司"
-		},
-		{
-			"許可證號": "02677",
-			"化學成分": "2-methylbiphenyl-3-ylmethyl (Z)-(1RS,3RS)-3-(2-chloro-3,3,3-trifluoroprop-1-enyl)-2,2-dimethylcyclopropanecarboxylate",
-			"廠牌名稱": "冠王星",
-			"國外原製造廠商": "NAMVIET FUMIGATION COMPANY",
-			"有效期限": "103/05/30",
-			"廠商名稱": "安旺特股份有限公司"
-		},
-		{
-			"許可證號": "02737",
-			"化學成分": "2-methylbiphenyl-3-ylmethyl (Z)-(1RS,3RS)-3-(2-chloro-3,3,3-trifluoroprop-1-enyl)-2,2-dimethylcyclopropanecarboxylate",
-			"廠牌名稱": "双效星",
-			"國外原製造廠商": "MAKHTESHIM CHEMICAL WORKS LTD.",
-			"有效期限": "104/03/04",
-			"廠商名稱": "聯利農業科技股份有限公司"
-		},
-		{
-			"許可證號": "04464",
-			"化學成分": "2-methylbiphenyl-3-ylmethyl (Z)-(1RS,3RS)-3-(2-chloro-3,3,3-trifluoroprop-1-enyl)-2,2-dimethylcyclopropanecarboxylate",
-			"廠牌名稱": "天王星",
-			"國外原製造廠商": "",
-			"有效期限": "107/12/10",
-			"廠商名稱": "世大農化工廠股份有限公司"
-		},
-		{
-			"許可證號": "04879",
-			"化學成分": "2-methylbiphenyl-3-ylmethyl (Z)-(1RS,3RS)-3-(2-chloro-3,3,3-trifluoroprop-1-enyl)-2,2-dimethylcyclopropanecarboxylate",
-			"廠牌名稱": "蟲蹤無",
-			"國外原製造廠商": "",
-			"有效期限": "108/07/16",
-			"廠商名稱": "興農股份有限公司"
-		},
-		{
-			"許可證號": "04911",
-			"化學成分": "2-methylbiphenyl-3-ylmethyl (Z)-(1RS,3RS)-3-(2-chloro-3,3,3-trifluoroprop-1-enyl)-2,2-dimethylcyclopropanecarboxylate",
-			"廠牌名稱": "霸王星",
-			"國外原製造廠商": "",
-			"有效期限": "104/09/24",
-			"廠商名稱": "嘉泰企業股份有限公司"
-		},
-		{
-			"許可證號": "04968",
-			"化學成分": "2-methylbiphenyl-3-ylmethyl (Z)-(1RS,3RS)-3-(2-chloro-3,3,3-trifluoroprop-1-enyl)-2,2-dimethylcyclopropanecarboxylate",
-			"廠牌名稱": "新將星",
-			"國外原製造廠商": "",
-			"有效期限": "105/11/11",
-			"廠商名稱": "大勝化學工業股份有限公司"
-		},
-		{
-			"許可證號": "05151",
-			"化學成分": "2-methylbiphenyl-3-ylmethyl (Z)-(1RS,3RS)-3-(2-chloro-3,3,3-trifluoroprop-1-enyl)-2,2-dimethylcyclopropanecarboxylate",
-			"廠牌名稱": "第王星",
-			"國外原製造廠商": "",
-			"有效期限": "104/10/13",
-			"廠商名稱": "好速化學股份有限公司"
 		}
 	],
 	"英文名稱": "BIFENTHRIN",

@@ -3,10 +3,18 @@
 	"name": "環克座",
 	"licenses": [
 		{
+			"許可證號": "00912",
+			"化學成分": "(2RS,3RS;2RS,3SR)-2-(4-chlorophenyl)-3-cyclopropyl-1-(1H-1,2,4-triazol-1-yl)butan-2-ol",
+			"廠牌名稱": "國豐環克座",
+			"國外原製造廠商": "SHARDA WORLDWIDE EXPORTS PVT. LTD.",
+			"有效期限": "108/10/28",
+			"廠商名稱": "國豐化學工業股份有限公司"
+		},
+		{
 			"許可證號": "01538",
 			"化學成分": "(2RS,3RS;2RS,3SR)-2-(4-chlorophenyl)-3-cyclopropyl-1-(1H-1,2,4-triazol-1-yl)butan-2-ol",
 			"廠牌名稱": "天王",
-			"國外原製造廠商": "SYNGENTA CROP PROTECTION AG",
+			"國外原製造廠商": "SYNGENTA KOREA LIMITED",
 			"有效期限": "104/10/03",
 			"廠商名稱": "台灣先正達股份有限公司"
 		}

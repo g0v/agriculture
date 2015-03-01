@@ -23,7 +23,7 @@
 			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
 			"廠牌名稱": "",
 			"國外原製造廠商": "",
-			"有效期限": "103/08/30",
+			"有效期限": "108/08/30",
 			"廠商名稱": "功力化學工業股份有限公司"
 		},
 		{
@@ -55,7 +55,7 @@
 			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
 			"廠牌名稱": "興農春",
 			"國外原製造廠商": "",
-			"有效期限": "103/10/01",
+			"有效期限": "108/10/01",
 			"廠商名稱": "興農股份有限公司"
 		},
 		{
@@ -79,7 +79,7 @@
 			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
 			"廠牌名稱": "草順除",
 			"國外原製造廠商": "DOW AGROSCIENCES SOUTHERN AFRICA (PTY) LTD.",
-			"有效期限": "103/07/10",
+			"有效期限": "108/07/10",
 			"廠商名稱": "台灣道禮股份有限公司"
 		},
 		{
@@ -111,15 +111,23 @@
 			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
 			"廠牌名稱": "",
 			"國外原製造廠商": "NANTONG JIANGSHAN AGROCHEMICAL & CHEMICALS LIMITED LIABILITY CO.",
-			"有效期限": "107/02/31",
+			"有效期限": "107/01/31",
 			"廠商名稱": "億豐農化廠股份有限公司"
+		},
+		{
+			"許可證號": "00917",
+			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
+			"廠牌名稱": "",
+			"國外原製造廠商": "ANHUI GUANGXIN AGROCHEMICAL  CO., LTD.",
+			"有效期限": "108/11/09",
+			"廠商名稱": "興農股份有限公司"
 		},
 		{
 			"許可證號": "01095",
 			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
 			"廠牌名稱": "狀元春",
-			"國外原製造廠商": "EXCEL CROP CARE  LIMITED",
-			"有效期限": "104/05/02",
+			"國外原製造廠商": "EXCEL CROP CARE LIMITED",
+			"有效期限": "109/05/02",
 			"廠商名稱": "翰金興業有限公司"
 		},
 		{
@@ -151,7 +159,7 @@
 			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
 			"廠牌名稱": "富貴春",
 			"國外原製造廠商": "",
-			"有效期限": "103/12/06",
+			"有效期限": "108/12/06",
 			"廠商名稱": "聯利農業科技股份有限公司"
 		},
 		{
@@ -168,7 +176,7 @@
 			"廠牌名稱": "日日春",
 			"國外原製造廠商": "VIETNAM PESTICIDE JOINT-STOCK COMPANY",
 			"有效期限": "106/08/14",
-			"廠商名稱": "慶丰生技有限公司"
+			"廠商名稱": "瑞泓生技有限公司"
 		},
 		{
 			"許可證號": "01717",
@@ -207,7 +215,7 @@
 			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
 			"廠牌名稱": "農好春",
 			"國外原製造廠商": "HALEX INDUSTRIES (M) SDN.BHD.",
-			"有效期限": "103/10/29",
+			"有效期限": "108/10/29",
 			"廠商名稱": "台灣瑪斯德股份有限公司"
 		},
 		{
@@ -215,7 +223,7 @@
 			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
 			"廠牌名稱": "雙春",
 			"國外原製造廠商": "SABERO ORGANICS GUJARAT LIMITED",
-			"有效期限": "104/04/10",
+			"有效期限": "109/04/10",
 			"廠商名稱": "安農股份有限公司"
 		},
 		{
@@ -297,326 +305,6 @@
 			"國外原製造廠商": "VETERINARY AND AGRICULTURAL PRODUCTS MANUFACTURING CO., LTD.",
 			"有效期限": "105/07/11",
 			"廠商名稱": "瑞福企業有限公司"
-		},
-		{
-			"許可證號": "02639",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "嘉友春",
-			"國外原製造廠商": "JIA NON BIOTECH (VN) SHAREHOLDING COMPANY",
-			"有效期限": "107/05/20",
-			"廠商名稱": "嘉農企業股份有限公司"
-		},
-		{
-			"許可證號": "02701",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "莎霸",
-			"國外原製造廠商": "IMASPRO BIOTECH SDN. BHD.",
-			"有效期限": "108/07/13",
-			"廠商名稱": "高事達農化有限公司"
-		},
-		{
-			"許可證號": "02705",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "永春",
-			"國外原製造廠商": "PT. BIOWORLD BIOSCIENCES MANUFACTURING INDUSTRIES",
-			"有效期限": "103/07/30",
-			"廠商名稱": "松樹國際有限公司"
-		},
-		{
-			"許可證號": "02726",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "可靈達",
-			"國外原製造廠商": "MASTRA INDUSTRIES SDN BHD",
-			"有效期限": "103/11/23",
-			"廠商名稱": "台灣嘉潔股份有限公司"
-		},
-		{
-			"許可證號": "02751",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "農有春",
-			"國外原製造廠商": "PT.NUFARM INDONESIA",
-			"有效期限": "104/06/20",
-			"廠商名稱": "現達國際生物科技有限公司"
-		},
-		{
-			"許可證號": "02753",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "除草魔",
-			"國外原製造廠商": "PROCHU FORMULATION(THAILAND)CO., LTD.",
-			"有效期限": "104/06/27",
-			"廠商名稱": "海博生技股份有限公司"
-		},
-		{
-			"許可證號": "02896",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "萬得春",
-			"國外原製造廠商": "WONDERFUL AGRICULTURE (VN) CO., LTD.",
-			"有效期限": "107/09/03",
-			"廠商名稱": "萬得發有限公司"
-		},
-		{
-			"許可證號": "03014",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "家家春",
-			"國外原製造廠商": "",
-			"有效期限": "105/09/23",
-			"廠商名稱": "利臺化學工業股份有限公司"
-		},
-		{
-			"許可證號": "03085",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "春多多",
-			"國外原製造廠商": "",
-			"有效期限": "105/10/22",
-			"廠商名稱": "惠光股份有限公司"
-		},
-		{
-			"許可證號": "03149",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "春卡多",
-			"國外原製造廠商": "",
-			"有效期限": "105/09/06",
-			"廠商名稱": "瑞芳植物保護股份有限公司"
-		},
-		{
-			"許可證號": "03751",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "速速綜來春",
-			"國外原製造廠商": "",
-			"有效期限": "104/02/19",
-			"廠商名稱": "功力化學工業股份有限公司"
-		},
-		{
-			"許可證號": "03779",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "春春春",
-			"國外原製造廠商": "",
-			"有效期限": "104/11/18",
-			"廠商名稱": "富農化學工業股份有限公司"
-		},
-		{
-			"許可證號": "03802",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "大地春",
-			"國外原製造廠商": "",
-			"有效期限": "105/03/19",
-			"廠商名稱": "嘉泰企業股份有限公司"
-		},
-		{
-			"許可證號": "03806",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "惠大春",
-			"國外原製造廠商": "",
-			"有效期限": "105/03/24",
-			"廠商名稱": "惠大實業股份有限公司"
-		},
-		{
-			"許可證號": "03840",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "農農春",
-			"國外原製造廠商": "",
-			"有效期限": "105/07/11",
-			"廠商名稱": "台農三和化工股份有限公司"
-		},
-		{
-			"許可證號": "03854",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "妙妙春",
-			"國外原製造廠商": "",
-			"有效期限": "105/08/19",
-			"廠商名稱": "日農科技股份有限公司"
-		},
-		{
-			"許可證號": "03858",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "旺旺春",
-			"國外原製造廠商": "",
-			"有效期限": "106/08/26",
-			"廠商名稱": "安旺特股份有限公司"
-		},
-		{
-			"許可證號": "03875",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "祝友春",
-			"國外原製造廠商": "",
-			"有效期限": "106/10/22",
-			"廠商名稱": "嘉農企業股份有限公司"
-		},
-		{
-			"許可證號": "03895",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "日產春",
-			"國外原製造廠商": "",
-			"有效期限": "106/11/18",
-			"廠商名稱": "台灣日產化工股份有限公司"
-		},
-		{
-			"許可證號": "03908",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "大家春",
-			"國外原製造廠商": "",
-			"有效期限": "105/12/12",
-			"廠商名稱": "大成化學工業股份有限公司"
-		},
-		{
-			"許可證號": "03911",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "世大春",
-			"國外原製造廠商": "",
-			"有效期限": "106/12/12",
-			"廠商名稱": "世大農化工廠股份有限公司"
-		},
-		{
-			"許可證號": "03914",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "保農春",
-			"國外原製造廠商": "",
-			"有效期限": "100/12/12",
-			"廠商名稱": "龍燈生物科技股份有限公司"
-		},
-		{
-			"許可證號": "03916",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "泰好春",
-			"國外原製造廠商": "",
-			"有效期限": "106/12/22",
-			"廠商名稱": "好速化學股份有限公司"
-		},
-		{
-			"許可證號": "03965",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "隴總春",
-			"國外原製造廠商": "",
-			"有效期限": "107/03/05",
-			"廠商名稱": "光華化學股份有限公司"
-		},
-		{
-			"許可證號": "03985",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "紅星",
-			"國外原製造廠商": "",
-			"有效期限": "107/03/26",
-			"廠商名稱": "南億企業股份有限公司"
-		},
-		{
-			"許可證號": "04037",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "上緊滅",
-			"國外原製造廠商": "",
-			"有效期限": "107/06/10",
-			"廠商名稱": "國豐化學工業股份有限公司"
-		},
-		{
-			"許可證號": "04067",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "總是春",
-			"國外原製造廠商": "",
-			"有效期限": "107/08/30",
-			"廠商名稱": "大勝化學工業股份有限公司"
-		},
-		{
-			"許可證號": "04111",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "克根",
-			"國外原製造廠商": "",
-			"有效期限": "108/01/14",
-			"廠商名稱": "臺益工業股份有限公司"
-		},
-		{
-			"許可證號": "04112",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "春春福",
-			"國外原製造廠商": "",
-			"有效期限": "108/01/14",
-			"廠商名稱": "眾益化學工業股份有限公司"
-		},
-		{
-			"許可證號": "04170",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "新新春",
-			"國外原製造廠商": "",
-			"有效期限": "108/09/14",
-			"廠商名稱": "華夏科學農化股份有限公司"
-		},
-		{
-			"許可證號": "04209",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "東和春",
-			"國外原製造廠商": "",
-			"有效期限": "104/03/23",
-			"廠商名稱": "東和化學企業股份有限公司"
-		},
-		{
-			"許可證號": "04223",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "速來春",
-			"國外原製造廠商": "",
-			"有效期限": "104/05/09",
-			"廠商名稱": "功力化學工業股份有限公司"
-		},
-		{
-			"許可證號": "04229",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "允除",
-			"國外原製造廠商": "",
-			"有效期限": "104/07/05",
-			"廠商名稱": "洽益化學股份有限公司"
-		},
-		{
-			"許可證號": "04230",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "先逢春",
-			"國外原製造廠商": "",
-			"有效期限": "104/07/17",
-			"廠商名稱": "建農化工廠股份有限公司"
-		},
-		{
-			"許可證號": "04559",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "農會春",
-			"國外原製造廠商": "",
-			"有效期限": "103/11/13",
-			"廠商名稱": "中華民國農會附設各級農會農化廠"
-		},
-		{
-			"許可證號": "04733",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "臺聯新滅草",
-			"國外原製造廠商": "",
-			"有效期限": "105/02/04",
-			"廠商名稱": "臺聯實業股份有限公司"
-		},
-		{
-			"許可證號": "05055",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "興農除草樂",
-			"國外原製造廠商": "",
-			"有效期限": "108/05/19",
-			"廠商名稱": "興農股份有限公司"
-		},
-		{
-			"許可證號": "05126",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "立農-春",
-			"國外原製造廠商": "",
-			"有效期限": "104/06/08",
-			"廠商名稱": "立農化學股份有限公司"
-		},
-		{
-			"許可證號": "05273",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "庵原春",
-			"國外原製造廠商": "",
-			"有效期限": "107/06/09",
-			"廠商名稱": "臺灣庵原農藥股份有限公司"
-		},
-		{
-			"許可證號": "05579",
-			"化學成分": "isopropylamine salt of N-(phosphonomethyl)glycine",
-			"廠牌名稱": "保農春",
-			"國外原製造廠商": "",
-			"有效期限": "106/02/12",
-			"廠商名稱": "龍燈生物科技股份有限公司"
 		}
 	],
 	"英文名稱": "GLYPHOSATE IPA",
