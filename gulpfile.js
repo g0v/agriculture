@@ -12,6 +12,8 @@ var streamy = require('streamy-data'),
 	async = require('async'),
 	fs = require('fs');
 
+Error.stackTraceLimit = Infinity;
+
 gulp.task('data.download', [
 	'data.download.pesticide'
 ]);
@@ -190,6 +192,8 @@ gulp.task('data.build.pesticide', function (callback) {
 							//console.log(data.id);
 							//console.log(m[data.id]);
 							var entry = m[data.id];
+							if (!entry) return;
+
 							var record = moaObj[unorm.nfc(entry.name)];
 
 							if (record) {
@@ -263,7 +267,8 @@ gulp.task('data.build.pesticide', function (callback) {
 gulp.task('data.build.formulations', function (callback) {
 
 	// callback is invoked when end is called 2 times
-	var end = streamy.util.wait(2, callback);
+	var success = callback.bind(this, null); // XXX: assume everything is fine
+	var end = streamy.util.wait(2, success);
 
 	fs.readFile('./_raw/manual/pesticide/formulations.json', 'utf8', function (err, data) {
 		fs.writeFile('./_data/pesticide/formulations.json', data, end); // end 1
