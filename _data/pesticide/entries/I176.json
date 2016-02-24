@@ -39,7 +39,7 @@
 			"化學成分": "(1)S-α-ethoxycarbonylbenzyl O,O-dimethyl phosphorodithioate ...30%                               (2) O, O-dimethyl-S-methylcarbamoylmethyl phosphorodithioate ...15%",
 			"廠牌名稱": "",
 			"國外原製造廠商": "",
-			"有效期限": "104/03/29",
+			"有效期限": "109/03/29",
 			"廠商名稱": "立農化學股份有限公司"
 		},
 		{
@@ -63,7 +63,7 @@
 			"化學成分": "(1)S-α-ethoxycarbonylbenzyl O,O-dimethyl phosphorodithioate ...30%                               (2) O, O-dimethyl-S-methylcarbamoylmethyl phosphorodithioate ...15%",
 			"廠牌名稱": "眾益安力農",
 			"國外原製造廠商": "",
-			"有效期限": "104/09/20",
+			"有效期限": "109/09/20",
 			"廠商名稱": "眾益化學工業股份有限公司"
 		},
 		{
@@ -71,7 +71,7 @@
 			"化學成分": "(1)S-α-ethoxycarbonylbenzyl O,O-dimethyl phosphorodithioate ...30%                               (2) O, O-dimethyl-S-methylcarbamoylmethyl phosphorodithioate ...15%",
 			"廠牌名稱": "菜蟲寶",
 			"國外原製造廠商": "",
-			"有效期限": "104/09/23",
+			"有效期限": "109/09/23",
 			"廠商名稱": "利臺化學工業股份有限公司"
 		},
 		{
@@ -79,7 +79,7 @@
 			"化學成分": "(1)S-α-ethoxycarbonylbenzyl O,O-dimethyl phosphorodithioate ...30%                               (2) O, O-dimethyl-S-methylcarbamoylmethyl phosphorodithioate ...15%",
 			"廠牌名稱": "達農安",
 			"國外原製造廠商": "",
-			"有效期限": "104/09/20",
+			"有效期限": "109/09/20",
 			"廠商名稱": "臺益工業股份有限公司"
 		},
 		{
@@ -87,7 +87,7 @@
 			"化學成分": "(1)S-α-ethoxycarbonylbenzyl O,O-dimethyl phosphorodithioate ...30%                               (2) O, O-dimethyl-S-methylcarbamoylmethyl phosphorodithioate ...15%",
 			"廠牌名稱": "洽益寧",
 			"國外原製造廠商": "",
-			"有效期限": "104/08/28",
+			"有效期限": "109/08/28",
 			"廠商名稱": "洽益化學股份有限公司"
 		},
 		{
@@ -95,7 +95,7 @@
 			"化學成分": "(1)S-α-ethoxycarbonylbenzyl O,O-dimethyl phosphorodithioate ...30%                               (2) O, O-dimethyl-S-methylcarbamoylmethyl phosphorodithioate ...15%",
 			"廠牌名稱": "新威力",
 			"國外原製造廠商": "",
-			"有效期限": "105/01/18",
+			"有效期限": "110/01/18",
 			"廠商名稱": "台農三和化工股份有限公司"
 		},
 		{
@@ -111,16 +111,8 @@
 			"化學成分": "(1)S-α-ethoxycarbonylbenzyl O,O-dimethyl phosphorodithioate ...30%                               (2) O, O-dimethyl-S-methylcarbamoylmethyl phosphorodithioate ...15%",
 			"廠牌名稱": "菜農寶",
 			"國外原製造廠商": "",
-			"有效期限": "104/10/05",
+			"有效期限": "109/10/05",
 			"廠商名稱": "富農化學工業股份有限公司"
-		},
-		{
-			"許可證號": "02621",
-			"化學成分": "(1)S-α-ethoxycarbonylbenzyl O,O-dimethyl phosphorodithioate ...30%                               (2) O, O-dimethyl-S-methylcarbamoylmethyl phosphorodithioate ...15%",
-			"廠牌名稱": "",
-			"國外原製造廠商": "",
-			"有效期限": "104/12/30",
-			"廠商名稱": "嘉農企業股份有限公司"
 		}
 	],
 	"英文名稱": "PHENTHOATE+DIMETHOATE",
@@ -132,8 +124,8 @@
 			"劑型": "EC",
 			"含量": "45.000",
 			"混合": "A",
-			"作物名稱": "十字花科蔬菜",
-			"病蟲名稱": "小菜蛾",
+			"作物&lt;br/&gt;名稱": "十字花科蔬菜",
+			"病蟲&lt;br/&gt;名稱": "小菜蛾",
 			"每公頃每次用量": "0.5-1公升",
 			"稀釋倍數": "1000",
 			"使用時期": "",
@@ -150,8 +142,8 @@
 			"劑型": "EC",
 			"含量": "45.000",
 			"混合": "A",
-			"作物名稱": "十字花科蔬菜",
-			"病蟲名稱": "紋白蝶",
+			"作物&lt;br/&gt;名稱": "十字花科蔬菜",
+			"病蟲&lt;br/&gt;名稱": "紋白蝶",
 			"每公頃每次用量": "0.5-1公升",
 			"稀釋倍數": "1000",
 			"使用時期": "",

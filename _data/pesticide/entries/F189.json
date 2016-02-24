@@ -4,15 +4,15 @@
 	"licenses": [
 		{
 			"許可證號": "01114",
-			"化學成分": "(1) O-2-deoxy-2-methylamino-α-L-glucopyranosyl-(12)-O-5-deoxy-3-C-formyl-α-L-lyxofuranosyl-(14)-N^1,N^3-diamidino-D-streptamine...9%                              (2) TETRACYCLINE HYDROCHLORIDE...1%",
+			"化學成分": "(1) O-2-deoxy-2-methylamino-α-L-glucopyranosyl-(12)-O-5-deoxy-3-C-formyl-α-L-lyxofuranosyl-(14)-N^1,N^3-diamidino-D-streptamine...9%(2) TETRACYCLINE HYDROCHLORIDE...1%",
 			"廠牌名稱": "枯萎寧",
 			"國外原製造廠商": "ARIES AGRO LIMITED",
-			"有效期限": "104/09/09",
+			"有效期限": "109/09/09",
 			"廠商名稱": "全臺農藥有限公司"
 		},
 		{
 			"許可證號": "02027",
-			"化學成分": "(1) O-2-deoxy-2-methylamino-α-L-glucopyranosyl-(12)-O-5-deoxy-3-C-formyl-α-L-lyxofuranosyl-(14)-N^1,N^3-diamidino-D-streptamine...9%                              (2) TETRACYCLINE HYDROCHLORIDE...1%",
+			"化學成分": "(1) O-2-deoxy-2-methylamino-α-L-glucopyranosyl-(12)-O-5-deoxy-3-C-formyl-α-L-lyxofuranosyl-(14)-N^1,N^3-diamidino-D-streptamine...9%(2) TETRACYCLINE HYDROCHLORIDE...1%",
 			"廠牌名稱": "尅枯精",
 			"國外原製造廠商": "KRISHI RASAYAN (ORISSA)",
 			"有效期限": "105/07/17",
@@ -28,8 +28,8 @@
 			"劑型": "SP",
 			"含量": "10.000",
 			"混合": "A",
-			"作物名稱": "水稻",
-			"病蟲名稱": "白葉枯病",
+			"作物&lt;br/&gt;名稱": "水稻",
+			"病蟲&lt;br/&gt;名稱": "白葉枯病",
 			"每公頃每次用量": "1公斤",
 			"稀釋倍數": "1000",
 			"使用時期": "發生初期",
