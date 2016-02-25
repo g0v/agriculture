@@ -1,0 +1,259 @@
+# carbamates
+
+carbosulfan S
+fenobucarb
+pirimicarb SS
+carbaryl S
+carbofuran S
+propoxur
+butocarboxim S 無
+benfuracarb S
+bendiocarb S
+metolcarb S
+thiofanox S 無
+thiodicarb S
+isoprocarb
+XMC
+xylylcarb
+methiocarb
+oxamyl S
+formetanate S
+
+# organophosphates
+
+naled
+disulfoton S 無
+trichlorfon
+triazophos
+diazinon
+dimethoate S
+phoxim
+isoxathion
+pyridaphenthion
+parathion-methyl
+pyraclofos
+terbufos
+profenofos
+azinphos-methyl 無
+isofenphos S
+pirimiphos-methyl LS
+monocrotophos S
+temephos
+isazofos S
+fenthion
+quinalphos
+heptenophos S 無
+phosmet
+malathion
+thiometon S
+chlorpyrifos
+prothiofos
+chlorfenvinphos
+cyanophos 無
+ethion
+methidathion
+mecarbam SS 無
+oxydemeton-methyl S
+demeton-S-methyl S
+phosalone
+methamidophos S
+formothion S
+phorate S
+phorate S
+phosphamidon S
+fenitrothion
+acephate S
+omethoate S
+isothioate S
+vamidothion S
+phenthoate
+dicrotophos S
+
+# cyclodiene organochlorines
+
+# phenylpyrazoles
+
+fipronil SS
+ethiprole
+
+# pyrethrins, pyrethroids
+
+halfenprox 無
+permethrin
+allethrin
+etofenprox
+silafluofen 無
+fenvalerate
+fenpropathrin
+acrinathrin
+tralomethrin 無
+esfenvalerate
+pyrethrins
+bifenthrin
+deltamethrin
+tau-fluvalinate
+phenothrin 無
+cyfluthrin
+beta-cyfluthrin
+lambda-cyhalothrin
+gamma-cyhalothrin
+cypermethrin
+alpha-cypermethrin
+zeta-cypermethrin
+flucythrinate
+
+# DDT
+
+# neonicotinoids
+
+clothianidin S
+acetamiprid S
+imidacloprid S
+dinotefuran S
+thiacloprid S
+thiamethoxam S
+
+# nicotine
+
+# sulfoxaflor
+
+# butenolide
+
+# spinosyns
+
+spinosad
+spinetoram
+
+# avermectins, milbemycins
+
+emamectin+benzoate
+abamectin LS
+milbemectin LS
+
+# juvenile hormone mimics
+
+methoprene
+fenoxycarb
+pyriproxyfen
+
+# miscellaneous nonspecific (multi-site inhibitors)
+
+methyl+bromide 禁用
+chloropicrin 禁用
+sulfuryl+fluoride 未登記
+Borax 未登記
+tartar+emetic 未登記
+
+# methyl isothiocyanate generators
+
+dazomet
+
+# modulators of chordotonal organs
+
+pymetrozine S
+flonicamid LS
+
+# mite growth inhibitors
+
+hexythiazox
+clofentezine
+etoxazole
+
+# bacillus thuringensis
+
+Bt.+Subsp.+kurstaki
+Bt.+Subsp.+aizawai
+
+# bacillus spaericus
+
+# inhibitors of mitochondrial ATP synthase
+
+diafenthiuron
+fenbutatin+oxide
+propargite
+
+# uncouplers of oxidative phosphorylation via disruption of proton gradient
+
+chlorfenapyr LS
+
+# nicotinic acetylcholine receptor channel blockers
+
+bensultap
+cartap S
+thiocyclam+hydrogen+oxalate SS
+
+# inhibitors of chitin, biosynthesis, type 0
+
+diflubenzuron
+chlorfluazuron
+flufenoxuron
+teflubenzuron S
+lufenuron
+novaluron
+
+# inhibitors of chintin, biosynthesis, type 1
+
+buprofezin
+
+# moulting disruptor, dipteran
+
+cyromazine S
+
+# ecdysone agonists
+
+chormafenozide
+tebufenozide
+methoxyfenozide
+
+# octopaminergic agonists
+
+amitraz
+
+# mitochondrial complex III electron transport inhibitors
+
+acequinocyl
+
+# mitochondrial complex I electron transport inhibitors
+
+fenazaquin
+fenpyroximate
+tebufenpyrad
+pyrimidifen
+pyridaben
+tolfenpyrad
+rotenone
+
+# voltage-dependent sodium channel blockers
+
+indoxacarb
+metaflumizone
+
+# inhibitors of acetyl CoA carboxylase
+
+spirodiclofen
+spirotetramat S
+spiromesifen
+
+# mitochondrial complex IV electron transport indibitors
+
+aluminium+phosphide
+
+# mitochondrial complex II electron transport inhibitors
+
+cyflumetofen
+cyenopyrafen
+
+# ryanodine receptor modulators
+
+chlorantraniliprole
+flubendiamide LS
+
+# compounds with unknown or uncertain mode of action
+
+azadirachtin S
+benzoximate
+chinomethionat
+dicofol
+bifenazate
+bromopropylate
+sulfur
