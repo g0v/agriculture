@@ -257,3 +257,158 @@ dicofol
 bifenazate
 bromopropylate
 sulfur
+
+
+
+# nucleic acids synthesis assembly in mitosis
+
+## acylalanines
+
+metalaxyl S P C
+metalaxyl-M S P C
+benalaxyl S P C E
+benalaxyl-M S P C E
+
+## oxazolidinones
+
+oxadixyl S P C 無
+
+## butyrolactones
+
+## hydroxy-2-amino-pyrimidines
+
+bupirimate S P C
+ethirimol S P C
+
+## isoxazales
+
+hymexazol S
+
+## isothiazolones
+
+## carboxylic acids
+
+oxolinic+acid S P C
+
+# mitosis and cell division
+
+## benzimidazoles
+
+benomyl S P C
+carbendazim S P C
+thiabendazole S P C
+
+## thiophanates
+
+thiophanate-methyl S P C
+
+## toluamides
+
+zoxamide P 無
+
+## ethylaminothiazolecarboxamide
+
+## phenylureas
+
+pencycuron P
+
+## pyridinylmethylbenzamides
+
+fluopicolide S 無
+
+# respiration
+
+## pyrimidinamines
+
+diflumetorim P
+
+## pyrazole-5-carboxamides
+
+## phenylbenzamides
+
+flutolanil S P C
+mepronil S P C
+
+## phenyloxoethylthiophene amide
+
+## pyridinylethylbenzamides
+
+## furancarboxamides
+
+## oxathiincarboxamides
+
+oxycarboxin S C
+
+## thiazolecarboxamides
+
+thifluzamide S
+
+## pyrazole-4-carboxamides
+
+furametpyr S P C
+fluxapyroxad S
+
+## pyridinecarboxamides
+
+boscalid LS P C
+
+## methoxyacrylates
+
+azoxystrobin S P C E
+picoxystrobin S P C
+
+## methoxyacetamide
+
+## methoxycarbamates
+
+pyraclostrobin LS P C
+
+## oximino acetates
+
+trifloxystrobin P
+kresoxim-methyl S P C E
+
+## oximino-acetamides
+
+## oxazolidinediones
+
+famoxadone P
+
+## dihydrodioxazines
+
+## benzylcarbamates
+
+## cyanoimidazole
+
+cyazofamid LS P C
+
+## sulfamoyltriazole
+
+amisulbrom
+
+## dinitrophenylcrotonates
+
+## 2,6-dinitroanilines
+
+fluazinam LS P C
+
+## triphenyl tin compounds
+
+## thiophenecarboxamides
+
+## triazolo-pyrimidylamine
+
+ametoctradin P 無
+
+# amino acids and protein synthesis
+
+## anilinopyrimidines
+
+pyrimethanil LS P C
+mepanipyrim P
+cyprodinil S P C
+
+## enopyranuronic acid antibiotic
+
+blasticidin-S C
+...
