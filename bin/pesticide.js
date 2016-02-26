@@ -56,7 +56,7 @@ var _parseEntryResponse = function (data, body) {
 				return;
 			u = {};
 			for (var i = 0, len = tr.children.length; i < len; i++) {
-				u[ths[i]] = hpu.text(tr.children[i]).trim().replace(/&nbsp;/g, '');
+				u[ths[i].replace(/&lt;br\/&gt;/, '')] = hpu.text(tr.children[i]).trim().replace(/&nbsp;/g, '');
 			}
 			usages.push(u);
 		});
