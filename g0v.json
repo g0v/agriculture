@@ -1,0 +1,26 @@
+{
+  "status": "beta",
+  "name": "g0v-agriculture",
+  "name_zh": "超農域",
+  "description": "offer information about pesticide and agricultural products",
+  "description_zh": "提供施藥方法搜尋、農藥列表及農產品或加工食品農藥殘留量的查詢",
+  "document": "https://g0v.hackpad.com/ep/group/tg4zk2ixiDn",
+  "homepage": "https://g0v.github.io/agriculture/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/g0v/agriculture"
+  },
+  "licenses": [
+    {
+      "type": "CC0"
+    }
+  ],
+  "keywords": [
+    "agriculture",
+    "pesticide"
+  ],
+  "audience": [
+    "public"
+  ],
+  "thumbnail": "https://github.com/slc-git/agriculture/blob/gh-pages/g0v-agri.png"
+}
